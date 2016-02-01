@@ -3,9 +3,14 @@ var app = express();
 //var path = __dirname + '/views/';
 var path = require('path');
 app.use(express.static(path.join(__dirname, 'views')));
+app.use(express.static(path.join(__dirname, 'data')));
 
 function return_path(filename) {
     return path.join(__dirname, 'views', filename);
+}
+
+function return_data(filename) {
+	return path.join(__dirname,'data',filename)
 }
 
 app.get('/', function(req, res) {
@@ -28,6 +33,9 @@ app.get('/members', function(req, res) {
    console.log('Members to be added');
 });
 
+app.get('/research/data',function(req,res){
+	res.sendFile(return_data('research_data.json'));
+})
 
 app.listen(3000, function() {
    console.log('Running.....');
