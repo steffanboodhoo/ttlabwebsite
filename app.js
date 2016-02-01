@@ -4,17 +4,20 @@ var app = express();
 var path = require('path');
 app.use(express.static(path.join(__dirname, 'views')));
 
+function return_path(filename) {
+    return path.join(__dirname, 'views', filename);
+}
 
 app.get('/', function(req, res) {
    res.sendFile('/index.html');
 });
 
 app.get('/about', function(req, res) {
-   res.sendFile('/about.html')
+   res.sendFile(return_path('about.html'));
 });
 
 app.get('/contact', function(req, res) {
-   res.sendFile('/contact');
+   res.sendFile(return_path('contact.html'));
 });
 
 app.get('/research', function(req, res) {
@@ -24,6 +27,7 @@ app.get('/research', function(req, res) {
 app.get('/members', function(req, res) {
    console.log('Members to be added');
 });
+
 
 app.listen(3000, function() {
    console.log('Running.....');
