@@ -21,7 +21,7 @@ app.get('/contact', function(req, res) {
 });
 
 app.get('/research', function(req, res) {
-   console.log('Research file to be completed');
+   res.sendFile(return_path('research.html'));
 });
 
 app.get('/members', function(req, res) {
