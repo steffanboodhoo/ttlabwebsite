@@ -2,7 +2,7 @@
 	
 	$(document).ready(function(){
 
-		_get('/members/data',null,null);
+		_get('/members/data',null,createList);
 
 	});
 
@@ -21,23 +21,39 @@
 	}
 
 	/*
-		title{
-			description:...,
-			time:...
-		}
+		"Steffan Boodhoo":{
+		"title":"Researcher",
+		"about":" I have yet to find my specific area of interest, until then perseverence",
+		"education":["Bsc University Of The West Indies 2015"],
+		"links":["boodhoo100@gmail.com"]
+	},
 	*/
 	function createList(data){
 		var list = $("<ul/>",{"class":"list"});
-		for (var title in data){
+		for (var name in data){
 			var li = $("<li/>");
-			li.append($("<h3/>",{"class":"list-title"}).append(title));
-			li.append($("<p/>",{"class":"list-description"}).append(data[title]['description']));
-			li.append($("<p/>",{"class":"list-date"}).append(data[title]['time']));
+			var left = $("<div/>",{"class":"col-md-6"})// Left column of item
+			var right = $("<div/>",{"class":"col-md-6"})// right column of item
+			
+			//LEFT
+			var links = data[name]['links'];
+			left.append($("<h4/>",{"class":"list-name"}).append(name));
+			left.append($("<p/>",{"class":"list-title"}).append(data[name]['title']));
+			for( var l=0; l<links.length; l++)
+				left.append($("<a/>",{"class":"list-link"}).append(links[l]));
+			
+			//RIGHT
+			var education = data[name]['education'];
+			for(var edu=0; edu<education.length; edu++)
+				right.append($("<p/>",{"class":"list-edu"}).append(education[edu]));
+
+			li.append( $("<div/>",{"class":"row"}).append(left).append(right) )
+			li.append( $("<p/>",{"class":"list-about"}).append(data[name]['about']) );
 			list.append(li);
 		}	
 		list.appendTo('#list_cont');
 
-		var options = {valueNames:['list-title']}
+		var options = {valueNames:['list-name']}
 		var researchList = new List('list_cont',options);
 
 		console.log('meh')
