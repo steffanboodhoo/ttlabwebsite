@@ -3,7 +3,7 @@ var app = express();
 //var path = __dirname + '/views/';
 var path = require('path');
 app.use(express.static(path.join(__dirname, 'views')));
-app.use(express.static(path.join(__dirname, 'data')));
+app.use(express.static(path.join(__dirname, 'images')));
 
 function return_path(filename) {
     return path.join(__dirname, 'views', filename);
@@ -16,6 +16,7 @@ function return_data(filename) {
 function return_pdf(filename) {
   return path.join(__dirname,'pdfs',filename)
 }
+
 
 app.get('/', function(req, res) {
    res.sendFile('/index.html');
