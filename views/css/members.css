@@ -1,5 +1,6 @@
 .list li{
 	list-style-type: none;
+	margin-top: 3%;
 }
 
 .circular {
@@ -15,3 +16,11 @@
 	}
 /*background: url(http://link-to-your/image.jpg) no-repeat;*/
 
+.education{
+    color: #B5B4B4;
+    font-size: 16px
+}
+.links{
+	color:#5eb6ef;
+	font-size: 18px
+}

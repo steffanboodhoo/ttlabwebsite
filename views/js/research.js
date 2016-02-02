@@ -29,10 +29,10 @@
 	function createList(data){
 		var list = $("<ul/>",{"class":"list"});
 		for (var title in data){
-			var li = $("<li/>",{"class":"knockout-around"});
-			li.append($("<h3/>",{"class":"list-title"}).append(title));
-			li.append($("<p/>",{"class":"list-description"}).append(data[title]['description']));
-			li.append($("<p/>",{"class":"list-date"}).append(data[title]['time']));
+			var li = $("<li/>",{"class":"post-preview knockout-around"});
+			li.append($("<h3/>",{"class":"post-title list-title"}).append(title));
+			li.append($("<p/>",{"class":"post-subtitle list-description"}).append(data[title]['description']));
+			li.append($("<p/>",{"class":"post-meta list-date"}).append(data[title]['time']));
 			list.append(li);
 		}	
 
