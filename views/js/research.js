@@ -1,7 +1,7 @@
 (function(window){
 	
 	$(document).ready(function(){
-
+		console.log("research - ready")
 		_get('/research/data',null,createList);
 
 	});
@@ -13,6 +13,7 @@
             type:'GET',
             data:params,
             success:function(response){
+            	console.log(response)
                 if(typeof call_back==='function')
                     call_back(response)
             }
@@ -34,6 +35,7 @@
 			li.append($("<p/>",{"class":"list-date"}).append(data[title]['time']));
 			list.append(li);
 		}	
+
 		list.appendTo('#list_cont');
 
 		var options = {valueNames:['list-title']}
