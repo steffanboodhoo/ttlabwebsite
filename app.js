@@ -52,6 +52,24 @@ app.get('/pdf/:name',function(req,res){
   res.sendFile(return_pdf(name))
 })
 
+app.get('/recent/:number',function(req, res){
+  var num = parseInt(req.params['name']);
+  var fs = require('fs');
+  fs.readFile('data/research_data.json', 'utf8', function (err, data) {
+    if (err) throw err;
+    obj = JSON.parse(data);
+    var arr = []
+    for(var name in obj){
+      var mod_obj = obj[name];
+      mod_obj['name'] = name;
+      var date_data = obj[name]['time'].split('/');
+      mod_obj['time'] = new Date(date_data[0],date_data[1],date_data[2]);
+      arr.push(mod_obj);
+    }
+    res.send(arr);
+  });
+})
+
 app.listen(3000, function() {
    console.log('Running.....');
 });
