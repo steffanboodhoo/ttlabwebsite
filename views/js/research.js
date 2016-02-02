@@ -29,7 +29,7 @@
 	function createList(data){
 		var list = $("<ul/>",{"class":"list"});
 		for (var title in data){
-			var li = $("<li/>");
+			var li = $("<li/>",{"class":"knockout-around"});
 			li.append($("<h3/>",{"class":"list-title"}).append(title));
 			li.append($("<p/>",{"class":"list-description"}).append(data[title]['description']));
 			li.append($("<p/>",{"class":"list-date"}).append(data[title]['time']));
