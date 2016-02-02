@@ -30,11 +30,15 @@ app.get('/research', function(req, res) {
 });
 
 app.get('/members', function(req, res) {
-   console.log('Members to be added');
+   res.sendFile(return_path('members.html'));
 });
 
 app.get('/research/data',function(req,res){
 	res.sendFile(return_data('research_data.json'));
+})
+
+app.get('/members/data',function(req,res){
+	res.sendFile(return_data('members_data.json'));
 })
 
 app.listen(3000, function() {

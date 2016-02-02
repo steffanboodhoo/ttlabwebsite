@@ -1,0 +1,20 @@
+{
+	"Steffan Boodhoo":{
+		"title":"Researcher",
+		"about":" I have yet to find my specific area of interest, until then perseverence",
+		"education":["Bsc University Of The West Indies 2015"],
+		"links":["boodhoo100@gmail.com"]
+	},
+	"Inzamam Rahaman":{
+		"title":"Researcher",
+		"about":" I have yet to find my specific area of interest, until then perseverence",
+		"education":["Bsc University Of The West Indies 2015"],
+		"links":["inzamam.Rahaman@something.com"]
+	},
+	"Kiran Maraj":{
+		"title":"Researcher",
+		"about":" I have yet to find my specific area of interest, until then perseverence",
+		"education":["Bsc University Of The West Indies","Msc "],
+		"links":["kiran.maraj@something.com"]
+	}
+}
