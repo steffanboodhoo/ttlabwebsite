@@ -10,7 +10,11 @@ function return_path(filename) {
 }
 
 function return_data(filename) {
-	return path.join(__dirname,'data',filename)
+  return path.join(__dirname,'data',filename)
+}
+
+function return_pdf(filename) {
+  return path.join(__dirname,'pdfs',filename)
 }
 
 app.get('/', function(req, res) {
@@ -39,6 +43,12 @@ app.get('/research/data',function(req,res){
 
 app.get('/members/data',function(req,res){
 	res.sendFile(return_data('members_data.json'));
+})
+
+app.get('/pdf/:name',function(req,res){
+  var name = req.params['name'];
+  res.contentType("application/pdf");
+  res.sendFile(return_pdf(name))
 })
 
 app.listen(3000, function() {

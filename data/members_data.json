@@ -3,18 +3,21 @@
 		"title":"Researcher",
 		"about":" I have yet to find my specific area of interest, until then perseverence",
 		"education":["Bsc University Of The West Indies 2015"],
-		"links":["boodhoo100@gmail.com"]
+		"links":["boodhoo100@gmail.com"],
+		"page":"steffanboodhoo.html"
 	},
 	"Inzamam Rahaman":{
 		"title":"Researcher",
 		"about":" I have yet to find my specific area of interest, until then perseverence",
 		"education":["Bsc University Of The West Indies 2015"],
-		"links":["inzamam.Rahaman@something.com"]
+		"links":["inzamam.Rahaman@something.com"],
+		"page":"inzamamrahaman.html"
 	},
 	"Kiran Maraj":{
 		"title":"Researcher",
 		"about":" I have yet to find my specific area of interest, until then perseverence",
 		"education":["Bsc University Of The West Indies","Msc "],
-		"links":["kiran.maraj@something.com"]
+		"links":["kiran.maraj@something.com"],
+		"page":"kiranmaraj.html"
 	}
 }
