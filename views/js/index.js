@@ -3,6 +3,7 @@
 	$(document).ready(function(){
 		console.log("research - ready")
 		_get('/recent/3',null, createRecent);
+		_get('/events/data',null, createEvents);
 
 	});
 
@@ -39,7 +40,30 @@
 			$('#recent').append(div);
 		}	
 
-		
+		console.log('meh')
+	}
+
+	function createEvents(data){
+		var list = $("<ul/>",{"class":"list"});
+		for (var title in data){
+			var row =$("<div/>",{"class":"row"});
+			var div = $("<div/>",{"class":"post-preview col-md-8"});
+			var a = $("<a/>",{"href":"#"});
+			a.append($("<h2/>",{"class":"post-title "}).append(title));
+			a.append($("<h3/>",{"class":"post-subtitle"}).append(data[title]['description']));
+			div.append(a);
+			div.append($("<p/>",{"class":"post-meta list-date"}).append(data[title]['time']));
+			row.append(div);
+
+			if(data[title]['img']){
+				img = window.location.href + data[title]['img'];
+				var img_cont = $("<div/>",{"class":"col-md-4 box"}).css('background','url('+img+') no-repeat center') ;
+				row.append(img_cont);
+			}
+
+			$('#news').append(row);
+
+		}
 
 		console.log('meh')
 	}

@@ -47,7 +47,11 @@ app.get('/research/data',function(req,res){
 })
 
 app.get('/members/data',function(req,res){
-	res.sendFile(return_data('members_data.json'));
+  res.sendFile(return_data('members_data.json'));
+})
+
+app.get('/events/data',function(req,res){
+  res.sendFile(return_data('events_data.json'));
 })
 
 app.get('/pdf/:name',function(req,res){

@@ -2,11 +2,11 @@
 	"Research Seminar":{
 		"description":" Something of a description",
 		"time":"dd/mm/yyyy",
-		"image":""
+		"img":"ttlab.jpg"
 	},
 	"Sample event 2":{
 		"description":"This description is clearly meaningless, however it is useful as it adds to the demonstratability of the site.",
 		"time":"dd/mm/yyyy",
-		"image":""
+		"img":""
 	}
 }
