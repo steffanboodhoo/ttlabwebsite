@@ -30,12 +30,16 @@ app.get('/contact', function(req, res) {
    res.sendFile(return_path('contact.html'));
 });
 
-app.get('/research', function(req, res) {
-   res.sendFile(return_path('research.html'));
+app.get('/publications', function(req, res) {
+   res.sendFile(return_path('publications.html'));
+});
+
+app.get('/projects', function(req, res) {
+   res.sendFile(return_path('publications.html'));
 });
 
 app.get('/members', function(req, res) {
-   res.sendFile(return_path('members.html'));
+  res.sendFile(return_path('members.html'));
 });
 
 app.get('/research/data',function(req,res){
@@ -53,7 +57,7 @@ app.get('/pdf/:name',function(req,res){
 })
 
 app.get('/recent/:number',function(req, res){
-  var num = parseInt(req.params['name']);
+  var num = parseInt(req.params['number']);
   var fs = require('fs');
   fs.readFile('data/research_data.json', 'utf8', function (err, data) {
     if (err) throw err;
@@ -63,10 +67,17 @@ app.get('/recent/:number',function(req, res){
       var mod_obj = obj[name];
       mod_obj['name'] = name;
       var date_data = obj[name]['time'].split('/');
-      mod_obj['time'] = new Date(date_data[0],date_data[1],date_data[2]);
+      mod_obj['time'] = new Date(parseInt(date_data[2]),parseInt(date_data[1]),parseInt(date_data[0]));
       arr.push(mod_obj);
     }
-    res.send(arr);
+    arr.sort(function(a,b){
+      return new Date(b.time) - new Date(a.time);
+    })
+    var re_arr=[];
+    for(var i = 0; i<num; i++){
+      re_arr.push(arr[i]);
+    }
+    res.send(re_arr);
   });
 })
 

@@ -9,14 +9,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - About</title>
+    <title>TT-LAB - Research</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
-
+    <link href='css/research.css' rel='stylesheet' type='text/css'>
+    
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -44,23 +45,40 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.html">TT-LAB</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="/members">Members</a>
+                        <ul class="dropdown-menu transparent navbar-right" >
+                            <li><a id="link_staff" href="/members">Staff</a></li>
+                            <li><a id="link_associate" href="/members">Associate</a></li>
+                            <li><a id="link_company" href="/members">Company</a></li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="post.html">Sample Post</a>
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="/publications">Publications</a>
+                         <ul class="dropdown-menu transparent navbar-right" >
+                            <li><a id="link_conference" href="/publications">Conference</a></li>
+                            <li><a id="link_journal" href="/publications">Journal</a></li>
+                            <li><a id="link_patent" href="/publications">Patent</a></li>
+                            <li><a id="link_presentation" href="/publications">Presentations</a></li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="/projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/news">News</a>
+                    </li>
+                    <li>
+                        <a href="/contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -71,14 +89,14 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/about-bg.jpg')">
+    <header class="intro-header" style="background-image: url('img/post-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="page-heading">
-                        <h1>About Me</h1>
+                        <h1>Research</h1>
                         <hr class="small">
-                        <span class="subheading">This is what I do.</span>
+                        <span class="subheading">Things are doing and have done.</span>
                     </div>
                 </div>
             </div>
@@ -87,15 +105,14 @@
 
     <!-- Main Content -->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestiae debitis nobis, quod sapiente qui voluptatum, placeat magni repudiandae accusantium fugit quas labore non rerum possimus, corrupti enim modi! Et.</p>
-            </div>
+        <div class="row" id="list_cont">
+           <input class="search" placeholder="Search" />
+          <button class="sort" data-sort="list-title">
+            Sort by Title
+          </button>
         </div>
     </div>
-
+    <!-- END OF MAIN CONTENT -->
     <hr>
 
     <!-- Footer -->
@@ -129,7 +146,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="copyright text-muted">Copyright &copy; ttlab 2016</p>
                 </div>
             </div>
         </div>
@@ -143,6 +160,10 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/clean-blog.min.js"></script>
+
+    <script src="js/list.js"></script>
+
+    <script src="js/research.js"></script>
 
 </body>
 

@@ -1,13 +1,25 @@
 {
 	"Steffan Boodhoo":{
 		"title":"Researcher",
+		"type":"Associate",
 		"about":" I have yet to find my specific area of interest, until then perseverence",
 		"education":["Bsc University Of The West Indies 2015"],
 		"links":["boodhoo100@gmail.com"],
-		"page":"steffanboodhoo.html"
+		"page":"steffanboodhoo.html",
+		"img":"steffanboodhoo.jpg"
+	},
+	"Stefan Hosein":{
+		"title":"Researcher",
+		"type":"Associate",
+		"about":" I have yet to find my specific area of interest, until then perseverence",
+		"education":["Bsc University Of The West Indies 2015"],
+		"links":["boodhoo100@gmail.com"],
+		"page":"steffanboodhoo.html",
+		"img":"stefanhosein.jpg"
 	},
 	"Inzamam Rahaman":{
 		"title":"Researcher",
+		"type":"Staff",
 		"about":" I have yet to find my specific area of interest, until then perseverence",
 		"education":["Bsc University Of The West Indies 2015"],
 		"links":["inzamam.Rahaman@something.com"],
@@ -15,6 +27,7 @@
 	},
 	"Kiran Maraj":{
 		"title":"Researcher",
+		"type":"Company",
 		"about":" I have yet to find my specific area of interest, until then perseverence",
 		"education":["Bsc University Of The West Indies","Msc "],
 		"links":["kiran.maraj@something.com"],

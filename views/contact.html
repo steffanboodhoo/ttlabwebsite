@@ -49,18 +49,35 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="/members">Members</a>
+                        <ul class="dropdown-menu transparent navbar-right" >
+                            <li><a id="link_staff" href="/members">Staff</a></li>
+                            <li><a id="link_associate" href="/members">Associate</a></li>
+                            <li><a id="link_company" href="/members">Company</a></li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="post.html">Sample Post</a>
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="/publications">Publications</a>
+                         <ul class="dropdown-menu transparent navbar-right" >
+                            <li><a id="link_conference" href="/publications">Conference</a></li>
+                            <li><a id="link_journal" href="/publications">Journal</a></li>
+                            <li><a id="link_patent" href="/publications">Patent</a></li>
+                            <li><a id="link_presentation" href="/publications">Presentations</a></li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="/projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/news">News</a>
+                    </li>
+                    <li>
+                        <a href="/contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -89,7 +106,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!</p>
+                <p>Want to get in touch with me ? Fill out the form below to send me a message and or email me directly at admin@lab.tt</p>
                 <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
                 <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
                 <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
@@ -167,7 +184,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="copyright text-muted">Copyright &copy; ttlab 2016</p>
                 </div>
             </div>
         </div>

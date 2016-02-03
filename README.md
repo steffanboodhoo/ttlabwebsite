@@ -24,3 +24,7 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 ## Copyright and License
 
 Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-clean-blog/blob/gh-pages/LICENSE) license.
+
+if I have to change the address of the site,
+I must go to the virtual machines in the apache conf change the appropriate port and hostname
+go to the iptables and ensure it's before the reject all

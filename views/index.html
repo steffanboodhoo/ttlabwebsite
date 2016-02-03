@@ -9,13 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog</title>
+    <title>TT-LAB - Home</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -44,7 +45,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">TTNAC</a>
+                <a class="navbar-brand" href="index.html">TT-LAB</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,13 +55,27 @@
                         <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="/about">About</a>
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="/members">Members</a>
+                        <ul class="dropdown-menu transparent navbar-right" >
+                            <li><a id="link_staff" href="/members">Staff</a></li>
+                            <li><a id="link_associate" href="/members">Associate</a></li>
+                            <li><a id="link_company" href="/members">Company</a></li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="/members">Members</a>
+                        <a class="btn dropdown-toggle" data-toggle="dropdown" href="/publications">Publications</a>
+                         <ul class="dropdown-menu transparent navbar-right" >
+                            <li><a id="link_conference" href="/publications">Conference</a></li>
+                            <li><a id="link_journal" href="/publications">Journal</a></li>
+                            <li><a id="link_patent" href="/publications">Patent</a></li>
+                            <li><a id="link_presentation" href="/publications">Presentations</a></li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="/research">Research</a>
+                        <a href="/projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/news">News</a>
                     </li>
                     <li>
                         <a href="/contact">Contact</a>
@@ -79,9 +94,9 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1>TTNAC</h1>
+                        <h1>TT-LAB</h1>
                         <hr class="small">
-                        <span class="subheading">A subsidiary of TTNIC</span>
+                        <span class="subheading">Welcome to the edge of innovation</span>
                     </div>
                 </div>
             </div>
@@ -91,60 +106,17 @@
     <!-- Main Content -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Man must explore, and this is exploration at its greatest
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Problems look mighty small from 150 miles up
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2014</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
-                        </h2>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2014</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Science has not yet mastered prophecy
-                        </h2>
-                        <h3 class="post-subtitle">
-                            We predict too much for the next year and yet far too little for the next ten.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            Failure is not an option
-                        </h2>
-                        <h3 class="post-subtitle">
-                            Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on July 8, 2014</p>
-                </div>
-                <hr>
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
-                    </li>
-                </ul>
+            <div id="left_pane" class="col-lg-8">
+                <h3>Events</h3>
+                <div id="news"></div>
+            </div>
+            <div id="right_pane" class="col-lg-4">
+                <h3>Recent Work</h3>
+                <div id="recent"></div>
             </div>
         </div>
+
+       
     </div>
 
     <hr>
@@ -180,7 +152,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="copyright text-muted">Copyright &copy; ttlab 2016</p>
                 </div>
             </div>
         </div>
@@ -194,6 +166,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/clean-blog.min.js"></script>
+    <script src="js/index.js"></script>
 
 </body>
 

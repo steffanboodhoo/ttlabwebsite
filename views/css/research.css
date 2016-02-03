@@ -1,3 +1,7 @@
+.transparent{
+  background-color:transparent;
+}
+
 .list li{
 	list-style-type: none;
 }
