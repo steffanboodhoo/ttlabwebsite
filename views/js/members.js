@@ -43,7 +43,7 @@
 			// img = "http://localhost:3000/default-profile.png";
 			if(data[name]['img'])
 				img = window.location.href.replace(window.location.pathname,"") + "/" + data[name]['img'];
-			left.append( $("<div/>",{"class":"circular"}).css('background','url('+img+') no-repeat center') )
+			left.append( $("<div/>",{"class":"circular"}).css('background','url('+img+') ') )
 			
 			//RIGHT
 			//right_sub_left
