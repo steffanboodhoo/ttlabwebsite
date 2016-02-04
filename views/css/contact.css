@@ -1,0 +1,19 @@
+.transparent{
+	background-color:transparent;
+}
+.list li{
+	list-style-type: none;
+	margin-top: 3%;
+}
+
+
+.links{
+	color:#5eb6ef;
+	font-size: 18px
+}
+
+.nav-logo{
+	width:80px;
+	height:auto;
+	margin-top: 10px;
+}
