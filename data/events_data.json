@@ -2,6 +2,7 @@
 	"Research Seminar":{
 		"description":" This is a a seminar for those associated with or employed under TTNIC to present and discuss their research. The event is being held on Monday 15th February at the University of the West Indies in the Department of Computing and Information Technology's seminar room between 2:45pm and 5:00pm",
 		"time":"15/02/2016",
-		"img":"seminarposter.jpg"
+		"img":"seminarposter.jpg",
+		"pdf":"TTLABflyer.pdf"
 	}
 }

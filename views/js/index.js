@@ -49,6 +49,8 @@
 			var row =$("<div/>",{"class":"row"});
 			var div = $("<div/>",{"class":"post-preview col-md-8"});
 			var a = $("<a/>",{"href":"#"});
+			if(data[title]["pdf"])
+				a = $("<a/>",{"href":"/pdf/"+data[title]["pdf"]});
 			a.append($("<h2/>",{"class":"post-title "}).append(title));
 			a.append($("<h3/>",{"class":"post-subtitle"}).append(data[title]['description']));
 			div.append(a);
