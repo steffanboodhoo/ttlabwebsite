@@ -34,7 +34,7 @@
 			var div = $("<div/>",{"class":"post-preview"});
 			var a = $("<a/>",{"href":"/publications"});
 			a.append($("<h2/>",{"class":"post-title"}).append(data[i][['name']]));
-			a.append($("<h3/>",{"class":"post-subtitle"}).append(data[i]['type']));
+			a.append($("<p/>",{"class":"post-subtitle"}).append(data[i]['type']));
 			div.append(a);
 			div.append($("<p/>",{"class":"post-meta"}).append(data[i]['time']));
 			$('#recent').append(div);
@@ -52,7 +52,7 @@
 			if(data[title]["pdf"])
 				a = $("<a/>",{"href":"/pdf/"+data[title]["pdf"]});
 			a.append($("<h2/>",{"class":"post-title "}).append(title));
-			a.append($("<h3/>",{"class":"post-subtitle"}).append(data[title]['description']));
+			a.append($("<p/>",{"class":"post-subtitle"}).append(data[title]['description']));
 			div.append(a);
 			div.append($("<p/>",{"class":"post-meta list-date"}).append(data[title]['time']));
 			row.append(div);

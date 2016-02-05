@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 20px;
+  font-size: 16px;
   color: #404040;
 }
 p {
@@ -139,7 +139,7 @@ hr.small {
   background-color: #808080;
   background: no-repeat center center;
   background-attachment: scroll;
-  height:200px;
+  height:150px;
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 50px;
@@ -178,7 +178,7 @@ hr.small {
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 50px;
   }
 }
 .intro-header .post-heading h1 {
