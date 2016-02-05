@@ -1,36 +1,56 @@
 {
+	"Patrick Hosein":{
+		"title":"Research Lead",
+		"type":"Staff",
+		"about":" Patrick attended the Massachusetts Institute of Technology (MIT) where he obtained five degrees including a PhD in Electrical Engineering and Computer Science. He has worked at Bose Corporation, Bell Laboratories, AT&T Laboratories, Ericsson and Huawei. He has published extensively with over 80 refereed journal and conference publications. He holds 39 granted and 42 pending patents in the areas of telecommunications and wireless technologies. He was nominated for the Ericsson Inventor of the Year award in 2004, was the Huawei US Wireless Research Employee of the year for 2007 and is a 2015 Anthony Sabga Caribbean Laureate for Science and Technology. Patrick is presently the administrative and technical contact for the TT top level domain, CEO of the TTNIC and a Professor of Computer Science at the University of the West Indies. His present areas of research include radio resource management, QoS and pricing for 5G cellular networks.",
+		"education":["PhD, MIT, 1989", "M.Sc, MIT, 1985", "B.Sc, MIT, 1983"],
+		"links":["patrick.hosein@sta.uwi.edu"],
+		"page":"patrickhosein.html",
+		"img":"patrickhosein.jpg"
+	},
 	"Steffan Boodhoo":{
 		"title":"Researcher",
 		"type":"Associate",
-		"about":" I have yet to find my specific area of interest, until then perseverence",
-		"education":["Bsc University Of The West Indies 2015"],
+		"about":"Steffan graduated from UWI Computer Science in 2015 with a B.Sc in Computer Science.",
+		"education":["B.Sc., The University Of The West Indies, 2015"],
 		"links":["boodhoo100@gmail.com"],
 		"page":"steffanboodhoo.html",
 		"img":"steffanboodhoo.jpg"
 	},
+	"Rikaard Hosein":{
+		"title":"Researcher",
+		"type":"Associate",
+		"about":"I'm a 23 year old Computer Scientist in Trinidad and Tobago with a strong emphasis on application and web security.",
+		"education":["B.Sc., The University Of The West Indies, 2014"],
+		"links":["rikaard.hosein@gmail.com"],
+		"page":"rikaardhosein.html",
+		"img":"rikaardhosein.jpg"
+	},
 	"Stefan Hosein":{
 		"title":"Researcher",
 		"type":"Associate",
-		"about":" I have yet to find my specific area of interest, until then perseverence",
-		"education":["Bsc University Of The West Indies 2015"],
-		"links":["boodhoo100@gmail.com"],
-		"page":"steffanboodhoo.html",
+		"about":"Stefan graduated from secondary (high) school as a national scholar. He received his B.Sc. in Computer since from The University of the West Indies in 2014 and graduated at the top of his class and faculty. After receiving his degree, he was awarded the first international internship to NASA as a Trinidadian. Since then, he has been working with TTLAB and published a paper with Prof. Hosein. He was returned to NASA in the summer of 2015 to continue his internship. While there, he worked with CMU and published two workshop papers at AAAI. His broad interests lie in machine learning, natural language processing, deep learning, bioinformatics and information retrieval.",
+		"education":["B.Sc., The University Of The West Indies, 2014"],
+		"links":["stefan.m.hosein@gmail.com"],
+		"page":"stefanhosein.html",
 		"img":"stefanhosein.jpg"
 	},
 	"Inzamam Rahaman":{
-		"title":"Researcher",
+		"title":"Associate",
 		"type":"Staff",
-		"about":" I have yet to find my specific area of interest, until then perseverence",
-		"education":["Bsc University Of The West Indies 2015"],
-		"links":["inzamam.Rahaman@something.com"],
-		"page":"inzamamrahaman.html"
+		"about":"Inzamam Rahaman recently graduated with a BSc in Computer Science from The University of the West Indies, St. Augustine. During his penultimate year, he worked under the AgriNeTT project developing models for crop price prediction and developing web applications for agricultural data visualisation. For his undergraduate project, he adapted a VQ Index Based Steganography technique to an FPGA using VHDL. In the period immediately following his degree, he interned at the NASA Ames Research Centre developing geospatial web applications using NASA’s Web World Wind SDK. Currently, he is working as a tutor for the Department of Computing and Information Technology and as a research assistant at the Trinidad and Tobago Network Information Centre.",
+		"education":["B.Sc., The University Of The West Indies, 2015"],
+		"links":["inzamam.rahaman@outlook.com"],
+		"page":"inzamamrahaman.html",
+		"img":"inzamamrahaman.jpg"
 	},
-	"Kiran Maraj":{
-		"title":"Researcher",
+	"Shellyann Sooklal":{
+		"title":"Associate",
 		"type":"Company",
-		"about":" I have yet to find my specific area of interest, until then perseverence",
-		"education":["Bsc University Of The West Indies","Msc "],
-		"links":["kiran.maraj@something.com"],
-		"page":"kiranmaraj.html"
+		"about":" Shellyann is a student at the University of the West Indies (UWI), pursuing her PhD degree in Computer Science, where the emphasis of her research is in Genomics. Shellyann is also currently teaching a Masters level course in Advanced Networking at UWI. Shellyann graduated with her Undergraduate degree at UWI in 2010, with first class honors and went on to build her professional career by working as a Software Developer at Medullan. Shellyann returned to UWI in 2012 where she pursued an MPhil in Computer Science, with her research focusing around diagnosing and rating Parkinson’s Tremors using the Kinect. Shellyann has worked as a tutor, teaching assistant, instructor and part-time lecturer at UWI, teaching a wide range of courses, including programming in C, Java, Android and game programming, Data Structures and Design and Analysis of Algorithms. She also managed level 3 projects and taught web development and database systems.",
+		"education":["Bsc University Of The West Indies", "M.Phil, The University Of The West Indies"],
+		"links":["shellyann.sooklal@gmail.com"],
+		"page":"shellyannsooklal.html",
+		"img":"shellyannsooklal.jpg"
 	}
 }
