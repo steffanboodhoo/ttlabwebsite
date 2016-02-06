@@ -27,20 +27,20 @@
 		
 		if( sendObj['name']!="" && sendObj['email']!="" && sendObj['phone']!="" && sendObj['type']!="" && sendObj['desc']!="" ){
 			console.log(sendObj);
-			_post('/request',sendObj,null);
+			_post('/request',sendObj, requestStatus);
 		}
 	
 	}
 
-	function displayMessage(success){
-		console.log("grabbing");
-		if(success){
+	function requestStatus(obj){
+		console.log(obj);
+
+		if(obj['status']=='success'){
 			$('#success').html("<div class='alert alert-success'>");
             $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;").append("</button>");
             $('#success > .alert-success').append("<strong>Your message has been sent. </strong>");
             $('#success > .alert-success').append('</div>');
-             // $('#contactForm').trigger("reset");
-			// displayMessage(true);
+             $('#request_form').trigger("reset");
 		}else{
 			$('#success').html("<div class='alert alert-danger'>");
 			$('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'").append("</button>");
@@ -55,9 +55,9 @@
             type:'POST',
             data:params,
             success:function(response){
-            	console.log(response)
-                if(typeof call_back==='function')
-                    call_back(response)
+                if(typeof call_back==='function'){
+                    call_back(JSON.parse(response))
+                }
             }
 		})
 	}
