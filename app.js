@@ -111,22 +111,23 @@ app.post('/request',function(req, res){
   request['email'] = req.body.email;
   request['type'] = req.body.type;
   request['desc'] = req.body.desc;
-  console.log(request);
+  var message = 'Description:\n' + request['desc'] + '\n\n' + 'Contact Info:\n' +'phone:'+request['phone']+ '\nemail:'+ request['email'];
+  
   var mailOptions = {
-    from: 'Steffan 👥 <steffan_boodhoo@hotmail.com>', // sender address 
+    from: request['name'], // sender address 
     to: 'boodhoo100@gmail.com', // list of receivers 
-    subject: 'Hello ✔', // Subject line 
-    text: 'Hello world 🐴', // plaintext body 
-    html: '<b>Hello world 🐴</b>' // html body 
-};
+    subject: 'Request ['+request['type']+']', // Subject line 
+    text: message // plaintext body  
+   // send mail with defined transport object 
+  };
  
-// send mail with defined transport object 
-transporter.sendMail(mailOptions, function(error, info){
-    if(error){
-        return console.log(error);
-    }
-    console.log('Message sent: ' + info.response);
-});
+  // send mail with defined transport object 
+  transporter.sendMail(mailOptions, function(error, info){
+      if(error){
+          return console.log(error);
+      }
+      console.log('Message sent: ' + info.response);
+  });
 })
 
 app.listen(3000, function() {
