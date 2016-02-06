@@ -1,5 +1,8 @@
 var express = require('express');
 var app = express();
+var bodyParser = require('body-parser');
+app.use(bodyParser.json()); // support json encoded bodies
+app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 //var path = __dirname + '/views/';
 var path = require('path');
 app.use(express.static(path.join(__dirname, 'views')));
@@ -83,6 +86,16 @@ app.get('/recent/:number',function(req, res){
     }
     res.send(re_arr);
   });
+})
+
+app.post('/request',function(req, res){
+  var request = {};
+  // request['name'] = req.body.name;
+  request['phone'] = req.body.phone;
+  request['email'] = req.body.email;
+  // request['type'] = req.body.type;
+  request['desc'] = req.body.desc;
+  console.log(request);
 })
 
 app.listen(3000, function() {

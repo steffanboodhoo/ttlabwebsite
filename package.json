@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": "app.js",
   "dependencies": {
+    "body-parser": "^1.14.2",
     "bower": "^1.7.7",
     "express": "^4.13.4"
   }
