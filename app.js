@@ -115,7 +115,7 @@ app.post('/request',function(req, res){
   
   var mailOptions = {
     from: request['name'], // sender address 
-    to: 'boodhoo100@gmail.com', // list of receivers 
+    to: 'phosein60@gmail.com', // list of receivers 
     subject: 'Request ['+request['type']+']', // Subject line 
     text: message // plaintext body  
    // send mail with defined transport object 
