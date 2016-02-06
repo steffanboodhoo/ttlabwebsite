@@ -1,8 +1,24 @@
 var express = require('express');
 var app = express();
+
 var bodyParser = require('body-parser');
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
+
+var nodemailer = require("nodemailer");
+var transporter = nodemailer.createTransport('smtps://labttsite%40gmail.com:adminlab1@smtp.gmail.com');
+ 
+// setup
+var smtpTransport = nodemailer.createTransport("SMTP",{
+   service: "Gmail",
+   auth: {
+       user: "labttsite@gmail.com",
+       pass: "adminlab1"
+   }
+});
+
+
+
 //var path = __dirname + '/views/';
 var path = require('path');
 app.use(express.static(path.join(__dirname, 'views')));
@@ -90,12 +106,27 @@ app.get('/recent/:number',function(req, res){
 
 app.post('/request',function(req, res){
   var request = {};
-  // request['name'] = req.body.name;
+  request['name'] = req.body.name;
   request['phone'] = req.body.phone;
   request['email'] = req.body.email;
-  // request['type'] = req.body.type;
+  request['type'] = req.body.type;
   request['desc'] = req.body.desc;
   console.log(request);
+  var mailOptions = {
+    from: 'Steffan 👥 <steffan_boodhoo@hotmail.com>', // sender address 
+    to: 'boodhoo100@gmail.com', // list of receivers 
+    subject: 'Hello ✔', // Subject line 
+    text: 'Hello world 🐴', // plaintext body 
+    html: '<b>Hello world 🐴</b>' // html body 
+};
+ 
+// send mail with defined transport object 
+transporter.sendMail(mailOptions, function(error, info){
+    if(error){
+        return console.log(error);
+    }
+    console.log('Message sent: ' + info.response);
+});
 })
 
 app.listen(3000, function() {
