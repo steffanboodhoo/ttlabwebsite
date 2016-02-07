@@ -2,7 +2,9 @@
  * Clean Blog v1.0.0 (http://startbootstrap.com)
  * Copyright 2014 Start Bootstrap
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
- */
+ */ 
+ @font-face { font-family: 'Teen';src: url('teen.ttf') format('truetype');}
+ 
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
@@ -163,6 +165,7 @@ hr.small {
 }
 .intro-header .site-heading h1,
 .intro-header .page-heading h1 {
+  font-family: Helvetica;
   margin-top: 0;
   font-size: 50px;
 }
