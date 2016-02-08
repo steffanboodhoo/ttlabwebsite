@@ -1,81 +1,50 @@
 #!/usr/bin/python
 
-import argparse
 import email
 import time
 import sqlite3
-from matplotlib import pyplot as plt
 from collections import defaultdict
-from numpy import arange
-
-def plot_histogram():
-    figure_loc = '../bar.png'
-    fig = plt.figure()
-    stmnt = "SELECT ISP, METRIC FROM DATA WHERE DATERECOREDED between date('now', '-3 months') and date('now');"
-    cursor = conn.execute(stmnt)
-    data = defaultdict(float)
-    count = defaultdict(int)
-    for row in cursor:
-        data[row[0]] += row[1]
-        count[row[0]] += 1
-    values = []
-    isps = []
-    for isp in data.keys():
-        data[isp] = data[isp] / float(count[isp])
-        isps.append(isp)
-        values.append(data[isp])
-    n = len(isps)
-    ax = fig.add_subplot(111)
-    ind = arange(n)
-    ax.bar(ind, values, 0.35, color='blue')
-    ax.set_title('ISP Performance')
-    ax.set_ylabel('Average Performance')
-    ax.set_xlabel('ISP')
-    ax.set_xticks(ind + 0.35)
-    xtick = ax.set_xticklabels(isps)
-    plt.setp(xtick, rotation=45, fontsize=12)
-    plt.savefig(figure_loc)
+import sys
+import re
 
 
 
-required_subject = 'ISP PERFORMANCE'
-
-parser = argparse.ArgumentParser(description='Parses email and records data')
-parser.add_argument('emailstring', help='The flat string representing the email')
-args = parser.parse_args()
-
-email_string = args.emailstring
+email_string = sys.stdin.read()
 email_obj = email.message_from_string(email_string)
 
-conn = sqlite3.connect('data.db')
+pattern = '([^<\s]+@[^>\s]+)'
+sender = re.search(pattern, email_obj.get('From').upper()).group(1)
+subject = email_obj.get('Subject').upper()
 
+
+conn = sqlite3.connect('data.db')
 cursor = conn.execute('SELECT EMAIL FROM SENDERS;')
 senders = set(map(lambda x: x[0], cursor.fetchall()))
 
-print senders
 
-sender = email_obj.get('From').upper()
-subject = email_obj.get('Subject').upper()
 
 print sender, subject
+print senders
 
-if sender in senders and subject == required_subject:
-    print 'Authenitcsted'
-    contents = email_obj.get_payload()
-    print 'Contents'
-    #print contents
-    raw = contents[0].get_payload().split()
+if sender in senders and 'ISP' in subject:
+    print 'Authenicated ', sender
+    #contents = email_obj.get_payload()
+    raw = ''
+    if email_obj.is_multipart():
+        p1 = email_obj.get_payload()
+        raw = p1[0].split()
+    else:
+        raw = email_obj.get_payload().split()
+    print raw
     isp = raw[0]
     value = raw[1]
     print isp, value
     st = 'INSERT OR REPLACE INTO DATA VALUES'
-    vec = "('{}', '{}', CURRENT_DATE, {})".format(sender, isp, value)
+    vec = "('{0}', '{1}', CURRENT_DATE, {2})".format(sender, isp, value)
     st += vec + ';'
     print st
     conn.execute(st)
     conn.commit()
-    plot_histogram()
-
 
 
 conn.close()
