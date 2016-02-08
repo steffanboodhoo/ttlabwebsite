@@ -23,6 +23,7 @@ var smtpTransport = nodemailer.createTransport("SMTP",{
 var path = require('path');
 app.use(express.static(path.join(__dirname, 'views')));
 app.use(express.static(path.join(__dirname, 'images')));
+app.use(express.static(path.join(__dirname, 'isp')));
 
 function return_path(filename) {
     return path.join(__dirname, 'views', filename);
@@ -36,6 +37,9 @@ function return_pdf(filename) {
   return path.join(__dirname,'pdfs',filename)
 }
 
+app.get('/isp', function(req, res) {
+   res.send('under construction');
+});
 
 app.get('/', function(req, res) {
    res.sendFile('/index.html');
