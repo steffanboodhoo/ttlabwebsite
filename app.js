@@ -38,7 +38,7 @@ function return_pdf(filename) {
 }
 
 app.get('/isp-perf', function(req, res) {
-  res.sendFile('bar.png');
+  res.sendFile('./bar.png');
 });
 
 app.get('/isp', function(req, res) {
