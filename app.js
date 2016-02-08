@@ -37,7 +37,7 @@ function return_pdf(filename) {
   return path.join(__dirname,'pdfs',filename)
 }
 
-app.get('/isp-perf', function(res, req) {
+app.get('/isp-perf', function(req, res) {
   res.sendFile('bar.png');
 });
 
