@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 var nodemailer = require("nodemailer");
 var transporter = nodemailer.createTransport('smtps://labttsite%40gmail.com:adminlab1@smtp.gmail.com');
- 
+
 // setup
 var smtpTransport = nodemailer.createTransport("SMTP",{
    service: "Gmail",
@@ -36,6 +36,10 @@ function return_data(filename) {
 function return_pdf(filename) {
   return path.join(__dirname,'pdfs',filename)
 }
+
+app.get('/isp-perf', function(req, res) {
+  res.sendFile('./bar.png');
+});
 
 app.get('/isp', function(req, res) {
    res.send('under construction');
@@ -116,20 +120,20 @@ app.post('/request',function(req, res){
   request['type'] = req.body.type;
   request['desc'] = req.body.desc;
   var message = 'Description:\n' + request['desc'] + '\n\n' + 'Contact Info:\n' +'phone:'+request['phone']+ '\nemail:'+ request['email'];
-  
+
   var mailOptions = {
-    from: request['name'], // sender address 
-    to: 'phosein60@gmail.com', // list of receivers 
-    subject: 'Request ['+request['type']+']', // Subject line 
-    text: message // plaintext body  
-   // send mail with defined transport object 
+    from: request['name'], // sender address
+    to: 'phosein60@gmail.com', // list of receivers
+    subject: 'Request ['+request['type']+']', // Subject line
+    text: message // plaintext body
+   // send mail with defined transport object
   };
- 
-  // send mail with defined transport object 
+
+  // send mail with defined transport object
   transporter.sendMail(mailOptions, function(error, info){
       if(error){
         console.log(error);
-        res.send('{"status":"error"}'); 
+        res.send('{"status":"error"}');
       }
       console.log('Message sent: ' + info.response);
       res.send('{"status":"success"}');
