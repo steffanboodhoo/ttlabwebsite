@@ -1,0 +1,3 @@
+#!/bin/sh
+cat > /var/www/html/lab/ttlabsite/isp/isp.txt
+
