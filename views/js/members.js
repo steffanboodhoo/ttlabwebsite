@@ -50,9 +50,10 @@
 			var links = data[name]['links'];
 			right_sub_left.append($("<h4/>",{"class":"list-name"}).append(name));
 			right_sub_left.append($("<p/>",{"class":"list-title"}).append(data[name]['title']));
-			for( var l=0; l<links.length; l++)
+			for( var l=0; l<links.length; l++){
 				right_sub_left.append($("<a/>",{"class":"list-link links"}).append(links[l]));
-			
+				right_sub_left.append($("<br/>"))
+			}
 			//right_sub_left
 			var education = data[name]['education'];
 			for(var edu=0; edu<education.length; edu++)
