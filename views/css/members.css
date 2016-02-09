@@ -10,8 +10,8 @@
 	width: 300px;
 	height: 300px;
 	border-radius: 150px;
-	-webkit-background-size: contain !important;
-  	-moz-background-size: contain !important;
+	-webkit-background-size: cover !important;
+  	-moz-background-size: cover !important;
 	background-size: 100%;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
