@@ -17,7 +17,7 @@ sender = re.search(pattern, email_obj.get('From').upper()).group(1)
 subject = email_obj.get('Subject').upper()
 
 
-conn = sqlite3.connect('data.db')
+conn = sqlite3.connect('/var/www/html/lab/ttlabwebsite/isp/data.db')
 cursor = conn.execute('SELECT EMAIL FROM SENDERS;')
 senders = set(map(lambda x: x[0], cursor.fetchall()))
 
