@@ -30,15 +30,22 @@
 		var list = $("<ul/>",{"class":"list"});
 		for (var title in data){
 			var li = $("<li/>",{"class":"post-preview knockout-around"});
-			li.append($("<h3/>",{"class":"post-title list-title"}).append(title));
-			li.append($("<p/>",{"class":"post-subtitle list-description"}).append(data[title]['description']));
-			li.append($("<p/>",{"class":"post-meta list-date"}).append(data[title]['time']));
+			var a = $('<a/>',{"href":"#"})
+			a.append($("<h3/>",{"class":"post-title list-title"}).append(title));
+			// a.append($("<p/>",{"class":"post-subtitle list-description"}).append(data[title]['description']));
+
+			var members = data[title]['members'];
+			for (var i = 0; i<members.length; i++){
+				a.append($('<p/>',{"class":"post-meta list-members"}).append(members[i]));
+			}
+			li.append(a);
+			li.append( $("<p/>",{"class":"post-meta list-date"}).append(data[title]['time']) );
 			list.append(li);
 		}	
 
 		list.appendTo('#list_cont');
 
-		var options = {valueNames:['list-title']}
+		var options = {valueNames:['list-title','list-members']}
 		var researchList = new List('list_cont',options);
 
 		console.log('meh')
