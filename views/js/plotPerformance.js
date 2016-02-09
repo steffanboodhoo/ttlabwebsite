@@ -123,10 +123,12 @@
             tooltipXOffset: 10,
 
             // String - Template string for single tooltips
-            tooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %>",
+            tooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %> kbps/$",
 
             // String - Template string for multiple tooltips
             multiTooltipTemplate: "<%= value %>",
+
+
 
             // Function - Will fire on animation progression.
             onAnimationProgress: function(){},
@@ -204,8 +206,10 @@
             };
             console.log(labels);
             console.log(data);
-            var chart = new Chart(ctx).Bar(data, options);
+            console.log("skdksdj");
+            var chart = new Chart(ctx).HorizontalBar(data, options);
             console.log('Chart finished...');
+
         }
 
         $.get('/isp-performance', function(data) {
