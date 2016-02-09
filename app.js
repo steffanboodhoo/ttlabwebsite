@@ -1,5 +1,12 @@
 var express = require('express');
 var app = express();
+var fs = require('fs');
+
+var _ = require("lodash");
+
+
+
+
 
 var bodyParser = require('body-parser');
 app.use(bodyParser.json()); // support json encoded bodies
@@ -24,6 +31,12 @@ var path = require('path');
 app.use(express.static(path.join(__dirname, 'views')));
 app.use(express.static(path.join(__dirname, 'images')));
 app.use(express.static(path.join(__dirname, 'isp')));
+
+var file_name = "data.db";
+var sqlite3 = require("sqlite3").verbose();
+var db_path = path.join(__dirname, 'isp', file_name);
+var exists = fs.existsSync(db_path);
+var db = new sqlite3.Database(db_path);
 
 function return_path(filename) {
     return path.join(__dirname, 'views', filename);
@@ -71,21 +84,62 @@ app.get('/members', function(req, res) {
 
 app.get('/research/data',function(req,res){
 	res.sendFile(return_data('research_data.json'));
-})
+});
 
 app.get('/members/data',function(req,res){
   res.sendFile(return_data('members_data.json'));
-})
+});
 
 app.get('/events/data',function(req,res){
   res.sendFile(return_data('events_data.json'));
-})
+});
 
 app.get('/pdf/:name',function(req,res){
   var name = req.params['name'];
   res.contentType("application/pdf");
   res.sendFile(return_pdf(name))
-})
+});
+
+app.get('/isps', function(req, res) {
+
+    res.sendFile(return_path('isps.html'));
+
+});
+
+app.get('/isp-performance', function(req, res) {
+    console.log('Sending performance');
+    var stmnt = 'SELECT ISP, METRIC FROM DATA WHERE ';
+    stmnt += "DATERECOREDED BETWEEN date('now', '-3 months') AND CURRENT_DATE;";
+    console.log(stmnt);
+    if(!exists) {
+        console.log('Database does not exist!');
+        console.log(db_path);
+    } else {
+        db.all(stmnt, function(err, rows) {
+            if(err) {
+                console.log('ERROR');
+                res.send({});
+            }
+            if(rows) {
+                var docs = {};
+                var by_isp = _.groupBy(rows, function(row) {
+                   return row.ISP.toUpperCase();
+                });
+                console.log(by_isp);
+                for(var key in by_isp) {
+                    if(by_isp.hasOwnProperty(key)) {
+                        //console.log(key);
+                        //console.log(by_isp[key]);
+                        docs[key] = _.map(by_isp[key], 'METRIC');
+                    }
+                }
+                res.send(docs);
+            } else {
+                res.send({});
+            }
+        });
+    }
+});
 
 app.get('/recent/:number',function(req, res){
   var num = parseInt(req.params['number']);
