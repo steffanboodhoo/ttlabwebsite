@@ -75,7 +75,7 @@ app.get('/publications', function(req, res) {
 });
 
 app.get('/projects', function(req, res) {
-   res.sendFile(return_path('publications.html'));
+   res.sendFile(return_path('projects.html'));
 });
 
 app.get('/members', function(req, res) {
@@ -83,7 +83,11 @@ app.get('/members', function(req, res) {
 });
 
 app.get('/research/data',function(req,res){
-	res.sendFile(return_data('research_data.json'));
+  res.sendFile(return_data('research_data.json'));
+});
+
+app.get('/projects/data',function(req,res){
+  res.sendFile(return_data('projects_data.json'));
 });
 
 app.get('/members/data',function(req,res){
