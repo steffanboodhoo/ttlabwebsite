@@ -32,7 +32,7 @@ if sender in senders and 'ISP' in subject:
     raw = ''
     if email_obj.is_multipart():
         p1 = email_obj.get_payload()
-        raw = p1[0].split()
+        raw = p1[0].get_payload().split()
     else:
         raw = email_obj.get_payload().split()
     print raw
