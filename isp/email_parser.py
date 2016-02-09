@@ -12,8 +12,8 @@ import re
 email_string = sys.stdin.read()
 email_obj = email.message_from_string(email_string)
 
-pattern = '([^<\s]+@[^>\s])'
-sender = re.search(pattern, email_obj.get('From').upper())
+pattern = '([^<\s]+@[^>\s]+)'
+sender = re.search(pattern, email_obj.get('From').upper()).group(1)
 subject = email_obj.get('Subject').upper()
 
 
@@ -24,16 +24,17 @@ senders = set(map(lambda x: x[0], cursor.fetchall()))
 
 
 print sender, subject
+print senders
 
 if sender in senders and 'ISP' in subject:
     print 'Authenicated ', sender
-    contents = email_obj.get_payload()
+    #contents = email_obj.get_payload()
     raw = ''
-    if contents.is_multipart():
-        p1 = contents.get_payload()
+    if email_obj.is_multipart():
+        p1 = email_obj.get_payload()
         raw = p1[0].split()
     else:
-        raw = contents.get_payload().split()
+        raw = email_obj.get_payload().split()
     print raw
     isp = raw[0]
     value = raw[1]
