@@ -1,42 +1,30 @@
 {
 	"A Consumer Focused Open Data Platform":{
-		"author":["C. Millette", "P. Hosein"],
-		"venue":"International Conference on Big Data and Smart City",
-		"city":"Muscat",
-		"country":"Oman",
+		"authors":"C. Millette, P. Hosein",
+		"location":"International Conference on Big Data and Smart City, Muscat, Oman",
 		"volume":"",
-		"month":"Mar",
-		"year":"2016",
+		"date":"Mar, 2016",
 		"pdf":"icbdsc2016.pdf"
 	},
 	"Power Grid Fault Detection using an AMR Network":{
-		"author":["P. Hosein", "S. Hosein", "S. Bahadoorsingh"],
-		"venue":"IEEE Smart Grid Technologies Asia Conference",
-		"city":"Bangkok",
-		"country":"Thailand",
+		"authors":"P. Hosein, S. Hosein, S. Bahadoorsingh",
+		"location":"IEEE Smart Grid Technologies Asia Conference, Bangkok, Thailand",
 		"volume":"",
-		"month":"Nov",
-		"year":"2015",
+		"date":"Nov, 2015",
 		"pdf":"isgt2015.pdf"
 	},
 	"Stochastic Dynamic Programming Model for Revenue Optimization in Social Networks":{
-		"author":["P. Hosein", "T. Lawrence"],
-		"venue":"IEEE International Conference on Wireless and Mobile Computing, Networking and Communications",
-		"city":"Abu Dhabi",
-		"country":"United Arab Emirates",
+		"authors":"P. Hosein, T. Lawrence",
+		"location":"IEEE International Conference on Wireless and Mobile Computing, Networking and Communications, Abu Dhabi, United Arab Emirates",
 		"volume":"",
-		"month":"Oct",
-		"year":"2015",
+		"date":"Oct, 2015",
 		"pdf":"wimob2015.pdf"
 	},
 	"An Open Source Real-Time Data Portal":{
-		"author":["S. Lutchman", "P. Hosein"],
-		"venue":"Journal of ICT",
-		"city":"",
-		"country":"",
+		"authors":"S. Lutchman, P. Hosein",
+		"location":"Journal of ICT",
 		"volume":"2",
-		"month":"Mar",
-		"year":"2015",
+		"date":"Mar, 2015",
 		"pdf":"ict2015.pdf"
 	}
 }
