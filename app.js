@@ -78,6 +78,10 @@ app.get('/projects', function(req, res) {
    res.sendFile(return_path('projects.html'));
 });
 
+app.get('/projectSingle', function(req, res) {
+   res.sendFile(return_path('projectSingle.html'));
+});
+
 app.get('/members', function(req, res) {
   res.sendFile(return_path('members.html'));
 });
