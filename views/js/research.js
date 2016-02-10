@@ -2,6 +2,10 @@
 	
 	$(document).ready(function(){
 		console.log("research - ready")
+
+		console.log( JSON.parse(sessionStorage.getItem('pew')) );
+		
+
 		_get('/research/data',null,createList);
 
 	});
