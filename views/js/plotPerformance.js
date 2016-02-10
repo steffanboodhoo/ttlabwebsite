@@ -181,14 +181,26 @@
             };
 
             var ctx = document.getElementById("myChart").getContext("2d");
+            var info = []
             var labels = [];
             var data1 = [];
             for(var prop in data) {
                 if(data.hasOwnProperty(prop)) {
-                    labels.push(prop);
-                    data1.push(average(data[prop]));
+                    //labels.push(prop);
+                    //data1.push(average(data[prop]));
+                    info.push({
+                        isp: prop,
+                        value: average(data[prop])
+                    });
                 }
             }
+
+            info = _.sortBy(info, function(obj) {
+                return obj.value * -1;
+            });
+
+            labels = _.map(info, 'isp');
+            data1 = _.map(info, 'value');
 
             var datasets = [];
             datasets.push({
@@ -209,6 +221,48 @@
             console.log("skdksdj");
             var chart = new Chart(ctx).HorizontalBar(data, options);
             console.log('Chart finished...');
+
+
+            //var fillColorMap = {
+            //    MASSY: "rgba(113, 188, 120, 0.5)", //rgba(204, 204, 255, 0.5),
+            //    FLOW: "rgba(151,187,205,0.5)",
+            //    BLINK: "rgba(255, 159, 0, 0.5)",
+            //    DIGICEL: "rgba(238, 32, 77, 0.5)",
+            //    GREENDOT: "rgba(113, 188, 120, 0.5)"
+            //};
+            //
+            //var highlightFillcolorMap = {
+            //    MASSY: "rgba(113, 188, 120, 0.75)", //rgba(204, 204, 255, 0.5),
+            //    FLOW: "rgba(151,187,205,0.75)",
+            //    BLINK: "rgba(255, 159, 0, 0.75)",
+            //    DIGICEL: "rgba(238, 32, 77, 0.75)",
+            //    GREENDOT: "rgba(113, 188, 120, 0.75)"
+            //};
+            //
+            //var strokeColorMap = {
+            //    MASSY: "rgba(113, 188, 120, 0.8)", //rgba(204, 204, 255, 0.5),
+            //    FLOW: "rgba(151,187,205,0.8)",
+            //    BLINK: "rgba(255, 159, 0, 0.8)",
+            //    DIGICEL: "rgba(238, 32, 77, 0.8)",
+            //    GREENDOT: "rgba(113, 188, 120, 0.8)"
+            //};
+            //
+            //var hightlightStrokeColorMap = {
+            //    MASSY: "rgba(113, 188, 120, 1)", //rgba(204, 204, 255, 0.5),
+            //    FLOW: "rgba(151,187,205,1)",
+            //    BLINK: "rgba(255, 159, 0, 1)",
+            //    DIGICEL: "rgba(238, 32, 77, 1)",
+            //    GREENDOT: "rgba(113, 188, 120, 1)"
+            //};
+            //
+            //for(var idx = 0; idx < info.length; idx += 1) {
+            //    console.log(info[idx].isp);
+            //    chart.datasets[0].bars[idx].fillColor = fillColorMap[info[idx].isp];
+            //    chart.datasets[0].bars[idx].strokeColor = strokeColorMap[info[idx].isp];
+            //    chart.datasets[0].bars[idx]. highlightFill = highlightFillcolorMap[info[idx].isp];
+            //    chart.datasets[0].bars[idx].highlightStroke = hightlightStrokeColorMap[info[idx].isp];
+            //}
+
 
         }
 
