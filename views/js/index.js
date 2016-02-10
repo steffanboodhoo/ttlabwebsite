@@ -32,11 +32,11 @@
 		for (var i=0; i<data.length; i++){
 			
 			var div = $("<div/>",{"class":"post-preview"});
-			var a = $("<a/>",{"href":"/publications"});
+			var a = $("<a/>",{"href":"/projects"});
 			a.append($("<h2/>",{"class":"post-title"}).append(data[i][['name']]));
-			a.append($("<p/>",{"class":"post-subtitle"}).append(data[i]['type']));
+			a.append($("<p/>",{"class":"post-subtitle"}).append(data[i]['topic']));
 			div.append(a);
-			div.append($("<p/>",{"class":"post-meta"}).append(data[i]['time']));
+			div.append($("<p/>",{"class":"post-meta"}).append(data[i]['members']));
 			$('#recent').append(div);
 		}	
 

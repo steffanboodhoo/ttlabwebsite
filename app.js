@@ -155,25 +155,41 @@ app.get('/isp-performance', function(req, res) {
 app.get('/recent/:number',function(req, res){
   var num = parseInt(req.params['number']);
   var fs = require('fs');
-  fs.readFile('data/research_data.json', 'utf8', function (err, data) {
+  fs.readFile('data/projects_data.json', 'utf8', function (err, data) {
     if (err) throw err;
     obj = JSON.parse(data);
-    var arr = []
+    var arr = [];
     for(var name in obj){
       var mod_obj = obj[name];
       mod_obj['name'] = name;
-      var date_data = obj[name]['time'].split('/');
-      mod_obj['time'] = new Date(parseInt(date_data[2]),parseInt(date_data[1]),parseInt(date_data[0]));
+      // var date_data = obj[name]['time'].split('/');
+      // mod_obj['time'] = new Date(parseInt(date_data[2]),parseInt(date_data[1]),parseInt(date_data[0]));
       arr.push(mod_obj);
     }
-    arr.sort(function(a,b){
+    /*arr.sort(function(a,b){
       return new Date(b.time) - new Date(a.time);
-    })
-    var re_arr=[];
-    for(var i = 0; i<num; i++){
-      re_arr.push(arr[i]);
+    })*/
+    
+
+    function randI(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-    res.send(re_arr);
+    function isIn(val, arr){
+      for( var i=0; i<arr.length; i++)
+        if(val == arr[i])
+          return 1;
+        return 0;
+    }
+    var rand_i=[], i=0, send=[];
+    while( i<num){
+      var ri = randI(0,arr.length-1);
+      if( !isIn(ri,rand_i) ){
+        rand_i.push(ri);
+        send.push(arr[ri]);
+        i++;
+      }
+    } 
+    res.send(send);
   });
 })
 
