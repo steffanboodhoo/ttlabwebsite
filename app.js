@@ -36,7 +36,7 @@ var file_name = "data.db";
 var sqlite3 = require("sqlite3").verbose();
 var db_path = path.join(__dirname, 'isp', file_name);
 var exists = fs.existsSync(db_path);
-var db = new sqlite3.Database(db_path);
+
 
 function return_path(filename) {
     return path.join(__dirname, 'views', filename);
@@ -123,6 +123,7 @@ app.get('/isp-performance', function(req, res) {
         console.log('Database does not exist!');
         console.log(db_path);
     } else {
+        var db = new sqlite3.Database(db_path);
         db.all(stmnt, function(err, rows) {
             if(err) {
                 console.log('ERROR');
@@ -146,6 +147,7 @@ app.get('/isp-performance', function(req, res) {
                 res.send({});
             }
         });
+        db.close();
     }
 });
 
