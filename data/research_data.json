@@ -1,32 +1,37 @@
 {
-	"Publication axde title":{
-		"type":"Publication",
-		"description":"Curabitur id dignissim arcu. Etiam sed venenatis ligula, sit amet ornare leo. Donec varius arcu vel imperdiet tempor. Morbi a feugiat purus, fringilla pulvinar nulla. Fusce a tincidunt quam, sed aliquam lectus. Nunc eget mi mauris. Donec aliquam ipsum pretium, imperdiet libero pretium, dictum diam. Aliquam tellus est, pellentesque quis nibh et, ornare interdum ante.",
-		"time":"12/07/2015"
+	"A Consumer Focused Open Data Platform":{
+		"author":["C. Millette", "P. Hosein"],
+		"venue":"International Conference on Big Data and Smart City",
+		"city":"Muscat",
+		"country":"Oman",
+		"month":"Mar",
+		"year":"2016",
+		"pdf":"icbdsc2016.pdf"
 	},
-	"Publication rwdf title":{
-		"type":"Patent",
-		"description":"Donec in diam risus. Suspendisse a tincidunt ante. Donec ut lectus erat. Mauris hendrerit cursus fermentum. Curabitur fringilla, diam ut eleifend ullamcorper, ex orci iaculis nulla, at porttitor metus est vel tortor. Vivamus sit amet luctus quam. Donec finibus ut diam sit amet tristique.",
-		"time":"10/01/2015"
+	"Power Grid Fault Detection using an AMR Network":{
+		"author":["P. Hosein", "S. Hosein", "S. Bahadoorsingh"],
+		"venue":"IEEE Smart Grid Technologies Asia Conference",
+		"city":"Bangkok",
+		"country":"Thailand",
+		"month":"Nov",
+		"year":"2015",
+		"pdf":"isgt2015.pdf"
 	},
-	"Publication deko title":{
-		"type":"Publication",
-		"description":"Donec in diam risus. Suspendisse a tincidunt ante. Donec ut lectus erat. Mauris hendrerit cursus fermentum. Curabitur fringilla, diam ut eleifend ullamcorper, ex orci iaculis nulla, at porttitor metus est vel tortor. Vivamus sit amet luctus quam. Donec finibus ut diam sit amet tristique.",
-		"time":"01/01/2016"
+	"Stochastic Dynamic Programming Model for Revenue Optimization in Social Networks":{
+		"author":["P. Hosein", "T. Lawrence"],
+		"venue":"IEEE International Conference on Wireless and Mobile Computing, Networking and Communications",
+		"city":"Abu Dhabi",
+		"country":"United Arab Emirates",
+		"month":"Oct",
+		"year":"2015",
+		"pdf":"wimob2015.pdf"
 	},
-	"Publication lmed title":{
-		"type":"Publication",
-		"description":"Curabitur id dignissim arcu. Etiam sed venenatis ligula, sit amet ornare leo. Donec varius arcu vel imperdiet tempor. Morbi a feugiat purus, fringilla pulvinar nulla. Fusce a tincidunt quam, sed aliquam lectus. Nunc eget mi mauris. Donec aliquam ipsum pretium, imperdiet libero pretium, dictum diam. Aliquam tellus est, pellentesque quis nibh et, ornare interdum ante.",
-		"time":"22/06/2014"
-	},	
-	"Publication wqer title":{
-		"type":"Publication",
-		"description":"Donec in diam risus. Suspendisse a tincidunt ante. Donec ut lectus erat. Mauris hendrerit cursus fermentum. Curabitur fringilla, diam ut eleifend ullamcorper, ex orci iaculis nulla, at porttitor metus est vel tortor. Vivamus sit amet luctus quam. Donec finibus ut diam sit amet tristique.",
-		"time":"11/11/2014"
-	},
-	"Publication csmk title":{
-		"type":"Patent",
-		"description":"Curabitur id dignissim arcu. Etiam sed venenatis ligula, sit amet ornare leo. Donec varius arcu vel imperdiet tempor. Morbi a feugiat purus, fringilla pulvinar nulla. Fusce a tincidunt quam, sed aliquam lectus. Nunc eget mi mauris. Donec aliquam ipsum pretium, imperdiet libero pretium, dictum diam. Aliquam tellus est, pellentesque quis nibh et, ornare interdum ante.",
-		"time":"03/01/2016"
+	"An Open Source Real-Time Data Portal":{
+		"author":["S. Lutchman", "P. Hosein"],
+		"venue":"Journal of ICT",
+		"volume":"2",
+		"month":"Mar",
+		"year":"2015",
+		"pdf":"ict2015.pdf"
 	}
 }
