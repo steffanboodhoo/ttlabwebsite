@@ -31,10 +31,13 @@ if sender in senders and 'ISP' in subject:
     #contents = email_obj.get_payload()
     raw = ''
     if email_obj.is_multipart():
+        print 'is multipart'
         p1 = email_obj.get_payload()
         raw = p1[0].get_payload().split()
     else:
+        print 'is not multipart'
         raw = email_obj.get_payload().split()
+    print 'This is the raw:'
     print raw
     isp = raw[0]
     value = raw[1]
