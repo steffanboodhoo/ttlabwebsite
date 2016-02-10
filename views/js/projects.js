@@ -35,9 +35,10 @@
 		for (var title in data){
 			//storing it for later bb
 			page_data["data"+idCount] = data[title];
+			page_data["data"+idCount]['title'] = title;
 
 			var li = $("<li/>",{"class":"post-preview knockout-around"});
-			var a = $('<a/>',{"href":"#","id":"data"+idCount});
+			var a = $('<a/>',{"href":"/projectSingle","id":"data"+idCount});
 			a.append($("<h3/>",{"class":"post-title list-title"}).append(title));
 			
 			//members
@@ -57,7 +58,7 @@
 				if(id == "")
 					id = $(event.target).parent().attr('id');
 				console.log(page_data[id]);
-				sessionStorage.setItem('pew', JSON.stringify(page_data[id]));
+				sessionStorage.setItem('projectSingle', JSON.stringify(page_data[id]));
 			})
 
 		}	
