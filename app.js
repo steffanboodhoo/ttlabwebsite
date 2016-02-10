@@ -116,7 +116,7 @@ app.get('/isps', function(req, res) {
 
 app.get('/isp-performance', function(req, res) {
     console.log('Sending performance');
-    var stmnt = 'SELECT ISP, METRIC FROM DATA WHERE ';
+    var stmnt = 'SELECT ISP, METRIC, DATERECORDED FROM DATA WHERE ';
     stmnt += "DATERECOREDED BETWEEN date('now', '-3 months') AND CURRENT_DATE;";
     console.log(stmnt);
     if(!exists) {
