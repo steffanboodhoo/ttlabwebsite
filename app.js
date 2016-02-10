@@ -124,30 +124,30 @@ app.get('/isp-performance', function(req, res) {
         console.log(db_path);
     } else {
         var db = new sqlite3.Database(db_path);
-        res.send('jsidjsidi');
-        //db.all(stmnt, function(err, rows) {
-        //    if(err) {
-        //        console.log('ERROR');
-        //        res.send({});
-        //    }
-        //    if(rows) {
-        //        var docs = {};
-        //        var by_isp = _.groupBy(rows, function(row) {
-        //            return row.ISP.toUpperCase();
-        //        });
-        //        console.log(by_isp);
-        //        for(var key in by_isp) {
-        //            if(by_isp.hasOwnProperty(key)) {
-        //                //console.log(key);
-        //                //console.log(by_isp[key]);
-        //                docs[key] = _.map(by_isp[key], 'METRIC');
-        //            }
-        //        }
-        //        res.send(docs);
-        //    } else {
-        //        res.send({});
-        //    }
-        //});
+        //res.send('jsidjsidi');
+        db.all(stmnt, function(err, rows) {
+            if(err) {
+                console.log('ERROR');
+                res.send({});
+            }
+            if(rows) {
+                var docs = {};
+                var by_isp = _.groupBy(rows, function(row) {
+                    return row.ISP.toUpperCase();
+                });
+                console.log(by_isp);
+                for(var key in by_isp) {
+                    if(by_isp.hasOwnProperty(key)) {
+                        //console.log(key);
+                        //console.log(by_isp[key]);
+                        docs[key] = _.map(by_isp[key], 'METRIC');
+                    }
+                }
+                res.send(docs);
+            } else {
+                res.send({});
+            }
+        });
         db.close();
     }
 });
