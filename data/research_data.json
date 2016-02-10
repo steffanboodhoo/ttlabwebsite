@@ -4,6 +4,7 @@
 		"venue":"International Conference on Big Data and Smart City",
 		"city":"Muscat",
 		"country":"Oman",
+		"volume":"",
 		"month":"Mar",
 		"year":"2016",
 		"pdf":"icbdsc2016.pdf"
@@ -13,6 +14,7 @@
 		"venue":"IEEE Smart Grid Technologies Asia Conference",
 		"city":"Bangkok",
 		"country":"Thailand",
+		"volume":"",
 		"month":"Nov",
 		"year":"2015",
 		"pdf":"isgt2015.pdf"
@@ -22,6 +24,7 @@
 		"venue":"IEEE International Conference on Wireless and Mobile Computing, Networking and Communications",
 		"city":"Abu Dhabi",
 		"country":"United Arab Emirates",
+		"volume":"",
 		"month":"Oct",
 		"year":"2015",
 		"pdf":"wimob2015.pdf"
@@ -29,6 +32,8 @@
 	"An Open Source Real-Time Data Portal":{
 		"author":["S. Lutchman", "P. Hosein"],
 		"venue":"Journal of ICT",
+		"city":"",
+		"country":"",
 		"volume":"2",
 		"month":"Mar",
 		"year":"2015",
