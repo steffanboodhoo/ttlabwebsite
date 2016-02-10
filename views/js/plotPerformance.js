@@ -196,7 +196,7 @@
             }
 
             info = _.sortBy(info, function(obj) {
-                return obj.value * -1;
+                return obj.value;
             });
 
             labels = _.map(info, 'isp');
