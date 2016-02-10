@@ -39,17 +39,14 @@
 
 			var li = $("<li/>",{"class":"post-preview knockout-around"});
 			var a = $('<a/>',{"href":"/projectSingle","id":"data"+idCount});
-			a.append($("<h3/>",{"class":"post-title list-title"}).append(title));
-			
-			//members
-			var members = data[title]['members'];
-			for (var i = 0; i<members.length; i++){
-				a.append($('<p/>',{"class":"post-meta list-members"}).append(members[i]));
-			}
-			
+			a.append($("<h3/>",{"class":"post-title list-title"}).append(title));		
+			a.append($('<p/>',{"class":"post-subtitle "}).append(data[title]['topic']));
 			//adding in everything
 			li.append(a);
-			li.append( $("<p/>",{"class":"post-meta list-date"}).append(data[title]['time']) );
+
+			//members
+			var members = data[title]['members'];
+			li.append( $("<p/>",{"class":"post-meta "}).append(data[title]['members']) );
 			list.append(li);
 			idCount++;
 		
@@ -65,7 +62,7 @@
 
 		list.appendTo('#list_cont');
 		// console.log(page_data);
-		var options = {valueNames:['list-title','list-members']}
+		var options = {valueNames:['list-title','post-subtitle','post-meta']}
 		var researchList = new List('list_cont',options);
 
 		console.log('meh')
