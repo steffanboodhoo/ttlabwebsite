@@ -7,7 +7,7 @@ from collections import defaultdict
 import sys
 import re
 
-
+NUMBER_OF_NOMINATIONS_NEEDED = 2
 
 email_string = sys.stdin.read()
 email_obj = email.message_from_string(email_string)
@@ -22,11 +22,21 @@ cursor = conn.execute('SELECT EMAIL FROM SENDERS;')
 senders = set(map(lambda x: x[0], cursor.fetchall()))
 
 
+def insert_nomination(conn, nominee, nominator):
+    query = "SELECT NOMINATOR FROM NOMINATIONS WHERE NOMINEE='{0}';".format(nominee)
+    ins_query = "INSERT INTO NOMINATIONS(NOMINEE, NOMINATOR) VALUES('{0}','{1}');".format(nominee, nominator)
+    cursor = conn.execute(query).fetchall()
+    nominators = set(map(lambda x: x[0], cursor))
+    if nominator not in nominators:
+        conn.execute(ins_query)
+        if len(nominators) + 1 == NUMBER_OF_NOMINATIONS_NEEDED:
+            senders_ins = "INSERT INTO SENDERS VALUES('{0}')".format(nominee)
+            conn.execute(senders_ins)
 
 print sender, subject
 print senders
 
-if sender in senders and 'ISP' in subject:
+if sender in senders:
     print 'Authenicated ', sender
     #contents = email_obj.get_payload()
     raw = ''
@@ -39,15 +49,24 @@ if sender in senders and 'ISP' in subject:
         raw = email_obj.get_payload().split()
     print 'This is the raw:'
     print raw
-    isp = raw[0]
-    value = raw[1]
-    print isp, value
-    st = 'INSERT OR REPLACE INTO DATA VALUES'
-    vec = "('{0}', '{1}', CURRENT_DATE, {2})".format(sender, isp, value)
-    st += vec + ';'
-    print st
-    conn.execute(st)
-    conn.commit()
+    if 'ISP' in subject:
+        isp = raw[0]
+        value = raw[1]
+        print isp, value
+        st = 'INSERT OR REPLACE INTO DATA VALUES'
+        vec = "('{0}', '{1}', CURRENT_DATE, {2})".format(sender, isp, value)
+        st += vec + ';'
+        print st
+        conn.execute(st)
+        conn.commit()
+    elif "NOMINATION" in subject:
+        for nominee in raw:
+            if nominee not in senders:
+                insert_nomination(conn, nominee, sender)
+        conn.commit()
+
+
+
 
 
 conn.close()
