@@ -95,6 +95,7 @@
             // String - Tooltip label font colour
             tooltipFontColor: "#fff",
 
+
             // String - Tooltip title font declaration for the scale label
             tooltipTitleFontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
 
@@ -128,6 +129,10 @@
             // String - Template string for multiple tooltips
             multiTooltipTemplate: "<%= value %>",
 
+            scaleLineColor: 'transparent',
+
+            scaleShowGridLines : false,
+
 
 
             // Function - Will fire on animation progression.
@@ -148,6 +153,8 @@
                 //Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
                 scaleBeginAtZero : true,
 
+                scaleShowGridLines : false,
+
                 //Boolean - Whether grid lines are shown across the chart
                 scaleShowGridLines : true,
 
@@ -158,10 +165,10 @@
                 scaleGridLineWidth : 1,
 
                 //Boolean - Whether to show horizontal lines (except X axis)
-                scaleShowHorizontalLines: true,
+                scaleShowHorizontalLines: false,
 
                 //Boolean - Whether to show vertical lines (except Y axis)
-                scaleShowVerticalLines: true,
+                scaleShowVerticalLines: false,
 
                 //Boolean - If there is a stroke on each bar
                 barShowStroke : true,
@@ -176,7 +183,16 @@
                 barDatasetSpacing : 1,
 
                 //String - A legend template
-                legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].fillColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
+                legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].fillColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>",
+
+                // Boolean - Whether to animate the chart
+                animation: true,
+
+                // Number - Number of animation steps
+                animationSteps: 60,
+
+                showXAxisLabel:false,
+
 
             };
 
@@ -202,13 +218,64 @@
             labels = _.map(info, 'isp');
             data1 = _.map(info, 'value');
 
+            Chart.Scale.prototype.buildYLabels = function () {
+                this.xLabelWidth = 0;
+            };
+
+
+            var fillColorMap = {
+                MASSY: "rgba(113, 188, 120, 0.5)", //rgba(204, 204, 255, 0.5),
+                FLOW: "rgba(151,187,205,0.5)",
+                BLINK: "rgba(255, 159, 0, 0.5)",
+                DIGICEL: "rgba(238, 32, 77, 0.5)",
+                GREENDOT: "rgba(113, 188, 120, 0.5)"
+            };
+
+            var highlightFillcolorMap = {
+                MASSY: "rgba(113, 188, 120, 0.75)", //rgba(204, 204, 255, 0.5),
+                FLOW: "rgba(151,187,205,0.75)",
+                BLINK: "rgba(255, 159, 0, 0.75)",
+                DIGICEL: "rgba(238, 32, 77, 0.75)",
+                GREENDOT: "rgba(113, 188, 120, 0.75)"
+            };
+
+            var strokeColorMap = {
+                MASSY: "rgba(113, 188, 120, 0.8)", //rgba(204, 204, 255, 0.5),
+                FLOW: "rgba(151,187,205,0.8)",
+                BLINK: "rgba(255, 159, 0, 0.8)",
+                DIGICEL: "rgba(238, 32, 77, 0.8)",
+                GREENDOT: "rgba(113, 188, 120, 0.8)"
+            };
+
+            var hightlightStrokeColorMap = {
+                MASSY: "rgba(113, 188, 120, 1)", //rgba(204, 204, 255, 0.5),
+                FLOW: "rgba(151,187,205,1)",
+                BLINK: "rgba(255, 159, 0, 1)",
+                DIGICEL: "rgba(238, 32, 77, 1)",
+                GREENDOT: "rgba(113, 188, 120, 1)"
+            };
+
+            var fillColor = [];
+            var strokeColor = [];
+            var highlightFill = [];
+            var highlightStroke = [];
+            for(var idx = 0; idx < info.length; idx += 1) {
+                console.log(info[idx].isp);
+                fillColor.push(fillColorMap[info[idx].isp]);
+                strokeColor.push(strokeColorMap[info[idx].isp]);
+                highlightFill.push(highlightFillcolorMap[info[idx].isp]);
+                highlightStroke.push(hightlightStrokeColorMap[info[idx].isp]);
+            }
+
+
+
             var datasets = [];
             datasets.push({
                 label: "ISP Performance",
-                fillColor: "rgba(151,187,205,0.5)",
-                strokeColor: "rgba(151,187,205,0.8)",
-                highlightFill: "rgba(151,187,205,0.75)",
-                highlightStroke: "rgba(151,187,205,1)",
+                fillColor: fillColor,
+                strokeColor: strokeColor,
+                highlightFill: highlightFill,
+                highlightStroke: highlightStroke,
                 data: data1
             });
 
@@ -222,46 +289,19 @@
             var chart = new Chart(ctx).HorizontalBar(data, options);
             console.log('Chart finished...');
 
+            for(var idx = 0; idx < info.length; idx += 1) {
+                console.log(info[idx].isp);
+                chart.datasets[0].bars[idx].fillColor = fillColor[idx];
+                chart.datasets[0].bars[idx]._saved.fillColor = fillColor[idx];
+                chart.datasets[0].bars[idx].strokeColor = strokeColor[idx];
+                chart.datasets[0].bars[idx]._saved.strokeColor = strokeColor[idx];
+                chart.datasets[0].bars[idx].highlightFill = highlightFill[idx];
+                chart.datasets[0].bars[idx]._saved.highlightFill = highlightFill[idx];
+                chart.datasets[0].bars[idx].highlightStroke = highlightStroke[idx];
+                chart.datasets[0].bars[idx]._saved.highlightStroke = highlightStroke[idx];
+            }
 
-            //var fillColorMap = {
-            //    MASSY: "rgba(113, 188, 120, 0.5)", //rgba(204, 204, 255, 0.5),
-            //    FLOW: "rgba(151,187,205,0.5)",
-            //    BLINK: "rgba(255, 159, 0, 0.5)",
-            //    DIGICEL: "rgba(238, 32, 77, 0.5)",
-            //    GREENDOT: "rgba(113, 188, 120, 0.5)"
-            //};
-            //
-            //var highlightFillcolorMap = {
-            //    MASSY: "rgba(113, 188, 120, 0.75)", //rgba(204, 204, 255, 0.5),
-            //    FLOW: "rgba(151,187,205,0.75)",
-            //    BLINK: "rgba(255, 159, 0, 0.75)",
-            //    DIGICEL: "rgba(238, 32, 77, 0.75)",
-            //    GREENDOT: "rgba(113, 188, 120, 0.75)"
-            //};
-            //
-            //var strokeColorMap = {
-            //    MASSY: "rgba(113, 188, 120, 0.8)", //rgba(204, 204, 255, 0.5),
-            //    FLOW: "rgba(151,187,205,0.8)",
-            //    BLINK: "rgba(255, 159, 0, 0.8)",
-            //    DIGICEL: "rgba(238, 32, 77, 0.8)",
-            //    GREENDOT: "rgba(113, 188, 120, 0.8)"
-            //};
-            //
-            //var hightlightStrokeColorMap = {
-            //    MASSY: "rgba(113, 188, 120, 1)", //rgba(204, 204, 255, 0.5),
-            //    FLOW: "rgba(151,187,205,1)",
-            //    BLINK: "rgba(255, 159, 0, 1)",
-            //    DIGICEL: "rgba(238, 32, 77, 1)",
-            //    GREENDOT: "rgba(113, 188, 120, 1)"
-            //};
-            //
-            //for(var idx = 0; idx < info.length; idx += 1) {
-            //    console.log(info[idx].isp);
-            //    chart.datasets[0].bars[idx].fillColor = fillColorMap[info[idx].isp];
-            //    chart.datasets[0].bars[idx].strokeColor = strokeColorMap[info[idx].isp];
-            //    chart.datasets[0].bars[idx]. highlightFill = highlightFillcolorMap[info[idx].isp];
-            //    chart.datasets[0].bars[idx].highlightStroke = hightlightStrokeColorMap[info[idx].isp];
-            //}
+
 
 
         }

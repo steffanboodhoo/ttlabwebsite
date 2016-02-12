@@ -143,7 +143,8 @@
                     var stepDecimalPlaces = helpers.getDecimalPlaces(this.stepValue);
 
                     for (var i=0; i<=this.steps; i++){
-                        this.calculatedLabels.push(helpers.template(this.templateString,{value:(this.min + (i * this.stepValue)).toFixed(stepDecimalPlaces)}));
+                        this.calculatedLabels.push("");
+                        //this.calculatedLabels.push(helpers.template(this.templateString,{value:(this.min + (i * this.stepValue)).toFixed(stepDecimalPlaces)}));
                     }
                 },
 
@@ -153,6 +154,7 @@
                     if(this.buildYLabelCounter === 0) this.yLabels = this.xLabels;
                     this.xLabels = this.calculatedLabels;
                     this.yLabelWidth = (this.display && this.showLabels) ? helpers.longestText(this.ctx,this.font,this.yLabels) : 0;
+
                 },
 
                 calculateX : function(index){
@@ -386,6 +388,15 @@
                 });
                 return values;
             };
+            var newLabels=[];
+            if(false){
+                for(var i=0;i<labels.length;i++){
+                    newLabels.push('');
+                }
+                labels=newLabels;
+            } else {
+                newLabels = labels;
+            }
 
             var scaleOptions = {
                 templateString : this.options.scaleLabel,
@@ -409,7 +420,7 @@
                     );
                     helpers.extend(this, updatedRanges);
                 },
-                xLabels : labels,
+                xLabels : newLabels,
                 font : helpers.fontString(this.options.scaleFontSize, this.options.scaleFontStyle, this.options.scaleFontFamily),
                 lineWidth : this.options.scaleLineWidth,
                 lineColor : this.options.scaleLineColor,
