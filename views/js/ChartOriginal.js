@@ -1707,6 +1707,7 @@
             return this.endPoint - (scalingFactor * (value - this.min));
         },
         calculateX : function(index){
+            console.log();
             var isRotated = (this.xLabelRotation > 0),
             // innerWidth = (this.offsetGridLines) ? this.width - offsetLeft - this.padding : this.width - (offsetLeft + halfLabelWidth * 2) - this.padding,
                 innerWidth = this.width - (this.xScalePaddingLeft + this.xScalePaddingRight),
@@ -2289,6 +2290,8 @@
         //Number - Spacing between data sets within X values
         barDatasetSpacing : 1,
 
+        barMaxWidth: 70,
+
         //String - A legend template
         legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].fillColor%>\"><%if(datasets[i].label){%><%=datasets[i].label%><%}%></span></li><%}%></ul>"
 
@@ -2306,6 +2309,9 @@
             this.ScaleClass = Chart.Scale.extend({
                 offsetGridLines : true,
                 calculateBarX : function(datasetCount, datasetIndex, barIndex){
+                    //var barWidth = this.calculateBarWidth(datasetCount),
+                    //    tempWidth = options.barMaxWidth > 0 ? xWidth : barWidth;
+                    //return xAbsolute + (barWidth * datasetIndex) + (datasetIndex * options.barDatasetSpacing) + tempWidth / 2;
                     //Reusable method for calculating the xPosition of a given bar based on datasetIndex & width of the bar
                     var xWidth = this.calculateBaseWidth(),
                         xAbsolute = this.calculateX(barIndex) - (xWidth/2),
@@ -2318,9 +2324,13 @@
                 },
                 calculateBarWidth : function(datasetCount){
                     //The padding between datasets is to the right of each bar, providing that there are more than 1 dataset
-                    var baseWidth = this.calculateBaseWidth() - ((datasetCount - 1) * options.barDatasetSpacing);
-
-                    return (baseWidth / datasetCount);
+                    //var baseWidth = this.calculateBaseWidth() - ((datasetCount - 1) * options.barDatasetSpacing);
+                    //
+                    //return (baseWidth / datasetCount);
+                    return 10;
+                    //var baseWidth = this.calculateBaseWidth() - ((datasetCount - 1) * options.barDatasetSpacing),
+                    //    tempWidth = baseWidth / datasetCount;
+                    //return (options.barMaxWidth > 0 && tempWidth > options.barMaxWidth) ? options.barMaxWidth : tempWidth;
                 }
             });
 

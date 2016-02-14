@@ -3,6 +3,27 @@
     $(document).ready(function() {
         console.log('Document ready');
 
+        Chart.types.HorizontalBar.extend({
+            name: "HorizontalBarAlt",
+            initialize:  function(data){
+                var originalBuildScale = this.buildScale;
+                var chart = this;
+                chart.buildScale = function() {
+                    var r = originalBuildScale.apply(this, arguments);
+                    chart.scale.calculateBarHeight = function() {
+                        return 50;
+                    }
+                    chart.scale.xScalePaddingLeft = 80;
+                    chart.scale.xScalePaddingRight = 80;
+                    //chart.scale.calculateBarX = function() {
+                    //    console.log('Using new bar x');
+                    //}
+                    return r;
+                }
+                Chart.types.HorizontalBar.prototype.initialize .apply(this, arguments);
+            }
+        });
+
         Chart.defaults.global = {
             // Boolean - Whether to animate the chart
             animation: true,
@@ -156,7 +177,7 @@
                 scaleShowGridLines : false,
 
                 //Boolean - Whether grid lines are shown across the chart
-                scaleShowGridLines : true,
+                //scaleShowGridLines : true,
 
                 //String - Colour of the grid lines
                 scaleGridLineColor : "rgba(0,0,0,.05)",
@@ -191,13 +212,17 @@
                 // Number - Number of animation steps
                 animationSteps: 60,
 
-                showXAxisLabel:false,
+                showXAxisLabel:false
+
+                //barValueSpacing : 2,
+
+                //barStrokeWidth: 1
 
 
             };
 
             var ctx = document.getElementById("myChart").getContext("2d");
-            var info = []
+            var info = [];
             var labels = [];
             var data1 = [];
             for(var prop in data) {
@@ -286,7 +311,8 @@
             console.log(labels);
             console.log(data);
             console.log("skdksdj");
-            var chart = new Chart(ctx).HorizontalBar(data, options);
+            //var chart = new Chart(ctx).HorizontalBar(data, options);
+            var chart = new Chart(ctx).HorizontalBarAlt(data, options);
             console.log('Chart finished...');
 
             for(var idx = 0; idx < info.length; idx += 1) {
@@ -306,8 +332,21 @@
 
         }
 
+        function resize_canvas(data) {
+            var labelCount = 0;
+            for(var prop in data) {
+                if(data.hasOwnProperty(prop)) {
+                    labelCount += 1;
+                }
+            }
+            var canvasElement = document.getElementById('myChart');
+            console.log(canvasElement.height);
+            canvasElement.height = 70 * labelCount;
+        }
+
         $.get('/isp-performance', function(data) {
             console.log(data);
+            resize_canvas(data);
             plot_data(data);
         });
 
