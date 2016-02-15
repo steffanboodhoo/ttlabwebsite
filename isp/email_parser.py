@@ -50,15 +50,16 @@ if sender in senders:
     print 'This is the raw:'
     print raw
     if 'ISP' in subject:
-        isp = raw[0]
+        isp = raw[0].upper()
         value = raw[1]
         print isp, value
-        st = 'INSERT OR REPLACE INTO DATA VALUES'
-        vec = "('{0}', '{1}', CURRENT_DATE, {2})".format(sender, isp, value)
-        st += vec + ';'
-        print st
-        conn.execute(st)
-        conn.commit()
+        if isp in ['BLINK', 'FLOW', 'MASSY', 'GREENDOT', 'DIGICEL']:
+            st = 'INSERT OR REPLACE INTO DATA VALUES'
+            vec = "('{0}', '{1}', CURRENT_DATE, {2})".format(sender, isp, value)
+            st += vec + ';'
+            print st
+            conn.execute(st)
+            conn.commit()
     elif "NOMINATION" in subject:
         for nominee in raw:
             if nominee not in senders:

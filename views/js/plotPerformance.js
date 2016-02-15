@@ -212,7 +212,9 @@
                 // Number - Number of animation steps
                 animationSteps: 60,
 
-                showXAxisLabel:false
+                showXAxisLabel:false,
+
+                multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>"
 
                 //barValueSpacing : 2,
 
