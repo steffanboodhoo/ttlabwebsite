@@ -112,7 +112,7 @@ if sender in senders:
         conn.commit()
 
 
-email_server.send(address, sender, msg)
+email_server.sendmail(address, sender, msg)
 email_server.close()
 
 conn.close()
