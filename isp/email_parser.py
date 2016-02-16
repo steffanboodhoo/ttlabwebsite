@@ -47,7 +47,7 @@ NUMBER_OF_NOMINATIONS_NEEDED = 2
 email_string = sys.stdin.read()
 email_obj = email.message_from_string(email_string)
 
-pattern = '([^<\s:]+@[^>\s]+)'
+pattern = '([^<\s:>]+@[^>\s>:]+)'
 sender = re.search(pattern, email_obj.get('From').upper()).group(1)
 subject = email_obj.get('Subject').upper()
 
@@ -69,6 +69,7 @@ def insert_nomination(conn, nominee_raw, nominator):
         if len(nominators) + 1 == NUMBER_OF_NOMINATIONS_NEEDED:
             senders_ins = "INSERT INTO SENDERS VALUES('{0}')".format(nominee)
             conn.execute(senders_ins)
+            email_server.sendmail(address, nominee, nomination_nominee_message)
         msg = nomination_nominator_t_message
     return msg.format(nominee)
 
