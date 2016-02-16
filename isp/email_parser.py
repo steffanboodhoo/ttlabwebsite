@@ -47,7 +47,7 @@ NUMBER_OF_NOMINATIONS_NEEDED = 2
 email_string = sys.stdin.read()
 email_obj = email.message_from_string(email_string)
 
-pattern = '([^<\s:>]+@[^>\s>:]+)'
+pattern = '([^<\s:>]+@[^>\s<:]+)'
 sender = re.search(pattern, email_obj.get('From').upper()).group(1)
 subject = email_obj.get('Subject').upper()
 
