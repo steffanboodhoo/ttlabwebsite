@@ -11,7 +11,7 @@ import smtplib
 address = 'labttsite@gmail.com'
 password = 'adminlab1'
 
-email_server = smtplib.SMTP('Gmail')
+email_server = smtplib.SMTP("smtp.gmail.com",587)
 email_server.login(address, password )
 
 nomination_nominee_message = """
