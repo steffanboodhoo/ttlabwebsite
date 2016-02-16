@@ -12,6 +12,8 @@ address = 'labttsite@gmail.com'
 password = 'adminlab1'
 
 email_server = smtplib.SMTP("smtp.gmail.com",587)
+email_server.ehlo()
+email_server.starttls()
 email_server.login(address, password )
 
 nomination_nominee_message = """
@@ -102,12 +104,15 @@ if sender in senders:
             conn.commit()
             msg = data_received_message.format(value, isp)
     elif "NOMINATION" in subject:
+        msgs = []
         for nominee in raw:
             if nominee not in senders:
-                msg = insert_nomination(conn, nominee, sender)
+                msgs.append(insert_nomination(conn, nominee, sender))
+        msg = '\n'.join(msgs)
         conn.commit()
 
 
 email_server.send(address, sender, msg)
+email_server.close()
 
 conn.close()
