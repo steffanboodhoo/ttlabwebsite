@@ -23,13 +23,13 @@ Welcome to Our ISP Broadband Performance Monitoring Trusted Users Group
 Members of this group can submit performance data as outlined below and
 view the performance indicator dashboard at http://lab.tt/isps
 
-To submit data, please send an email to isp-perf@lab.tt with the subject "ISP Performance”.
+To submit data, please send an email to isp-perf@lab.tt with the subject "ISP Performance".
 The body must contain two lines:
 Line 1 is either Blink, Flow, Digicel, Massy or Greendot
 Line 2 is the download rate achieved with speedtest.net divided by the monthly cost of your plan
 Please use Miami-LIME as your target server, take you measurement at about 8pm on a weekday and average over 3 or more tests.
 
-To nominate users to this group send email to isp-perf@lab.tt with subject “nominations”.
+To nominate users to this group send email to isp-perf@lab.tt with subject "nominations".
 The body should contain one email address per line.
 Once a user receives {0} recommendations they become trusted.
 
