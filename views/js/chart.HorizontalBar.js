@@ -138,8 +138,16 @@
 
                 calculateXInvertXY : function(value) {
                     //console.log(value);
-                    var scalingFactor = (this.width - Math.round(this.xScalePaddingLeft) - this.xScalePaddingRight) / (this.max - this.min);
-                    return Math.round(this.xScalePaddingLeft) + (scalingFactor * (value - this.min));
+                    var left = this.xScalePaddingLeft;
+                    var right = this.xScalePaddingRight;
+                    console.log(right);
+                    console.log(this.width);
+                    var width = this.width;
+                    width = 600;
+                    //console.log(left);
+                    //console.log(right);
+                    var scalingFactor = (width - Math.round(left) - right) / ((this.max - this.min));
+                    return Math.round(left) + (scalingFactor * (value - this.min));
                 },
                 //marker
                 calculateYInvertXY : function(index){
@@ -182,6 +190,10 @@
                 },
 
                 calculateX : function(index){
+                    var left = this.xScalePaddingLeft;
+                    left = 0;
+                    var right = this.xScalePaddingRight;
+                    right = 0;
                     var isRotated = (this.xLabelRotation > 0),
                         innerWidth = this.width - (this.xScalePaddingLeft + this.xScalePaddingRight),
                         valueWidth = innerWidth/(this.steps - ((this.offsetGridLines) ? 0 : 1)),

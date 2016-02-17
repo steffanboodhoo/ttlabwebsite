@@ -172,9 +172,6 @@
         function plot_data(data) {
             var options = {
 
-                scaleSteps:8,
-                scaleStartValue:0,
-                scaleStepWidth:100,
 
                 //Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
                 scaleBeginAtZero : true,
@@ -202,6 +199,7 @@
                 //Number - Pixel width of the bar stroke
                 barStrokeWidth : 2,
 
+
                 //Number - Spacing between each of the X value sets
                 barValueSpacing : 5,
 
@@ -225,26 +223,29 @@
 
                 onAnimationComplete: function() {
                     console.log('Animation complete');
+                    //var ctx = document.getElementById("myChart").getContext("2d");
+                    //ctx.canvas.width = 850;
                     if (true) {
                         if (true) {
                             this.eachBars(function(bar){
+
                                 console.log(bar);
                                 var tooltipPosition = bar.tooltipPosition();
                                 new Chart.Tooltip({
                                     //x: Math.round(tooltipPosition.y),
                                     //y: Math.round(tooltipPosition.x),
                                     x: bar.x + 50,
-                                    y: bar.y + (bar.left / 4),
+                                    y: bar.y + (bar.left / 4) + 6,
                                     xPadding: this.options.tooltipXPadding,
                                     yPadding: this.options.tooltipYPadding,
-                                    fillColor: "rgba(255,255,255,1)", //fill bg the color with white
+                                    fillColor: "rgba(255,255,255,0)", //fill bg the color with white
                                     textColor: "rgba(0,0,0,1)", //set text color to black
                                     fontFamily: this.options.tooltipFontFamily,
                                     fontStyle: this.options.tooltipFontStyle,
                                     fontSize: 13, //set font size
                                     caretHeight: this.options.tooltipCaretSize,
                                     cornerRadius: this.options.tooltipCornerRadius,
-                                    text: Math.round(bar.value, 2) + ' kbps',
+                                    text: Math.round(bar.value, 2) + ' Kbps',
                                     chart: this.chart
                                 }).draw();
                             });
