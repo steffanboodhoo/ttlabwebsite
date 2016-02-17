@@ -245,7 +245,7 @@
                                     fontSize: 13, //set font size
                                     caretHeight: this.options.tooltipCaretSize,
                                     cornerRadius: this.options.tooltipCornerRadius,
-                                    text: Math.round(bar.value, 2) + ' Kbps',
+                                    text: Math.round(bar.value, 2) + ' kbps',
                                     chart: this.chart
                                 }).draw();
                             });
