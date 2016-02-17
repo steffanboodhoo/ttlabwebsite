@@ -7,6 +7,7 @@ from collections import defaultdict
 import sys
 import re
 import smtplib
+from email.mime.text import MIMEText as text
 
 address = 'labttsite@gmail.com'
 password = 'adminlab1'
@@ -40,7 +41,7 @@ We thank you for your participation.
 """.format(NUMBER_OF_NOMINATIONS_NEEDED)
 
 nomination_nominator_t_message = """
-    Your nomination of {0} has been successful.
+    Your nomination of {0} has been recorded.
 """
 
 nomination_nominator_b_message = """
@@ -48,7 +49,7 @@ nomination_nominator_b_message = """
 """
 
 data_received_message = """
-    Your data of {0} for the ISP {1} has been received and recorded
+    Your data of {0} for the ISP {1} has been received and recorded.
 """
 
 
@@ -83,15 +84,21 @@ def insert_nomination(conn, nominee_raw, nominator):
             senders_ins = "INSERT INTO SENDERS VALUES('{0}')".format(nominee)
             conn.execute(senders_ins)
             email_server.sendmail(address, nominee, nomination_nominee_message)
-        msg = nomination_nominator_t_message
+            msg = nomination_nominator_t_message.format(nominee)
+            msg += 'They are now a trusted supplier of data'
+        else:
+            msg = nomination_nominator_t_message.format(nominee)
+            msg += 'They require {0} more nomination(s)'.format(len(nominators) - NUMBER_OF_NOMINATIONS_NEEDED)
     return msg.format(nominee)
 
 print sender, subject
 print senders
 
 msg = """You have not been authorized to use this system"""
+subj = 'Authentication Failed'
 
 if sender in senders:
+    subj = 'Incorrect use of isp-perf@lab.tt'
     msg = """The message has been incorrectly formated"""
     print 'Authenicated ', sender
     #contents = email_obj.get_payload()
@@ -106,6 +113,7 @@ if sender in senders:
     print 'This is the raw:'
     print raw
     if 'ISP' in subject:
+        subj = 'Re:' + subject
         isp = raw[0].upper()
         value = raw[1]
         print isp, value
@@ -118,6 +126,7 @@ if sender in senders:
             conn.commit()
             msg = data_received_message.format(value, isp)
     elif "NOMINATION" in subject:
+        subj = 'Re:' + subject
         msgs = []
         for nominee in raw:
             if nominee not in senders:
@@ -125,8 +134,12 @@ if sender in senders:
         msg = '\n'.join(msgs)
         conn.commit()
 
+email_body = text(msg)
+email_body['Subject'] = subj
+email_body['From'] = address
+email_body['To'] = sender
 
-email_server.sendmail(address, sender, msg)
+email_server.sendmail(address, sender, email_body.as_string())
 email_server.close()
 
 conn.close()
