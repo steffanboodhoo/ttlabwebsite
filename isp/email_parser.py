@@ -80,15 +80,23 @@ def insert_nomination(conn, nominee_raw, nominator):
     nominators = set(map(lambda x: x[0], cursor))
     if nominator not in nominators:
         conn.execute(ins_query)
-        if len(nominators) + 1 == NUMBER_OF_NOMINATIONS_NEEDED:
+        if len(nominators) == NUMBER_OF_NOMINATIONS_NEEDED:
+            msg = "Your supplied nominee of {0} already been successfully nominated".format(nominee)
+        elif len(nominators) + 1 == NUMBER_OF_NOMINATIONS_NEEDED:
             senders_ins = "INSERT INTO SENDERS VALUES('{0}')".format(nominee)
             conn.execute(senders_ins)
-            email_server.sendmail(address, nominee, nomination_nominee_message)
+            body = text(nomination_nominee_message)
+            body['Subject'] = 'Nominations Accepted'
+            body['To'] = nominee
+            body['From'] = address
+            email_server.sendmail(address, nominee, body.as_string())
             msg = nomination_nominator_t_message.format(nominee)
             msg += 'They are now a trusted supplier of data'
         else:
             msg = nomination_nominator_t_message.format(nominee)
-            msg += 'They require {0} more nomination(s)'.format(len(nominators) - NUMBER_OF_NOMINATIONS_NEEDED)
+            msg += 'They require {0} more nomination(s)'.format(NUMBER_OF_NOMINATIONS_NEEDED - len(nominators))
+    else:
+        msg = 'You have already nominated {0}.'.format(nominee)
     return msg.format(nominee)
 
 print sender, subject
