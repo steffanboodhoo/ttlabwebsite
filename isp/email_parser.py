@@ -16,18 +16,28 @@ email_server.ehlo()
 email_server.starttls()
 email_server.login(address, password )
 
-nomination_nominee_message = """
-    You have been nominated as a source of ISP performance information.
-    To submit data, please send an email to isp-perf@lab.tt with the subject
-    "ISP Performance" and the body containing two lines: ISP Name (one of Blink,
-    Flow, Digicel, Massy, or Greendot), and Achieved Rate / Cost. To measure
-    achieved rate, please use the test at speedtest.net and choose the Miami
-    Line server
+NUMBER_OF_NOMINATIONS_NEEDED = 2
 
-    To sumbit a nomination, please send an email to isp-perf@lab.tt with the
-    subject "Nomination" and the body containing on each line an email
-    address for the nominee.
-"""
+nomination_nominee_message = """
+Welcome to Our ISP Broadband Performance Monitoring Trusted Users Group
+Members of this group can submit performance data as outlined below and
+view the performance indicator dashboard at http://lab.tt/isps
+
+To submit data, please send an email to isp-perf@lab.tt with the subject "ISP Performance”.
+The body must contain two lines:
+Line 1 is either Blink, Flow, Digicel, Massy or Greendot
+Line 2 is the download rate achieved with speedtest.net divided by the monthly cost of your plan
+Please use Miami-LIME as your target server, take you measurement at about 8pm on a weekday and average over 3 or more tests.
+
+To nominate users to this group send email to isp-perf@lab.tt with subject “nominations”.
+The body should contain one email address per line.
+Once a user receives {0} recommendations they become trusted.
+
+We thank you for your participation.
+
+-TTLAB
+
+""".format(NUMBER_OF_NOMINATIONS_NEEDED)
 
 nomination_nominator_t_message = """
     Your nomination of {0} has been successful.
@@ -42,7 +52,7 @@ data_received_message = """
 """
 
 
-NUMBER_OF_NOMINATIONS_NEEDED = 2
+
 
 email_string = sys.stdin.read()
 email_obj = email.message_from_string(email_string)
@@ -59,7 +69,10 @@ senders = set(map(lambda x: x[0], cursor.fetchall()))
 
 def insert_nomination(conn, nominee_raw, nominator):
     msg = nomination_nominator_b_message
-    nominee = re.search(pattern, nominee_raw.upper()).group(1)
+    nominee_res = re.search(pattern, nominee_raw.upper())
+    if not nominee_res:
+        return ''
+    nominee = nominee_res.group(1)
     query = "SELECT NOMINATOR FROM NOMINATIONS WHERE NOMINEE='{0}';".format(nominee)
     ins_query = "INSERT INTO NOMINATIONS(NOMINEE, NOMINATOR) VALUES('{0}','{1}');".format(nominee, nominator)
     cursor = conn.execute(query).fetchall()
