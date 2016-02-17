@@ -228,7 +228,7 @@
                                 new Chart.Tooltip({
                                     //x: Math.round(tooltipPosition.y),
                                     //y: Math.round(tooltipPosition.x),
-                                    x: bar.x + 40,
+                                    x: bar.x + 50,
                                     y: bar.y + (bar.left / 4),
                                     xPadding: this.options.tooltipXPadding,
                                     yPadding: this.options.tooltipYPadding,
@@ -239,7 +239,7 @@
                                     fontSize: 13, //set font size
                                     caretHeight: this.options.tooltipCaretSize,
                                     cornerRadius: this.options.tooltipCornerRadius,
-                                    text: bar.value + ' kbps',
+                                    text: Math.round(bar.value, 2) + ' kbps',
                                     chart: this.chart
                                 }).draw();
                             });
