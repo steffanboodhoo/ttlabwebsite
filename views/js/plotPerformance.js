@@ -171,6 +171,11 @@
 
         function plot_data(data) {
             var options = {
+
+                scaleSteps:8,
+                scaleStartValue:0,
+                scaleStepWidth:100,
+
                 //Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
                 scaleBeginAtZero : true,
 
