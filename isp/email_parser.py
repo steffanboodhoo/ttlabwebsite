@@ -97,7 +97,7 @@ def insert_nomination(conn, nominee_raw, nominator):
             msg += 'They require {0} more nomination(s)'.format(NUMBER_OF_NOMINATIONS_NEEDED - len(nominators))
     else:
         msg = 'You have already nominated {0}.'.format(nominee)
-    return msg.format(nominee)
+    return msg
 
 print sender, subject
 print senders
