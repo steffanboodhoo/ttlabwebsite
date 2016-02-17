@@ -214,7 +214,38 @@
 
                 showXAxisLabel:false,
 
-                multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>"
+                showTooltips : false,
+
+                multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>",
+
+                onAnimationComplete: function() {
+                    console.log('Animation complete');
+                    if (true) {
+                        if (true) {
+                            this.eachBars(function(bar){
+                                console.log(bar);
+                                var tooltipPosition = bar.tooltipPosition();
+                                new Chart.Tooltip({
+                                    //x: Math.round(tooltipPosition.y),
+                                    //y: Math.round(tooltipPosition.x),
+                                    x: bar.x + 40,
+                                    y: bar.y + (bar.left / 4),
+                                    xPadding: this.options.tooltipXPadding,
+                                    yPadding: this.options.tooltipYPadding,
+                                    fillColor: "rgba(255,255,255,1)", //fill bg the color with white
+                                    textColor: "rgba(0,0,0,1)", //set text color to black
+                                    fontFamily: this.options.tooltipFontFamily,
+                                    fontStyle: this.options.tooltipFontStyle,
+                                    fontSize: 13, //set font size
+                                    caretHeight: this.options.tooltipCaretSize,
+                                    cornerRadius: this.options.tooltipCornerRadius,
+                                    text: bar.value + ' kbps',
+                                    chart: this.chart
+                                }).draw();
+                            });
+                        }
+                    }
+                }
 
                 //barValueSpacing : 2,
 
