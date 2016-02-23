@@ -339,9 +339,9 @@
                                 //console.log(bar.label);
                                 console.log(data);
 
-                                var samples = " 1 sample";
+                                var samples = "1 sample";
                                 if (data[bar.label].length > 1) {
-                                    samples = " " + data[bar.label].length + " samples";
+                                    samples = data[bar.label].length + " samples";
                                 }
 
 
