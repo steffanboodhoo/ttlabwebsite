@@ -55,6 +55,14 @@ data_received_message = """
 
 
 email_string = sys.stdin.read()
+
+try:
+    f = open('email_log.txt', 'a')
+    f.write(email_string + '\n')
+    f.close()
+except:
+    pass
+
 email_obj = email.message_from_string(email_string)
 
 pattern = '([^<\s:>]+@[^>\s<:]+)'
