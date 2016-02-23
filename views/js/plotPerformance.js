@@ -3,6 +3,14 @@
     $(document).ready(function() {
         console.log('Document ready');
 
+        Number.prototype.setNumVals = function(num) {
+            this.numVals = num;
+        }
+
+        Number.prototype.getNumVals = function() {
+            return this.numVals;
+        }
+
         Chart.types.HorizontalBar.extend({
             name: "HorizontalBarAlt",
             initialize:  function(data){
@@ -145,7 +153,7 @@
             tooltipXOffset: 10,
 
             // String - Template string for single tooltips
-            tooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %> kbps/$",
+            tooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %> kbps/$ <% value.getNumVals.call(this) %> sample(s)",
 
             // String - Template string for multiple tooltips
             multiTooltipTemplate: "<%= value %>",
@@ -170,95 +178,6 @@
         }
 
         function plot_data(data) {
-            var options = {
-
-
-                //Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
-                scaleBeginAtZero : true,
-
-                scaleShowGridLines : false,
-
-                //Boolean - Whether grid lines are shown across the chart
-                //scaleShowGridLines : true,
-
-                //String - Colour of the grid lines
-                scaleGridLineColor : "rgba(0,0,0,.05)",
-
-                //Number - Width of the grid lines
-                scaleGridLineWidth : 1,
-
-                //Boolean - Whether to show horizontal lines (except X axis)
-                scaleShowHorizontalLines: false,
-
-                //Boolean - Whether to show vertical lines (except Y axis)
-                scaleShowVerticalLines: false,
-
-                //Boolean - If there is a stroke on each bar
-                barShowStroke : true,
-
-                //Number - Pixel width of the bar stroke
-                barStrokeWidth : 2,
-
-
-                //Number - Spacing between each of the X value sets
-                barValueSpacing : 5,
-
-                //Number - Spacing between data sets within X values
-                barDatasetSpacing : 1,
-
-                //String - A legend template
-                legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].fillColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>",
-
-                // Boolean - Whether to animate the chart
-                animation: true,
-
-                // Number - Number of animation steps
-                animationSteps: 60,
-
-                showXAxisLabel:false,
-
-                showTooltips : false,
-
-                multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>",
-
-                onAnimationComplete: function() {
-                    console.log('Animation complete');
-                    //var ctx = document.getElementById("myChart").getContext("2d");
-                    //ctx.canvas.width = 850;
-                    if (true) {
-                        if (true) {
-                            this.eachBars(function(bar){
-
-                                console.log(bar);
-                                var tooltipPosition = bar.tooltipPosition();
-                                new Chart.Tooltip({
-                                    //x: Math.round(tooltipPosition.y),
-                                    //y: Math.round(tooltipPosition.x),
-                                    x: bar.x + 50,
-                                    y: bar.y + (bar.left / 4) + 6,
-                                    xPadding: this.options.tooltipXPadding,
-                                    yPadding: this.options.tooltipYPadding,
-                                    fillColor: "rgba(255,255,255,0)", //fill bg the color with white
-                                    textColor: "rgba(0,0,0,1)", //set text color to black
-                                    fontFamily: this.options.tooltipFontFamily,
-                                    fontStyle: this.options.tooltipFontStyle,
-                                    fontSize: 13, //set font size
-                                    caretHeight: this.options.tooltipCaretSize,
-                                    cornerRadius: this.options.tooltipCornerRadius,
-                                    text: Math.round(bar.value, 2) + ' kbps/$',
-                                    chart: this.chart
-                                }).draw();
-                            });
-                        }
-                    }
-                }
-
-                //barValueSpacing : 2,
-
-                //barStrokeWidth: 1
-
-
-            };
 
             var ctx = document.getElementById("myChart").getContext("2d");
             var info = [];
@@ -281,6 +200,12 @@
 
             labels = _.map(info, 'isp');
             data1 = _.map(info, 'value');
+
+            data1.forEach(function(value, index) {
+                console.log('Setting length');
+                value.setNumVals.call(this, data[labels[index]].length);
+                console.log(value.getNumVals.call(this));
+            });
 
             Chart.Scale.prototype.buildYLabels = function () {
                 this.xLabelWidth = 0;
@@ -343,15 +268,117 @@
                 data: data1
             });
 
-            var data = {
+            var data2 = {
                 labels: labels,
                 datasets: datasets
             };
             console.log(labels);
-            console.log(data);
+            console.log(data2);
             console.log("skdksdj");
+            var options = {
+
+
+                //Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
+                scaleBeginAtZero : true,
+
+                scaleShowGridLines : false,
+
+                //Boolean - Whether grid lines are shown across the chart
+                //scaleShowGridLines : true,
+
+                //String - Colour of the grid lines
+                scaleGridLineColor : "rgba(0,0,0,.05)",
+
+                //Number - Width of the grid lines
+                scaleGridLineWidth : 1,
+
+                //Boolean - Whether to show horizontal lines (except X axis)
+                scaleShowHorizontalLines: false,
+
+                //Boolean - Whether to show vertical lines (except Y axis)
+                scaleShowVerticalLines: false,
+
+                //Boolean - If there is a stroke on each bar
+                barShowStroke : true,
+
+                //Number - Pixel width of the bar stroke
+                barStrokeWidth : 2,
+
+
+                //Number - Spacing between each of the X value sets
+                barValueSpacing : 5,
+
+                //Number - Spacing between data sets within X values
+                barDatasetSpacing : 1,
+
+                //String - A legend template
+                legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].fillColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>",
+
+                // Boolean - Whether to animate the chart
+                animation: true,
+
+                // Number - Number of animation steps
+                animationSteps: 60,
+
+                showXAxisLabel:false,
+
+                showTooltips : false,
+
+                multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>",
+
+                onAnimationComplete: function() {
+                    console.log('Animation complete');
+                    var ctx = document.getElementById("myChart").getContext("2d");
+                    //ctx.canvas.width = 850;
+                    if (true) {
+                        if (true) {
+                            this.eachBars(function(bar){
+                                //console.log('bar value');
+                                //console.log(bar.value);
+                                console.log('bar label');
+                                //console.log(bar.label);
+                                console.log(data);
+
+                                var samples = " 1 sample";
+                                if (data[bar.label].length > 1) {
+                                    samples = " " + data[bar.label].length + " samples";
+                                }
+
+
+                                console.log(bar);
+                                var tooltipPosition = bar.tooltipPosition();
+                                new Chart.Tooltip({
+                                    //x: Math.round(tooltipPosition.y),
+                                    //y: Math.round(tooltipPosition.x),
+                                    x: bar.x + 70,
+                                    y: bar.y + (bar.left / 4) + 5,
+                                    xPadding: this.options.tooltipXPadding,
+                                    yPadding: this.options.tooltipYPadding,
+                                    fillColor: "rgba(255,255,255,0)", //fill bg the color with white
+                                    textColor: "rgba(0,0,0,1)", //set text color to black
+                                    fontFamily: this.options.tooltipFontFamily,
+                                    fontStyle: this.options.tooltipFontStyle,
+                                    fontSize: 13, //set font size
+                                    caretHeight: this.options.tooltipCaretSize,
+                                    cornerRadius: this.options.tooltipCornerRadius,
+                                    text: Math.round(bar.value, 2) + ' kbps/$' + samples,
+                                    chart: this.chart
+                                }).draw();
+                            });
+                        }
+                    }
+                }
+
+                //barValueSpacing : 2,
+
+                //barStrokeWidth: 1
+
+
+            };
+
+
             //var chart = new Chart(ctx).HorizontalBar(data, options);
-            var chart = new Chart(ctx).HorizontalBarAlt(data, options);
+            var chart = new Chart(ctx).HorizontalBarAlt(data2, options);
             console.log('Chart finished...');
 
             for(var idx = 0; idx < info.length; idx += 1) {
