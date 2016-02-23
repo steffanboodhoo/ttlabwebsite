@@ -57,7 +57,7 @@ data_received_message = """
 email_string = sys.stdin.read()
 
 try:
-    f = open('email_log.txt', 'a')
+    f = open('/var/www/html/lab/ttlabwebsite/isp/email_log.txt', 'a')
     f.write(email_string + '\n')
     f.close()
 except:
