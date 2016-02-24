@@ -350,7 +350,7 @@
                                 new Chart.Tooltip({
                                     //x: Math.round(tooltipPosition.y),
                                     //y: Math.round(tooltipPosition.x),
-                                    x: bar.x + 70,
+                                    x: bar.x / 2 + (Math.round(bar.value, 2) + ' kbps/$' + ' (' + samples + ')').length + 10,
                                     y: bar.y + (bar.left / 4) + 5,
                                     xPadding: this.options.tooltipXPadding,
                                     yPadding: this.options.tooltipYPadding,
