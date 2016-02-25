@@ -17,7 +17,7 @@ email_server.ehlo()
 email_server.starttls()
 email_server.login(address, password )
 
-NUMBER_OF_NOMINATIONS_NEEDED = 2
+NUMBER_OF_NOMINATIONS_NEEDED = 1
 
 nomination_nominee_message = """
 Welcome to Our ISP Broadband Performance Monitoring Trusted Users Group
