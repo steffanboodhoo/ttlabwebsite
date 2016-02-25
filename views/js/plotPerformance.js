@@ -177,8 +177,14 @@
             return sum / length;
         }
 
-        function plot_data(data) {
+        function place_message(message) {
+            console.log('placing message');
+            console.log($('#message'));
+            $('#message').text(message);
+        }
 
+        function plot_data(results) {
+            var data = results.data;
             var ctx = document.getElementById("myChart").getContext("2d");
             var info = [];
             var labels = [];
@@ -393,6 +399,7 @@
                 chart.datasets[0].bars[idx]._saved.highlightStroke = highlightStroke[idx];
             }
 
+            place_message(results.message);
 
 
 
@@ -410,11 +417,28 @@
             canvasElement.height = 70 * labelCount;
         }
 
-        $.get('/isp-performance', function(data) {
-            console.log(data);
-            resize_canvas(data);
-            plot_data(data);
-        });
+
+
+
+
+        $('#dashboard').hide();
+        $('#singlebutton').click(function(event) {
+            console.log('Clicked....');
+            event.preventDefault();
+            var email = $('#textinput').val();
+            var url = '/isp-performance/' + email;
+            $.get(url, function(results) {
+                console.log('Made calls to ', url);
+                console.log('For results');
+                console.log(results);
+                resize_canvas(results.data);
+                plot_data(results);
+                console.log('hiding emel');
+                $('#emailform').hide();
+                $('#dashboard').show();
+            });
+
+        })
 
     });
 
