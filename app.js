@@ -114,6 +114,76 @@ app.get('/isps', function(req, res) {
 
 });
 
+function get_message(db, email, callback) {
+    var sendersStatement = "SELECT EMAIL FROM SENDERS WHERE EMAIL='" + email + "';";
+    var submittedStatement = "SELECT METRIC FROM DATA WHERE EMAIL='" + email + "';";
+
+    var ifNotSender = "In order to contribute to this dashboard, you need to have a trusted user nominate you";
+    var ifNotSubmitted = "You are now a trusted user of the TT Broadband Performance Dashboard, but you have not submitted data yet";
+    var ifSubmitted = "Thank you for submitting data to the TT Broadband Performance Dashboard";
+
+    db.all(sendersStatement, function(err1, rows1) {
+       if(err1) {
+           callback('Error processing senders');
+       } else {
+           if(rows1.length === 0) {
+               callback(ifNotSender);
+           } else {
+               db.all(submittedStatement, function(err2, rows2) {
+                   if(err2) {
+                       callback('Error processing submissions');
+                   } else {
+                       if(rows2.length === 0) {
+                           callback(ifNotSubmitted);
+                       } else {
+                           callback(ifSubmitted);
+                       }
+                   }
+               })
+           }
+       }
+    });
+}
+
+app.get('/isp-performance/:email', function(req, res) {
+    console.log('Processing data with email');
+    var dataStmnt = 'SELECT ISP, METRIC, DATERECOREDED FROM DATA WHERE ';
+    dataStmnt += "DATERECOREDED BETWEEN date('now', '-3 months') AND CURRENT_DATE;";
+    var email = req.params.email.toUpperCase();
+    console.log(email);
+    if(!exists) {
+        res.send({});
+    } else {
+        var db = new sqlite3.Database(db_path);
+        var result = {};
+        db.all(dataStmnt, function (err, rows) {
+            if(err) {
+                res.send('Error getting data out of database');
+            }
+            else {
+                var docs = {};
+                var by_isp = _.groupBy(rows, function (row) {
+                    return row.ISP.toUpperCase();
+                });
+                console.log(by_isp);
+                for (var key in by_isp) {
+                    if (by_isp.hasOwnProperty(key)) {
+                        //console.log(key);
+                        //console.log(by_isp[key]);
+                        docs[key] = _.map(by_isp[key], 'METRIC');
+                    }
+                }
+                result['data'] = docs;
+                get_message(db, email, function(message) {
+                    console.log('Message' + message);
+                    result['message'] = message;
+                    res.send(result);
+                });
+            }
+        });
+    }
+});
+
 app.get('/isp-performance', function(req, res) {
     console.log('Sending performance');
     var stmnt = 'SELECT ISP, METRIC, DATERECOREDED FROM DATA WHERE ';
