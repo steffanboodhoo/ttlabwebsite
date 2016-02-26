@@ -136,14 +136,17 @@
                     return (baseHeight / datasetCount);
                 },
 
+                //Marker : here to change bar x position to take up length!!!
                 calculateXInvertXY : function(value) {
+                    var canvasWidth = 700;
                     //console.log(value);
                     var left = this.xScalePaddingLeft;
-                    var right = this.xScalePaddingRight;
+                    var right = 5;//this.xScalePaddingRight;
                     console.log(right);
+                    console.log('width: ');
                     console.log(this.width);
                     var width = this.width;
-                    width = 600;
+                    //width = 600;
                     //console.log(left);
                     //console.log(right);
                     var scalingFactor = (width - Math.round(left) - right) / ((this.max - this.min));
