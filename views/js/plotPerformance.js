@@ -353,10 +353,18 @@
 
                                 console.log(bar);
                                 var tooltipPosition = bar.tooltipPosition();
+
+                                var labelLen =  (Math.round(bar.value, 2) + ' kbps/$' + ' (' + samples + ')').length ;
+                                var tx = bar.x / 2 + labelLen  + 10;
+                                if(bar.x < 300) {
+                                    tx = bar.x + 60 + (labelLen / 2);
+                                }
+
+                                console.log('tx ', tx, ' of x ', bar.x);
                                 new Chart.Tooltip({
                                     //x: Math.round(tooltipPosition.y),
                                     //y: Math.round(tooltipPosition.x),
-                                    x: bar.x / 2 + (Math.round(bar.value, 2) + ' kbps/$' + ' (' + samples + ')').length + 10,
+                                    x: tx,
                                     y: bar.y + (bar.left / 4) + 5,
                                     xPadding: this.options.tooltipXPadding,
                                     yPadding: this.options.tooltipYPadding,
