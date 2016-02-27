@@ -180,7 +180,8 @@
         function place_message(message) {
             console.log('placing message');
             console.log($('#message'));
-            $('#message').text(message);
+            var text = 'Status:'
+            $('#message').text(text + ' ' + message);
         }
 
         function plot_data(results) {
@@ -356,7 +357,7 @@
 
                                 var labelLen =  (Math.round(bar.value, 2) + ' kbps/$' + ' (' + samples + ')').length ;
                                 var tx = bar.x / 2 + labelLen  + 10;
-                                if(bar.x < 300 && false) {
+                                if(bar.x < 300 && true) {
                                     tx = bar.x + 60 + (labelLen / 2);
                                 }
 

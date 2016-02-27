@@ -116,11 +116,11 @@ app.get('/isps', function(req, res) {
 
 function get_message(db, email, callback) {
     var sendersStatement = "SELECT EMAIL FROM SENDERS WHERE EMAIL='" + email + "';";
-    var submittedStatement = "SELECT METRIC FROM DATA WHERE EMAIL='" + email + "';";
+    var submittedStatement = "SELECT ISP, METRIC FROM DATA WHERE EMAIL='" + email + "';";
 
-    var ifNotSender = "In order to contribute to this dashboard, you need to have a trusted user nominate you";
-    var ifNotSubmitted = "You are now a trusted user of the TT Broadband Performance Dashboard, but you have not submitted data yet";
-    var ifSubmitted = "Thank you for submitting data to the TT Broadband Performance Dashboard";
+    var ifNotSender = "Untrusted User";
+    var ifNotSubmitted = "Trusted User who has not contributed";
+    var ifSubmitted = "Trusted User";
 
     db.all(sendersStatement, function(err1, rows1) {
        if(err1) {
@@ -136,7 +136,7 @@ function get_message(db, email, callback) {
                        if(rows2.length === 0) {
                            callback(ifNotSubmitted);
                        } else {
-                           callback(ifSubmitted);
+                           callback(ifSubmitted + ' with contribution ' + rows2[0].ISP + " : " + rows2[0].METRIC + ' kbps/$');
                        }
                    }
                })
@@ -177,6 +177,7 @@ app.get('/isp-performance/:email', function(req, res) {
                 get_message(db, email, function(message) {
                     console.log('Message' + message);
                     result['message'] = message;
+                    console.log(result);
                     res.send(result);
                 });
             }

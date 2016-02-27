@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ISP PERFORMANCE</title>
+    <title>Trinidad ISP Performance Dashboard</title>
     <script src="js/jquery.min.js"></script>
     <!--<script src="js/Chart.js"></script>-->
     <script src="js/ChartOriginal.js"></script>
@@ -14,48 +14,65 @@
 <body class="container">
 
 
-    <div id="emailform" style="padding-top: 60px;">
-        <form class="form-horizontal">
-            <fieldset>
+<div id="emailform" style="padding-top: 60px;">
+    <form class="form-horizontal">
+        <fieldset>
 
-                <!-- Form Name -->
+            <!-- Form Name -->
 
-                <!-- Text input-->
-                <div class="form-group">
-                    <label class="col-md-4 control-label" for="textinput">Email</label>
-                    <div class="col-md-4">
-                        <input id="textinput" name="textinput" type="text" placeholder="jane.doe@email.com" class="form-control input-md">
+            <h2 style="text-align: center;"><img alt="" src="http://lab.tt/TTLAB.png" style="font-family: 'lucida sans unicode', 'lucida grande', sans-serif; font-size: 13px; width: 70px; float: left; height: 70px;" /></h2>
 
-                    </div>
+            <h2 style="text-align: center;"><span style="font-family:lucida sans unicode,lucida grande,sans-serif;">Welcome to the TT ISP Performance Dashboard</span></h2>
+
+            <p>&nbsp;</p>
+
+            <p>&nbsp;</p>
+
+            <p><span style="font-family:lucida sans unicode,lucida grande,sans-serif;"><strong>Objective:</strong> To dynamically rank the performance of local ISPs in terms of achieved rate per dollar spent</span></p>
+
+            <p><font face="lucida sans unicode, lucida grande, sans-serif"><strong>Rate Definition:</strong> The download rate achieved (in kbps) using Speedtest.net with a target server in Miami at around 8pm weekdays</font></p>
+
+            <p><font face="lucida sans unicode, lucida grande, sans-serif"><strong>Cost Definition:</strong> The monthly cost of your Internet&nbsp;data plan</font></p>
+
+            <p><font face="lucida sans unicode, lucida grande, sans-serif"><strong>Metric:</strong> Ratio of rate to cost in units of kbps/$&nbsp;</font></p>
+
+            <p><font face="lucida sans unicode, lucida grande, sans-serif"><strong>Trust Model:</strong> Only &quot;trusted&quot; users can contribute data. A user becomes trusted when recommended by at least one trusted user.</font></p>
+
+            <p><font face="lucida sans unicode, lucida grande, sans-serif"><strong>Data Contribution</strong>: Send email to isp-perf@lab.tt with subject &quot;ISP performance&quot;. First line of body is either Blink, Flow, Digicel, Massy or Greendot. Second line of body is computed metric value.</font></p>
+
+            <p><font face="lucida sans unicode, lucida grande, sans-serif"><strong>Recommendation Process:</strong> Send email to isp-perf@lab.tt with subject &quot;Nominations&quot;. Body contains a list of email addresses of nominees</font></p>
+
+            <p><font face="lucida sans unicode, lucida grande, sans-serif"><strong>Dashboard Access:</strong> Presently anyone can view the dashboard (may change in the future)</font></p>
+
+            <br><br><br>
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="textinput">Enter email:</label>
+                <div class="col-md-4">
+                    <input id="textinput" name="textinput" type="text" placeholder="jane.doe@email.com" class="form-control input-md">
                 </div>
-
-                <!-- Button -->
-                <div class="form-group">
-                    <label class="col-md-4 control-label" for="singlebutton"></label>
-                    <div class="col-md-4">
-                        <button id="singlebutton" name="singlebutton" class="btn btn-primary">Display Chart</button>
-                    </div>
+            </div>
+            <!-- Button -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="singlebutton"></label>
+                <div class="col-md-4">
+                    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Display Dashboard</button>
                 </div>
+            </div>
 
-            </fieldset>
-        </form>
-    </div>
+        </fieldset>
+    </form>
+</div>
 
-
-    <div id="dashboard">
+<div id="dashboard">
     <div class="row">
         <div class="col-lg-offset-1 col-md-offset-1 col-sm-12 col-xs-12">
-            <h3 class="text-center">TT Broadband ISP Comparison</h3>
+            <h3 class="text-center">ISP Performance Dashboard<br/></h3>
+            <p style="font-size: 8px" id="message" class="text-center"></p>
+            <br/><br/><br/>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-offset-1 col-md-offset-1 col-sm-12 col-xs-12">
-            <h4 class="text-center">(Metric: actual rate achieved with target server in Miami at 8pm weekdays / monthly cost)</h4>
-        </div>
-    </div>
-
-
-<div class="row">
         <div class="col-lg-offset-1 col-md-offset-1 col-sm-12 col-xs-12">
             <canvas id="myChart" width="1500" height="300" style="margin-left: 10px;">
 
@@ -70,18 +87,10 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-lg-offset-1 col-md-offset-1 col-sm-12 col-xs-12">
 
-            <br/>
-            <br/>
-            <br/>
-            <p class="text-center" id="message" style="font-size: 19px;"></p>
-        </div>
-    </div>
-    </div>
+</div>
 
 
-    <script src="js/plotPerformance.js"></script>
+<script src="js/plotPerformance.js"></script>
 </body>
 </html>
