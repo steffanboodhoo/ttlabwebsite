@@ -117,6 +117,9 @@ app.get('/isps', function(req, res) {
 function get_message(db, email, callback) {
     var sendersStatement = "SELECT EMAIL FROM SENDERS WHERE EMAIL='" + email + "';";
     var submittedStatement = "SELECT ISP, METRIC FROM DATA WHERE EMAIL='" + email + "';";
+    var numNominationsMessage = 'SELECT NOMINEE, COUNT(NOMINATOR) AS "cntnom" FROM NOMINATIONS WHERE NOMINEE=' + "'" + email + "'";
+    numNominationsMessage += ' GROUP BY NOMINEE;';
+    var trustLevel = ' Trust Level: ';
 
     var ifNotSender = "Untrusted User";
     var ifNotSubmitted = "Trusted User who has not contributed";
@@ -129,17 +132,28 @@ function get_message(db, email, callback) {
            if(rows1.length === 0) {
                callback(ifNotSender);
            } else {
-               db.all(submittedStatement, function(err2, rows2) {
-                   if(err2) {
-                       callback('Error processing submissions');
+               db.all(numNominationsMessage, function(errNom, rowsNoms) {
+                   trustLevel = 0;
+                   if(errNom) {
+                       trustLevel += "undefined";
                    } else {
-                       if(rows2.length === 0) {
-                           callback(ifNotSubmitted);
-                       } else {
-                           callback(ifSubmitted + ' with contribution ' + rows2[0].ISP + " : " + rows2[0].METRIC + ' kbps/$');
+                       if(rowsNoms.length > 0) {
+                           trustLevel += rowsNoms[0]['cntnom'];
                        }
+                       db.all(submittedStatement, function(err2, rows2) {
+                           if(err2) {
+                               callback('Error processing submissions');
+                           } else {
+                               if(rows2.length === 0) {
+                                   callback(ifNotSubmitted + ' Trust Level: ' + trustLevel);
+                               } else {
+                                   callback(ifSubmitted + ' with contribution ' + rows2[0].ISP + " : " + rows2[0].METRIC + ' kbps/$ ' +
+                                       'Trust Level: ' + trustLevel);
+                               }
+                           }
+                       });
                    }
-               })
+               });
            }
        }
     });
