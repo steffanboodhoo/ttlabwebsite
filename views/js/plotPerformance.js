@@ -180,7 +180,7 @@
         function place_message(message) {
             console.log('placing message');
             console.log($('#message'));
-            var text = 'Status:'
+            var text = 'Your Status:';
             $('#message').text(text + ' ' + message);
         }
 
