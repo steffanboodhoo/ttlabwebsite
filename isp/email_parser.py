@@ -87,7 +87,9 @@ def insert_nomination(conn, nominee_raw, nominator):
     nominators = set(map(lambda x: x[0], cursor))
     if nominator not in nominators:
         conn.execute(ins_query)
-        if len(nominators) == NUMBER_OF_NOMINATIONS_NEEDED:
+        if nominee in senders:
+            msg = "{0} has already been nominated".format(nominee)
+        elif len(nominators) == NUMBER_OF_NOMINATIONS_NEEDED:
             msg = "Your supplied nominee of {0} already been successfully nominated".format(nominee)
         elif len(nominators) + 1 == NUMBER_OF_NOMINATIONS_NEEDED:
             senders_ins = "INSERT INTO SENDERS VALUES('{0}')".format(nominee)
