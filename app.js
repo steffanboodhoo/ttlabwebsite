@@ -159,83 +159,134 @@ function get_message(db, email, callback) {
     });
 }
 
-app.get('/isp-performance/:email', function(req, res) {
-    console.log('Processing data with email');
+function get_data_by_isps(db, callback) {
     var dataStmnt = 'SELECT ISP, METRIC, DATERECOREDED FROM DATA WHERE ';
-    dataStmnt += "DATERECOREDED BETWEEN date('now', '-3 months') AND CURRENT_DATE;";
+    dataStmnt += "DATERECOREDED BETWEEN date('now', '-3 months') AND CURRENT_DATE";
+    dataStmnt += ';';
+    var result = {};
+    db.all(dataStmnt, function(err, rows) {
+        if(err) {
+            callback({error: "Error - cannot read data from database"});
+        } else {
+            var docs = {};
+            var by_isp = _.groupBy(rows, function (row) {
+                return row.ISP.toUpperCase();
+            });
+            console.log(by_isp);
+            for (var key in by_isp) {
+                if (by_isp.hasOwnProperty(key)) {
+                    //console.log(key);
+                    //console.log(by_isp[key]);
+                    docs[key] = _.map(by_isp[key], 'METRIC');
+                }
+            }
+            if(rows.length > 0) {
+                result['data'] = docs;
+                result['hasdata'] = true;
+            } else {
+                result['data'] = {};
+                result['hasdata'] = false;
+            }
+            callback(result);
+        }
+    });
+}
+
+app.get('/isp-performance/:email', function(req, res) {
     var email = req.params.email.toUpperCase();
-    console.log(email);
     if(!exists) {
-        res.send({});
+        res.send({error: "Error in accessing database, please contact administrator"});
     } else {
         var db = new sqlite3.Database(db_path);
-        var result = {};
-        db.all(dataStmnt, function (err, rows) {
-            if(err) {
-                res.send('Error getting data out of database');
-            }
-            else {
-                var docs = {};
-                var by_isp = _.groupBy(rows, function (row) {
-                    return row.ISP.toUpperCase();
-                });
-                console.log(by_isp);
-                for (var key in by_isp) {
-                    if (by_isp.hasOwnProperty(key)) {
-                        //console.log(key);
-                        //console.log(by_isp[key]);
-                        docs[key] = _.map(by_isp[key], 'METRIC');
-                    }
-                }
-                result['data'] = docs;
-                get_message(db, email, function(message) {
-                    console.log('Message' + message);
-                    result['message'] = message;
-                    console.log(result);
-                    res.send(result);
-                });
-            }
+        get_data_by_isps(db, function(result) {
+            get_message(db, email, function(message) {
+                console.log('Message' + message);
+                result['message'] = message;
+                console.log(result);
+                res.send(result);
+                db.close();
+            });
         });
     }
 });
 
-app.get('/isp-performance', function(req, res) {
-    console.log('Sending performance');
-    var stmnt = 'SELECT ISP, METRIC, DATERECOREDED FROM DATA WHERE ';
-    stmnt += "DATERECOREDED BETWEEN date('now', '-3 months') AND CURRENT_DATE;";
-    console.log(stmnt);
-    if(!exists) {
-        console.log('Database does not exist!');
-        console.log(db_path);
-    } else {
-        var db = new sqlite3.Database(db_path);
-        //res.send('jsidjsidi');
-        db.all(stmnt, function(err, rows) {
-            if(err) {
-                console.log('ERROR');
-                res.send({});
-            }
-            if(rows) {
-                var docs = {};
-                var by_isp = _.groupBy(rows, function(row) {
-                    return row.ISP.toUpperCase();
-                });
-                console.log(by_isp);
-                for(var key in by_isp) {
-                    if(by_isp.hasOwnProperty(key)) {
-                        //console.log(key);
-                        //console.log(by_isp[key]);
-                        docs[key] = _.map(by_isp[key], 'METRIC');
-                    }
-                }
-                res.send(docs);
-            } else {
-                res.send({});
-            }
-        });
-        db.close();
-    }
-});
+//app.get('/isp-performance/:email', function(req, res) {
+//    console.log('Processing data with email');
+//    var dataStmnt = 'SELECT ISP, METRIC, DATERECOREDED FROM DATA WHERE ';
+//    dataStmnt += "DATERECOREDED BETWEEN date('now', '-3 months') AND CURRENT_DATE;";
+//    var email = req.params.email.toUpperCase();
+//    console.log(email);
+//    if(!exists) {
+//        res.send({});
+//    } else {
+//        var db = new sqlite3.Database(db_path);
+//        var result = {};
+//        db.all(dataStmnt, function (err, rows) {
+//            if(err) {
+//                res.send('Error getting data out of database');
+//            }
+//            else {
+//                var docs = {};
+//                var by_isp = _.groupBy(rows, function (row) {
+//                    return row.ISP.toUpperCase();
+//                });
+//                console.log(by_isp);
+//                for (var key in by_isp) {
+//                    if (by_isp.hasOwnProperty(key)) {
+//                        //console.log(key);
+//                        //console.log(by_isp[key]);
+//                        docs[key] = _.map(by_isp[key], 'METRIC');
+//                    }
+//                }
+//                result['data'] = docs;
+//                get_message(db, email, function(message) {
+//                    console.log('Message' + message);
+//                    result['message'] = message;
+//                    console.log(result);
+//                    res.send(result);
+//                });
+//            }
+//        });
+//    }
+//});
+//
+//app.get('/isp-performance', function(req, res) {
+//    console.log('Sending performance');
+//    var stmnt = 'SELECT ISP, METRIC, DATERECOREDED FROM DATA WHERE ';
+//    stmnt += "DATERECOREDED BETWEEN date('now', '-3 months') AND CURRENT_DATE;";
+//    console.log(stmnt);
+//    if(!exists) {
+//        console.log('Database does not exist!');
+//        console.log(db_path);
+//    } else {
+//        var db = new sqlite3.Database(db_path);
+//        //res.send('jsidjsidi');
+//        db.all(stmnt, function(err, rows) {
+//            if(err) {
+//                console.log('ERROR');
+//                res.send({});
+//            }
+//            if(rows) {
+//                var docs = {};
+//                var by_isp = _.groupBy(rows, function(row) {
+//                    return row.ISP.toUpperCase();
+//                });
+//                console.log(by_isp);
+//                for(var key in by_isp) {
+//                    if(by_isp.hasOwnProperty(key)) {
+//                        //console.log(key);
+//                        //console.log(by_isp[key]);
+//                        docs[key] = _.map(by_isp[key], 'METRIC');
+//                    }
+//                }
+//                res.send(docs);
+//            } else {
+//                res.send({});
+//            }
+//        });
+//        db.close();
+//    }
+//});
 
 app.get('/recent/:number',function(req, res){
   var num = parseInt(req.params['number']);

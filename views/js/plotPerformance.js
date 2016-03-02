@@ -408,7 +408,7 @@
                 chart.datasets[0].bars[idx]._saved.highlightStroke = highlightStroke[idx];
             }
 
-            place_message(results.message);
+            //place_message(results.message);
 
 
 
@@ -427,9 +427,6 @@
         }
 
 
-
-
-
         $('#dashboard').hide();
         $('#singlebutton').click(function(event) {
             console.log('Clicked....');
@@ -440,8 +437,13 @@
                 console.log('Made calls to ', url);
                 console.log('For results');
                 console.log(results);
-                resize_canvas(results.data);
-                plot_data(results);
+                if(results.hasdata == true) {
+                    resize_canvas(results.data);
+                    plot_data(results);
+                } else {
+                    alert('No data returned');
+                }
+                place_message(results.message);
                 console.log('hiding emel');
                 $('#emailform').hide();
                 $('#dashboard').show();

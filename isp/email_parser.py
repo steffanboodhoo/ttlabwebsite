@@ -48,7 +48,21 @@ nomination_nominator_b_message = """
 """
 
 data_received_message = """
-    Your data of {0} for the ISP {1} has been received and recorded.
+    Your data of {0} and ${1} for the ISP {2} has been received and recorded.
+"""
+
+format_changed_message = """
+    Your value of {0} for the ISP {1} has been received. However, our format has changed.
+    From now on, the Mbps achivied should and the price paid per month be sent.
+    The new format is as follows:
+    Line #1: ISP Name (Digicel, Greendot, Flow, Blink, or Massy)
+    Line #2: Achived rate (in Mbps) using a Miami server as the target
+             on speedtest.net
+    Line #3: The price paid monthly for your connection
+
+    We thank you for your participation in this dashboard
+
+    -- TTLAB
 """
 
 
@@ -114,6 +128,10 @@ print senders
 msg = """You have not been authorized to use this system"""
 subj = 'Authentication Failed'
 
+def compute_metric(value, price):
+    return float(value) * 100 / (float(price) - 1000)
+
+
 if sender in senders:
     subj = 'Incorrect use of isp-perf@lab.tt'
     msg = """The message has been incorrectly formated"""
@@ -132,16 +150,22 @@ if sender in senders:
     if 'ISP' in subject:
         subj = 'Re:' + subject
         isp = raw[0].upper()
-        value = raw[1]
-        print isp, value
-        if isp in ['BLINK', 'FLOW', 'MASSY', 'GREENDOT', 'DIGICEL']:
-            st = 'INSERT OR REPLACE INTO DATA VALUES'
-            vec = "('{0}', '{1}', CURRENT_DATE, {2})".format(sender, isp, value)
-            st += vec + ';'
-            print st
-            conn.execute(st)
-            conn.commit()
-            msg = data_received_message.format(value, isp)
+        value = float(raw[1].strip())
+        try:
+            price = float(raw[2].strip())
+            metric_val = str(compute_metric(value, price))
+            print isp, value
+            if isp in ['BLINK', 'FLOW', 'MASSY', 'GREENDOT', 'DIGICEL']:
+                st = 'INSERT OR REPLACE INTO DATA VALUES'
+                st += '(EMAIL, ISP, DATERECOREDED, METRIC, rate, price)'
+                vec = "('{0}', '{1}', CURRENT_DATE, {2}, {3}, {4})".format(sender, isp, metric_val, str(value), str(price))
+                st += vec + ';'
+                print st
+                conn.execute(st)
+                conn.commit()
+                msg = data_received_message.format(value, price,  isp)
+        except:
+            msg = format_changed_message.format(value, isp)
     elif "NOMINATION" in subject:
         subj = 'Re:' + subject
         msgs = []
