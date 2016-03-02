@@ -151,10 +151,10 @@ if sender in senders:
         subj = 'Re:' + subject
         isp = raw[0].upper()
         value = float(raw[1].strip())
-        price = float(raw[2].strip())
-        metric_val = str(compute_metric(value, price))
         print isp, value
         try:
+            price = float(raw[2].strip())
+            metric_val = str(compute_metric(value, price))
             if isp in ['BLINK', 'FLOW', 'MASSY', 'GREENDOT', 'DIGICEL']:
                 st = 'INSERT OR REPLACE INTO DATA(EMAIL, ISP, DATERECOREDED, METRIC, rate, price) VALUES'
                 vec = "('{0}', '{1}', CURRENT_DATE, {2}, {3}, {4})".format(sender, isp, metric_val, str(value), str(price))
