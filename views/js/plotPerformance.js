@@ -355,7 +355,7 @@
                                 console.log(bar);
                                 var tooltipPosition = bar.tooltipPosition();
 
-                                var labelLen =  (Math.round(bar.value, 2) + ' kbps/$' + ' (' + samples + ')').length ;
+                                var labelLen =  (Math.round(bar.value, 2) + ' Mbps' + ' (' + samples + ')').length ;
                                 var tx = bar.x / 2 + labelLen  + 10;
                                 if(bar.x < 300 && true) {
                                     tx = bar.x + 60 + (labelLen / 2);
@@ -376,7 +376,7 @@
                                     fontSize: 13, //set font size
                                     caretHeight: this.options.tooltipCaretSize,
                                     cornerRadius: this.options.tooltipCornerRadius,
-                                    text: Math.round(bar.value, 2) + ' Mbps/$' + ' (' + samples + ')',
+                                    text: Math.round(bar.value, 2) + ' Mbps' + ' (' + samples + ')',
                                     chart: this.chart
                                 }).draw();
                             });
