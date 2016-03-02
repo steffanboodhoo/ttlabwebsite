@@ -40,6 +40,7 @@ else:
     lines = filter(lambda x: len(x.strip()) > 0, lines)
     subject = lines[0]
     message = '\n'.join(lines[1 : ])
+file_handle.close()
 
 
 def process_email(sender_addr, message, subject):
