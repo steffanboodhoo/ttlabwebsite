@@ -155,8 +155,7 @@ if sender in senders:
         metric_val = str(compute_metric(value, price))
         print isp, value
         if isp in ['BLINK', 'FLOW', 'MASSY', 'GREENDOT', 'DIGICEL']:
-            st = 'INSERT OR REPLACE INTO DATA VALUES'
-            st += '(EMAIL, ISP, DATERECOREDED, METRIC, rate, price)'
+            st = 'INSERT OR REPLACE INTO DATA(EMAIL, ISP, DATERECOREDED, METRIC, rate, price) VALUES'
             vec = "('{0}', '{1}', CURRENT_DATE, {2}, {3}, {4})".format(sender, isp, metric_val, str(value), str(price))
             st += vec + ';'
             print st
