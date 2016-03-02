@@ -19,8 +19,8 @@ cursor = conn.execute('SELECT EMAIL FROM SENDERS;')
 senders = set(map(lambda x: x[0], cursor.fetchall()))
 
 parser = argparse.ArgumentParser(description="The script sends an email to all trusted users")
-parser.add_argument('filename', helper='The location of the file containg the email')
-parser.add_argument('filetype', helper='json or txt')
+parser.add_argument('filename', help='The location of the file containg the email')
+parser.add_argument('filetype', help='json or txt')
 
 args = parser.parse_args()
 
