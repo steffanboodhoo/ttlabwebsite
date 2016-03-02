@@ -129,7 +129,7 @@ msg = """You have not been authorized to use this system"""
 subj = 'Authentication Failed'
 
 def compute_metric(value, price):
-    return float(value) * 100 / (float(price) - 1000)
+    return float(value) * 100 / (float(price) - 100)
 
 
 if sender in senders:
@@ -154,16 +154,17 @@ if sender in senders:
         price = float(raw[2].strip())
         metric_val = str(compute_metric(value, price))
         print isp, value
-        if isp in ['BLINK', 'FLOW', 'MASSY', 'GREENDOT', 'DIGICEL']:
-            st = 'INSERT OR REPLACE INTO DATA(EMAIL, ISP, DATERECOREDED, METRIC, rate, price) VALUES'
-            vec = "('{0}', '{1}', CURRENT_DATE, {2}, {3}, {4})".format(sender, isp, metric_val, str(value), str(price))
-            st += vec + ';'
-            print st
-            conn.execute(st)
-            conn.commit()
-            msg = data_received_message.format(value, price,  isp)
-        #except:
-        #    msg = (format_changed_message + raw).format(value, isp)
+        try:
+            if isp in ['BLINK', 'FLOW', 'MASSY', 'GREENDOT', 'DIGICEL']:
+                st = 'INSERT OR REPLACE INTO DATA(EMAIL, ISP, DATERECOREDED, METRIC, rate, price) VALUES'
+                vec = "('{0}', '{1}', CURRENT_DATE, {2}, {3}, {4})".format(sender, isp, metric_val, str(value), str(price))
+                st += vec + ';'
+                print st
+                conn.execute(st)
+                conn.commit()
+                msg = data_received_message.format(value, price,  isp)
+        except:
+            msg = (format_changed_message + raw).format(value, isp)
     elif "NOMINATION" in subject:
         subj = 'Re:' + subject
         msgs = []
