@@ -376,7 +376,7 @@
                                     fontSize: 13, //set font size
                                     caretHeight: this.options.tooltipCaretSize,
                                     cornerRadius: this.options.tooltipCornerRadius,
-                                    text: Math.round(bar.value, 2) + ' kbps/$' + ' (' + samples + ')',
+                                    text: Math.round(bar.value, 2) + ' Mbps/$' + ' (' + samples + ')',
                                     chart: this.chart
                                 }).draw();
                             });
