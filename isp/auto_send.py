@@ -17,21 +17,21 @@ email_server.login(address, password)
 conn = sqlite3.connect('/var/www/html/lab/ttlabwebsite/isp/data.db')
 cursor = conn.execute('SELECT EMAIL FROM SENDERS;')
 senders = set(map(lambda x: x[0], cursor.fetchall()))
-
+senders = ['izzyrahaman@gmail.com']
 parser = argparse.ArgumentParser(description="The script sends an email to all trusted users")
 parser.add_argument('filename', help='The location of the file containg the email')
 parser.add_argument('filetype', help='json or txt')
 
 args = parser.parse_args()
 
-filetype = args.filetype
+filetype = args.filetype.strip().upper()
 filename = args.filename
 
 subject = 'ISP Performance Dashboard Notification'
 message = ''
 file_handle = open(filename, 'r')
 
-if filetype is 'json':
+if filetype == 'JSON':
     data = json.load(file_handle)
     subject = data['subject']
     message = data['message']
