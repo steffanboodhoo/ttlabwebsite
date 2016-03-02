@@ -164,7 +164,7 @@ if sender in senders:
                 conn.commit()
                 msg = data_received_message.format(value, price,  isp)
         except:
-            msg = (format_changed_message + raw).format(value, isp)
+            msg = (format_changed_message).format(value, isp)
     elif "NOMINATION" in subject:
         subj = 'Re:' + subject
         msgs = []
