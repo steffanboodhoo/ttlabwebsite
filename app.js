@@ -147,7 +147,7 @@ function get_message(db, email, callback) {
                                if(rows2.length === 0) {
                                    callback(ifNotSubmitted + ' Trust Level: ' + trustLevel);
                                } else {
-                                   callback(ifSubmitted + ' with contribution ' + rows2[0].ISP + " : " + rows2[0].METRIC + ' kbps/$ ' +
+                                   callback(ifSubmitted + ' with contribution ' + rows2[0].ISP + " : " + rows2[0].METRIC + ' Mbps/$ ' +
                                        'Trust Level: ' + trustLevel);
                                }
                            }
