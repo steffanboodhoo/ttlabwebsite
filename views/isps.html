@@ -2,18 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ISP PERFORMANCE</title>
+    <title>Trinidad ISP Performance Dashboard</title>
     <script src="js/jquery.min.js"></script>
-    <script src="js/Chart.js"></script>
+    <!--<script src="js/Chart.js"></script>-->
+    <script src="js/ChartOriginal.js"></script>
+    <!--<script src="js/chartNew.js"></script>-->
     <script src="js/chart.HorizontalBar.js"></script>
     <script src="js/lodash.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.number.min.js"></script>
 </head>
-<body>
+<body class="container">
 
-    <canvas id="myChart" width="500" height="500">
 
-    </canvas>
+<div id="emailform" style="padding-top: 60px;">
+    <form class="form-horizontal">
+        <fieldset>
 
-    <script src="js/plotPerformance.js"></script>
+            <!-- Form Name -->
+
+            <h2 style="text-align: center;"><img alt="" src="http://lab.tt/TTLAB.png" style="font-family: 'lucida sans unicode', 'lucida grande', sans-serif; font-size: 13px; width: 70px; float: left; height: 70px;" /></h2>
+
+            <h2 style="text-align: center;"><span style="font-family:lucida sans unicode,lucida grande,sans-serif;">Welcome to the TT ISP Performance Dashboard</span></h2>
+
+            <p>&nbsp;</p>
+
+            <p>&nbsp;</p>
+
+            <p><span style="font-family:lucida sans unicode,lucida grande,sans-serif;"><strong>Objective:</strong> To dynamically rank the performance of local ISPs by comparing an estimate of rate achieved for a monthly cost of $200</span></p>
+
+            <p><font face="lucida sans unicode, lucida grande, sans-serif"><strong>Achieved Rate:</strong> The download rate achieved (in Mbps) using Speedtest.net with a target server in Miami at around 8pm weekdays (averaged over 3 tests)</font></p>
+
+            <p><font face="lucida sans unicode, lucida grande, sans-serif"><strong>Cost Definition:</strong> The monthly cost of your Internet&nbsp;data plan (VAT inclusive) not including TV/Phone.</font></p>
+
+            <p><font face="lucida sans unicode, lucida grande, sans-serif"><strong>Metric:</strong> Estimated achievable rate (in Mbps) for a monthly cost of $200TT </font></p>
+
+            <p><font face="lucida sans unicode, lucida grande, sans-serif"><strong>Trust Model:</strong> Only &quot;trusted&quot; users can contribute data or recommend others. A user becomes trusted when recommended by at least one trusted user.</font></p>
+
+            <p><font face="lucida sans unicode, lucida grande, sans-serif"><strong>Data Contribution</strong>: Send email to isp-perf@lab.tt with subject &quot;ISP performance&quot;. First line of body is either Blink, Flow, Digicel, Massy or Greendot. Second line of body is achieved Rate. Third line of body is monthly Cost. Only one contribution is requested but you can re-submit at anytime and overwrite your previous value.</font></p>
+
+            <p><font face="lucida sans unicode, lucida grande, sans-serif"><strong>Recommendation Process:</strong> Send email to isp-perf@lab.tt with subject &quot;Nominations&quot;. Body contains a list of email addresses of nominees</font></p>
+
+            <p><font face="lucida sans unicode, lucida grande, sans-serif"><strong>Dashboard Access:</strong> Presently anyone can view the dashboard (may change in the future)</font></p>
+
+            <br><br><br>
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="textinput">Enter email:</label>
+                <div class="col-md-4">
+                    <input id="textinput" name="textinput" type="text" placeholder="jane.doe@email.com" class="form-control input-md">
+                </div>
+            </div>
+            <!-- Button -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="singlebutton"></label>
+                <div class="col-md-4">
+                    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Display Dashboard and Trust Status</button>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+</div>
+
+<div id="dashboard">
+    <div class="row">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-12 col-xs-12">
+            <h3 class="text-center">ISP Performance Dashboard<br/></h3>
+            <p style="font-size: 10px" id="message" class="text-center"></p>
+            <br/><br/><br/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-12 col-xs-12">
+            <canvas id="myChart" width="1000" height="300" style="margin-left: 10px;">
+
+            </canvas>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-12 col-xs-12">
+            <br/>
+            <p class="text-center" style="font-size: 10px;">&copy; Copyright 2016 by TTLAB. All Rights Reserved.</p>
+        </div>
+    </div>
+
+
+</div>
+
+
+<script src="js/plotPerformance.js"></script>
 </body>
 </html>

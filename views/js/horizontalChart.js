@@ -37,8 +37,6 @@
         //Number - Spacing between data sets within X values
         barDatasetSpacing : 1,
 
-        barMaxWidth: 70,
-
         //String - A legend template
         legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].fillColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
 
@@ -94,6 +92,7 @@
             this.ScaleClass = Chart.Scale.extend({
                 offsetGridLines : true,
                 calculateBarX : function(datasetCount, datasetIndex, barIndex){
+                    //Reusable method for calculating the xPosition of a given bar based on datasetIndex & width of the bar
                     var xWidth = this.calculateBaseWidth(),
                         xAbsolute = this.calculateX(barIndex) - (xWidth/2),
                         barWidth = this.calculateBarWidth(datasetCount);
@@ -104,28 +103,12 @@
                     return (this.calculateX(1) - this.calculateX(0)) - (2*options.barValueSpacing);
                 },
                 calculateBarWidth : function(datasetCount){
-                    var xWidth = this.calculateBaseWidth(),
-                        xAbsolute = this.calculateX(barIndex) - (xWidth/2),
-                        barWidth = this.calculateBarWidth(datasetCount);
+                    //The padding between datasets is to the right of each bar, providing that there are more than 1 dataset
+                    var baseWidth = this.calculateBaseWidth() - ((datasetCount - 1) * options.barDatasetSpacing);
 
-                    return xAbsolute + (barWidth * datasetIndex) + (datasetIndex * options.barDatasetSpacing) + barWidth/2;
+                    return (baseWidth / datasetCount);
                 },
 
-                //Reusable method for calculating the xPosition of a given bar based on datasetIndex & width of the bar
-                //var xWidth = this.calculateBaseWidth(),
-                //    xAbsolute = this.calculateX(barIndex) - (xWidth/2),
-                //    barWidth = this.calculateBarWidth(datasetCount);
-                //
-                //return xAbsolute + (barWidth * datasetIndex) + (datasetIndex * options.barDatasetSpacing) + barWidth/2;
-
-                //The padding between datasets is to the right of each bar, providing that there are more than 1 dataset
-                //var baseWidth = this.calculateBaseWidth() - ((datasetCount - 1) * options.barDatasetSpacing);
-                //
-                //return (baseWidth / datasetCount);
-                //var baseWidth = this.calculateBaseWidth() - ((datasetCount - 1) * options.barDatasetSpacing),
-                //    tempWidth = baseWidth / datasetCount;
-                //return 10;
-                //return (options.barMaxWidth > 0 && tempWidth > options.barMaxWidth) ? options.barMaxWidth : tempWidth;
                 calculateBaseHeight : function(){
                     return ((this.endPoint - this.startPoint) / this.yLabels.length) - (2*options.barValueSpacing);
                 },
@@ -136,34 +119,16 @@
                     return (baseHeight / datasetCount);
                 },
 
-                //Marker : here to change bar x position to take up length!!!
                 calculateXInvertXY : function(value) {
-                    var canvasWidth = 700;
-                    //console.log(value);
-                    var left = this.xScalePaddingLeft;
-                    var right = 5;//this.xScalePaddingRight;
-                    console.log(right);
-                    console.log('width: ');
-                    console.log(this.width);
-                    var width = this.width;
-                    //width = 600;
-                    //console.log(left);
-                    //console.log(right);
-                    var scalingFactor = (width - Math.round(left) - right) / ((this.max - this.min));
-                    return Math.round(left) + (scalingFactor * (value - this.min));
+                    var scalingFactor = (this.width - Math.round(this.xScalePaddingLeft) - this.xScalePaddingRight) / (this.max - this.min);
+                    return Math.round(this.xScalePaddingLeft) + (scalingFactor * (value - this.min));
                 },
-                //marker
+
                 calculateYInvertXY : function(index){
-                    var e = this.endPoint;
-                    var s = this.startPoint;
-                    //console.log('Start point ', s);
-                    //console.log('End point ', e);
-                    var factor = ((this.startPoint - this.endPoint) / (this.yLabels.length));
-                    return index * factor;
+                    return index * ((this.startPoint - this.endPoint) / (this.yLabels.length));
                 },
 
                 calculateBarY : function(datasetCount, datasetIndex, barIndex){
-
                     //Reusable method for calculating the yPosition of a given bar based on datasetIndex & height of the bar
                     var yHeight = this.calculateBaseHeight(),
                         yAbsolute = (this.endPoint + this.calculateYInvertXY(barIndex) - (yHeight / 2)) - 5,
@@ -178,8 +143,7 @@
                     var stepDecimalPlaces = helpers.getDecimalPlaces(this.stepValue);
 
                     for (var i=0; i<=this.steps; i++){
-                        this.calculatedLabels.push("");
-                        //this.calculatedLabels.push(helpers.template(this.templateString,{value:(this.min + (i * this.stepValue)).toFixed(stepDecimalPlaces)}));
+                        this.calculatedLabels.push(helpers.template(this.templateString,{value:(this.min + (i * this.stepValue)).toFixed(stepDecimalPlaces)}));
                     }
                 },
 
@@ -189,18 +153,14 @@
                     if(this.buildYLabelCounter === 0) this.yLabels = this.xLabels;
                     this.xLabels = this.calculatedLabels;
                     this.yLabelWidth = (this.display && this.showLabels) ? helpers.longestText(this.ctx,this.font,this.yLabels) : 0;
-
                 },
 
                 calculateX : function(index){
-                    var left = this.xScalePaddingLeft;
-                    left = 0;
-                    var right = this.xScalePaddingRight;
-                    right = 0;
                     var isRotated = (this.xLabelRotation > 0),
                         innerWidth = this.width - (this.xScalePaddingLeft + this.xScalePaddingRight),
                         valueWidth = innerWidth/(this.steps - ((this.offsetGridLines) ? 0 : 1)),
                         valueOffset = (valueWidth * index) + this.xScalePaddingLeft;
+
                     if (this.offsetGridLines){
                         valueOffset += (valueWidth/2);
                     }
@@ -208,7 +168,6 @@
                     return Math.round(valueOffset);
                 },
 
-                // marker
                 draw : function(){
                     var ctx = this.ctx,
                         yLabelGap = (this.endPoint - this.startPoint) / this.yLabels.length,
@@ -427,15 +386,6 @@
                 });
                 return values;
             };
-            var newLabels=[];
-            if(false){
-                for(var i=0;i<labels.length;i++){
-                    newLabels.push('');
-                }
-                labels=newLabels;
-            } else {
-                newLabels = labels;
-            }
 
             var scaleOptions = {
                 templateString : this.options.scaleLabel,
@@ -459,7 +409,7 @@
                     );
                     helpers.extend(this, updatedRanges);
                 },
-                xLabels : newLabels,
+                xLabels : labels,
                 font : helpers.fontString(this.options.scaleFontSize, this.options.scaleFontStyle, this.options.scaleFontFamily),
                 lineWidth : this.options.scaleLineWidth,
                 lineColor : this.options.scaleLineColor,

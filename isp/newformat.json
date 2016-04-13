@@ -1,0 +1,8 @@
+{
+
+  "subject": "Change to metric reporting format for ISP Broadband Dashboard",
+
+  "message": "Due to shortcomings in our previous metric, we at TTLAB have decided to change the manner in which we compute the performance of ISPs. To report ISP performance, the subject remains as \"ISP Performance\", but the format for the email body has changed to the following: \nLine #1: ISP Name (Digicel, Greendot, Flow, Blink, or Massy. \nLine #2: Achived rate (in Mbps) using a Miami server as the target on speedtest.net\nLine #3: The price paid monthly for your connection\nWe thank you all for your continued support of this endeavour.\n-- TTLAB"
+
+
+}

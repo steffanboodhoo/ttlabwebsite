@@ -3,6 +3,35 @@
     $(document).ready(function() {
         console.log('Document ready');
 
+        Number.prototype.setNumVals = function(num) {
+            this.numVals = num;
+        }
+
+        Number.prototype.getNumVals = function() {
+            return this.numVals;
+        }
+
+        Chart.types.HorizontalBar.extend({
+            name: "HorizontalBarAlt",
+            initialize:  function(data){
+                var originalBuildScale = this.buildScale;
+                var chart = this;
+                chart.buildScale = function() {
+                    var r = originalBuildScale.apply(this, arguments);
+                    chart.scale.calculateBarHeight = function() {
+                        return 50;
+                    }
+                    chart.scale.xScalePaddingLeft = 80;
+                    chart.scale.xScalePaddingRight = 80;
+                    //chart.scale.calculateBarX = function() {
+                    //    console.log('Using new bar x');
+                    //}
+                    return r;
+                }
+                Chart.types.HorizontalBar.prototype.initialize .apply(this, arguments);
+            }
+        });
+
         Chart.defaults.global = {
             // Boolean - Whether to animate the chart
             animation: true,
@@ -95,6 +124,7 @@
             // String - Tooltip label font colour
             tooltipFontColor: "#fff",
 
+
             // String - Tooltip title font declaration for the scale label
             tooltipTitleFontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
 
@@ -123,10 +153,14 @@
             tooltipXOffset: 10,
 
             // String - Template string for single tooltips
-            tooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %> kbps/$",
+            tooltipTemplate: "<%if (label){%><%=label%>: <%}%><%= value %> kbps/$ <% value.getNumVals.call(this) %> sample(s)",
 
             // String - Template string for multiple tooltips
             multiTooltipTemplate: "<%= value %>",
+
+            scaleLineColor: 'transparent',
+
+            scaleShowGridLines : false,
 
 
 
@@ -143,45 +177,17 @@
             return sum / length;
         }
 
-        function plot_data(data) {
-            var options = {
-                //Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
-                scaleBeginAtZero : true,
+        function place_message(message) {
+            console.log('placing message');
+            console.log($('#message'));
+            var text = 'Your Status:';
+            $('#message').text(text + ' ' + message);
+        }
 
-                //Boolean - Whether grid lines are shown across the chart
-                scaleShowGridLines : true,
-
-                //String - Colour of the grid lines
-                scaleGridLineColor : "rgba(0,0,0,.05)",
-
-                //Number - Width of the grid lines
-                scaleGridLineWidth : 1,
-
-                //Boolean - Whether to show horizontal lines (except X axis)
-                scaleShowHorizontalLines: true,
-
-                //Boolean - Whether to show vertical lines (except Y axis)
-                scaleShowVerticalLines: true,
-
-                //Boolean - If there is a stroke on each bar
-                barShowStroke : true,
-
-                //Number - Pixel width of the bar stroke
-                barStrokeWidth : 2,
-
-                //Number - Spacing between each of the X value sets
-                barValueSpacing : 5,
-
-                //Number - Spacing between data sets within X values
-                barDatasetSpacing : 1,
-
-                //String - A legend template
-                legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].fillColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
-
-            };
-
+        function plot_data(results) {
+            var data = results.data;
             var ctx = document.getElementById("myChart").getContext("2d");
-            var info = []
+            var info = [];
             var labels = [];
             var data1 = [];
             for(var prop in data) {
@@ -202,74 +208,248 @@
             labels = _.map(info, 'isp');
             data1 = _.map(info, 'value');
 
+            data1.forEach(function(value, index) {
+                console.log('Setting length');
+                value.setNumVals.call(this, data[labels[index]].length);
+                console.log(value.getNumVals.call(this));
+            });
+
+            Chart.Scale.prototype.buildYLabels = function () {
+                this.xLabelWidth = 0;
+            };
+
+
+            var fillColorMap = {
+                MASSY: "rgba(113, 188, 120, 0.5)", //rgba(204, 204, 255, 0.5),
+                FLOW: "rgba(151,187,205,0.5)",
+                BLINK: "rgba(255, 159, 0, 0.5)",
+                DIGICEL: "rgba(238, 32, 77, 0.5)",
+                GREENDOT: "rgba(113, 188, 120, 0.5)"
+            };
+
+            var highlightFillcolorMap = {
+                MASSY: "rgba(113, 188, 120, 0.75)", //rgba(204, 204, 255, 0.5),
+                FLOW: "rgba(151,187,205,0.75)",
+                BLINK: "rgba(255, 159, 0, 0.75)",
+                DIGICEL: "rgba(238, 32, 77, 0.75)",
+                GREENDOT: "rgba(113, 188, 120, 0.75)"
+            };
+
+            var strokeColorMap = {
+                MASSY: "rgba(113, 188, 120, 0.8)", //rgba(204, 204, 255, 0.5),
+                FLOW: "rgba(151,187,205,0.8)",
+                BLINK: "rgba(255, 159, 0, 0.8)",
+                DIGICEL: "rgba(238, 32, 77, 0.8)",
+                GREENDOT: "rgba(113, 188, 120, 0.8)"
+            };
+
+            var hightlightStrokeColorMap = {
+                MASSY: "rgba(113, 188, 120, 1)", //rgba(204, 204, 255, 0.5),
+                FLOW: "rgba(151,187,205,1)",
+                BLINK: "rgba(255, 159, 0, 1)",
+                DIGICEL: "rgba(238, 32, 77, 1)",
+                GREENDOT: "rgba(113, 188, 120, 1)"
+            };
+
+            var fillColor = [];
+            var strokeColor = [];
+            var highlightFill = [];
+            var highlightStroke = [];
+            for(var idx = 0; idx < info.length; idx += 1) {
+                console.log(info[idx].isp);
+                fillColor.push(fillColorMap[info[idx].isp]);
+                strokeColor.push(strokeColorMap[info[idx].isp]);
+                highlightFill.push(highlightFillcolorMap[info[idx].isp]);
+                highlightStroke.push(hightlightStrokeColorMap[info[idx].isp]);
+            }
+
+
+
             var datasets = [];
             datasets.push({
                 label: "ISP Performance",
-                fillColor: "rgba(151,187,205,0.5)",
-                strokeColor: "rgba(151,187,205,0.8)",
-                highlightFill: "rgba(151,187,205,0.75)",
-                highlightStroke: "rgba(151,187,205,1)",
+                fillColor: fillColor,
+                strokeColor: strokeColor,
+                highlightFill: highlightFill,
+                highlightStroke: highlightStroke,
                 data: data1
             });
 
-            var data = {
+            var data2 = {
                 labels: labels,
                 datasets: datasets
             };
             console.log(labels);
-            console.log(data);
+            console.log(data2);
             console.log("skdksdj");
-            var chart = new Chart(ctx).HorizontalBar(data, options);
+            var options = {
+
+
+                //Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
+                scaleBeginAtZero : true,
+
+                scaleShowGridLines : false,
+
+                //Boolean - Whether grid lines are shown across the chart
+                //scaleShowGridLines : true,
+
+                //String - Colour of the grid lines
+                scaleGridLineColor : "rgba(0,0,0,.05)",
+
+                //Number - Width of the grid lines
+                scaleGridLineWidth : 1,
+
+                //Boolean - Whether to show horizontal lines (except X axis)
+                scaleShowHorizontalLines: false,
+
+                //Boolean - Whether to show vertical lines (except Y axis)
+                scaleShowVerticalLines: false,
+
+                //Boolean - If there is a stroke on each bar
+                barShowStroke : true,
+
+                //Number - Pixel width of the bar stroke
+                barStrokeWidth : 2,
+
+
+                //Number - Spacing between each of the X value sets
+                barValueSpacing : 5,
+
+                //Number - Spacing between data sets within X values
+                barDatasetSpacing : 1,
+
+                //String - A legend template
+                legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].fillColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>",
+
+                // Boolean - Whether to animate the chart
+                animation: true,
+
+                // Number - Number of animation steps
+                animationSteps: 60,
+
+                showXAxisLabel:false,
+
+                showTooltips : false,
+
+                multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>",
+
+                onAnimationComplete: function() {
+                    console.log('Animation complete');
+                    var ctx = document.getElementById("myChart").getContext("2d");
+                    //ctx.canvas.width = 850;
+                    if (true) {
+                        if (true) {
+                            this.eachBars(function(bar){
+                                //console.log('bar value');
+                                //console.log(bar.value);
+                                console.log('bar label');
+                                //console.log(bar.label);
+                                console.log(data);
+
+                                var samples = "1 sample";
+                                if (data[bar.label].length > 1) {
+                                    samples = data[bar.label].length + " samples";
+                                }
+
+
+                                console.log(bar);
+                                var tooltipPosition = bar.tooltipPosition();
+
+                                var labelLen =  ($.number(bar.value, 2) + ' Mbps' + ' (' + samples + ')').length ;
+                                var tx = bar.x / 2 + labelLen  + 10;
+                                if(bar.x < 300 && true) {
+                                    tx = bar.x + 60 + (labelLen / 2);
+                                }
+
+                                console.log('tx ', tx, ' of x ', bar.x);
+                                new Chart.Tooltip({
+                                    //x: Math.round(tooltipPosition.y),
+                                    //y: Math.round(tooltipPosition.x),
+                                    x: tx,
+                                    y: bar.y + (bar.left / 4) + 5,
+                                    xPadding: this.options.tooltipXPadding,
+                                    yPadding: this.options.tooltipYPadding,
+                                    fillColor: "rgba(255,255,255,0)", //fill bg the color with white
+                                    textColor: "rgba(0,0,0,1)", //set text color to black
+                                    fontFamily: this.options.tooltipFontFamily,
+                                    fontStyle: this.options.tooltipFontStyle,
+                                    fontSize: 13, //set font size
+                                    caretHeight: this.options.tooltipCaretSize,
+                                    cornerRadius: this.options.tooltipCornerRadius,
+                                    text: $.number(bar.value, 2) + ' Mbps' + ' (' + samples + ')',
+                                    chart: this.chart
+                                }).draw();
+                            });
+                        }
+                    }
+                }
+
+                //barValueSpacing : 2,
+
+                //barStrokeWidth: 1
+
+
+            };
+
+
+            //var chart = new Chart(ctx).HorizontalBar(data, options);
+            var chart = new Chart(ctx).HorizontalBarAlt(data2, options);
             console.log('Chart finished...');
 
+            for(var idx = 0; idx < info.length; idx += 1) {
+                console.log(info[idx].isp);
+                chart.datasets[0].bars[idx].fillColor = fillColor[idx];
+                chart.datasets[0].bars[idx]._saved.fillColor = fillColor[idx];
+                chart.datasets[0].bars[idx].strokeColor = strokeColor[idx];
+                chart.datasets[0].bars[idx]._saved.strokeColor = strokeColor[idx];
+                chart.datasets[0].bars[idx].highlightFill = highlightFill[idx];
+                chart.datasets[0].bars[idx]._saved.highlightFill = highlightFill[idx];
+                chart.datasets[0].bars[idx].highlightStroke = highlightStroke[idx];
+                chart.datasets[0].bars[idx]._saved.highlightStroke = highlightStroke[idx];
+            }
 
-            //var fillColorMap = {
-            //    MASSY: "rgba(113, 188, 120, 0.5)", //rgba(204, 204, 255, 0.5),
-            //    FLOW: "rgba(151,187,205,0.5)",
-            //    BLINK: "rgba(255, 159, 0, 0.5)",
-            //    DIGICEL: "rgba(238, 32, 77, 0.5)",
-            //    GREENDOT: "rgba(113, 188, 120, 0.5)"
-            //};
-            //
-            //var highlightFillcolorMap = {
-            //    MASSY: "rgba(113, 188, 120, 0.75)", //rgba(204, 204, 255, 0.5),
-            //    FLOW: "rgba(151,187,205,0.75)",
-            //    BLINK: "rgba(255, 159, 0, 0.75)",
-            //    DIGICEL: "rgba(238, 32, 77, 0.75)",
-            //    GREENDOT: "rgba(113, 188, 120, 0.75)"
-            //};
-            //
-            //var strokeColorMap = {
-            //    MASSY: "rgba(113, 188, 120, 0.8)", //rgba(204, 204, 255, 0.5),
-            //    FLOW: "rgba(151,187,205,0.8)",
-            //    BLINK: "rgba(255, 159, 0, 0.8)",
-            //    DIGICEL: "rgba(238, 32, 77, 0.8)",
-            //    GREENDOT: "rgba(113, 188, 120, 0.8)"
-            //};
-            //
-            //var hightlightStrokeColorMap = {
-            //    MASSY: "rgba(113, 188, 120, 1)", //rgba(204, 204, 255, 0.5),
-            //    FLOW: "rgba(151,187,205,1)",
-            //    BLINK: "rgba(255, 159, 0, 1)",
-            //    DIGICEL: "rgba(238, 32, 77, 1)",
-            //    GREENDOT: "rgba(113, 188, 120, 1)"
-            //};
-            //
-            //for(var idx = 0; idx < info.length; idx += 1) {
-            //    console.log(info[idx].isp);
-            //    chart.datasets[0].bars[idx].fillColor = fillColorMap[info[idx].isp];
-            //    chart.datasets[0].bars[idx].strokeColor = strokeColorMap[info[idx].isp];
-            //    chart.datasets[0].bars[idx]. highlightFill = highlightFillcolorMap[info[idx].isp];
-            //    chart.datasets[0].bars[idx].highlightStroke = hightlightStrokeColorMap[info[idx].isp];
-            //}
+            //place_message(results.message);
+
 
 
         }
 
-        $.get('/isp-performance', function(data) {
-            console.log(data);
-            plot_data(data);
-        });
+        function resize_canvas(data) {
+            var labelCount = 0;
+            for(var prop in data) {
+                if(data.hasOwnProperty(prop)) {
+                    labelCount += 1;
+                }
+            }
+            var canvasElement = document.getElementById('myChart');
+            console.log(canvasElement.height);
+            canvasElement.height = 70 * labelCount;
+        }
+
+
+        $('#dashboard').hide();
+        $('#singlebutton').click(function(event) {
+            console.log('Clicked....');
+            event.preventDefault();
+            var email = $('#textinput').val();
+            var url = '/isp-performance/' + email;
+            $.get(url, function(results) {
+                console.log('Made calls to ', url);
+                console.log('For results');
+                console.log(results);
+                if(results.hasdata == true) {
+                    resize_canvas(results.data);
+                    plot_data(results);
+                } else {
+                    alert('No data returned');
+                }
+                place_message(results.message);
+                console.log('hiding emel');
+                $('#emailform').hide();
+                $('#dashboard').show();
+            });
+
+        })
 
     });
 
