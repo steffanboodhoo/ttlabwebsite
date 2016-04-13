@@ -1,0 +1,30 @@
+{
+	"Name of task 1":{
+		"duration":"2 weeks",
+		"skill":"low",
+		"description":"This is a sample task, i'm just writing what comes to mind when really should have used ipsum",
+		"posted":"Mar, 2016",
+		"status":"Available"
+	},
+	"Name of some other task":{
+		"duration":"4 weeks",
+		"skill":"high",
+		"Description":"Again i should have used ipsum to describe this really hard task. I'm thinking about having stars and or colours for skill level and status",
+		"posted":"June, 2016",
+		"status":"Assigned"
+	},
+	"task abcd":{
+		"duration":"1 weeks",
+		"skill":"high",
+		"description":"Again i should have used ipsum to describe this really hard task. I'm thinking about having stars and or colours for skill level and status",
+		"posted":"April, 2016",
+		"status":"Completed"
+	},
+	"task lmno":{
+		"duration":"1 weeks",
+		"skill":"low",
+		"description":"ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos",
+		"posted":"April, 2016",
+		"status":"Completed"
+	}
+}

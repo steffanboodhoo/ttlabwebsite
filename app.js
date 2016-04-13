@@ -106,6 +106,10 @@ app.get('/events/data',function(req,res){
   res.sendFile(return_data('events_data.json'));
 });
 
+app.get('/tasks/data',function(req,res){
+  res.sendFile(return_data('tasks_data.json'));
+});
+
 app.get('/pdf/:name',function(req,res){
   var name = req.params['name'];
   res.contentType("application/pdf");

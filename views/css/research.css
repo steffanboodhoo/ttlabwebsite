@@ -41,3 +41,10 @@
   float:left;
   padding-left: 20px;
 }
+
+.bold{
+  font-weight: bold;
+}
+.invis{
+  display: none;
+}
