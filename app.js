@@ -86,6 +86,10 @@ app.get('/members', function(req, res) {
   res.sendFile(return_path('members.html'));
 });
 
+app.get('/tasks', function(req, res) {
+  res.sendFile(return_path('tasks.html'));
+});
+
 app.get('/research/data',function(req,res){
   res.sendFile(return_data('research_data.json'));
 });
