@@ -86,6 +86,10 @@ app.get('/members', function(req, res) {
   res.sendFile(return_path('members.html'));
 });
 
+app.get('/tasks', function(req, res) {
+  res.sendFile(return_path('tasks.html'));
+});
+
 app.get('/research/data',function(req,res){
   res.sendFile(return_data('research_data.json'));
 });
@@ -100,6 +104,10 @@ app.get('/members/data',function(req,res){
 
 app.get('/events/data',function(req,res){
   res.sendFile(return_data('events_data.json'));
+});
+
+app.get('/tasks/data',function(req,res){
+  res.sendFile(return_data('tasks_data.json'));
 });
 
 app.get('/pdf/:name',function(req,res){
