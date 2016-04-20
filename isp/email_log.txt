@@ -7894,3 +7894,235 @@ nk you.
 
 --_000_37FB4EDA27DC3F408AC3F5716B413A5F0149113FCCexMS02vmsauwi_--
 
+From admin@nic.tt  Thu Apr 14 08:37:34 2016
+Return-Path: <admin@nic.tt>
+X-Original-To: isp-perf@lab.tt
+Delivered-To: ispperf@lightspeed.sndgca.sbcglobal.net
+Received: from mail-vk0-f50.google.com (mail-vk0-f50.google.com [209.85.213.50])
+	by 108-80-218-59.lightspeed.sndgca.sbcglobal.net (Postfix) with ESMTP id 80EDA2224D7
+	for <isp-perf@lab.tt>; Thu, 14 Apr 2016 08:37:34 -0400 (AST)
+Received: by mail-vk0-f50.google.com with SMTP id e185so122284624vkb.1
+        for <isp-perf@lab.tt>; Thu, 14 Apr 2016 12:39:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=nic-tt.20150623.gappssmtp.com; s=20150623;
+        h=from:content-transfer-encoding:subject:message-id:date:to
+         :mime-version;
+        bh=gun+A2c36qhfloawwfuzuGtRjIihMQjWz4ZzRjxLblg=;
+        b=tmN8B5I/7cE8NHlcPXSeJt3tT7P3/YfYhWcD7pOdUZk2JXMfDCJ8CCa4yVQLUc2tb3
+         jcMYRfzooEk+4qXiqc0g/Fz7mtbgUH02z75+uGYOPeHjr05102KxG6Fz8cb2jRXnW9g4
+         348aDzlRFNJePqEDFMOLv/UMERLsjUfmhVAZho24ZWovbWztTAQCaHYhqU3eQIe1lRBt
+         WBhQ3+vOwiIubeShrvRZEItW4cicEPCKPtW2tL1j14/TAG8bMRm+RSu1WuqifrbGHUru
+         NITUS3CiaHtYeZ6LHuos/xCRlVNZhBaDWvwv4BSe1/OVtaAHnquHWRLNneSklhiu69sm
+         Xsvw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:content-transfer-encoding:subject
+         :message-id:date:to:mime-version;
+        bh=gun+A2c36qhfloawwfuzuGtRjIihMQjWz4ZzRjxLblg=;
+        b=Krj/AytltG0XpBKOogQEb5skt8x+7CzDQLJHzsSjY9N7uD0BpP2sy/guf7wnnXfQcv
+         yGyPv6I9p7IGp4prDilG6zwA5HFe0/sLxyxFKrEifzuhLNoiXY9GX8UXQcg3WbwIy0ni
+         tvv8uLmha4ELifjHXwVlgu72YkeFOrzcCAklpzJXZmaoIg5Q0ln6EBTkeDHofO36WVAI
+         GxC0IVzJKfKf8ZMcH6KPDK3xSZydG+ONz6KSnxYXoQbaAtEffA/w9NXmWA2PM8w1IH73
+         Nq+NiLqiF+M58XLxrJVtg0ugXC6gc4dR3uCa4lVztwcEw+mMm0RaityXXYll/lmMsaB2
+         UjIA==
+X-Gm-Message-State: AOPr4FX930DdmjBdqOjPyeszlBDS21eA2SUskwakx9p696kNz4TX97c2/jr6xex0Ho+RhQ==
+X-Received: by 10.31.54.80 with SMTP id d77mr7544022vka.138.1460662798982;
+        Thu, 14 Apr 2016 12:39:58 -0700 (PDT)
+Received: from ?IPv6:2803:1500:e00:2b38:cc0f:8e59:27ee:81f8? ([2803:1500:e00:2b38:cc0f:8e59:27ee:81f8])
+        by smtp.gmail.com with ESMTPSA id 86sm7391146vkd.9.2016.04.14.12.39.57
+        for <isp-perf@lab.tt>
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 14 Apr 2016 12:39:58 -0700 (PDT)
+From: TTNIC <admin@nic.tt>
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Subject: ISP performance
+Message-Id: <5BE17A05-B1F4-4D03-AF90-C6DBD8BB9C51@nic.tt>
+Date: Thu, 14 Apr 2016 15:39:57 -0400
+To: isp-perf@lab.tt
+Mime-Version: 1.0 (Mac OS X Mail 9.3 \(3124\))
+X-Mailer: Apple Mail (2.3124)
+
+Digicel
+25.5
+199
+
+
+From Patrick.Hosein@sta.uwi.edu  Thu Apr 14 08:38:56 2016
+Return-Path: <Patrick.Hosein@sta.uwi.edu>
+X-Original-To: isp-perf@lab.tt
+Delivered-To: ispperf@lightspeed.sndgca.sbcglobal.net
+Received: from na01-by2-obe.outbound.protection.outlook.com (mail-by2on0053.outbound.protection.outlook.com [207.46.100.53])
+	by 108-80-218-59.lightspeed.sndgca.sbcglobal.net (Postfix) with ESMTP id F21032224D7
+	for <isp-perf@lab.tt>; Thu, 14 Apr 2016 08:38:55 -0400 (AST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=TheUniversityofTheWestIndies.onmicrosoft.com; s=selector1-sta-uwi-edu;
+ h=From:To:Date:Subject:Message-ID:Content-Type:MIME-Version;
+ bh=4BNnbDONhSaeGf8pWEY1+Vimrsvo1gE4HcrB4c8+dug=;
+ b=KvasnEGcjeNjIkO4xYvfmwNPTklNdquuUWiR+u0BG2gKC61XCuTQZwRrLcMqeSYj0zqAMBpRDGjPZbJ3OUHjJW5c77d7+0oZtNvOueDSK3oFbQNbNGlBOaA6uFrfJto3/YB4EOKEwko+6lvpxLpgquc+9VZlPzjsBv03tV+FExI=
+Received: from CY1PR0201CA0025.namprd02.prod.outlook.com (10.163.30.163) by
+ BLUPR02MB471.namprd02.prod.outlook.com (10.141.82.21) with Microsoft SMTP
+ Server (TLS) id 15.1.453.26; Thu, 14 Apr 2016 19:41:20 +0000
+Received: from BL2FFO11OLC011.protection.gbl (2a01:111:f400:7c09::158) by
+ CY1PR0201CA0025.outlook.office365.com (2a01:111:e400:58b9::35) with Microsoft
+ SMTP Server (TLS) id 15.1.453.26 via Frontend Transport; Thu, 14 Apr 2016
+ 19:41:19 +0000
+Authentication-Results: spf=pass (sender IP is 64.28.139.128)
+ smtp.mailfrom=sta.uwi.edu; lab.tt; dkim=none (message not signed)
+ header.d=none;lab.tt; dmarc=bestguesspass action=none
+ header.from=sta.uwi.edu;
+Received-SPF: Pass (protection.outlook.com: domain of sta.uwi.edu designates
+ 64.28.139.128 as permitted sender) receiver=protection.outlook.com;
+ client-ip=64.28.139.128; helo=exES01vm.sauwi.uwi.tt;
+Received: from exES01vm.sauwi.uwi.tt (64.28.139.128) by
+ BL2FFO11OLC011.mail.protection.outlook.com (10.173.160.157) with Microsoft
+ SMTP Server id 15.1.453.6 via Frontend Transport; Thu, 14 Apr 2016 19:41:18
+ +0000
+Received: from EXHS01VM.sauwi.uwi.tt (192.168.2.193) by exES01vm.sauwi.uwi.tt
+ (192.168.2.201) with Microsoft SMTP Server (TLS) id 14.3.266.1; Thu, 14 Apr
+ 2016 15:40:22 -0400
+Received: from EXMS02VM.sauwi.uwi.tt ([fe80::a42b:fb7c:79d:a25f]) by
+ exHS01vm.sauwi.uwi.tt ([fe80::399e:67c7:203b:87c5%15]) with mapi id
+ 14.03.0266.001; Thu, 14 Apr 2016 15:39:52 -0400
+From: Patrick Hosein <Patrick.Hosein@sta.uwi.edu>
+To: "isp-perf@lab.tt" <isp-perf@lab.tt>
+Subject: Re: ISP performance
+Thread-Topic: ISP performance
+Thread-Index: AQHRloVpSNphIo8hEUWzYwRCztkL0w==
+Date: Thu, 14 Apr 2016 19:39:51 +0000
+Message-ID: <5186A429-13F7-49D8-9AFA-9C65224D3603@sta.uwi.edu>
+References: <5BE17A05-B1F4-4D03-AF90-C6DBD8BB9C51@nic.tt>
+In-Reply-To: <5BE17A05-B1F4-4D03-AF90-C6DBD8BB9C51@nic.tt>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [161.0.158.91]
+Content-Type: text/plain; charset="us-ascii"
+Content-ID: <B50F40CEA1729644BF5EC5F3174B5026@sta.uwi.edu>
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report:
+	CIP:64.28.139.128;IPV:NLI;CTRY:TT;EFV:NLI;SFV:NSPM;SFS:(10009020)(6009001)(2980300002)(438002)(189002)(199003)(110136002)(107886002)(2501003)(2906002)(46406003)(47776003)(2900100001)(2950100001)(16796002)(189998001)(66066001)(87936001)(74826001)(6116002)(586003)(5250100002)(102836003)(1096002)(1220700001)(3480700003)(5890100001)(5640700001)(88552002)(92566002)(23726003)(3846002)(5008740100001)(97756001)(33656002)(450100001)(5004730100002)(75432002)(86362001)(54356999)(50986999)(76176999)(221733001)(89122001)(53416004)(50466002)(2351001)(106116001)(106466001)(104396002);DIR:OUT;SFP:1101;SCL:1;SRVR:BLUPR02MB471;H:exES01vm.sauwi.uwi.tt;FPR:;SPF:Pass;MLV:sfv;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;BL2FFO11OLC011;1:OyopN3/zm6hnUE9tWqfqMPu+oXz4VuOqJaayKijCgiYqF7xTWLY3ejr3VcCvlMxgAjcaXySa6gEPG79K2qHNE1HT/MJb8VVMdZpY4jNh5R/yEa4y4yAKvIBWlyoAfOse0lulxWks7j1x3dRGJibx39NDUlFVPb1MOr2ktPWOOGXaeGZJsW6BLlQ7ViIjMqReslAQ9kFcj6YPjEifE/gYyOXe62IJOw2qpxD5GpkwWzCByz1TtcESi4P9sXsJuIb6XMVZNZXmnapbwouKa7P5k/LV22vDE9w3XDf2u0PJ1Zk2O9/WnUQInhyTuQLFtc42m45ko2qus1VXlLpECZ8VmkjxlzmZN0SDCtaejvuqEG688ebaojJsZDAssP9BOL1702Yhn9BFMMT6j4ajxIVfgaKvLz3fF9YZb800bL8tQJMnKmJvMK/FGv1ILqmE+YEFhIFkJaqg7p28pb49ZIga7D1D4s4wy6F/pxsU2eLmlv+zBIf4jpx5hrmLfCmeFPC2rKU4EtpsCP0xmoMLS06Q7g==
+X-MS-Office365-Filtering-Correlation-Id: 7b13503b-7a41-466c-0891-08d3649cc01e
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR02MB471;2:YL/YIB7LfblnQjZqJJA+T8EQluShyHURM4syD3bSYjzxxua45DfsIjDvoLP/kJmk/PBIZ99JCX2bJ80vNgNjHZg+HaJpUiwpAI61Iu3S69PByiWJS47VbnWMEO/Tz4x8tlVckUaCJhNdYA0Y1OCt9rN+wWnTcwpqDHaxP6PcC6aL7dZMGNtexHrnvSJtMfde;3:OlOHMqw89eiwmDhbpMMl9votPoQzQkXZY8ZxjhWsW2QPFRIuVnbt0JpGpR8b2rLwy5TcR3AeK7mw/fIRNF07+v2mYS4QHhGKtW89wIyt0USEd9V6spfAKmJ77844Ko+HTl6jK3Ly9DZRNq/B3R3pArWRR+LVS/HWjQzzbcsbipb/vMMwoAdM6Idf3Fs3mQrg0iLTRiLvhrFGFikSc1wCwpawiLdn3xK06klAU8z/5K3PpsiOlo09YDuRKG+IWZHR1FsIObfNAYjawyMRJL5/lg==;25:0IhjLB1pcJvNdx2sCWjXmUPMSLXOSF6c44PmPw/3e1Ew/qv7zyJW48G/C15566mSceO/aL52CbNAX3FFnZdtE+jmboYcr5McmJxMgpslp2vfL9N0HgmcnNuRq03iboD3FxrCU7DgVCx2DMbF3/W1w6R2bdfOOmH36GA52VLv9bGNp08mScNGZBuDh0/8bQ3jHCa8w9FG/gWm8hmhl4OkHT5bNTXiX3nnJjwsm8MVLtIrF6WtTy4UHY1oJZcQcA/xG70sEgG0WhVpunbj0MQttM7WU2o/wYk9OgAezggV4n+WdSWC/e2HqxcjHyHlnVbrMWIzl8kVvVuupNeIy5YNPw==
+X-Microsoft-Antispam:
+	UriScan:;BCL:0;PCL:0;RULEID:(8251501002);SRVR:BLUPR02MB471;
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR02MB471;20:xhYX8sS0QO1Wxwr05exOzLcUrYoYrkHlMSJ5iU/JXo+E8I/CX2+mFcP+7tyGs0+vnM0f2aQ2+FUkvWqIQRVkETYRjOu9xkVYLYZU0HeglSwJ+Ogvk7UjASZ0en9eLLQNiSBoUI1zVIdwqKIVdsJLBZA5amQEX3pxM9//UfganA63ulVBXtdEM3rAM8zmPGH65YNP8RCA2xKqLqwpNo8UQkXY/xLLEEOYfdg/f1FHeBYH9+m3gknF1njUvzFnIL5hcuP3RJsFXBib3wyK/pqmcIWb0GPbRZpVysctkuJWcXw+7HpwmU/Od7bVmehtDVDNKQXvRrY14dIDgOxCeTAuXMdVfthhwnDqUp0egIcrOEByoSKB73+KFZfhQWNn/pmoeMl9lzI3h2YDkM82BfNKIGgyiay3/mB0+InbD0lZvZ23e8kofeF2g5N63cHbg5i1WzlRGfcENX0xP1Qt5WQXTa31BYC9xCUgqUM5bLNniFsC3bBvQL10kHpMCj1WozlM
+X-Microsoft-Antispam-PRVS:
+	<BLUPR02MB4715DC11856C93F935B1FF8CD970@BLUPR02MB471.namprd02.prod.outlook.com>
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test:
+	BCL:0;PCL:0;RULEID:(601004)(2401047)(13018025)(13017025)(13015025)(13024025)(5005006)(8121501046)(13023025)(10201501046)(3002001);SRVR:BLUPR02MB471;BCL:0;PCL:0;RULEID:;SRVR:BLUPR02MB471;
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR02MB471;4:YWTEWf5oT6j4hIn7mFSMRF8U5P3Wv1Z28p/SFzSxvfwpDkvGIMpTcqd+sqyaJ2uz9eVW/I1S2LCsoLX/htm+egY2aqP+7fZNuIUPpiTkbGY+clMRml4gmXo8tyfXX3/Fy+/oE6juj2IPEto62/bcvtPgy0diBXtxKpVKgjjf94X/cZeIONDlXRjiIPZBbmXbcp4+wEKokJ7uN9HzXuhcCiRCv29kBopvPzuvCSxIjBD60jcoVPFMGy/BSxfwkyAfbH4ramB3iEVs16LXRrg0BwD6mY0cw31A3xUHLIniEzaBnTxZOEE0Z2prMjNApfI6+zTEaiUaG6NEYdtXTVgF2T+EaTJiLBz0C2CJHovHcKq6J4RBsYiZjvf/iLBIIxu07t7BGVCsFSFwbN0RM3KW84HwG7Kp2NvmDtgzozkiZGVL8Tx31Bu27yoyTjwCuj9drVcpVgmFQ8EKRgjCqTYqQQ==
+X-Forefront-PRVS: 0912297777
+X-Microsoft-Exchange-Diagnostics:
+	=?us-ascii?Q?1;BLUPR02MB471;23:dXY0x3jf5fFICu2eqdPQmMm/iW0g3M1ptCirkr1O1J?=
+ =?us-ascii?Q?+Ii5lHv8ptdou8Cw3Yec83PTvk9/yClGn4Y4vNKUV5Ho0cAsKCtQwFAZPY6I?=
+ =?us-ascii?Q?e9r0DyweyCg2OtaxoD71jRJ+ErJ40LctPc6bPbwCngA/n/ca6ChkrFe43Fra?=
+ =?us-ascii?Q?7jdgx3X76MH2c1eKkRmoAjOQVDEzv5Gxi+Ibop+d/9Sg9fMJAxP9Kr2tundZ?=
+ =?us-ascii?Q?Cwrtn3eZqy4X/6mk5uDkLsBEit7lB3AJ9S1gqapkzJ/9K9FD/zinc5M+xs0e?=
+ =?us-ascii?Q?QxdzxL/ccVjf1I1PvSmrhA1hO6toSVw8oXppIBKccLC1VAj2XM0hBFHa0v40?=
+ =?us-ascii?Q?q9yvYiND0oGKAYRopzlWEvC2Rhv5BZjU1nA5jNueySnwXyyLwyCmCQsERNko?=
+ =?us-ascii?Q?xK+EzHy4v2HTrdJUn7aFrXxPB8OwUQ+v8Na66DOo/nf6ZF73ZdXmDA6FArFU?=
+ =?us-ascii?Q?RIp9PEkWxqqLVm2vsBrcC5q3RG2yMXoFI0OfnOURHN0Xvgl68XDTfyA/13Xt?=
+ =?us-ascii?Q?u1Cmc4iXwazb2Dx8xoFnRZJ2LZ1JIN9X6i4+9ormgQtKLTdJYAGhOlpq3XFF?=
+ =?us-ascii?Q?Xk2KdpGWywoyVSnV3o1nwZZdzIdLYqh4QyDboFkJkaq4RbFy40vrQZ01t7tJ?=
+ =?us-ascii?Q?S+qTVK9b0TwJ3P48/rX/S9GB+2NN4Um4IMSYsIUFn04yum2/jZWIOLndtciR?=
+ =?us-ascii?Q?f3JgMQqJuPE37ndrLoy1MiQiAFglRf0IKBfPQONnn4SE1PmwEfzNsQZGqzw+?=
+ =?us-ascii?Q?STffuX7fQL03vWqPSA0ddzOXVtKwx+abhzCLHkTk3uPpUV+FJPLaz08OI7cu?=
+ =?us-ascii?Q?ShRJq4fEY1k2os9+j6Q+S8JCaWeMufPWaQ40UocrFTc9tfxzzxcP0KL29848?=
+ =?us-ascii?Q?GDz8aCnDBrs1kWqqLQXEEG1bR7zJkKLnNwOODtc1+ziAaywh7fgkBqgQ8dK3?=
+ =?us-ascii?Q?o255kyvYCfCixZuK8Q4iAc2YZb0LJX9pRih8bF1KyUsEJ/AEm3hTSMkmAgoo?=
+ =?us-ascii?Q?b3XG5Wd+PZBWQmVXKuAPvZ9fDHVusytKsFZX9dtEEybmDGKgTma7fT3CTKHr?=
+ =?us-ascii?Q?alAMMnThBeig1LQEv8zobWv9jJikg+H68jZAZcQ9Zz1vXV3Li1Fo5zC+bu6D?=
+ =?us-ascii?Q?Jy0j0FmctniEp3Z4fzon5pjAbILlYnf+RVbVucTXoRwAvs75Mp5GEyTFoR3/?=
+ =?us-ascii?Q?FqtwxSM8vVNlf0es7M7OxWvg+cRM4jq1RXkCqjAgtvuIRFz6lkOB9Z3VYVY4?=
+ =?us-ascii?Q?wqCzx6iL+gUxifjzU=3D?=
+X-Microsoft-Exchange-Diagnostics:
+	1;BLUPR02MB471;5:XZXbGKPYP0XU6/NTdbE+PAEsbp3ZgLCuvJvFylRTuu4x7APZqgF0yWgbUjViZCrk+5oB1SaX/59aqpDulKSDaFRkbXVV/M5ZeUCPXkiGypeWUJWpXvm4iyyoG5Sq4H3PinjORkisIjDDPfiz8NWkOw==;24:5lbu6GxcL87NbhhsX4Io+JSBX7kkGUrflZUtFWhP/MLBO2lBZpPe4fRR42wKaxtXx6ZxnAhTABqTm99nY7EBBFPxkvvDyWGAz1H/1kB4sXM=
+SpamDiagnosticOutput: 1:23
+SpamDiagnosticMetadata: NSPM
+X-OriginatorOrg: sta.uwi.edu
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 14 Apr 2016 19:41:18.5873
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 19c40ac4-5e1f-4c62-b5f6-29c4bbef46fe
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=19c40ac4-5e1f-4c62-b5f6-29c4bbef46fe;Ip=[64.28.139.128];Helo=[exES01vm.sauwi.uwi.tt]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR02MB471
+
+Digicel
+25.5
+199
+
+
+CONFIDENTIALITY: This email (including any attachments) may contain confide=
+ntial, proprietary and/or privileged information. Any duplication, copying,=
+ distribution, dissemination, transmission, disclosure or use in any manner=
+ of this email (including any attachments) without the authorisation of the=
+ sender is strictly prohibited. If you receive this email (including any at=
+tachments) in error, please notify the sender and delete this email (includ=
+ing any attachments) from your system. Thank you.
+
+From patrick@hosein.tt  Thu Apr 14 08:44:50 2016
+Return-Path: <patrick@hosein.tt>
+X-Original-To: isp-perf@lab.tt
+Delivered-To: ispperf@lightspeed.sndgca.sbcglobal.net
+Received: from mail-vk0-f49.google.com (mail-vk0-f49.google.com [209.85.213.49])
+	by 108-80-218-59.lightspeed.sndgca.sbcglobal.net (Postfix) with ESMTP id 2353A2224D7
+	for <isp-perf@lab.tt>; Thu, 14 Apr 2016 08:44:50 -0400 (AST)
+Received: by mail-vk0-f49.google.com with SMTP id c4so122568102vkb.3
+        for <isp-perf@lab.tt>; Thu, 14 Apr 2016 12:47:15 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hosein-tt.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:subject:from:in-reply-to:date
+         :content-transfer-encoding:message-id:references:to;
+        bh=gun+A2c36qhfloawwfuzuGtRjIihMQjWz4ZzRjxLblg=;
+        b=v9tYev8Dweuvki2LDoHuYE+kegnopCPhQH2EBYb7zXKEpyy8BEwI6KZ58vYmbtBJLs
+         ccbP7N8H8JD1TvpRu4Mdt7EDREuoBJc6v7lk6ARerjBvd8nLv0ZpXoZ34kXJZcRLq3VI
+         CvVA5+KuLo5k1oLoTviYcT4La+TkGp+pqLJhel/Yvz+zeN752oHi3mGyHpAp4ZJPg/9R
+         +NJE3mWjuKjCxYiyfeV1TrK6HenuxBiXNM6tX8zHxxEtkZkvqHvrDxf/xka+dXVcVmpC
+         aHqIjlX+KNIAVwjhkt0UEP9MLgHObDYA4xe0+nQoIxQsnatK6X6IYy9vvAyF4mAurpBE
+         h07Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:subject:from:in-reply-to:date
+         :content-transfer-encoding:message-id:references:to;
+        bh=gun+A2c36qhfloawwfuzuGtRjIihMQjWz4ZzRjxLblg=;
+        b=RWLbNaltDkjvpBdg7Gy889h6Y835tcTgf8sylk92fmEGrgW1YxcDXLaHDDuo4sXNdR
+         qmWmT9sB2jR0EfVnDwpLAQ4oSeMIHYGkedQuZkjuQEv4Pe6u489S4s7XqT3J5n9DDUpa
+         fFTQWgNtlxoxDS1zg2ThcHDxwxgSJavX6WE1lpq3wnrMYjyYUjziaZ+b0eEJL9dluQhU
+         9s9rPo31E/p/ZUp4s86HX3Jc4LwCCac7RZy61V5+WHM++TzoBnRbNrGUzKJzAgR2WHUS
+         XDW/t05NNFjzkAVAOiFc6WcVoP89k+egOfFUGHjdHUjaZPZzjBbFjTSbeAVFYqTZEVWT
+         6EFA==
+X-Gm-Message-State: AOPr4FV2JVkgBqiW92Fs9/DPdEqal94YVlGdpj+rPrxKQ8jY/Zmfh1kYPbbfOoO1+SyT9Q==
+X-Received: by 10.31.7.201 with SMTP id 192mr8835882vkh.76.1460663234594;
+        Thu, 14 Apr 2016 12:47:14 -0700 (PDT)
+Received: from ?IPv6:2803:1500:e00:2b38:cc0f:8e59:27ee:81f8? ([2803:1500:e00:2b38:cc0f:8e59:27ee:81f8])
+        by smtp.gmail.com with ESMTPSA id x70sm7352878vkd.20.2016.04.14.12.47.13
+        for <isp-perf@lab.tt>
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Thu, 14 Apr 2016 12:47:13 -0700 (PDT)
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0 (Mac OS X Mail 9.3 \(3124\))
+Subject: Re: ISP performance
+From: Patrick Hosein <patrick@hosein.tt>
+In-Reply-To: <5BE17A05-B1F4-4D03-AF90-C6DBD8BB9C51@nic.tt>
+Date: Thu, 14 Apr 2016 15:47:12 -0400
+Content-Transfer-Encoding: 7bit
+Message-Id: <ED072C7A-CDE3-49FD-B79A-1803203D0BC7@hosein.tt>
+References: <5BE17A05-B1F4-4D03-AF90-C6DBD8BB9C51@nic.tt>
+To: isp-perf@lab.tt
+X-Mailer: Apple Mail (2.3124)
+
+Digicel
+25.5
+199
+
+
+
