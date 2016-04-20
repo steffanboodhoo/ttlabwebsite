@@ -8,6 +8,7 @@
 		"page": "patrickhosein.html",
 		"img": "patrickhosein.jpg"
 	},
+
 	"Shellyann Sooklal": {
 		"title": "PhD Fellow",
 		"type": "Company",
@@ -17,6 +18,16 @@
 		"page": "shellyannsooklal.html",
 		"img": "shellyannsooklal.jpg"
 	},
+    "Kiran Maraj": {
+      "title": "Research Scientist",
+      "type": "Associate",
+      "about": "-",
+      "education": ["B.Sc., The University Of The West Indies", "M.Sc University of Bristol"],
+      "links": ["KiranMa@hotmail.com"],
+      "page": "",
+      "img": ""
+
+    },
 	"Stefan Hosein": {
 		"title": "Research Scientist",
 		"type": "Associate",
@@ -44,15 +55,6 @@
 		"page": "inzamamrahaman.html",
 		"img": "inzamamrahaman.jpg"
 	},
-	"Rikaard Hosein": {
-		"title": "Research Scientist",
-		"type": "Associate",
-		"about": "I'm a 23 year old Computer Scientist in Trinidad and Tobago with a strong emphasis on application and web security.",
-		"education": ["B.Sc., The University Of The West Indies, 2014"],
-		"links": ["rikaard.hosein@gmail.com"],
-		"page": "rikaardhosein.html",
-		"img": "rikaardhosein.jpg"
-	},
 	"Laura Bigram": {
 		"title": "Adjunct Scientist",
 		"type": "Associate",
@@ -61,5 +63,14 @@
 		"links": ["laura.bigram@gmail.com"],
 		"page": "laurabigram.html",
 		"img": "laurabigram.jpg"
-	}
+	},
+    "Rikaard Hosein": {
+      "title": "Adjunct Scientist",
+      "type": "Associate",
+      "about": "I'm a 23 year old Computer Scientist in Trinidad and Tobago with a strong emphasis on application and web security.",
+      "education": ["B.Sc., The University Of The West Indies, 2014"],
+      "links": ["rikaard.hosein@gmail.com"],
+      "page": "rikaardhosein.html",
+      "img": "rikaardhosein.jpg"
+    }
 }
