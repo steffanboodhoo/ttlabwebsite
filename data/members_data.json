@@ -37,15 +37,6 @@
 		"page": "stefanhosein.html",
 		"img": "stefanhosein.jpg"
 	},
-	"Steffan Boodhoo": {
-		"title": "Research Scientist",
-		"type": "Associate",
-		"about": "-",
-		"education": ["B.Sc., The University Of The West Indies, 2015"],
-		"links": ["boodhoo100@gmail.com", "https://github.com/steffanboodhoo"],
-		"page": "steffanboodhoo.html",
-		"img": "steffanboodhoo.jpg"
-	},
 	"Inzamam Rahaman": {
 		"title": "Research Scientist",
 		"type": "Associate",
@@ -63,6 +54,15 @@
 		"links": ["laura.bigram@gmail.com"],
 		"page": "laurabigram.html",
 		"img": "laurabigram.jpg"
+	},
+	"Steffan Boodhoo": {
+		"title": "Adjunct Scientist",
+		"type": "Associate",
+		"about": "-",
+		"education": ["B.Sc., The University Of The West Indies, 2015"],
+		"links": ["boodhoo100@gmail.com", "https://github.com/steffanboodhoo"],
+		"page": "steffanboodhoo.html",
+		"img": "steffanboodhoo.jpg"
 	},
     "Rikaard Hosein": {
       "title": "Adjunct Scientist",
