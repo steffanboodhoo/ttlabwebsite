@@ -1,4 +1,11 @@
 {
+	"Application for Power Grid Fault Management": {
+		"authors": "Hosein S., Hosein P.",
+		"location": "IEEE 6th International Conference on Intelligent and Advanced Systems (ICIAS 2016)",
+		"volume":"",
+		"date":"Aug, 2016",
+		"pdf":"fault-detection-app.pdf"
+	},
 	"A Consumer Focused Open Data Platform":{
 		"authors":"C. Millette, P. Hosein",
 		"location":"International Conference on Big Data and Smart City, Muscat, Oman",
