@@ -46,6 +46,15 @@
 		"page": "inzamamrahaman.html",
 		"img": "inzamamrahaman.jpg"
 	},
+	"Ramneek Sekhon": {
+      "title": "Adjunct Scientist",
+      "type": "Associate",
+      "about": "TBD",
+      "education": ["TBD"],
+      "links": "TBD",
+      "page": "TBD",
+      "img": "TTLAB.png"
+    },
 	"Laura Bigram": {
 		"title": "Adjunct Scientist",
 		"type": "Associate",
@@ -55,6 +64,15 @@
 		"page": "laurabigram.html",
 		"img": "laurabigram.jpg"
 	},
+    "Nicholas Chamansingh": {
+      "title": "Adjunct Scientist",
+      "type": "Associate",
+      "about": "TBD",
+      "education": ["TBD"],
+      "links": "TBD",
+      "page": "TBD",
+      "img": "TTLAB.png"
+    },
 	"Steffan Boodhoo": {
 		"title": "Adjunct Scientist",
 		"type": "Associate",
