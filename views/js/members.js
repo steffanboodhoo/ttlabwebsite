@@ -47,11 +47,22 @@
 			
 			//RIGHT
 			//right_sub_left
+			var email_regex = /@/;
 			var links = data[name]['links'];
 			right_sub_left.append($("<h4/>",{"class":"list-name"}).append(name));
 			right_sub_left.append($("<p/>",{"class":"list-title"}).append(data[name]['title']));
 			for( var l=0; l<links.length; l++){
-				right_sub_left.append($("<a/>",{"class":"list-link links"}).append(links[l]));
+                var current_link = links[l];
+                var tag = $('<a></a>');
+                tag.addClass('list-link links');
+                var href = current_link;
+                if (email_regex.test(current_link) === true) {
+                    href = 'mailto:' + current_link;
+                }
+                tag.attr("href", href);
+                tag.html(current_link);
+				//right_sub_left.append($("<a/>",{"class":"list-link links"}).append(links[l]));
+                right_sub_left.append(tag);
 				right_sub_left.append($("<br/>"))
 			}
 			//right_sub_left
