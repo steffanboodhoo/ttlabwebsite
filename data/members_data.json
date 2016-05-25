@@ -49,11 +49,11 @@
 	"Ramneek Sekhon": {
       "title": "Adjunct Scientist",
       "type": "Associate",
-      "about": "TBD",
-      "education": ["TBD"],
-      "links": "TBD",
+      "about": "Ramneek is currently a Ph.D. student of the University of Science and Technology (UST), Daejeon, Korea, at the Korea Institute of Science and Technology Information (KISTI). She received B.Tech (Computer Science and Engineering) from Guru Nanak Dev University (G.N.D.U) Amritsar, India in 2010 and M.Tech (Information Technology) from International Institute of Information Technology (IIITB), Bangalore, India in 2013. Her research interests include Networking and Communication (Congestion Management in Wireless and Cellular Networks, QoS and Pricing for Cellular Networks, Network Neutrality) and Cloud Computing (Openstack, IaaS, Cloud federation, Cloud Networking, SDN)",
+      "education": ["M.Tech International Institute of Information Technology (IIITB)", "B. Tech Guru Nanak Dev University (G.N.D.U)"],
+      "links": ["ramneeksekhon@gmail.com"],
       "page": "TBD",
-      "img": "TTLAB.png"
+      "img": "ramneek.jpg"
     },
 	"Laura Bigram": {
 		"title": "Adjunct Scientist",
