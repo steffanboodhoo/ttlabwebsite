@@ -1,7 +1,6 @@
 (function(window){
 	
 	$(document).ready(function(){
-
 		_get('/members/data',null,createList);
 
 	});
@@ -13,10 +12,13 @@
             type:'GET',
             data:params,
             success:function(response){
-            	console.log(response)
+            	console.log(response);
                 if(typeof call_back==='function')
                     call_back(response)
-            }
+			},
+			failure:function() {
+				console.log('failed');
+			}
 		})
 	}
 

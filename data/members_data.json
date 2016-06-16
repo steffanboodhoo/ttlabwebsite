@@ -9,6 +9,16 @@
 		"img": "patrickhosein.jpg"
 	},
 
+	"Sanjay Bahadoorsingh": {
+		"title": "Principle Scientist",
+		"type": "Staff",
+		"education": ["PhD, The University of Manchester, 2009", "M.Sc. University of Manchester, 2005", "B.Sc. The University of the West Indies, 2003"],
+		"about": "Sanjay Bahadoorsingh was born in Port of Spain, Trinidad. In 2003 he completed the B.Sc. degree at The University of The West Indies with specialization in Telecommunication and Computer Systems. Immediately upon graduation, he was instrumental in the formation of Caribbean Hydro Source Limited before he acquired the M.Sc. degree in Power Systems Engineering and Economics from University of Manchester Institute of Science & Technology (UMIST) in 2005. In 2009, he completed the Ph.D. degree in Electrical Power Engineering at The University of Manchester. He continued post-doctoral research at The University of Manchester until 2010. He then joined as a lecturer in energy systems within the Department of Electrical & Computer Engineering of the Faculty of Engineering at The University of the West Indies, St Augustine Campus. Since 2011 he serves as, the Assistant Chief Examiner for CXC’s CAPE Electrical and Electronic Technology, a member of CROSQ (CARICOM Organization for Standards and Quality) Technical Sub-Committee on Electric Cables at the Trinidad and Tobago Bureau of Standards, the Education Liaison Officer of the International Society of Automation (ISA) Trinidad Section. Since 2012, he has been an alternate on the Committee for the Certification of Energy Service Companies, Ministry of Energy and Energy Affairs. He is a locally registered Electrical Engineer with the Board of Engineering of Trinidad & Tobago and is the 2014 -2015 Chairman of Institute of Electrical and Electronic Engineers (IEEE) Trinidad and Tobago Section. In 2014, he was appointed to the Multi-Stakeholder Advisory Group of Trinidad and Tobago Network Information Centre (TTNIC) which manages the registration of domain names within the dot TT (Trinidad and Tobago) country top level domain. He has published numerous scholarly articles and industry oriented technical reports in power system operation and planning, renewable energy integration, asset management and dielectric ageing focusing on electrical treeing within polymeric cable insulation.",
+		"links": ["sanjay.bahadoorsingh@ieee.org"],
+		"page": "sanjaybahadoorsingh.html",
+		"img": "sanjaybahadoorsingh.jpg"
+	},
+
 	"Shellyann Sooklal": {
 		"title": "PhD Fellow",
 		"type": "Company",
@@ -45,6 +55,15 @@
 		"links": ["inzamam.rahaman@outlook.com"],
 		"page": "inzamamrahaman.html",
 		"img": "inzamamrahaman.jpg"
+	},
+	"Chris Meetoo": {
+		"title": "Research Scientist",
+		"education": ["B.Sc., The University of the West Indies"],
+		"type": "Associate",
+		"about": "Chris Meetoo is a recent Electrical and Computer Engineering graduate, specialising in both Power Systems Engineering as well as Control Systems Engineering. He graduated top of his cohort having successfully achieved first class honours, as well as multiple awards throughout his time at The University of the West Indies for his academic prowess. He is well respected amongst his peers for his sheer intellect as well as his kindness and willingness to help those around him. Throughout his degree he has demonstrated an enduring loyalty to his studies, never giving up when faced with the most difficult tasks or complications. See the demonstration of his final year research project <a href=\"https://www.youtube.com/watch?v=EuSFd6usUW8\">here</a>.",
+		"links": ["chris.meetoo.tt@ieee.org"],
+		"page": "chrismeetoo.html",
+		"img": "chrismeetoo.jpg"
 	},
 	"Ramneek Sekhon": {
       "title": "Adjunct Scientist",
