@@ -109,5 +109,14 @@
       "links": ["rikaard.hosein@gmail.com"],
       "page": "rikaardhosein.html",
       "img": "rikaardhosein.jpg"
-    }
+    },
+	"Jonathan Earle": {
+		"title": "Intern",
+		"type": "Associate",
+		"about": "Jonathan Earle is currently pursuing a BSc in Computer Science from The University of the West Indies. In his second year he lead a developer team which placed third in the Teleios Code Jam. He has also worked as a Web Developer for TapTag. Jonathan was selected to be an intern at Huawei as part of the Seeds for the Future Programme. His interests include machine learning, computer vision and bioinformatics.",
+		"education": ["B.Sc., The University of the West Indies, Present"],
+		"links": ["jonathan.john.enock.earle@gmail.com"],
+		"page": "jonathanearle.html",
+		"img": "jonathanearle.jpg"
+	}
 }
