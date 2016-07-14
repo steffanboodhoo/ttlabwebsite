@@ -74,6 +74,15 @@
 		"page": "laurielysegirodwilliams.html",
 		"img": "laurielysegirodwilliams.jpg"
 	},
+	"Kevin Feveck": {
+		"title": "Research Scientist",
+		"education": ["B.Sc., University of Massachusetts Amherst 2016"],
+		"type": "Associate",
+		"about": "Kevin recently graduated from UMass Amherst cum laude with a bachelors degree in Computer Science. He was accepted as a Baystate Fellow and will continue his studies at UMass Amherst in September 2017. Previously, he graduated from Bishop Anstey Trinity College East Sixth Form and was awarded a national Open Scholarship in 2011. His broad interests lie in Machine Learning and Data Science.",
+		"links": ["kfeveck@gmail.com"],
+		"page": "kevinfeveck.html",
+		"img": "kevinfeveck.jpg"
+	},
 	"Ramneek Sekhon": {
       "title": "Adjunct Scientist",
       "type": "Associate",
