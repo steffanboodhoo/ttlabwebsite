@@ -169,7 +169,7 @@ function get_message(db, email, callback) {
 
 function get_data_by_isps(db, callback) {
     var dataStmnt = 'SELECT ISP, METRIC, DATERECOREDED FROM DATA WHERE ';
-    dataStmnt += "DATERECOREDED BETWEEN date('now', '-3 months') AND CURRENT_DATE";
+    dataStmnt += "DATERECOREDED BETWEEN date('now', '-11 months') AND CURRENT_DATE";
     dataStmnt += ';';
     var result = {};
     db.all(dataStmnt, function(err, rows) {
