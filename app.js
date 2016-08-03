@@ -31,8 +31,6 @@ var path = require('path');
 app.use(express.static(path.join(__dirname, 'views')));
 app.use(express.static(path.join(__dirname, 'images')));
 app.use(express.static(path.join(__dirname, 'isp')));
-app.use(express.static(path.join(__dirname, 'events')));
-app.use(express.static(path.join(__dirname, 'pdfs')));
 
 var file_name = "data.db";
 var sqlite3 = require("sqlite3").verbose();
@@ -52,16 +50,16 @@ function return_pdf(filename) {
   return path.join(__dirname,'pdfs',filename)
 }
 
+function return_event(filename){
+  return path.join(__dirname,'events',filename);
+}
+
 app.get('/isp-perf', function(req, res) {
   res.sendFile('./bar.png');
 });
 
 app.get('/test', function(req, res){
   res.send( 'testing ver1');
-});
-
-app.get('/events/researchpreview2.pdf', function(req, res) {
-   res.sendFile(return_pdf('researchpreview2.pdf'));
 });
 
 app.get('/isp', function(req, res) {
@@ -124,6 +122,11 @@ app.get('/pdf/:name',function(req,res){
   var name = req.params['name'];
   res.contentType("application/pdf");
   res.sendFile(return_pdf(name))
+});
+
+app.get('/events/:name',function(req,res){
+  var name = req.params['name'];
+  res.sendFile(return_event(name));
 });
 
 app.get('/isps', function(req, res) {
