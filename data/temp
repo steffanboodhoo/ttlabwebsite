@@ -1,0 +1,19 @@
+"Steffan Boodhoo": {
+		"title": "Adjunct Scientist",
+		"type": "Associate",
+		"about": "-",
+		"education": ["B.Sc., The University Of The West Indies, 2015"],
+		"links": ["boodhoo100@gmail.com", "https://github.com/steffanboodhoo"],
+		"page": "steffanboodhoo.html",
+		"img": "steffanboodhoo.jpg"
+	},
+
+"Rikaard Hosein": {
+      "title": "Adjunct Scientist",
+      "type": "Associate",
+      "about": "I'm a 23 year old Computer Scientist in Trinidad and Tobago with a strong emphasis on application and web security.",
+      "education": ["B.Sc., The University Of The West Indies, 2015"],
+      "links": ["rikaard.hosein@gmail.com"],
+      "page": "rikaardhosein.html",
+      "img": "rikaardhosein.jpg"
+    }

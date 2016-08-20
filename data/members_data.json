@@ -9,16 +9,6 @@
 		"img": "patrickhosein.jpg"
 	},
 
-	"Sanjay Bahadoorsingh": {
-		"title": "Principal Scientist",
-		"type": "Staff",
-		"education": ["PhD, The University of Manchester, 2009", "M.Sc. The University of Manchester, 2005", "B.Sc. The University of the West Indies, 2003"],
-		"about": "Sanjay Bahadoorsingh was born in Port of Spain, Trinidad. In 2003 he completed the B.Sc. degree at The University of The West Indies with specialization in Telecommunication and Computer Systems. Immediately upon graduation, he was instrumental in the formation of Caribbean Hydro Source Limited before he acquired the M.Sc. degree in Power Systems Engineering and Economics from University of Manchester Institute of Science & Technology (UMIST) in 2005. In 2009, he completed the Ph.D. degree in Electrical Power Engineering at The University of Manchester. He continued post-doctoral research at The University of Manchester until 2010. He then joined as a lecturer in energy systems within the Department of Electrical & Computer Engineering of the Faculty of Engineering at The University of the West Indies, St Augustine Campus. Since 2011 he serves as, the Assistant Chief Examiner for CXC’s CAPE Electrical and Electronic Technology, a member of CROSQ (CARICOM Organization for Standards and Quality) Technical Sub-Committee on Electric Cables at the Trinidad and Tobago Bureau of Standards, the Education Liaison Officer of the International Society of Automation (ISA) Trinidad Section. Since 2012, he has been an alternate on the Committee for the Certification of Energy Service Companies, Ministry of Energy and Energy Affairs. He is a locally registered Electrical Engineer with the Board of Engineering of Trinidad & Tobago and is the 2014 -2015 Chairman of Institute of Electrical and Electronic Engineers (IEEE) Trinidad and Tobago Section. In 2014, he was appointed to the Multi-Stakeholder Advisory Group of Trinidad and Tobago Network Information Centre (TTNIC) which manages the registration of domain names within the dot TT (Trinidad and Tobago) country top level domain. He has published numerous scholarly articles and industry oriented technical reports in power system operation and planning, renewable energy integration, asset management and dielectric ageing focusing on electrical treeing within polymeric cable insulation.",
-		"links": ["sanjay.bahadoorsingh@ieee.org"],
-		"page": "sanjaybahadoorsingh.html",
-		"img": "sanjaybahadoorsingh.jpg"
-	},
-
 	"Shellyann Sooklal": {
 		"title": "PhD Fellow",
 		"type": "Company",
@@ -29,7 +19,7 @@
 		"img": "shellyannsooklal.jpg"
 	},
     "Kiran Maharaj": {
-      "title": "Research Scientist",
+      "title": "PhD Fellow",
       "type": "Associate",
       "about": "Kiran graduated from the University of Bristol with a MSc Advanced Computing - Machine Learning, Data Mining and High Performance Computing, he was awarded a postgraduate scholarship to pursue this degree from the Government of Trinidad and Tobago. Previous to this he graduated with First Class Honours from The University of the West Indies in 2013 with a B.Sc. in Computer Science. Kiran has worked as a software developer on a range of projects the most recent being AgriNeTT, an  ICT initiative for the Agricultural Sector. Kiran has broad interests in Bioinformatics, Machine Learning and Data Analytics.",
       "education": ["M.Sc University of Bristol", "B.Sc. The University Of The West Indies"],
@@ -38,17 +28,8 @@
       "img": "kiran.png"
 
     },
-	"Stefan Hosein": {
-		"title": "Research Scientist",
-		"type": "Associate",
-		"about": "Stefan graduated from secondary (high) school as a national scholar. He received his B.Sc. in Computer since from The University of the West Indies in 2014 and graduated at the top of his class and faculty. After receiving his degree, he was awarded the first international internship to NASA as a Trinidadian. Since then, he has been working with TTLAB and published a paper with Prof. Hosein. He was returned to NASA in the summer of 2015 to continue his internship. While there, he worked with CMU and published two workshop papers at AAAI. His broad interests lie in machine learning, natural language processing, deep learning, bioinformatics and information retrieval.",
-		"education": ["B.Sc., The University Of The West Indies, 2014"],
-		"links": ["stefan.m.hosein@gmail.com"],
-		"page": "stefanhosein.html",
-		"img": "stefanhosein.jpg"
-	},
 	"Inzamam Rahaman": {
-		"title": "Research Scientist",
+		"title": "MPhil Fellow",
 		"type": "Associate",
 		"about": "Inzamam Rahaman recently graduated with a BSc in Computer Science from The University of the West Indies, St. Augustine. During his penultimate year, he worked under the AgriNeTT project developing models for crop price prediction and developing web applications for agricultural data visualisation. For his undergraduate project, he adapted a VQ Index Based Steganography technique to an FPGA using VHDL. In the period immediately following his degree, he interned at the NASA Ames Research Centre developing geospatial web applications using NASA’s Web World Wind SDK. Currently, he is working as a tutor for the Department of Computing and Information Technology and as a research assistant at the Trinidad and Tobago Network Information Centre. His present areas of research interest are in Social Network Analysis, Programming Languages, and Data Mining.",
 		"education": ["B.Sc., The University Of The West Indies, 2015"],
@@ -56,8 +37,28 @@
 		"page": "inzamamrahaman.html",
 		"img": "inzamamrahaman.jpg"
 	},
+
+	"Steffan Boodhoo": {
+		"title": "MPhil Fellow",
+		"type": "Associate",
+		"about": "-",
+		"education": ["B.Sc., The University Of The West Indies, 2015"],
+		"links": ["boodhoo100@gmail.com", "https://github.com/steffanboodhoo"],
+		"page": "steffanboodhoo.html",
+		"img": "steffanboodhoo.jpg"
+	},
+	"Shanta Sukhoo": {
+		"title": "MPhil Fellow",
+		"type": "Associate",
+		"about": "Shanta Sukhoo graduated from the University of the West Indies in 2015 where she obtained a BSc Computer Science. She also worked on an array of mobile applications during her stay at the University. Shanta has since worked at Infotech Caribbean Ltd as a Software Developer. However, she has returned to U.W.I. to pursue an MPhil in Computer Science. Her Research Interest lies broadly in Machine Learning.",
+		"education": ["B.Sc., The University of the West Indies, 2015"],
+		"links": ["shantasukhoo@gmail.com"],
+		"page": "shantasukhoo.html",
+		"img": "shantasukhoo.jpg"
+	},
+
 	"Chris Meetoo": {
-		"title": "Research Scientist",
+		"title": "AP Intern",
 		"education": ["B.Sc., The University of the West Indies, 2016"],
 		"type": "Associate",
 		"about": "Chris Meetoo is a recent Electrical and Computer Engineering graduate, specialising in both Power Systems Engineering as well as Control Systems Engineering. He previously attended Presentation College San Fernando and was awarded a national scholarship in 2013. His interests include smart grid applications, microcontrollers, software and hardware development. Throughout his degree he has demonstrated an enduring loyalty to his studies, never giving up when faced with the most difficult tasks or complications. For his final year undergraduate project, he developed a unique prototype of a wireless energy monitoring system for residential use. See the demonstration of his final year research project <a href=\"https://www.youtube.com/watch?v=EuSFd6usUW8\">here</a>.",
@@ -65,8 +66,9 @@
 		"page": "chrismeetoo.html",
 		"img": "chrismeetoo.jpg"
 	},
+
 	"Laurielyse Girod-Williams": {
-		"title": "Research Scientist",
+		"title": "AP Intern",
 		"education": ["B.Sc., The University of the West Indies, 2016"],
 		"type": "Associate",
 		"about": "Laurielyse recently graduated from The University of the West Indies with a first class honours BSc. degree in Electrical and Computer Engineering with specialization in Communication Systems Engineering. Previously, she graduated from St. Joseph Convent, Port of Spain and was awarded a national Open scholarship in 2013. She has undertaken extensive work in the design of a tool which optimizes the placement of wireless access points. Her research interests include computer network design and optimization.",
@@ -74,8 +76,9 @@
 		"page": "laurielysegirodwilliams.html",
 		"img": "laurielysegirodwilliams.jpg"
 	},
+
 	"Kevin Feveck": {
-		"title": "Research Scientist",
+		"title": "AP Intern",
 		"education": ["B.Sc., University of Massachusetts Amherst 2016"],
 		"type": "Associate",
 		"about": "Kevin recently graduated from UMass Amherst cum laude with a bachelors degree in Computer Science. He was accepted as a Baystate Fellow and will continue his studies at UMass Amherst in September 2017. Previously, he graduated from Bishop Anstey Trinity College East Sixth Form and was awarded a national Open Scholarship in 2011. His broad interests lie in Machine Learning and Data Science.",
@@ -83,15 +86,56 @@
 		"page": "kevinfeveck.html",
 		"img": "kevinfeveck.jpg"
 	},
+
+	"Randy Ram": {
+		"title": "Postgrad Intern",
+		"type": "Associate",
+		"about": "Randy graduated in 2011 from the Department of Electrical and Computer Engineering in UWI where he majored in Communication Systems and Computer Systems. Since then, he has been working with Digicel Trinidad and Tobago: first as an OSS Network Quality engineer and most recently, as a Software Engineer. He is currently pursuing his MSc. in Computer Science at UWI. His main interests include wireless systems, robotics, microcontrollers, machine learning, distributed systems and operating systems.",
+		"education": ["M.Sc., The University of the West Indies, Present","B.Sc., The University of the West Indies, 2011 "],
+		"links": ["randyram9@gmail.com"],
+		"page": "randyram.html",
+		"img": "randyram.jpg"
+	},
+
+	"Mathew Stewart": {
+		"title": "Postgrad Intern",
+		"type": "Associate",
+		"about": "",
+		"education": ["B.Sc. The University of the West Indies, 2016"],
+		"links": [""],
+		"page": "mathewstewart.html"
+	},
+
+	"Jonathan Earle": {
+		"title": "Intern",
+		"type": "Associate",
+		"about": "Jonathan Earle is currently pursuing a BSc in Computer Science from The University of the West Indies. In his second year he lead a developer team which placed third in the Teleios Code Jam. He has also worked as a Web Developer for TapTag. Jonathan was selected to be an intern at Huawei as part of the Seeds for the Future Programme. His interests include machine learning, computer vision and bioinformatics.",
+		"education": ["B.Sc., The University of the West Indies, Present"],
+		"links": ["jonathan.john.enock.earle@gmail.com"],
+		"page": "jonathanearle.html",
+		"img": "jonathanearle.jpg"
+	},
+
 	"Ramneek Sekhon": {
-      "title": "Adjunct Scientist",
-      "type": "Associate",
-      "about": "Ramneek is currently a Ph.D. student of the University of Science and Technology (UST), Daejeon, Korea, at the Korea Institute of Science and Technology Information (KISTI). She received B.Tech (Computer Science and Engineering) from Guru Nanak Dev University (G.N.D.U) Amritsar, India in 2010 and M.Tech (Information Technology) from International Institute of Information Technology (IIITB), Bangalore, India in 2013. Her research interests include Networking and Communication (Congestion Management in Wireless and Cellular Networks, QoS and Pricing for Cellular Networks, Network Neutrality) and Cloud Computing (Openstack, IaaS, Cloud federation, Cloud Networking, SDN)",
-      "education": ["M.Tech International Institute of Information Technology (IIITB)", "B. Tech Guru Nanak Dev University (G.N.D.U)"],
-      "links": ["ramneeksekhon@gmail.com"],
-      "page": "TBD",
-      "img": "ramneek.jpg"
-    },
+		"title": "Adjunct Scientist",
+		"type": "Associate",
+		"about": "Ramneek is currently a Ph.D. student of the University of Science and Technology (UST), Daejeon, Korea, at the Korea Institute of Science and Technology Information (KISTI). She received B.Tech (Computer Science and Engineering) from Guru Nanak Dev University (G.N.D.U) Amritsar, India in 2010 and M.Tech (Information Technology) from International Institute of Information Technology (IIITB), Bangalore, India in 2013. Her research interests include Networking and Communication (Congestion Management in Wireless and Cellular Networks, QoS and Pricing for Cellular Networks, Network Neutrality) and Cloud Computing (Openstack, IaaS, Cloud federation, Cloud Networking, SDN)",
+		"education": ["M.Tech International Institute of Information Technology (IIITB)", "B. Tech Guru Nanak Dev University (G.N.D.U)"],
+		"links": ["ramneeksekhon@gmail.com"],
+		"page": "TBD",
+		"img": "ramneek.jpg"
+	},
+
+	"Stefan Hosein": {
+		"title": "Adjunct Scientist",
+		"type": "Associate",
+		"about": "Stefan graduated from secondary (high) school as a national scholar. He received his B.Sc. in Computer since from The University of the West Indies in 2014 and graduated at the top of his class and faculty. After receiving his degree, he was awarded the first international internship to NASA as a Trinidadian. Since then, he has been working with TTLAB and published a paper with Prof. Hosein. He was returned to NASA in the summer of 2015 to continue his internship. While there, he worked with CMU and published two workshop papers at AAAI. His broad interests lie in machine learning, natural language processing, deep learning, bioinformatics and information retrieval.",
+		"education": ["B.Sc., The University Of The West Indies, 2014"],
+		"links": ["stefan.m.hosein@gmail.com"],
+		"page": "stefanhosein.html",
+		"img": "stefanhosein.jpg"
+	},
+
 	"Laura Bigram": {
 		"title": "Adjunct Scientist",
 		"type": "Associate",
@@ -109,41 +153,7 @@
       "links": ["nicholas.chamansingh@gmail.com"],
       "page": "TBD",
       "img": "nicholas_chamansingh.jpeg"
-    },
-	"Steffan Boodhoo": {
-		"title": "Adjunct Scientist",
-		"type": "Associate",
-		"about": "-",
-		"education": ["B.Sc., The University Of The West Indies, 2015"],
-		"links": ["boodhoo100@gmail.com", "https://github.com/steffanboodhoo"],
-		"page": "steffanboodhoo.html",
-		"img": "steffanboodhoo.jpg"
-	},
-    "Rikaard Hosein": {
-      "title": "Adjunct Scientist",
-      "type": "Associate",
-      "about": "I'm a 23 year old Computer Scientist in Trinidad and Tobago with a strong emphasis on application and web security.",
-      "education": ["B.Sc., The University Of The West Indies, 2015"],
-      "links": ["rikaard.hosein@gmail.com"],
-      "page": "rikaardhosein.html",
-      "img": "rikaardhosein.jpg"
-    },
-	"Randy Ram": {
-		"title": "Adjunct Scientist",
-		"type": "Associate",
-		"about": "Randy graduated in 2011 from the Department of Electrical and Computer Engineering in UWI where he majored in Communication Systems and Computer Systems. Since then, he has been working with Digicel Trinidad and Tobago: first as an OSS Network Quality engineer and most recently, as a Software Engineer. He is currently pursuing his MSc. in Computer Science at UWI. His main interests include wireless systems, robotics, microcontrollers, machine learning, distributed systems and operating systems.",
-		"education": ["M.Sc., The University of the West Indies, Present","B.Sc., The University of the West Indies, 2011 "],
-		"links": ["randyram9@gmail.com"],
-		"page": "randyram.html",
-		"img": "randyram.jpg"
-	},
-	"Jonathan Earle": {
-		"title": "Intern",
-		"type": "Associate",
-		"about": "Jonathan Earle is currently pursuing a BSc in Computer Science from The University of the West Indies. In his second year he lead a developer team which placed third in the Teleios Code Jam. He has also worked as a Web Developer for TapTag. Jonathan was selected to be an intern at Huawei as part of the Seeds for the Future Programme. His interests include machine learning, computer vision and bioinformatics.",
-		"education": ["B.Sc., The University of the West Indies, Present"],
-		"links": ["jonathan.john.enock.earle@gmail.com"],
-		"page": "jonathanearle.html",
-		"img": "jonathanearle.jpg"
-	}
+    }
+
+
 }
