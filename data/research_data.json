@@ -23,14 +23,6 @@
 		"pdf": ""
 	},
 
-	"Application for Power Grid Fault Management": {
-		"authors": "S. Hosein , P. Hosein , W. Kattick, V. Rattan",
-		"location": "International Conference on Intelligent and Advanced Systems, Kuala Lumpur, Malaysia",
-		"date": "Aug, 2016",
-		"volume": "",
-		"pdf": ""
-	},
-
 	"Using MapReduce for Impression Allocation in Online Social Networks": {
 		"authors": "I. Rahaman and P. Hosein",
 		"location": "12th International Workshop on Mining and Learning with Graphs, San Francisco",
@@ -41,11 +33,12 @@
 
 	"Application for Power Grid Fault Management": {
 		"authors": "S. Hosein , P. Hosein , W. Kattick, V. Rattan",
-		"location": "IEEE 6th International Conference on Intelligent and Advanced Systems (ICIAS 2016)",
+		"location": "IEEE 6th International Conference on Intelligent and Advanced Systems (ICIAS 2016), Kuala Lumpur, Malaysia",
 		"volume":"",
 		"date":"Aug, 2016",
 		"pdf":"fault-detection-app.pdf"
 	},
+
 	"Quality of Service Support for High Performance Computing on Mobile Devices": {
 		"authors": "Ramneek, P. Hosein, W. Choi and W. Seok",
 		"location": "International Conference on High Performance Computing and Simulation, Innsbruck, Austria",
