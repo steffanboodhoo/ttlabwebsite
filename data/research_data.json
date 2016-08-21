@@ -1,8 +1,32 @@
 {
+	"Load Forecasting using Deep Neural Networks": {
+		"authors": "S. Hosein and P. Hosein",
+		"location": "IEEE International Conference on Smart Grid Communications, Sydney, Australia",
+		"date": "Nov, 2016",
+		"volume": "",
+		"pdf": ""
+	},
+
 	"On the Multi-Stage Influence Maximization Problem": {
 		"authors": "I.Rahaman and P. Hosein",
 		"location": "Latin American Conference on Computational Intelligence, Cartegena, Columbia",
 		"date": "Nov, 2016",
+		"volume": "",
+		"pdf": ""
+	},
+
+	"Efficient Sentiment Classification of Twitter Feeds": {
+		"authors": "N. Chamansingh and P. Hosein",
+		"location": "IEEE International Conference on Knowledge Engineering and Applications, Singapore",
+		"date": "Sept, 2016",
+		"volume": "",
+		"pdf": ""
+	},
+
+	"Event Scheduling with Soft Constraints and On-Demand Re-Optimization": {
+		"authors": "P. Hosein and S. Boodhoo",
+		"location": "IEEE International Conference on Knowledge Engineering and Applications, Singapore",
+		"date": "Sept, 2016",
 		"volume": "",
 		"pdf": ""
 	},
