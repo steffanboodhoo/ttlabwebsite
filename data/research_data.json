@@ -1,4 +1,58 @@
 {
+
+	"Application for the Detection of Dangerous Driving and an Associated Gamification Framework": {
+		"authors": "K. Bahadoor and P. Hosein",
+		"location": "International Conference on Mobile Web and Intelligent Information Systems, Vienna, Austria",
+		"date": "Aug, 2016",
+		"volume": "",
+		"pdf": ""
+	},
+
+	"Heuristics for Advertising Revenue Optimization in Online Social Networks": {
+		"authors": "I. Rahaman and P. Hosein",
+		"location": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining, San Francisco, USA",
+		"volume": "",
+		"date": "Aug. 2016",
+		"pdf": ""
+	},
+
+	"Application for Power Grid Fault Management": {
+		"authors": "S. Hosein , P. Hosein , W. Kattick, V. Rattan",
+		"location": "International Conference on Intelligent and Advanced Systems, Kuala Lumpur, Malaysia",
+		"date": "Aug, 2016",
+		"volume": "",
+		"pdf": ""
+	},
+
+	"Using MapReduce for Impression Allocation in Online Social Networks": {
+		"authors": "I. Rahaman and P. Hosein",
+		"location": "12th International Workshop on Mining and Learning with Graphs, San Francisco",
+		"volume": "",
+		"date": "Aug, 2016",
+		"pdf": ""
+	},
+
+	"Application for Power Grid Fault Management": {
+		"authors": "S. Hosein , P. Hosein , W. Kattick, V. Rattan",
+		"location": "IEEE 6th International Conference on Intelligent and Advanced Systems (ICIAS 2016)",
+		"volume":"",
+		"date":"Aug, 2016",
+		"pdf":"fault-detection-app.pdf"
+	},
+	"Quality of Service Support for High Performance Computing on Mobile Devices": {
+		"authors": "Ramneek, P. Hosein, W. Choi and W. Seok",
+		"location": "International Conference on High Performance Computing and Simulation, Innsbruck, Austria",
+		"volume": "",
+		"date": "July, 2016",
+		"pdf": ""
+	},
+	"Improving Power Generation Efficiency using Deep Neural Networks": {
+		"authors": "S. Hosein and P. Hosein",
+		"location": "ICML Workshop #Data4Good: Machine Learning in Social Good Applications, New York, USA",
+		"volume": "",
+		"date": "June, 2016",
+		"pdf": ""
+	},
 	"A Review of Human Body Shape Detection Techniques and Their Application to the Prediction of Health Risks": {
 		"authors":"S. Sooklal, P. Hosein and S. Teelucksingh" ,
 		"location": "8th International Conference on e-Health (EH 2016), Madeira, Portugal",
@@ -6,12 +60,11 @@
 		"date":"July, 2016",
 		"pdf": ""
 	},
-	"Application for Power Grid Fault Management": {
-		"authors": "S. Hosein , P. Hosein , W. Kattick, V. Rattan",
-		"location": "IEEE 6th International Conference on Intelligent and Advanced Systems (ICIAS 2016)",
-		"volume":"",
-		"date":"Aug, 2016",
-		"pdf":"fault-detection-app.pdf"
+	"Congestion Detection for QoS-enabled Wireless Networks and its Potential Applications": {
+		"authors": "Ramneek, P.Hosein, W.Choi, W. Seok",
+		"location": "Journal of Communications and Networks",
+		"volume": "18",
+		"date": "June, 2016"
 	},
 	"A Consumer Focused Open Data Platform":{
 		"authors":"C. Millette, P. Hosein",

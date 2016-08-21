@@ -1,8 +1,8 @@
 {
 	"Research Seminar":{
-		"description":" This is a a seminar for those associated with or employed under TTNIC to present and discuss their research. The event is being held on Monday 15th February at the University of the West Indies in the Department of Computing and Information Technology's seminar room between 2:45pm and 5:00pm",
-		"time":"15/02/2016",
-		"img":"seminarposter.jpg",
-		"pdf":"TTLABflyer.pdf"
+		"description":"TTLAB (http://lab.tt) consists of First-Class Honors graduates, Postgraduate Students and Faculty Members in Computer Science, Electrical Engineering and Mathematics. Its objective is to pursue research that is beneﬁcial to society but also publication level quality. In this semi-annual preview we present our published research over the last six months (click to see flyer) and brieﬂy describe work submitted for publication and ongoing work. Presentations from all members of staﬀ are included. Light snacks will be served after the presentations to allow for networking.",
+		"time":"30/08/2016",
+		"img":"img/seminar2.png",
+		"pdf":"ttlab-research-preview.pdf"
 	}
 }
