@@ -44,7 +44,7 @@
 		"location": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining, San Francisco, USA",
 		"volume": "",
 		"date": "Aug. 2016",
-		"pdf": ""
+		"pdf": "asonam2016.pdf"
 	},
 
 	"Using MapReduce for Impression Allocation in Online Social Networks": {
@@ -52,10 +52,10 @@
 		"location": "12th International Workshop on Mining and Learning with Graphs, San Francisco",
 		"volume": "",
 		"date": "Aug, 2016",
-		"pdf": ""
+		"pdf": "mlg2016.pdf"
 	},
 
-	"Application for Power Grid Fault Management": {
+	"Web Application for Power Grid Fault Management": {
 		"authors": "S. Hosein , P. Hosein , W. Kattick, V. Rattan",
 		"location": "IEEE 6th International Conference on Intelligent and Advanced Systems (ICIAS 2016), Kuala Lumpur, Malaysia",
 		"volume":"",
@@ -75,20 +75,21 @@
 		"location": "ICML Workshop #Data4Good: Machine Learning in Social Good Applications, New York, USA",
 		"volume": "",
 		"date": "June, 2016",
-		"pdf": ""
+		"pdf": "icml2016.pdf"
 	},
 	"A Review of Human Body Shape Detection Techniques and Their Application to the Prediction of Health Risks": {
 		"authors":"S. Sooklal, P. Hosein and S. Teelucksingh" ,
 		"location": "8th International Conference on e-Health (EH 2016), Madeira, Portugal",
 		"volume":"",
 		"date":"July, 2016",
-		"pdf": ""
+		"pdf": "e-health2016.pdf"
 	},
 	"Congestion Detection for QoS-enabled Wireless Networks and its Potential Applications": {
 		"authors": "Ramneek, P.Hosein, W.Choi, W. Seok",
 		"location": "Journal of Communications and Networks",
 		"volume": "18",
-		"date": "June, 2016"
+		"date": "June, 2016",
+		"pdf": "jcn2016.pdf"
 	},
 	"A Consumer Focused Open Data Platform":{
 		"authors":"C. Millette, P. Hosein",
@@ -97,6 +98,15 @@
 		"date":"Mar, 2016",
 		"pdf":"icbdsc2016.pdf"
 	},
+
+	"A Study of QoS Support, Performance and Pricing of Mobile Data Plans in the USA and Korea": {
+		"authors": "Ramneek, P. Hosein, W. Choi and W. Seok",
+		"location": "IEEE International Conference on Advanced Communication Technology, Phoenix Park, South Korea",
+		"volume": "",
+		"date": "Jan, 2016",
+		"pdf":"icact2016.pdf"
+	},
+
 	"Power Grid Fault Detection using an AMR Network":{
 		"authors":"P. Hosein, S. Hosein, S. Bahadoorsingh",
 		"location":"IEEE Smart Grid Technologies Asia Conference, Bangkok, Thailand",
