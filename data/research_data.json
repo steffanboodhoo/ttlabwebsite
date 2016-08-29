@@ -23,6 +23,14 @@
 		"pdf": ""
 	},
 
+	"Application for the Detection of Dangerous Driving and an Associated Gamification Framework": {
+		"authors": "K. Bahadoor and P. Hosein",
+		"location": "International Conference on Mobile Web and Intelligent Information Systems, Vienna, Austria",
+		"date": "Aug, 2016",
+		"volume": "",
+		"pdf": "mobiwis2016.pdf"
+	},
+
 	"Event Scheduling with Soft Constraints and On-Demand Re-Optimization": {
 		"authors": "P. Hosein and S. Boodhoo",
 		"location": "IEEE International Conference on Knowledge Engineering and Applications, Singapore",

@@ -107,6 +107,16 @@
 		"img": "mathewstewart.jpg"
 	},
 
+	"Shiva Ramoudith": {
+		"title": "Postgrad Intern",
+		"type": "Associate",
+		"about": "Shiva Ramoudith is a B.Sc. Computer Science graduate of the University of The West Indies (UWI) (2016). He is a past student of Hillview College and was awarded an Additional Scholarship (Computer Science) in 2013.  Shiva had the opportunity to work as an intern for the Department of Computing and Information Technology at the UWI during the June-August vacations, where he worked on two Android applications: AgriExpense and SR-Market which are under the AgriNett and Caribbean Small Ruminants Projects respectively. In addition, Shiva also assisted in the database development of the Caribbean Coconuts Industry Development Project. While at UWI, Shiva has joined the UWI Combat Readiness Club where he is currently certified at ‘Practitioner Level 2’ and The University of the West Indies Computing Society (UWICS) where he was the Public Relations Officer in the 2015-2016 academic year. He has interests in machine learning and mobile applications. He is currently pursuing his M.Sc. In Computer Science, also at the UWI.",
+		"education": ["B.Sc. The University of the West Indies, 2016"],
+		"links": ["shivramx@gmail.com"],
+		"page": "",
+		"img": "shiva.jpg"
+	},
+
 	"Jonathan Earle": {
 		"title": "Intern",
 		"type": "Associate",
