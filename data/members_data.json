@@ -117,6 +117,17 @@
 		"img": "shiva.jpg"
 	},
 
+	"Anderson Singh": {
+		"title": "Postgrad Intern",
+		"type": "Associate",
+		"about": "Anderson Singh is a B.Sc. Computer Science graduate of The University of the West Indies (UWI). He was awarded The Head of Department Prize for the best year I performance in Computer Science in the academic year 2013-2014. He went on to participate in the Teleios CodeJam Competition in the year 2015 where his team was awarded 2nd place for developing a mobile advertising solution. Anderson also served as an Executive Board Member on The University of The West Indies Computing Society (UWICS) during the final year of his undergraduate degree, where he presented sessions on Web Hosting and Developing Augmented Reality Applications. He has also worked with Knowledge Hope Limited on the e-course, ITonLine, which is designed to assist both students and teachers of Caribbean Schools in their preparation for Information Technology (CSEC level) exams. He has done extensive work on version II of ITonLine, which includes a mobile application called \"ITonLine Games\". Anderson is currently pursuing his M.Sc in Computer Science, also at the UWI.",
+		"education": ["B.Sc. The University of the West Indies, 2016"],
+		"links": ["andersonsingh@outlook.com"],
+		"page": "",
+		"img": "andersonsingh.jpg"
+
+	},
+
 	"Jonathan Earle": {
 		"title": "Intern",
 		"type": "Associate",
