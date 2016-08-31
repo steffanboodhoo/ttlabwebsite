@@ -50,6 +50,10 @@ function return_pdf(filename) {
   return path.join(__dirname,'pdfs',filename)
 }
 
+function return_presentation(filename) {
+    return path.join(__dirname,'pdfs','presentations',filename);
+}
+
 function return_event(filename){
   return path.join(__dirname,'events',filename);
 }
@@ -98,6 +102,10 @@ app.get('/tasks', function(req, res) {
   res.sendFile(return_path('tasks.html'));
 });
 
+app.get('/presentations', function(req, res) {
+   res.sendFile(return_path('presentations.html'))
+});
+
 app.get('/research/data',function(req,res){
   res.sendFile(return_data('research_data.json'));
 });
@@ -118,10 +126,20 @@ app.get('/tasks/data',function(req,res){
   res.sendFile(return_data('tasks_data.json'));
 });
 
+app.get('/presentations/data', function(req, res) {
+   res.sendFile(return_data('presentation_data.json'));
+});
+
 app.get('/pdf/:name',function(req,res){
   var name = req.params['name'];
   res.contentType("application/pdf");
   res.sendFile(return_pdf(name))
+});
+
+app.get('/pdf/presentations/:name', function(req, res) {
+    var name = req.params['name'];
+    res.contentType("application/pdf");
+    res.sendFile(return_presentation(name));
 });
 
 app.get('/events/:name',function(req,res){

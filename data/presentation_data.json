@@ -1,0 +1,24 @@
+{
+
+  "TTLAB Progress Report and Research Preview II": {
+    "presenter": "Patrick Hosein",
+    "event": "TTLAB Research Preview II",
+    "date": "August 30th 2016",
+    "pdf": "/presentations/ttlab-progress-report-2.pdf"
+  },
+
+  "Heuristics for Advertising Revenue Optimization in Online Social Networks": {
+    "presenter": "Inzamam Rahaman",
+    "event": "TTLAB Research Preview II",
+    "date": "August 30th 2016",
+    "pdf": "/presentations/heuristics-1.pdf"
+  },
+
+  "Using MapReduce for Impression Allocation in Online Social Networks": {
+    "presenter": "Inzamam Rahaman",
+    "event": "TTLAB Research Preview II",
+    "date": "August 30th 2016",
+    "pdf": "/presentations/mapreduce-1.pdf"
+  }
+
+}

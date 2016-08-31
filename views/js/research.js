@@ -70,7 +70,7 @@
 
 		list.appendTo('#list_cont');
 
-		var options = {valueNames:['list-title']}
+		var options = {valueNames:['list-title']};
 		var researchList = new List('list_cont',options);
 
 		console.log('meh')
