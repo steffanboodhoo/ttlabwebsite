@@ -57,6 +57,37 @@
 		"img": "shantasukhoo.jpg"
 	},
 
+	"Mathew Stewart": {
+		"title": "MSc Fellow",
+		"type": "Associate",
+		"about": "Mathew Stewart is a Computer Science graduate of The University of the West Indies (UWI). He is currently pursuing his Master’s degree in said field, also at The UWI. He was consistently on the Dean’s Honour Roll throughout his undergraduate studies. He went on to be awarded The Tucker Energy Services Holdings Ltd. Prize for the Best Year II Performance in Computer Science in the academic year 2014-2015. He is also in the midst of obtaining his certification as an Oracle Certified Associate. Matthew served on the Executive of The University of the West Indies Computing Society (UWICS) as Treasurer for the period 2015-2016. Prior to serving on the Executive, he placed 1st in both the Runtime and Real App competitions organized by The UWICS. He also tutored as part of the Programming Help Desk organized by the Department of Computing and Information Technology. In his spare time, Matthew enjoys practicing karate and has been a member of Purple Dragon since 2010.",
+		"education": ["B.Sc. The University of the West Indies, 2016"],
+		"links": ["mdls85@hotmail.com"],
+		"page": "mathewstewart.html",
+		"img": "mathewstewart.jpg"
+	},
+
+	"Shiva Ramoudith": {
+		"title": "MSc Fellow",
+		"type": "Associate",
+		"about": "Shiva Ramoudith is a B.Sc. Computer Science graduate of the University of The West Indies (UWI) (2016). He is a past student of Hillview College and was awarded an Additional Scholarship (Computer Science) in 2013.  Shiva had the opportunity to work as an intern for the Department of Computing and Information Technology at the UWI during the June-August vacations, where he worked on two Android applications: AgriExpense and SR-Market which are under the AgriNett and Caribbean Small Ruminants Projects respectively. In addition, Shiva also assisted in the database development of the Caribbean Coconuts Industry Development Project. While at UWI, Shiva has joined the UWI Combat Readiness Club where he is currently certified at ‘Practitioner Level 2’ and The University of the West Indies Computing Society (UWICS) where he was the Public Relations Officer in the 2015-2016 academic year. He has interests in machine learning and mobile applications. He is currently pursuing his M.Sc. In Computer Science, also at the UWI.",
+		"education": ["B.Sc. The University of the West Indies, 2016"],
+		"links": ["shivramx@gmail.com"],
+		"page": "",
+		"img": "shiva.jpg"
+	},
+
+	"Anderson Singh": {
+		"title": "MSc Fellow",
+		"type": "Associate",
+		"about": "Anderson Singh is a B.Sc. Computer Science graduate of The University of the West Indies (UWI). He was awarded The Head of Department Prize for the best year I performance in Computer Science in the academic year 2013-2014. He went on to participate in the Teleios CodeJam Competition in the year 2015 where his team was awarded 2nd place for developing a mobile advertising solution. Anderson also served as an Executive Board Member on The University of The West Indies Computing Society (UWICS) during the final year of his undergraduate degree, where he presented sessions on Web Hosting and Developing Augmented Reality Applications. He has also worked with Knowledge Hope Limited on the e-course, ITonLine, which is designed to assist both students and teachers of Caribbean Schools in their preparation for Information Technology (CSEC level) exams. He has done extensive work on version II of ITonLine, which includes a mobile application called \"ITonLine Games\". Anderson is currently pursuing his M.Sc in Computer Science, also at the UWI.",
+		"education": ["B.Sc. The University of the West Indies, 2016"],
+		"links": ["andersonsingh@outlook.com"],
+		"page": "",
+		"img": "andersonsingh.jpg"
+
+	},
+
 	"Chris Meetoo": {
 		"title": "AP Intern",
 		"education": ["B.Sc., The University of the West Indies, 2016"],
@@ -97,36 +128,7 @@
 		"img": "randyram.jpg"
 	},
 
-	"Mathew Stewart": {
-		"title": "Postgrad Intern",
-		"type": "Associate",
-		"about": "Mathew Stewart is a Computer Science graduate of The University of the West Indies (UWI). He is currently pursuing his Master’s degree in said field, also at The UWI. He was consistently on the Dean’s Honour Roll throughout his undergraduate studies. He went on to be awarded The Tucker Energy Services Holdings Ltd. Prize for the Best Year II Performance in Computer Science in the academic year 2014-2015. He is also in the midst of obtaining his certification as an Oracle Certified Associate. Matthew served on the Executive of The University of the West Indies Computing Society (UWICS) as Treasurer for the period 2015-2016. Prior to serving on the Executive, he placed 1st in both the Runtime and Real App competitions organized by The UWICS. He also tutored as part of the Programming Help Desk organized by the Department of Computing and Information Technology. In his spare time, Matthew enjoys practicing karate and has been a member of Purple Dragon since 2010.",
-		"education": ["B.Sc. The University of the West Indies, 2016"],
-		"links": ["mdls85@hotmail.com"],
-		"page": "mathewstewart.html",
-		"img": "mathewstewart.jpg"
-	},
 
-	"Shiva Ramoudith": {
-		"title": "Postgrad Intern",
-		"type": "Associate",
-		"about": "Shiva Ramoudith is a B.Sc. Computer Science graduate of the University of The West Indies (UWI) (2016). He is a past student of Hillview College and was awarded an Additional Scholarship (Computer Science) in 2013.  Shiva had the opportunity to work as an intern for the Department of Computing and Information Technology at the UWI during the June-August vacations, where he worked on two Android applications: AgriExpense and SR-Market which are under the AgriNett and Caribbean Small Ruminants Projects respectively. In addition, Shiva also assisted in the database development of the Caribbean Coconuts Industry Development Project. While at UWI, Shiva has joined the UWI Combat Readiness Club where he is currently certified at ‘Practitioner Level 2’ and The University of the West Indies Computing Society (UWICS) where he was the Public Relations Officer in the 2015-2016 academic year. He has interests in machine learning and mobile applications. He is currently pursuing his M.Sc. In Computer Science, also at the UWI.",
-		"education": ["B.Sc. The University of the West Indies, 2016"],
-		"links": ["shivramx@gmail.com"],
-		"page": "",
-		"img": "shiva.jpg"
-	},
-
-	"Anderson Singh": {
-		"title": "Postgrad Intern",
-		"type": "Associate",
-		"about": "Anderson Singh is a B.Sc. Computer Science graduate of The University of the West Indies (UWI). He was awarded The Head of Department Prize for the best year I performance in Computer Science in the academic year 2013-2014. He went on to participate in the Teleios CodeJam Competition in the year 2015 where his team was awarded 2nd place for developing a mobile advertising solution. Anderson also served as an Executive Board Member on The University of The West Indies Computing Society (UWICS) during the final year of his undergraduate degree, where he presented sessions on Web Hosting and Developing Augmented Reality Applications. He has also worked with Knowledge Hope Limited on the e-course, ITonLine, which is designed to assist both students and teachers of Caribbean Schools in their preparation for Information Technology (CSEC level) exams. He has done extensive work on version II of ITonLine, which includes a mobile application called \"ITonLine Games\". Anderson is currently pursuing his M.Sc in Computer Science, also at the UWI.",
-		"education": ["B.Sc. The University of the West Indies, 2016"],
-		"links": ["andersonsingh@outlook.com"],
-		"page": "",
-		"img": "andersonsingh.jpg"
-
-	},
 
 	"Jonathan Earle": {
 		"title": "Intern",
