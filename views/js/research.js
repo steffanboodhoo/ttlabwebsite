@@ -41,9 +41,21 @@
 
 			//create containers
 			var li = $("<li/>",{"class":"post-preview "});
-			var a = $('<a/>',{"id":"pdf"+count});
-			
-			//add shit
+			var a = $('<div></div>', {"id":"pdf"+count});
+			if(data[title]['pdf'].length > 0) {
+				//onclick event
+				var a = $('<a/>',{"id":"pdf"+count});
+				a.click(function(event){
+					var id = event.target.id;
+					if(id == "")
+						id = $(event.target).parent().attr('id');
+					var pdf = "#";
+					if( pdfs[id] != "")
+						pdf = pdfs[id];
+					window.location = "/pdf/"+ pdf;
+				});
+			}
+
 			a.append( $("<h4/>",{"class":"post-title list-title"}).append(title) );
 			a.append( $("<p/>",{"class":"post-subtitle list-description "}).append(data[title]['authors']) )
 			a.append($("<p/>",{"class":"post-subtitle list-description"}).append(data[title]['location']));
@@ -55,16 +67,7 @@
 			
 			list.append(li);
 
-			//onclick event
-			a.click(function(event){
-				var id = event.target.id;
-				if(id == "")
-					id = $(event.target).parent().attr('id');
-				var pdf = "#";
-				if( pdfs[id] != "")
-					pdf = pdfs[id];
-				window.location = "/pdf/"+ pdf;	
-			})
+
 			count++;
 		}	
 

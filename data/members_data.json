@@ -98,15 +98,6 @@
 		"img": "chrismeetoo.jpg"
 	},
 
-	"Laurielyse Girod-Williams": {
-		"title": "AP Intern",
-		"education": ["B.Sc., The University of the West Indies, 2016"],
-		"type": "Associate",
-		"about": "Laurielyse recently graduated from The University of the West Indies with a first class honours BSc. degree in Electrical and Computer Engineering with specialization in Communication Systems Engineering. Previously, she graduated from St. Joseph Convent, Port of Spain and was awarded a national Open scholarship in 2013. She has undertaken extensive work in the design of a tool which optimizes the placement of wireless access points. Her research interests include computer network design and optimization.",
-		"links": ["laurielyse2@gmail.com"],
-		"page": "laurielysegirodwilliams.html",
-		"img": "laurielysegirodwilliams.jpg"
-	},
 
 	"Kevin Feveck": {
 		"title": "AP Intern",
@@ -177,7 +168,17 @@
       "links": ["nicholas.chamansingh@gmail.com"],
       "page": "TBD",
       "img": "nicholas_chamansingh.jpeg"
-    }
+    },
+
+	"Keshav Bahadoor": {
+		"title": "Adjunct Scientist",
+		"type": "Associate",
+		"about": "Keshav Bahadoor has recently completed the requirements for an MSc in Computer Science at the University of the West Indies. Prior to this, he graduated with a BSc in Computer Science (Double Major) at the University of the West Indies. Keshav currently works at Resonance Trinidad Ltd. as a Software Developer, and is involved in a wide range of products and mission critical utilities. Some of his interests include software development and design patterns, graphics and game programming, and mobile application development. Outside of the software world, Keshav enjoys reading, and is an avid guitarist. ",
+		"education": ["B.Sc. Computer Science"],
+		"links": ["keshav.bahadoor@gmail.com"],
+		"page": "TBD",
+		"img": "keshavbahadoor.jpg"
+	}
 
 
 }
