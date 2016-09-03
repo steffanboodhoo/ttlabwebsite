@@ -57,6 +57,16 @@
 		"img": "shantasukhoo.jpg"
 	},
 
+	"Arti Ramdhanie": {
+		"title": "MPhil Student",
+		"education": ["B.Sc. The University of the West Indies, 2014"],
+		"type": "Associate",
+		"about": "Arti Ramdhanie graduated from the University of the West Indies in 2014 where she obtained her BSc in Computer Science. Following her tenure at the University, she has worked as both a Software Engineer and a Systems Analyst. Currently she works at CARIRI where she is part of a team that is spearheading a Data Science Centre. Her main interest lies prominently in big data and analytics.",
+		"links": ["artikandice@gmail.com"],
+		"page": "TBD",
+		"img": "artiramdhanie.jpg"
+	},
+
 	"Mathew Stewart": {
 		"title": "MSc Fellow",
 		"type": "Associate",
@@ -88,15 +98,17 @@
 
 	},
 
-	"Arti Ramdhanie": {
-		"title": "MPhil Research Assistant",
-		"education": ["B.Sc. The University of the West Indies, 2014"],
+	"Randy Ram": {
+		"title": "MSc student",
 		"type": "Associate",
-		"about": "Arti Ramdhanie graduated from the University of the West Indies in 2014 where she obtained her BSc in Computer Science. Following her tenure at the University, she has worked as both a Software Engineer and a Systems Analyst. Currently she works at CARIRI where she is part of a team that is spearheading a Data Science Centre. Her main interest lies prominently in big data and analytics.",
-		"links": ["artikandice@gmail.com"],
-		"page": "TBD",
-		"img": "artiramdhanie.jpg"
+		"about": "Randy graduated in 2011 from the Department of Electrical and Computer Engineering in UWI where he majored in Communication Systems and Computer Systems. Since then, he has been working with Digicel Trinidad and Tobago: first as an OSS Network Quality engineer and most recently, as a Software Engineer. He is currently pursuing his MSc. in Computer Science at UWI. His main interests include wireless systems, robotics, microcontrollers, machine learning, distributed systems and operating systems.",
+		"education": ["M.Sc., The University of the West Indies, Present","B.Sc., The University of the West Indies, 2011 "],
+		"links": ["randyram9@gmail.com"],
+		"page": "randyram.html",
+		"img": "randyram.jpg"
 	},
+
+
 
 	"Chris Meetoo": {
 		"title": "AP Research Scientist",
@@ -119,15 +131,7 @@
 		"img": "kevinfeveck.jpg"
 	},
 
-	"Randy Ram": {
-		"title": "Postgrad Intern",
-		"type": "Associate",
-		"about": "Randy graduated in 2011 from the Department of Electrical and Computer Engineering in UWI where he majored in Communication Systems and Computer Systems. Since then, he has been working with Digicel Trinidad and Tobago: first as an OSS Network Quality engineer and most recently, as a Software Engineer. He is currently pursuing his MSc. in Computer Science at UWI. His main interests include wireless systems, robotics, microcontrollers, machine learning, distributed systems and operating systems.",
-		"education": ["M.Sc., The University of the West Indies, Present","B.Sc., The University of the West Indies, 2011 "],
-		"links": ["randyram9@gmail.com"],
-		"page": "randyram.html",
-		"img": "randyram.jpg"
-	},
+
 
 
 
