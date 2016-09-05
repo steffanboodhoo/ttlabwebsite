@@ -52,7 +52,9 @@
 			var email_regex = /@/;
 			var links = data[name]['links'];
 			right_sub_left.append($("<h4/>",{"class":"list-name"}).append(name));
-			right_sub_left.append($("<p/>",{"class":"list-title"}).append(data[name]['title']));
+			var title_block = $('<div></div>');
+			title_block.append($("<p/>",{"class":"list-title"}).append(data[name]['title']));
+			right_sub_left.append(title_block);
 			for( var l=0; l<links.length; l++){
                 var current_link = links[l];
                 var tag = $('<a></a>');

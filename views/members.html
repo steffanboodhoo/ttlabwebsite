@@ -100,8 +100,12 @@
         <div class="row" id="list_cont">
            <input class="search" placeholder="Search" />
           <button class="sort" data-sort="list-title">
-            Sort by Title
+            Sort by Name
           </button>
+            <button type="button" data-toggle="modal"
+            data-target="#myModal">
+                Title Key
+            </button>
         </div>
     </div>
     <!-- END OF MAIN CONTENT -->
@@ -156,6 +160,49 @@
     <script src="js/list.js"></script>
 
     <script src="js/members.js"></script>
+
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Title Key</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            PhD students (3 year Fellowship and Travel Grant) [2]
+                        </li>
+                        <li>
+                            MPhil students (2 year Fellowship and Travel Grant) [3]
+                        </li>
+                        <li>
+                            M.Sc (Scholarship for first-class/full-time else volunteer) [4]
+                        </li>
+                        <li>
+                            BSc First Class Honor Students (Stipend and Travel Grant) [0]
+                        </li>
+                        <li>
+                            Undergraduate Students (volunteer) [1]
+                        </li>
+                        <li>
+                            Scholarship AP students (Travel Grant) [3]
+                        </li>
+                        <li>
+                            Non-Students or Students at Other Universities (volunteer) [4]
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 </body>
 
