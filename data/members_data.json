@@ -98,16 +98,6 @@
 
 	},
 
-	"Randy Ram": {
-		"title": "MSc student",
-		"type": "Associate",
-		"about": "Randy graduated in 2011 from the Department of Electrical and Computer Engineering in UWI where he majored in Communication Systems and Computer Systems. Since then, he has been working with Digicel Trinidad and Tobago: first as an OSS Network Quality engineer and most recently, as a Software Engineer. He is currently pursuing his MSc. in Computer Science at UWI. His main interests include wireless systems, robotics, microcontrollers, machine learning, distributed systems and operating systems.",
-		"education": ["M.Sc., The University of the West Indies, Present","B.Sc., The University of the West Indies, 2011 "],
-		"links": ["randyram9@gmail.com"],
-		"page": "randyram.html",
-		"img": "randyram.jpg"
-	},
-
 
 
 	"Chris Meetoo": {
@@ -136,7 +126,7 @@
 
 
 	"Jonathan Earle": {
-		"title": "Intern",
+		"title": "Undergraduate Intern",
 		"type": "Associate",
 		"about": "Jonathan Earle is currently pursuing a BSc in Computer Science from The University of the West Indies. In his second year he lead a developer team which placed third in the Teleios Code Jam. He has also worked as a Web Developer for TapTag. Jonathan was selected to be an intern at Huawei as part of the Seeds for the Future Programme. His interests include machine learning, computer vision and bioinformatics.",
 		"education": ["B.Sc., The University of the West Indies, Present"],
