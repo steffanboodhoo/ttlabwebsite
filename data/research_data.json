@@ -1,4 +1,12 @@
 {
+	"Location of Obfuscation using Smart Meter Readings": {
+		"authors": "K. Maharaj and P.Hosein",
+		"location": "IEEE 3rd Internatonal Conference on Advances in Computung & Communication Engineering, Durban South Africa",
+		"date": "Nov, 2016",
+		"volume": "",
+		"pdf": ""
+	},
+
 	"Load Forecasting using Deep Neural Networks": {
 		"authors": "S. Hosein and P. Hosein",
 		"location": "IEEE International Conference on Smart Grid Communications, Sydney, Australia",
