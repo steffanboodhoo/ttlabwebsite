@@ -42,9 +42,10 @@
 			//create containers
 			var li = $("<li/>",{"class":"post-preview "});
 			var a = $('<div></div>', {"id":"pdf"+count});
+			var a = $('<a/>',{"id":"pdf"+count});
 			if(data[title]['pdf'].length > 0) {
 				//onclick event
-				var a = $('<a/>',{"id":"pdf"+count});
+
 				a.click(function(event){
 					var id = event.target.id;
 					if(id == "")
@@ -54,6 +55,12 @@
 						pdf = pdfs[id];
 					window.location = "/pdf/"+ pdf;
 				});
+			} else {
+				a.click(function(event) {
+					event.preventDefault();
+				});
+				a.attr('data-toggle', 'modal');
+				a.attr('data-target', '#myModal');
 			}
 
 			a.append( $("<h4/>",{"class":"post-title list-title"}).append(title) );
