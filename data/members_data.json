@@ -191,6 +191,16 @@
 		"links": ["keshav.bahadoor@gmail.com"],
 		"page": "TBD",
 		"img": "keshavbahadoor.jpg"
+	},
+
+	"Nicholas Hosein": {
+		"title": "Adjunct Scientist",
+		"type": "Associate",
+		"about": "Nick received his BA in Electrical Engineering & Computer Science from the University of California, Berkeley and his MA in Electrical Computer Engineering from the University of California, Davis. His areas of speciality are computer architecture, algorithms and machine learning. Currently he is working on developing machine learning algorithms for low power embedded systems in the area of bio-sensing wearable smart devices.",
+		"education": ["BA University of California, Berkeley","MA University of California, Davis"],
+		"links": ["nhosein@ucdavis.edu"],
+		"page": "TBD",
+		"img": "nicholashosein.jpg"
 	}
 
 
