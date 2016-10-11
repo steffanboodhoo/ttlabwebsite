@@ -121,6 +121,16 @@
 		"img": "kevinfeveck.jpg"
 	},
 
+	"Laurielyse Girod-Williams": {
+		"title": "AP Intern",
+		"education": ["B.Sc., The University of the West Indies, 2016"],
+		"type": "Associate",
+		"about": "Laurielyse recently graduated from The University of the West Indies with a first class honours BSc. degree in Electrical and Computer Engineering with specialization in Communication Systems Engineering. Previously, she graduated from St. Joseph Convent, Port of Spain and was awarded a national Open scholarship in 2013. She has undertaken extensive work in the design of a tool which optimizes the placement of wireless access points. Her research interests include computer network design and optimization.",
+		"links": ["laurielyse2@gmail.com"],
+		"page": "laurielysegirodwilliams.html",
+		"img": "laurielysegirodwilliams.jpg"
+	},
+
 	"Saffiyah Doolan": {
 		"title": "AP Research Scientist",
 		"education": ["B.Eng, University College London 2016"],
