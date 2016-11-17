@@ -51,6 +51,8 @@
 			var a = $("<a/>",{"href":"#"});
 			if(data[title]["pdf"])
 				a = $("<a/>",{"href":"/pdf/"+data[title]["pdf"]});
+			else if(data[title]["link"])
+				a = $("<a></a>", {"href": data[title]["link"]});
 			a.append($("<h2/>",{"class":"post-title "}).append(title));
 			a.append($("<p/>",{"class":"post-subtitle"}).append(data[title]['description']));
 			div.append(a);

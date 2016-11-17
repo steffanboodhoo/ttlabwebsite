@@ -1,4 +1,11 @@
 {
+	"TTLAB Mentioned in the Trinidad Guardian":
+	{
+		"description": "TTLAB was recently covered in an article written by Raymond Ramcharitar in the Trinidad Guardian",
+		"time": "06/11/2016",
+		"img": "img/articleinGuardian.png",
+		"link": "http://digital.guardian.co.tt/?iid=148172&startpage=22#folio=22"
+	},
 	"Research Seminar":{
 		"description":"TTLAB (http://lab.tt) consists of First-Class Honors graduates, Postgraduate Students and Faculty Members in Computer Science, Electrical Engineering and Mathematics. Its objective is to pursue research that is beneﬁcial to society but also publication level quality. In this semi-annual preview we present our published research over the last six months (click to see flyer) and brieﬂy describe work submitted for publication and ongoing work. Presentations from all members of staﬀ are included. Light snacks will be served after the presentations to allow for networking.",
 		"time":"30/08/2016",
