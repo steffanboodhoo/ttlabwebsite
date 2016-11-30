@@ -227,17 +227,9 @@
 		"links": ["karandeepbrar@gmail.com"],
 		"page": "TBD",
 		"img": "karandeepbrar.jpg"
-	},
-
-	"Adam Khan": {
-		"type": "Associate",
-		"about": "Adam Khan is a recent graduate of the University of the West Indies attaining his MASc in Electrical and Computer Engineering (Distinction), specializing in Control Systems. Currently, he is working with the Engineering Institute as an Application Engineer to design, build and evaluate a suitable control system for an automated system for optimal plant growth in a greenhouse. His current interests are in intelligent controls, visualization and embedded systems.",
-		"title": "Adjunct Scientist",
-		"education": ["MASc. The University of the West Indies"],
-		"links": ["akhan.ak45@gmail.com"],
-		"page": "TBD",
-		"img": "adamkhan.jpg"
 	}
+
+
 
 
 }
