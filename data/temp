@@ -8,6 +8,28 @@
 		"img": "steffanboodhoo.jpg"
 	},
 
+
+"Laurielyse Girod-Williams": {
+		"title": "AP Research Scientist",
+		"education": ["B.Sc., The University of the West Indies, 2016"],
+		"type": "Associate",
+		"about": "Laurielyse recently graduated from The University of the West Indies with a first class honours BSc. degree in Electrical and Computer Engineering with specialization in Communication Systems Engineering. Previously, she graduated from St. Joseph Convent, Port of Spain and was awarded a national Open scholarship in 2013. She has undertaken extensive work in the design of a tool which optimizes the placement of wireless access points. Her research interests include computer network design and optimization.",
+		"links": ["laurielyse2@gmail.com"],
+		"page": "laurielysegirodwilliams.html",
+		"img": "laurielysegirodwilliams.jpg"
+	},
+
+"Devika Bhagwandin": {
+		"title": "AP Research Scientist",
+		"education": ["B.Sc, The University of the West Indies, 2014"],
+		"about": "Devika Bhagwandin graduated with her B.Sc. in Mathematics (Double Major) at the University of the West Indies, St Augustine in 2014. Upon graduation she received the Winston A. Richards prize in Statistics for the best year II and year III performance in Statistics. Devika further received a postgraduate scholarship to pursue her MSc in Statistics at the University of the West Indies. She has recently completed the requirements for this program and is currently working on a paper based on her project report which analyses disaggregated electrical energy using association rule learning. Her areas of interest include Stochastic Processes, Bayesian Space-Time modelling and Data Analytics. She also studies Hindi through the High Commission of India.",
+		"links": ["devikabhagwandin@hotmail.com"],
+		"page": "TBD",
+		"img": "devikabhagwandin.jpg"
+	},
+
+
+
 "Rikaard Hosein": {
       "title": "Adjunct Scientist",
       "type": "Associate",
@@ -38,5 +60,15 @@
 		"page": "randyram.html",
 		"img": "randyram.jpg"
 	},
+
+"Adam Khan": {
+		"type": "Associate",
+		"about": "Adam Khan is a recent graduate of the University of the West Indies attaining his MASc in Electrical and Computer Engineering (Distinction), specializing in Control Systems. Currently, he is working with the Engineering Institute as an Application Engineer to design, build and evaluate a suitable control system for an automated system for optimal plant growth in a greenhouse. His current interests are in intelligent controls, visualization and embedded systems.",
+		"title": "Adjunct Scientist",
+		"education": ["MASc. The University of the West Indies"],
+		"links": ["akhan.ak45@gmail.com"],
+		"page": "TBD",
+		"img": "adamkhan.jpg"
+	}
 
 
