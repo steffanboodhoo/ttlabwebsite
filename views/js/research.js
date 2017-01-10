@@ -33,6 +33,7 @@
 	},
 	*/
 	function createList(data){
+		data = data['papers'];
 		var list = $("<ul/>",{"class":"list"});
 		var pdfs = {}, count = 0;
 		for (var title in data){

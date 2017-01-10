@@ -1,4 +1,5 @@
 {
+	"papers": {
 	"Cyclic Beam Switching for Smart Grid Networks": {
 		"authors": "P. Hosein, L. Girod-Williams and C. van Rensburg",
 		"date": "Nov, 2016",
@@ -144,5 +145,16 @@
 		"volume":"2",
 		"date":"Mar, 2015",
 		"pdf":"ict2015.pdf"
+	}
+
+	},
+	"patents": {
+		"Cost Production Apparatus and Method Considering Data Usage and Service Quality": {
+			"authors": "Ramneek, P. Hosein, C. Wonjun, S. Woojin",
+			"country": "Republic of Korea",
+			"date": "Nov, 2016",
+			"registration": "1016755520000",
+			"pdf": "ramneek-patent-1.pdf"
+		}
 	}
 }
