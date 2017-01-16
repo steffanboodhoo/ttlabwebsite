@@ -3,12 +3,58 @@
 	var page_data = {};
 
 	$(document).ready(function(){
-		console.log("research - ready")
-
-		_get('/projects/data',null,createList);
+		main()
+		//console.log("research - ready")
+        //
+		//_get('/projects/data',null,createList);
 
 	});
 
+
+	function main() {
+		var url = '/projects/data';
+		$.get(url, processProjects);
+	}
+
+	function processProjects(data) {
+		var list = $('<ul></ul>', {"class": "list"});
+		_.forEach(data, function(values, key) {
+			var element = assembleElement(key, values);
+			list.append(element);
+		});
+
+		list.appendTo('#list_cont');
+		var options = {valueNames:['list-title','post-subtitle','post-meta']};
+		var researchList = new List('list_cont',options);
+	}
+
+	function assembleElement(key, values) {
+		var liContainer = $('<li></li>', {
+			"class": "post-preview"
+		});
+
+		var title = key;
+		var abstract = 'Abstract: ' + values['abstract'];
+		var members = 'Members: '+  values['members'];
+
+		console.log(title);
+		console.log(abstract);
+		console.log(members);
+
+		var titleElement = $('<h3></h3>', {"class":"post-title list-title"});
+		var abstractElement = $('<p style="font-style: italic"></p>', {"class":"post-subtitle "});
+		var membersElement = $('<p></p>', {"class":"post-subtitle "});
+
+		titleElement.append(title);
+		abstractElement.append(abstract);
+		membersElement.append(members);
+
+		liContainer.append(titleElement);
+		liContainer.append(membersElement);
+		liContainer.append(abstractElement);
+
+		return liContainer;
+	}
 	
 	function _get(url,params,call_back){
 		$.ajax({
