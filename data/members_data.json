@@ -219,8 +219,17 @@
 		"links": ["karandeepbrar@gmail.com"],
 		"page": "TBD",
 		"img": "karandeepbrar.jpg"
-	}
+	},
 
+	"Marc-Thomas Arjoon": {
+		"title": "Adjunct Scientist",
+		"type": "Associate",
+		"about": "Marc-Thomas Arjoon graduated from The University of The West Indies with a double major in Mathematics and Economics. He was awarded a Diploma in Business and Accounting by the ACCA and is a level 2 candidate in his studies to become a CFA Charterholder. Marc has worked as a business and financial analyst in his previous roles and hopes to further his skillset. His current interests are in data science, financial technology and quantitative analysis. ",
+		"education": ["B.Sc. The University of the West Indies"],
+		"links": ["marcarjoon@gmail.com"],
+		"page": "TBD",
+		"img": "Marc-ThomasArjoon.jpg"
+	}
 
 
 
