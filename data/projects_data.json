@@ -5,7 +5,7 @@
 	},
 	
 	"Deep Learning for Short Term Load Forecasting":{
-		"description":"Short-term electricity demand prediction is of great importance to electrical companies since it is required to ensure adequate capacity and to estimate the supply of raw material required to produce the required capacity. There is little research on the application of Deep Neural Networks (DNN) to short-term load forecasting. In this paper, we apply DNNs as well as other machine learning techniques to short-term load forecasting in a power grid. The data used is taken from periodic smart meter energy usage reports. Our results indicate that DNNs performs quite well when compared to traditional approaches.",
+		"abstract":"Short-term electricity demand prediction is of great importance to electrical companies since it is required to ensure adequate capacity and to estimate the supply of raw material required to produce the required capacity. There is little research on the application of Deep Neural Networks (DNN) to short-term load forecasting. In this paper, we apply DNNs as well as other machine learning techniques to short-term load forecasting in a power grid. The data used is taken from periodic smart meter energy usage reports. Our results indicate that DNNs performs quite well when compared to traditional approaches.",
 		"members":"Stefan Hosein",
 		"topic":"Machine Learning",
 		"pdf":"stefan_hosein_presentation.pdf"
