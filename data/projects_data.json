@@ -1,4 +1,15 @@
 {
+	"Impression Allocation in OSNs": {
+		"members": "Inzamam Rahaman",
+		"abstract": "One of the biggest challenges in advertising on the web is deciding the users on online social networks to whom advertisements/impressions should be displayed. Social networks such as Facebook and Twitter record large quantities of information about their users. Chief among such data are the friendship relationships between users. Due to homophily and the influence friends have on one another, it is likely that if a user clicks and an impression, some of their friends are likely to click the same impression if said impression was displayed to them. In this project, we are investigating ways in which friendships on social networks can be used to inform the allocation of impressions to users to maximise the value of advertising campaigns."
+	},
+	
+	"Deep Learning for Short Term Load Forecasting":{
+		"description":"Short-term electricity demand prediction is of great importance to electrical companies since it is required to ensure adequate capacity and to estimate the supply of raw material required to produce the required capacity. There is little research on the application of Deep Neural Networks (DNN) to short-term load forecasting. In this paper, we apply DNNs as well as other machine learning techniques to short-term load forecasting in a power grid. The data used is taken from periodic smart meter energy usage reports. Our results indicate that DNNs performs quite well when compared to traditional approaches.",
+		"members":"Stefan Hosein",
+		"topic":"Machine Learning",
+		"pdf":"stefan_hosein_presentation.pdf"
+	},
 	"Optimization of taxis and maxis income": {
 		"members": "Shanta Sukhoo",
 		"abstract": "Optimization of a problem is a mathematical technique for selecting the best outcome (subject to a set of contraints) from a set of available alternatives. Taxis and maxis have opperated the same way for many years in Trinidad and Tobago. There is, therefore, an opportunity to change the way in which the drivers opperate in an effort to maximise their income on a daily basis. This can be accomplished via a recommender system which can direct the drivers to the route(s) that is the most profitable. The use of this system can also potentially aid the passenger since the lenght of time they may have to wait on taxis would be greatly reduced."
