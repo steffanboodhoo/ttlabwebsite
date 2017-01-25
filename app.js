@@ -58,6 +58,10 @@ function return_event(filename){
   return path.join(__dirname,'events',filename);
 }
 
+app.get('/', function(req, res) {
+   res.sendFile('/index.html');
+});
+
 app.get('/isp-perf', function(req, res) {
   res.sendFile('./bar.png');
 });
@@ -68,10 +72,6 @@ app.get('/test', function(req, res){
 
 app.get('/isp', function(req, res) {
    res.send('under construction');
-});
-
-app.get('/', function(req, res) {
-   res.sendFile('/index.html');
 });
 
 app.get('/about', function(req, res) {

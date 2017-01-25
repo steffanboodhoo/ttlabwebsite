@@ -40,7 +40,7 @@
 			$('#recent').append(div);
 		}	
 
-		console.log('meh')
+		console.log('finished creating recent')
 	}
 
 	function createEvents(data){
@@ -69,6 +69,6 @@
 
 		}
 
-		console.log('meh')
+		console.log('finished creating events')
 	}
 })(this);
