@@ -7,5 +7,13 @@
 	"Association Rule Mining of Household Electrical Energy Usage": {
 		"members": "Devika Bhagwandin",
 		"abstract": "In a smart grid network, household energy consumption is monitored by the use of residential smart meters. These meters however do not provide data of individual appliance consumption. In this paper, disaggregated electrical energy is analyzed using the apriori algorithm in association rule mining. It is expected that such analysis will assist in electrical energy conservation as the consumer will be aware of how much energy is consumed by individual appliances."
+	},
+	"Knowledge Acquisition in cross domain recommender systems":{
+		"members":"Kiran Maharaj",
+		"abstract":"Recommendation systems are information filtering systems designed to present information on items or products which may be of interest to a user. Now popular in it's use on the internet, traditional methods to make such recommendations typically rely on information gathered in the domain of the system of application (e.g. on movie viewing on Netflix). While such  systems have been successful and have found commercial use in many scenarios, there is an increasing need for recommender systems to incorporate information being fed from multiple domains (e.g. movies on Netflix and songs on SoundCloud). My research currently looks at deriving benefit from such such domains to aid recommender systems. I hope to develop algorithms/techniques which can incorporate seemingly unrelated datasets to enhance the overall performance of present-day recommendation systems."
+	},
+	"Scheduling using soft constraints":{
+		"members":"Steffan Boodhoo",
+		"abstract":"Many organizations use some flavor of scheduling software to have events, whether it be a free tool such as outlook or some purchased software. These solutions generally require either voting on given days and slots or constant back and forth input. Using a soft constraint method of assigning an importance value to event slots, new events can be automatically found by a maximization of importance value across participants' slots. Since knowledge of all events is not known initially, i.e. new events can be created, this greatly impacts the optimal scheduling solution. There is therefore a need for on-demand re-optimization of schedules, this can take some time as it tries to account for the best possible placement of all events across all users' slots. My current research deals with an efficient way of distributing users and events as to maximize the distribution of work. It is based on the observation that many informal event groups (of users) exist, that is some users will have a high number of common events with each-other while having a very low to no common events with other users."
 	}
 }
