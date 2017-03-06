@@ -57,15 +57,6 @@
 		"img": "shantasukhoo.jpg"
 	},
 
-	"Arti Ramdhanie": {
-		"title": "MPhil Student",
-		"education": ["B.Sc. The University of the West Indies, 2014"],
-		"type": "Associate",
-		"about": "Arti Ramdhanie graduated from the University of the West Indies in 2014 where she obtained her BSc in Computer Science. Following her tenure at the University, she has worked as both a Software Engineer and a Systems Analyst. Currently she works at CARIRI where she is part of a team that is spearheading a Data Science Centre. Her main interest lies prominently in big data and analytics.",
-		"links": ["artikandice@gmail.com"],
-		"page": "TBD",
-		"img": "artiramdhanie.jpg"
-	},
 
 	"Mathew Stewart": {
 		"title": "MSc Fellow",
@@ -190,16 +181,6 @@
       "page": "TBD",
       "img": "nicholas_chamansingh.jpeg"
     },
-
-	"Keshav Bahadoor": {
-		"title": "Adjunct Scientist",
-		"type": "Associate",
-		"about": "Keshav Bahadoor has recently completed the requirements for an MSc in Computer Science at the University of the West Indies. Prior to this, he graduated with a BSc in Computer Science (Double Major) at the University of the West Indies. Keshav currently works at Resonance Trinidad Ltd. as a Software Developer, and is involved in a wide range of products and mission critical utilities. Some of his interests include software development and design patterns, graphics and game programming, and mobile application development. Outside of the software world, Keshav enjoys reading, and is an avid guitarist. ",
-		"education": ["B.Sc. Computer Science"],
-		"links": ["keshav.bahadoor@gmail.com"],
-		"page": "TBD",
-		"img": "keshavbahadoor.jpg"
-	},
 
 	"Nicholas Hosein": {
 		"title": "Adjunct Scientist",
