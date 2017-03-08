@@ -34,17 +34,46 @@
 	*/
 	function createList(data){
 		data = data['papers'];
+		months = ['Jan','Feb','Mar','April','May','June','July','Aug','Sept','Oct','Nov','Dec'];
+		var arr = [];
+		for(pub in data){
+			
+			var pub_mon_yr = data[pub]['date'].split(',')
+			console.log(pub_mon_yr)
+			var pub_mon = pub_mon_yr[0].trim()
+			var pub_yr = pub_mon_yr[1].trim()
+			for(var mon in months){
+				if( pub_mon === months[mon]){
+					pub_mon = mon;
+					break;
+				}
+			}
+			if(pub_mon.length == 1){
+				pub_mon = "0"+pub_mon;
+			}
+			pub_mon_yr = parseInt(pub_yr+pub_mon);
+			data[pub]['time'] = pub_mon_yr;
+			console.log(pub_mon_yr)
+			data[pub]['title'] = pub;
+			arr.push(data[pub]);
+		}
+
+		arr.sort(function(a,b){
+			return b['time'] - a['time'] ;
+		});
+		data = arr;
+	
 		var list = $("<ul/>",{"class":"list"});
 		var pdfs = {}, count = 0;
-		for (var title in data){
+		for (var i in data){
 			//save pdf for later
-			pdfs["pdf"+count] = data[title]['pdf'];
+			pdfs["pdf"+count] = data[i]['pdf'];
 
 			//create containers
 			var li = $("<li/>",{"class":"post-preview "});
 			var a = $('<div></div>', {"id":"pdf"+count});
 			var a = $('<a/>',{"id":"pdf"+count});
-			if(data[title]['pdf'].length > 0) {
+			if(data[i]['pdf'].length > 0) {
 				//onclick event
 
 				a.click(function(event){
@@ -64,13 +93,13 @@
 				a.attr('data-target', '#myModal');
 			}
 
-			a.append( $("<h4/>",{"class":"post-title list-title"}).append(title) );
-			a.append( $("<p/>",{"class":"post-subtitle list-description "}).append(data[title]['authors']) )
-			a.append($("<p/>",{"class":"post-subtitle list-description"}).append(data[title]['location']));
+			a.append( $("<h4/>",{"class":"post-title list-title"}).append(data[i]['title']) );
+			a.append( $("<p/>",{"class":"post-subtitle list-description "}).append(data[i]['authors']) )
+			a.append($("<p/>",{"class":"post-subtitle list-description"}).append(data[i]['location']));
 			li.append(a);
-			var meta = data[title]['date'];
-			if(data[title]["volume"] != "")
-				meta += ", vol"+data[title]["volume"];
+			var meta = data[i]['date'];
+			if(data[i]["volume"] != "")
+				meta += ", vol"+data[i]["volume"];
 			li.append($("<p/>",{"class":"post-meta list-date"}).append(meta));
 			
 			list.append(li);
