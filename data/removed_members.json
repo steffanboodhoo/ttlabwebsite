@@ -17,3 +17,13 @@
 	"page": "TBD",
 	"img": "keshavbahadoor.jpg"
 },
+
+   "Nicholas Chamansingh": {
+      "title": "Adjunct Scientist",
+      "type": "Associate",
+      "about": "Nicholas is a recent graduate of the University of the West Indies attaining his MSc degree in Computer Science with Distinction. He has a range of experience which includes Software Engineering, Process Mapping and teaching university students both at the Undergraduate and Masters levels. Nicholas currently works at Digicel Trinidad as a Software Development and Design Engineer where his main responsibilities are to optimize and automate current systems and processes within and across company branches, with focus on documenting and mapping existing process flows, assisting in analyzing current process gaps, and making and delivering recommendations to close gaps. His current interest is in Natural Language Processing for Social Media.",
+      "education": ["M.Sc. The University Of The West Indies", "B.Sc. The University Of The West Indies"],
+      "links": ["nicholas.chamansingh@gmail.com"],
+      "page": "TBD",
+      "img": "nicholas_chamansingh.jpeg"
+    },
