@@ -28,11 +28,21 @@
       "img": "kiran.png"
 
     },
+     "Anil Ramnanan": {
+      "title": "PhD Student",
+      "type": "Associate",
+      "about": "Anil Ramnanan is a Graduate of the University of the West Indies with an MPhil in Computer Science. He has experience as a full stack developer with with both web and mobile applications. He has also worked on a number of projects using embedded systems and small computing platforms such as the Raspberry Pi and Arduiono. His area of interest for research is the Internet of Things.",
+      "education": ["M.Phil, The University Of The West Indies", "Bsc University Of The West Indies"],
+      "links": [" anil@peppersauce.org"],
+      "page": "",
+      "img": "AnilRamnanan.jpg"
+
+    },
     "Ashish Bhatt": {
       "title": "PhD Student",
       "type": "Associate",
       "about": "Ashish Bhatt currently leads the BI initiative at The University of the West Indies, St. Augustine Campus. In this role he is responsible for overall strategy, planning and implementation for business intelligence. Ashish has over 12 years of experience with implementing bespoke IT solutions at enterprise, national and regional levels, in various sectors including banking, oil & gas, public health and higher education. He holds a Master of Engineering degree from Imperial College London, he is Chartered Engineer with the Engineering Council, UK, and member of the British Computer Society.",
-      "education": ["MEng (Hons), Imperial College London"],
+      "education": ["MEng (Hons), Imperial College London","CEng MBCS"],
       "links": ["Ashish.Bhatt@sta.uwi.edu"],
       "page": "",
       "img": "AshishBhatt.jpg"
