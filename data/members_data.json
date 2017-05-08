@@ -221,6 +221,16 @@
 		"links": ["marcarjoon@gmail.com"],
 		"page": "TBD",
 		"img": "Marc-ThomasArjoon.jpg"
+	},
+
+	"Robert Martinez": {
+		"title": "Adjunct Scientist",
+		"type": "Associate",
+		"about": "Robert Martinez was born and raised in Port of Spain, Trinidad. He is a former student of St. Mary's College, winning the President's Medal in 2005. He has a BA in Economics from McGill University, and an MSc in Science and Technology Policy from the University of Sussex. Robert has been a Policy Analyst at the National Institute of Higher Education, Research, Science and Technology (NIHERST)for over five (5) years. As a member of NIHERST's Policy, Research and Intelligence Department, he has been involved in research looking at innovation in the local ICT sector, including software and web development, as well as animation.",
+		"education": ["B.A. McGill University","M.Sc. University of Sussex"],
+		"links": ["robert.martinez@niherst.gov.tt"],
+		"page": "TBD",
+		"img": "robertMartinez.jpg"
 	}
 
 
