@@ -1,0 +1,28 @@
+[
+	{
+		"image":"massylogo.png"
+		,"client":"Massy"
+		,"meta":"Data Analytics"
+	}
+
+	,{
+		"image":"digidatalogo.png"
+		,"client":"Digi-Data"
+		,"meta":"Data Analytics"
+	}
+	,{
+		"image":"radiallogo.png"
+		,"client":"Radial"
+		,"meta":"Data Analytics"
+	}
+	,{
+		"image":"sagicorlogo.png"
+		,"client":"Sagicor"
+		,"meta":"Data Analytics"
+	}
+	,{
+		"image":"tteclogo.jpg"
+		,"client":"TTEC"
+		,"meta":"SmartGrid, Data Analytics, Communications"
+	}
+]

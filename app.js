@@ -86,6 +86,10 @@ app.get('/publications', function(req, res) {
    res.sendFile(return_path('publications.html'));
 });
 
+app.get('/clients', function(req, res) {
+   res.sendFile(return_path('clients.html'));
+});
+
 app.get('/projects', function(req, res) {
    res.sendFile(return_path('projects.html'));
 });
@@ -112,6 +116,10 @@ app.get('/research/data',function(req,res){
 
 app.get('/projects/data',function(req,res){
   res.sendFile(return_data('projects_data.json'));
+});
+
+app.get('/clients/data',function(req,res){
+  res.sendFile(return_data('clients_data.json'));
 });
 
 app.get('/members/data',function(req,res){
