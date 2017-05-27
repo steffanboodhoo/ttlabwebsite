@@ -9,14 +9,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>TTLAB - Staff</title>
+    <title>TTLAB - Clients</title>
 
     <!-- Bootstrap Core CSS -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/clean-blog.css" rel="stylesheet">
-    <link href='css/members.css' rel='stylesheet' type='text/css'>
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/clients.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -50,37 +52,37 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                 <ul class="nav navbar-nav navbar-right">
-                     <li>
-                         <a href="/">Home</a>
-                     </li>
-                     <!--<li>-->
-                         <!--<a href="/news">News</a>-->
-                     <!--</li>-->
-                     <li>
-                         <a href="/members">Staff</a>
-                     </li>
-                     <li>
-                         <a href="/publications">Publications</a>
-                     </li>
-                     <li>
-                         <a href="/patents.html">Patents</a>
-                     </li>
-                      <li>
-                        <a href="/clients">Clients</a>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <!--<li>-->
+                        <!--<a href="/news">News</a>-->
+                    <!--</li>-->
+                    <li>
+                        <a href="/members">Staff</a>
+                    </li>
+                    <li>
+                        <a href="/publications">Publications</a>
+                    </li>
+                    <li>
+                        <a href="/patents.html">Patents</a>
                     </li>
                      <li>
-                         <a href="/projects">Projects</a>
-                     </li>
-                     <li>
-                         <a href="/presentations">Presentations</a>
-                     </li>
-                     <!--<li>-->
-                     <!--<a href="/tasks">Tasks</a>-->
-                     <!--</li>-->
-                     <li>
-                         <a href="/contact">Contact</a>
-                     </li>
+                        <a href="/clients">Clients</a>
+                    </li>
+                    <li>
+                        <a href="/projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/presentations">Presentations</a>
+                    </li>
+                    <!--<li>-->
+                    <!--<a href="/tasks">Tasks</a>-->
+                    <!--</li>-->
+                    <li>
+                        <a href="/contact">Contact</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -90,14 +92,14 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/about-bg.jpg')">
+    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8  col-md-10 ">
-                    <div class="page-heading">
-                        <h1>Staff</h1>
+                <div class="col-md-offset-1 col-lg-8  col-md-10 ">
+                    <div class="site-heading">
+                        <h1>TTLAB</h1>
                         <hr class="small">
-                        <span class="subheading">First Class Honours Graduates</span>
+                        <span class="subheading">Innovative Technology Solutions through Interdisciplinary Research</span>
                     </div>
                 </div>
             </div>
@@ -106,18 +108,12 @@
 
     <!-- Main Content -->
     <div class="container">
-        <div class="row" id="list_cont">
-           <input class="search" placeholder="Search" />
-          <button class="sort" data-sort="list-title">
-            Sort by Name
-          </button>
-            <button type="button" data-toggle="modal"
-            data-target="#myModal">
-                Job Title Descriptions
-            </button>
-        </div>
+        
+        <div id="list_client">
+        </div> 
+
     </div>
-    <!-- END OF MAIN CONTENT -->
+
     <hr>
 
     <!-- Footer -->
@@ -165,53 +161,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/clean-blog.min.js"></script>
-
-    <script src="js/list.js"></script>
-
-    <script src="js/members.js"></script>
-
-    <div id="myModal" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Job Title Descriptions</h4>
-                </div>
-                <div class="modal-body">
-                    <ul>
-                        <li>
-                            PhD Fellow (3 year Fellowship for PhD and Travel Grant)
-                        </li>
-                        <li>
-                            MPhil Fellow (2 year Fellowship for MPhil and Travel Grant)
-                        </li>
-                        <li>
-                            MPhil Student (Travel Grant)
-                        </li>
-                        <li>
-                            M.Sc Fellow (Full Scholarship for MSc in Computer Science)
-                        </li>
-                        <li>
-                            AP Research Scientist (Travel Grant)
-                        </li>
-                        <li>
-                            Undergraduate Intern (Volunteer)
-                        </li>
-                        <li>
-                            Research Scientist (Volunteer)
-                        </li>
-                    </ul>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-
-        </div>
-    </div>
+    <script src="js/clients.js"></script>
 
 </body>
 
