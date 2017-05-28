@@ -36,12 +36,12 @@
 	function createItem(data){
 		var item = $("<div/>",{class:"row"});
 
-		var left = $("<div/>",{class:"col-md-10"});
+		var left = $("<div/>",{class:"col-md-8"});
 		var img = window.location.href.replace(window.location.pathname,"") + "/" + data["image"];
 		left.append( $("<img/>",{"src":img, "class":"logo img-contain"}));
 
 
-		var right = $("<div/>",{class:"col-md-2"}).append( $("<h3/>").append(data["client"]) );
+		var right = $("<div/>",{class:"col-md-4"}).append( $("<h3/>").append(data["client"]) );
 		right.append( $("<blockquote/>").append(data["meta"]) )
 
 		item.append(left); item.append(right);
