@@ -152,6 +152,14 @@
 		"img": "devikabhagwandin.jpg"
 	},
 
+	"Kevin Baboolal": {
+		"title": "AP Research Scientist",
+		"education": ["BASc, University of Waterloo 2017"],
+		"about": "Kevin graduated from the University of Waterloo with a Bachelors of Applied Science (BASc) in Mechanical Engineering – Specialization in Welding and Joining Processes. A recent Mechanical Engineering graduate, Kevin is also a self-thought programmer working primarily with Python, Javascript and Android Framework. He hopes to combine his interest in software development with a traditional mechanical engineering background. He has interned at several companies within Trinidad and Tobago, including the oil field services, power generation and construction industries. This has empowered him a good understanding of the practical challenges facing Trinidad’s aging industries. His interests include fracture mechanics, fatigue, metallurgy, data harvesting, machine learning and android application development.", 	"links": ["devikabhagwandin@hotmail.com"],
+		"links":["k.baboolal1.0@gmail.com"],
+		"page": "TBD",
+		"img": "kevinbaboolal.jpg"
+	},
 
 	"Jonathan Earle": {
 		"title": "Undergraduate Intern",
