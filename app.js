@@ -118,9 +118,9 @@ app.get('/projects/data',function(req,res){
   res.sendFile(return_data('projects_data.json'));
 });
 
-app.get('/clients/data',function(req,res){
+/*app.get('/clients/data',function(req,res){
   res.sendFile(return_data('clients_data.json'));
-});
+});*/
 
 app.get('/members/data',function(req,res){
   res.sendFile(return_data('members_data.json'));
