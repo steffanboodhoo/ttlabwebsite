@@ -153,6 +153,29 @@
 		"date":"May, 2017",
 		"pdf":"dmcit-2017.pdf"
 	}
+	,
+	"Exploiting Gaussian Embeddings for Directed Link Prediction":{
+		"authors":"Inzamam Rahaman and Patrick Hosein",
+		"location":"13th International Workshop On Mining and Learning with Graphs, Halifax, Nova Scotia, Canada",
+		"volume":"",
+		"date":"Aug, 2017",
+		"pdf":""
+	},
+	"Emerging Network Technologies and Network Neutrality Conformance":{
+		"authors":"Ramneek Sekhon, Patrick Hosein, Woojin Seok and Jaiseung Kwak",
+		"location":"19th Asia-Pacific Network Operations and Management Symposium, Seoul, South Korea",
+		"volume":"",
+		"date":"Sept, 2017",
+		"pdf":""
+	},
+	"Exploiting Gaussian Word Embeddings for Document Clustering":{
+		"authors":"Inzamam Rahaman and Patrick Hosein",
+		"location":"Future Technologies Conference, Vancouver, British Colombia, Canada",
+		"volume":"",
+		"date":"Nov, 2017",
+		"pdf":"dmcit-2017.pdf"
+	}
+
 
 	},
 	"patents": {
