@@ -40,16 +40,6 @@
 		"img": "nicholashosein.jpg"
 	},
 
-	
-	"Chris Meetoo": {
-		"title": "AP Research Scientist",
-		"education": ["B.Sc., The University of the West Indies, 2016"],
-		"type": "Associate",
-		"about": "Chris Meetoo is a recent Electrical and Computer Engineering graduate, specialising in both Power Systems Engineering as well as Control Systems Engineering. He previously attended Presentation College San Fernando and was awarded a national scholarship in 2013. His interests include smart grid applications, microcontrollers, software and hardware development. Throughout his degree he has demonstrated an enduring loyalty to his studies, never giving up when faced with the most difficult tasks or complications. For his final year undergraduate project, he developed a unique prototype of a wireless energy monitoring system for residential use. See the demonstration of his final year research project <a href=\"https://www.youtube.com/watch?v=EuSFd6usUW8\">here</a>.",
-		"links": ["chris.meetoo.tt@ieee.org"],
-		"page": "chrismeetoo.html",
-		"img": "chrismeetoo.jpg"
-	},
 	"Kevin Feveck": {
 		"title": "AP Research Scientist",
 		"education": ["B.Sc., University of Massachusetts Amherst 2016"],
@@ -59,3 +49,12 @@
 		"page": "kevinfeveck.html",
 		"img": "kevinfeveck.jpg"
 	},
+	"Jonathan Earle": {
+		"title": "Undergraduate Intern",
+		"type": "Associate",
+		"about": "Jonathan Earle is currently pursuing a BSc in Computer Science from The University of the West Indies. In his second year he lead a developer team which placed third in the Teleios Code Jam. He has also worked as a Web Developer for TapTag. Jonathan was selected to be an intern at Huawei as part of the Seeds for the Future Programme. In addition, he recently received The Tucker Energy Services Holdings Ltd. Prize for the best Year II performance in Computer Science. His interests include machine learning, computer vision and bioinformatics.",
+		"education": ["B.Sc., The University of the West Indies, Present"],
+		"links": ["jonathan.john.enock.earle@gmail.com"],
+		"page": "jonathanearle.html",
+		"img": "jonathanearle.jpg"
+	}
