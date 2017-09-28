@@ -168,13 +168,6 @@
 		"date":"Sept, 2017",
 		"pdf":""
 	},
-	"Exploiting Gaussian Word Embeddings for Document Clustering":{
-		"authors":"Inzamam Rahaman and Patrick Hosein",
-		"location":"Future Technologies Conference, Vancouver, British Colombia, Canada",
-		"volume":"",
-		"date":"Nov, 2017",
-		"pdf":"Paper_276-Exploiting_Gaussian_Word_Embeddings_for_Document_Clustering.pdf"
-	},
 	"Quality of Service Framework for Supporting Next Generation Mobile Services":{
 		"authors":"Ramneek , P. Hosein, W. Choi and W. Seok",
 		"location":"Journal of Advanced Research in Dynamical and Control Systems",
@@ -188,7 +181,22 @@
 		"volume":"",
 		"date":"Nov, 2017",
 		"pdf":""
+	},
+	"Constant Time, Fixed Memory, Zero False Negative Error Logging for Low Power Wearable Devices":{
+		"authors":"Saffiyah Doolan, Nicholas Hosein, Patrick Hosein and Devika Bhagwandin",
+		"location":"IEEE Conference on Wireless Sensors, Sarawak, Malaysia",
+		"volume":"",
+		"date":"Nov, 2017",
+		"pdf":""
+	},
+	"Exploiting Gaussian Word Embeddings for Document Clustering":{
+		"authors":"Inzamam Rahaman and Patrick Hosein",
+		"location":"Future Technologies Conference, Vancouver, British Colombia, Canada",
+		"volume":"",
+		"date":"Nov, 2017",
+		"pdf":"Paper_276-Exploiting_Gaussian_Word_Embeddings_for_Document_Clustering.pdf"
 	}
+	
 
 
 	},
