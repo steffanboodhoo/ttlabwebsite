@@ -58,3 +58,13 @@
 		"page": "jonathanearle.html",
 		"img": "jonathanearle.jpg"
 	}
+
+		"Karandeep Singh": {
+		"title": "Adjunct Scientist",
+		"type": "Associate",
+		"about": "Karandeep Singh received his Bachelor degree from Punjabi University, Punjab, India and his Master degree from PEC University of Technology, Chandigarh, India. He is currently a Ph.D. student of University of Science and Technology (UST) at Electronics and Telecommunication Research Institute (ETRI), Daejeon, South Korea. His research interest include Social Computing, Big Data Analysis and Cognitive Machine Learning.",
+		"education": ["B.Sc. Punjabi University", "M.Sc. PEC University of Technology"],
+		"links": ["karandeepbrar@gmail.com"],
+		"page": "TBD",
+		"img": "karandeepbrar.jpg"
+	},
