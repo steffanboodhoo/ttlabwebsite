@@ -102,6 +102,10 @@ app.get('/members', function(req, res) {
   res.sendFile(return_path('members.html'));
 });
 
+app.get('/adjunct_scientists', function(req, res) {
+  res.sendFile(return_path('adjunct_scientists.html'));
+});
+
 app.get('/tasks', function(req, res) {
   res.sendFile(return_path('tasks.html'));
 });
@@ -124,6 +128,9 @@ app.get('/projects/data',function(req,res){
 
 app.get('/members/data',function(req,res){
   res.sendFile(return_data('members_data.json'));
+});
+app.get('/adjunct_members/data',function(req,res){
+  res.sendFile(return_data('adjunct_members_data.json'));
 });
 
 app.get('/events/data',function(req,res){
