@@ -76,3 +76,11 @@
 		"page": "chrismeetoo.html",
 		"img": "chrismeetoo.jpg"
 	},
+	" Kelsey Tang Yuk": {
+		"title": "AP Research Scientist",
+		"education": ["M.Eng., McGill University 2017"],
+		"about": "Kelsey graduated from McGill University with a Master in Mechanical Engineering, specializing in numerical simulation of compressible, reactive flow. During the program, her thesis involved the transmission of a detonation wave through a non-uniform medium. She was also involved in a collaborative study on the interaction of a shock wave with an array of flames for detonation propulsion applications. In August 2017, Kelsey presented these research projects at the International Colloquium on the Dynamics of Explosions and Reactive Systems. Her experience involves programming in fortran, matlab and c++ mainly. She has continued interest in numerical modelling of physical systems. Ultimately, her goal is to continue learning and honing her programming skills.",
+		"links":["kelseychristinety@gmail.com","kelsey.tangyuk@mail.mcgill.ca"],
+		"page": "TBD",
+		"img": "kelsey.tyangyuk.jpg"
+	}

@@ -63,7 +63,16 @@
 		"links": ["karandeepbrar@gmail.com"],
 		"page": "TBD",
 		"img": "karandeepbrar.jpg"
-	}
+	},
+      "Kevan Rajaram": {
+      "title": "PhD Student",
+      "type": "Associate",
+      "about": "Kevan Rajaram graduated from the University of the West Indies, St. Augustine with a BSc. Mathematics Double Major (2013) and a MSc. Statistics (2016). He currently works as the Analytics Manager at a telecommunications company in the Caribbean where he is tasked with product development, product optimization, data mining, data analytics, predictive modelling and churn analysis. His area of interest for research is Natural Language Processing and Machine Learning.",
+      "education": ["M.Sc. The University Of The West Indies", "B.Sc. The University Of The West Indies"],
+      "links": ["kevan.rajaram@gmail.com"],
+      "page": "TBD",
+      "img": "kevan_rajaram.png"
+    }
 
 
 
