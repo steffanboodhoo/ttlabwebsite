@@ -116,14 +116,6 @@
 		"img": "andersonsingh.jpg"
 
 	},
-	"Devika Bhagwandin": {
-		"title": "AP Research Scientist",
-		"education": ["B.Sc, The University of the West Indies, 2014"],
-		"about": "Devika Bhagwandin graduated with her B.Sc. in Mathematics (Double Major) at the University of the West Indies, St Augustine in 2014. Upon graduation she received the Winston A. Richards prize in Statistics for the best year II and year III performance in Statistics. Devika further received a postgraduate scholarship to pursue her MSc in Statistics at the University of the West Indies. She has recently completed the requirements for this program and is currently working on a paper based on her project report which analyses disaggregated electrical energy using association rule learning. Her areas of interest include Stochastic Processes, Bayesian Space-Time modelling and Data Analytics. She also studies Hindi through the High Commission of India.",
-		"links": ["devikabhagwandin@hotmail.com"],
-		"page": "TBD",
-		"img": "devikabhagwandin.jpg"
-	},
 	"Kevin Baboolal": {
 		"title": "AP Research Scientist",
 		"education": ["BASc, University of Waterloo 2017"],
@@ -132,13 +124,20 @@
 		"page": "TBD",
 		"img": "kevinbaboolal.jpg"
 	},
-	"Rishi Latchmepersad": {
+	"Dominic Williams": {
+		"title": "Massy Reverse Intern",
+		"education": ["BSc, The University of the West Indies 2016","E.E.E.T."],
+		"about": "Dominic graduated from the University of the West Indies in 2016 with a B.Sc. in Electrical and Computer Engineering (First Class Honours) – Specialization in Controls and Instrumentation. Dominic also has an Advanced Diploma in Electrical and Electronic Engineering Technology (E.E.E.T.).  He is also a self-thought developer and has worked on a variety of projects both personal and business. Dominic hopes to link and develop on music and technology.",
+		"links":["dominic.williams@massygroup.com"],
+		"page": "TBD",
+		"img": "dominic_williams.JPG"
+	},
+	"Sterling Ramroach": {
 		"title": "Intern",
-		"education": [""],
-		"type": "Adjunct Scientist",
-		"about": "Rishi Latchmepersad graduated from the University of the West Indies in 2016 with a BSc. in Electrical and Computer Engineering. He majored in Communications, with particular interests in both IP networking and programming. He interned at Digicel in 2015, where he began his programming journey by developing a few scripts and webpages as part of optimization efforts within the IP team. After the internship, he dove into full software development by constructing an application for network quality measurement and analysis, initially as part of his final year project at the UWI, but later as part of a project for the industry. He continues to hone his programming skills while he progresses his IP networking certification paths and conducts research within the Communications field. ",
-		"links": ["latchmepersad@gmail.com"],
-		"page": "",
-		"img": "rishi_latchmepersad.jpg"
+		"education": ["BSc, The University of the West Indies","MPhil, The University of the West Indies"],
+		"about": "Sterling is a PhD student in Electrical and Computer Engineering at The University of the West Indies. His work involves developing and optimising machine learning algorithms with parallel processing to aid in the diagnosis and prognosis of various cancers. As a software engineer, Sterling has won various local and regional software competitions along with entrepreneurial grants from the government of Trinidad and Tobago, and has developed enterprise software used by CARICOM governments. Sterling graduated his undergrad with the highest GPA in his year and won prizes for most outstanding CS graduate as well as best year three. For his MPhil, he developed various steganographic techniques to hide secret messages in digital media, undetectably. He is interested in Machine Learning, Bioinformatics, and Data Analytics.",
+		"links":["sramroach@gmail.com"],
+		"page": "TBD",
+		"img": "sterling_ramroach.jpg"
 	}
 }

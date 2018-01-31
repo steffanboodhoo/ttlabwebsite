@@ -72,7 +72,24 @@
       "links": ["kevan.rajaram@gmail.com"],
       "page": "TBD",
       "img": "kevan_rajaram.png"
-    }
+    },
+	"Devika Bhagwandin": {
+		"title": "AP Research Scientist",
+		"education": ["B.Sc, The University of the West Indies, 2014"],
+		"about": "Devika Bhagwandin graduated with her B.Sc. in Mathematics (Double Major) at the University of the West Indies, St Augustine in 2014. Upon graduation she received the Winston A. Richards prize in Statistics for the best year II and year III performance in Statistics. Devika further received a postgraduate scholarship to pursue her MSc in Statistics at the University of the West Indies. She has recently completed the requirements for this program and is currently working on a paper based on her project report which analyses disaggregated electrical energy using association rule learning. Her areas of interest include Stochastic Processes, Bayesian Space-Time modelling and Data Analytics. She also studies Hindi through the High Commission of India.",
+		"links": ["devikabhagwandin@hotmail.com"],
+		"page": "TBD",
+		"img": "devikabhagwandin.jpg"
+	},
+	"Rishi Latchmepersad": {
+		"title": "Intern",
+		"education": [""],
+		"type": "Adjunct Scientist",
+		"about": "Rishi Latchmepersad graduated from the University of the West Indies in 2016 with a BSc. in Electrical and Computer Engineering. He majored in Communications, with particular interests in both IP networking and programming. He interned at Digicel in 2015, where he began his programming journey by developing a few scripts and webpages as part of optimization efforts within the IP team. After the internship, he dove into full software development by constructing an application for network quality measurement and analysis, initially as part of his final year project at the UWI, but later as part of a project for the industry. He continues to hone his programming skills while he progresses his IP networking certification paths and conducts research within the Communications field. ",
+		"links": ["latchmepersad@gmail.com"],
+		"page": "",
+		"img": "rishi_latchmepersad.jpg"
+	}
 
 
 
