@@ -116,6 +116,17 @@
 		"img": "andersonsingh.jpg"
 
 	},
+
+	"Shinelle Bovell": {
+		"title": "MSc Student",
+		"type": "Associate",
+		"about": " I am avid fan of simple and seamless design.  My affinity for \"clean\", however, does not limit my exploration into the world colour and variation. For the past 5 years, I have been a team member of the Massy Ltd I.C.T. department working in roles spanning from Web Development to Business Intelligence. My interests include kickboxing, weight lifting, browsing the internet for new fonts.",
+		"education": [""],
+		"links": ["elle@shinelle.com"],
+		"page": "",
+		"img": "shinelle_bovell.png"
+
+	},
 	"Kevin Baboolal": {
 		"title": "AP Research Scientist",
 		"education": ["BASc, University of Waterloo 2017"],
