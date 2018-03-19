@@ -83,4 +83,22 @@
 		"links":["kelseychristinety@gmail.com","kelsey.tangyuk@mail.mcgill.ca"],
 		"page": "TBD",
 		"img": "kelsey.tyangyuk.jpg"
-	}
+	},
+	"Rishi Latchmepersad": {
+		"title": "Intern",
+		"education": [""],
+		"type": "Adjunct Scientist",
+		"about": "Rishi Latchmepersad graduated from the University of the West Indies in 2016 with a BSc. in Electrical and Computer Engineering. He majored in Communications, with particular interests in both IP networking and programming. He interned at Digicel in 2015, where he began his programming journey by developing a few scripts and webpages as part of optimization efforts within the IP team. After the internship, he dove into full software development by constructing an application for network quality measurement and analysis, initially as part of his final year project at the UWI, but later as part of a project for the industry. He continues to hone his programming skills while he progresses his IP networking certification paths and conducts research within the Communications field. ",
+		"links": ["latchmepersad@gmail.com"],
+		"page": "",
+		"img": "rishi_latchmepersad.jpg"
+	},
+      "Kevan Rajaram": {
+      "title": "PhD Student",
+      "type": "Associate",
+      "about": "Kevan Rajaram graduated from the University of the West Indies, St. Augustine with a BSc. Mathematics Double Major (2013) and a MSc. Statistics (2016). He currently works as the Analytics Manager at a telecommunications company in the Caribbean where he is tasked with product development, product optimization, data mining, data analytics, predictive modelling and churn analysis. His area of interest for research is Natural Language Processing and Machine Learning.",
+      "education": ["M.Sc. The University Of The West Indies", "B.Sc. The University Of The West Indies"],
+      "links": ["kevan.rajaram@gmail.com"],
+      "page": "TBD",
+      "img": "kevan_rajaram.png"
+    }

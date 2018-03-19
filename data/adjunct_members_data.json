@@ -64,15 +64,6 @@
 		"page": "TBD",
 		"img": "karandeepbrar.jpg"
 	},
-      "Kevan Rajaram": {
-      "title": "PhD Student",
-      "type": "Associate",
-      "about": "Kevan Rajaram graduated from the University of the West Indies, St. Augustine with a BSc. Mathematics Double Major (2013) and a MSc. Statistics (2016). He currently works as the Analytics Manager at a telecommunications company in the Caribbean where he is tasked with product development, product optimization, data mining, data analytics, predictive modelling and churn analysis. His area of interest for research is Natural Language Processing and Machine Learning.",
-      "education": ["M.Sc. The University Of The West Indies", "B.Sc. The University Of The West Indies"],
-      "links": ["kevan.rajaram@gmail.com"],
-      "page": "TBD",
-      "img": "kevan_rajaram.png"
-    },
 	"Devika Bhagwandin": {
 		"title": "AP Research Scientist",
 		"education": ["B.Sc, The University of the West Indies, 2014"],
@@ -81,14 +72,31 @@
 		"page": "TBD",
 		"img": "devikabhagwandin.jpg"
 	},
-	"Rishi Latchmepersad": {
-		"title": "Intern",
+	"Shinelle Bovell": {
+		"title": "MSc Student",
+		"type": "Associate",
+		"about": " I am avid fan of simple and seamless design.  My affinity for \"clean\", however, does not limit my exploration into the world colour and variation. For the past 5 years, I have been a team member of the Massy Ltd I.C.T. department working in roles spanning from Web Development to Business Intelligence. My interests include kickboxing, weight lifting, browsing the internet for new fonts.",
 		"education": [""],
-		"type": "Adjunct Scientist",
-		"about": "Rishi Latchmepersad graduated from the University of the West Indies in 2016 with a BSc. in Electrical and Computer Engineering. He majored in Communications, with particular interests in both IP networking and programming. He interned at Digicel in 2015, where he began his programming journey by developing a few scripts and webpages as part of optimization efforts within the IP team. After the internship, he dove into full software development by constructing an application for network quality measurement and analysis, initially as part of his final year project at the UWI, but later as part of a project for the industry. He continues to hone his programming skills while he progresses his IP networking certification paths and conducts research within the Communications field. ",
-		"links": ["latchmepersad@gmail.com"],
+		"links": ["elle@shinelle.com"],
 		"page": "",
-		"img": "rishi_latchmepersad.jpg"
+		"img": "shinelle_bovell.png"
+
+	},
+	"Kevin Baboolal": {
+		"title": "AP Research Scientist",
+		"education": ["BASc, University of Waterloo 2017"],
+		"about": "Kevin graduated from the University of Waterloo with a Bachelors of Applied Science (BASc) in Mechanical Engineering – Specialization in Welding and Joining Processes. A recent Mechanical Engineering graduate, Kevin is also a self-thought programmer working primarily with Python, Javascript and Android Framework. He hopes to combine his interest in software development with a traditional mechanical engineering background. He has interned at several companies within Trinidad and Tobago, including the oil field services, power generation and construction industries. This has empowered him a good understanding of the practical challenges facing Trinidad’s aging industries. His interests include fracture mechanics, fatigue, metallurgy, data harvesting, machine learning and android application development.",
+		"links":["k.baboolal1.0@gmail.com"],
+		"page": "TBD",
+		"img": "kevinbaboolal.jpg"
+	},
+	"Sterling Ramroach": {
+		"title": "Intern",
+		"education": ["BSc, The University of the West Indies","MPhil, The University of the West Indies"],
+		"about": "Sterling is a PhD student in Electrical and Computer Engineering at The University of the West Indies. His work involves developing and optimising machine learning algorithms with parallel processing to aid in the diagnosis and prognosis of various cancers. As a software engineer, Sterling has won various local and regional software competitions along with entrepreneurial grants from the government of Trinidad and Tobago, and has developed enterprise software used by CARICOM governments. Sterling graduated his undergrad with the highest GPA in his year and won prizes for most outstanding CS graduate as well as best year three. For his MPhil, he developed various steganographic techniques to hide secret messages in digital media, undetectably. He is interested in Machine Learning, Bioinformatics, and Data Analytics.",
+		"links":["sramroach@gmail.com"],
+		"page": "TBD",
+		"img": "sterling_ramroach.jpg"
 	}
 
 
