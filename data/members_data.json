@@ -116,13 +116,12 @@
 		"img": "andersonsingh.jpg"
 
 	},
-	
-	"Dominic Williams": {
-		"title": "Massy Reverse Intern",
-		"education": ["BSc, The University of the West Indies 2016","E.E.E.T."],
-		"about": "Dominic graduated from the University of the West Indies in 2016 with a B.Sc. in Electrical and Computer Engineering (First Class Honours) – Specialization in Controls and Instrumentation. Dominic also has an Advanced Diploma in Electrical and Electronic Engineering Technology (E.E.E.T.).  He is also a self-thought developer and has worked on a variety of projects both personal and business. Dominic hopes to link and develop on music and technology.",
-		"links":["dominic.williams@massygroup.com"],
+	"Sterling Ramroach": {
+		"title": "PhD Intern",
+		"education": ["BSc, The University of the West Indies","MPhil, The University of the West Indies"],
+		"about": "Sterling is a PhD student in Electrical and Computer Engineering at The University of the West Indies. His work involves developing and optimising machine learning algorithms with parallel processing to aid in the diagnosis and prognosis of various cancers. As a software engineer, Sterling has won various local and regional software competitions along with entrepreneurial grants from the government of Trinidad and Tobago, and has developed enterprise software used by CARICOM governments. Sterling graduated his undergrad with the highest GPA in his year and won prizes for most outstanding CS graduate as well as best year three. For his MPhil, he developed various steganographic techniques to hide secret messages in digital media, undetectably. He is interested in Machine Learning, Bioinformatics, and Data Analytics.",
+		"links":["sramroach@gmail.com"],
 		"page": "TBD",
-		"img": "dominic_williams.JPG"
+		"img": "sterling_ramroach.jpg"
 	}
 }

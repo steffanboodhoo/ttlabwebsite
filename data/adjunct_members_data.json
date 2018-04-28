@@ -54,15 +54,6 @@
 		"links": ["shanezamoh@gmail.com"],
 		"page": "",
 		"img": "shaneza_mohammed.jpg"
-	},	
-	"Karandeep Singh": {
-		"title": "Adjunct Scientist",
-		"type": "Associate",
-		"about": "Karandeep Singh received his Bachelor degree from Punjabi University, Punjab, India and his Master degree from PEC University of Technology, Chandigarh, India. He is currently a Ph.D. student of University of Science and Technology (UST) at Electronics and Telecommunication Research Institute (ETRI), Daejeon, South Korea. His research interest include Social Computing, Big Data Analysis and Cognitive Machine Learning.",
-		"education": ["B.Sc. Punjabi University", "M.Sc. PEC University of Technology"],
-		"links": ["karandeepbrar@gmail.com"],
-		"page": "TBD",
-		"img": "karandeepbrar.jpg"
 	},
 	"Devika Bhagwandin": {
 		"title": "AP Research Scientist",
@@ -72,31 +63,13 @@
 		"page": "TBD",
 		"img": "devikabhagwandin.jpg"
 	},
-	"Shinelle Bovell": {
-		"title": "MSc Student",
-		"type": "Associate",
-		"about": " I am avid fan of simple and seamless design.  My affinity for \"clean\", however, does not limit my exploration into the world colour and variation. For the past 5 years, I have been a team member of the Massy Ltd I.C.T. department working in roles spanning from Web Development to Business Intelligence. My interests include kickboxing, weight lifting, browsing the internet for new fonts.",
-		"education": [""],
-		"links": ["elle@shinelle.com"],
-		"page": "",
-		"img": "shinelle_bovell.png"
-
-	},
-	"Kevin Baboolal": {
-		"title": "AP Research Scientist",
-		"education": ["BASc, University of Waterloo 2017"],
-		"about": "Kevin graduated from the University of Waterloo with a Bachelors of Applied Science (BASc) in Mechanical Engineering – Specialization in Welding and Joining Processes. A recent Mechanical Engineering graduate, Kevin is also a self-thought programmer working primarily with Python, Javascript and Android Framework. He hopes to combine his interest in software development with a traditional mechanical engineering background. He has interned at several companies within Trinidad and Tobago, including the oil field services, power generation and construction industries. This has empowered him a good understanding of the practical challenges facing Trinidad’s aging industries. His interests include fracture mechanics, fatigue, metallurgy, data harvesting, machine learning and android application development.",
-		"links":["k.baboolal1.0@gmail.com"],
+	"Dominic Williams": {
+		"title": "Massy Reverse Intern",
+		"education": ["BSc, The University of the West Indies 2016","E.E.E.T."],
+		"about": "Dominic graduated from the University of the West Indies in 2016 with a B.Sc. in Electrical and Computer Engineering (First Class Honours) – Specialization in Controls and Instrumentation. Dominic also has an Advanced Diploma in Electrical and Electronic Engineering Technology (E.E.E.T.).  He is also a self-thought developer and has worked on a variety of projects both personal and business. Dominic hopes to link and develop on music and technology.",
+		"links":["dominic.williams@massygroup.com"],
 		"page": "TBD",
-		"img": "kevinbaboolal.jpg"
-	},
-	"Sterling Ramroach": {
-		"title": "Intern",
-		"education": ["BSc, The University of the West Indies","MPhil, The University of the West Indies"],
-		"about": "Sterling is a PhD student in Electrical and Computer Engineering at The University of the West Indies. His work involves developing and optimising machine learning algorithms with parallel processing to aid in the diagnosis and prognosis of various cancers. As a software engineer, Sterling has won various local and regional software competitions along with entrepreneurial grants from the government of Trinidad and Tobago, and has developed enterprise software used by CARICOM governments. Sterling graduated his undergrad with the highest GPA in his year and won prizes for most outstanding CS graduate as well as best year three. For his MPhil, he developed various steganographic techniques to hide secret messages in digital media, undetectably. He is interested in Machine Learning, Bioinformatics, and Data Analytics.",
-		"links":["sramroach@gmail.com"],
-		"page": "TBD",
-		"img": "sterling_ramroach.jpg"
+		"img": "dominic_williams.JPG"
 	}
 
 
