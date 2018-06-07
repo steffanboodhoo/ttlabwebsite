@@ -7,7 +7,6 @@
 		"volume": "",
 		"pdf": "cyclic.pdf"
 	},
-
 	"Location Obfuscation using Smart Meter Readings": {
 		"authors": "K. Maharaj and P.Hosein",
 		"location": "IEEE 3rd Internatonal Conference on Advances in Computung & Communication Engineering, Durban, South Africa",
@@ -15,7 +14,6 @@
 		"volume": "",
 		"pdf": "location-obfuscation-smart.pdf"
 	},
-
 	"Load Forecasting using Deep Neural Networks": {
 		"authors": "S. Hosein and P. Hosein",
 		"location": "IEEE Eighth Conference on Innovative Smart Grid Technologies (ISGT), Washington DC, USA",
@@ -23,7 +21,6 @@
 		"volume": "",
 		"pdf": "ISGT2017-000036.pdf"
 	},
-
 	"On the Multi-Stage Influence Maximization Problem": {
 		"authors": "I.Rahaman and P. Hosein",
 		"location": "Latin American Conference on Computational Intelligence, Cartagena, Columbia",
@@ -195,6 +192,43 @@
 		"volume":"",
 		"date":"Nov, 2017",
 		"pdf":"Paper_276-Exploiting_Gaussian_Word_Embeddings_for_Document_Clustering.pdf"
+	},
+	"The Impact of Low Electricity Prices on Renewable Energy Production":{
+		"authors":"Robert Martinez and Patrick Hosein",
+		"location":"International Conference on Green Energy for Sustainable Development, Phuket, Thailand",
+		"volume":"",
+		"date":"Oct, 2018",
+		"pdf":""
+	},
+	"Cost Minimization of Library Electronic Subscriptions":{
+		"authors":"Laura Bigram, Patrick Hosein and Jonathan Earle",
+		"location":"International Conference on Optimization and Decision Science, Taormina, Italy",
+		"volume":"",
+		"date":"Sept, 2018",
+		"pdf":""
+	},
+	"Spatio-Temporal Clustering for Optimizing Time-Sensitive Product Deliveries":{
+		"authors":"Nicholas Chamansingh, Patrick Hosein and Elena Dyer",
+		"location":"Triennial Conference of the Association of Asia Pacific Operational Research Societies, Kathmandu, Nepal",
+		"volume":"",
+		"date":"Aug, 2018",
+		"pdf":""
+	},
+	"Optimizing Car Imports in Small Island States":{
+		"authors":"Shiva Ramoudith, Patrick Hosein and Kevin Blake-Thomas",
+		"location":"Triennial Conference of the Association of Asia Pacific Operational Research Societies, Kathmandu, Nepal",
+		"volume":"",
+		"date":"Aug, 2018",
+		"pdf":""
+	},
+	"On the Problem of Multi-Staged Impression Allocation in Online Social Networks":{
+		"authors":"Rahaman, Inzamam and Hosein, Patrick",
+		"location":"",
+		"volume":"",
+		"book title":"Machine Learning Techniques for Online Social Networks",
+		"pages":"65--84",
+		"date":"June, 2018",
+		"pdf":""
 	}
 	
 
