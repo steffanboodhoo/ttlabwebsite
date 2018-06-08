@@ -165,13 +165,6 @@
 		"date":"Sept, 2017",
 		"pdf":"NN_APNOMS2017.pdf"
 	},
-	"Quality of Service Framework for Supporting Next Generation Mobile Services":{
-		"authors":"Ramneek , P. Hosein, W. Choi and W. Seok",
-		"location":"Journal of Advanced Research in Dynamical and Control Systems",
-		"volume":" 08-Special Issue, 2017",
-		"date":"July, 2017",
-		"pdf":"96 1174.pdf"
-	},
 	"On the Distributed Optimization of Calendar Events":{
 		"authors":"Steffan Boodhoo and Patrick Hosein",
 		"location":"The 10th International Workshop on Computational Intelligence & Applications 2017, Hiroshima, Japan",
@@ -221,16 +214,21 @@
 		"date":"Aug, 2018",
 		"pdf":""
 	},
+	"Quality of Service Framework for Supporting Next Generation Mobile Services":{
+		"authors":"Ramneek , P. Hosein, W. Choi and W. Seok",
+		"location":"Journal of Advanced Research in Dynamical and Control Systems",
+		"volume":" 08-Special Issue, 2017",
+		"date":"July, 2017",
+		"pdf":"96 1174.pdf"
+	},
 	"On the Problem of Multi-Staged Impression Allocation in Online Social Networks":{
-		"authors":"Rahaman, Inzamam and Hosein, Patrick",
-		"location":"",
+		"authors":"Inzamam Rahaman and Patrick Hosein",
+		"location":"Machine Learning Techniques for Online Social Networks",
 		"volume":"",
-		"book title":"Machine Learning Techniques for Online Social Networks",
-		"pages":"65--84",
 		"date":"June, 2018",
+		"link":"https://www.springer.com/us/book/9783319899312",
 		"pdf":""
 	}
-	
 
 
 	},

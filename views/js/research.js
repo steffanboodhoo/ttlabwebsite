@@ -71,7 +71,7 @@
 
 			//create containers
 			var li = $("<li/>",{"class":"post-preview "});
-			var a = $('<div></div>', {"id":"pdf"+count});
+			// var a = $('<div></div>', {"id":"pdf"+count});
 			var a = $('<a/>',{"id":"pdf"+count});
 			if(data[i]['pdf'].length > 0) {
 				//onclick event
@@ -85,7 +85,9 @@
 						pdf = pdfs[id];
 					window.location = "/pdf/"+ pdf;
 				});
-			} else {
+			} else if(data[i]['link'] != undefined){
+				a.attr({'href':data[i]['link']});
+			}else{
 				a.click(function(event) {
 					event.preventDefault();
 				});
