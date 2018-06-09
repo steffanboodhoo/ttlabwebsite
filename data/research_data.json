@@ -214,6 +214,13 @@
 		"date":"Aug, 2018",
 		"pdf":""
 	},
+	"A Method for Learning Representations of Signed Networks":{
+		"authors":"Inzamam Rahaman and Patrick Hosein",
+		"location":"14th International Workshop On Mining and Learning with Graphs, London, United Kingdom",
+		"volume":"",
+		"date":"Aug, 2018",
+		"pdf":""
+	},
 	"Quality of Service Framework for Supporting Next Generation Mobile Services":{
 		"authors":"Ramneek , P. Hosein, W. Choi and W. Seok",
 		"location":"Journal of Advanced Research in Dynamical and Control Systems",
@@ -225,7 +232,7 @@
 		"authors":"Inzamam Rahaman and Patrick Hosein",
 		"location":"Machine Learning Techniques for Online Social Networks",
 		"volume":"",
-		"date":"June, 2018",
+		"date":"June, 2018, pg 65-84",
 		"link":"https://www.springer.com/us/book/9783319899312",
 		"pdf":""
 	}
