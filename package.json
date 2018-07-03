@@ -8,6 +8,7 @@
     "express": "^4.13.4",
     "lodash": "^4.3.0",
     "nodemailer": "^2.1.0",
+    "package.json": "^2.0.1",
     "sqlite3": "^3.1.1"
   }
 }

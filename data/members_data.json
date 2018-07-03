@@ -47,6 +47,14 @@
       "page": "TBD",
       "img": "nicholas_chamansingh.jpeg"
     },
+    "Randyll Pandohie": {
+      "title": "PhD Student",
+      "type": "Associate",
+      "about": "Randyll is currently employed with The University of the West Indies as the Enterprise Applications Support Manager for the Open Campus. He previously worked in the Banking sector and the Oil and Gas sector. In these roles he has managed the Enterprise Applications including Banner ERP, Oracle Enterprise Resource Planning, Maximo (Computerize Maintenance Management System), External/Intranet websites and Business Intelligence systems. Mr. Pandohie holds a B. Sc. in Computer Science and Management as well as a M. Sc. in Computer Science from the University of the West Indies. He is currently pursuing his Ph. D in Computer Science at St. Augustine Campus. Randyll’s key research interests include Big Data, Social Networks and Genetic Algorithms.",      "education": ["M.Sc. The University Of The West Indies", "B.Sc. The University Of The West Indies"],
+      "links": ["nhttps://www.linkedin.com/in/randyllpandohie/"],
+      "page": "TBD",
+      "img": "randy_pandohie.JPG"
+    },
 	"Inzamam Rahaman": {
 		"title": "MPhil Fellow",
 		"type": "Associate",
@@ -107,6 +115,16 @@
 		"img": "andersonsingh.jpg"
 
 	},
+	"Greg Ollivierre": {
+		"title": "MSc Student",
+		"type": "Associate",
+		"about": "I have over 10 years of experience working in Geophysics. Currently, I work as Senior Field Geophysicist at ION Geophysical, improving products and services for our customers and building our next generation of product offerings. I have a deep interest in utilizing artificial intelligence within the geophysical industry. Previously, I was the Processing Geophysicist at Schlumberger, where I analyzed seismic data from some of the biggest oil majors to help identify and characterize subsurface geology. Competencies: seismic acquisition, seismic processing , project management, machine learning, cloud computing, Python/C, ProMax, Persues, Claritas.",
+		"education": ["B.Sc. The University of the West Indies, 2016"],
+		"links": ["gregoryollivierre2016@gmail.com "],
+		"page": "",
+		"img": "greg_ollivierre.jpg"
+
+	},
 	"Sterling Ramroach": {
 		"title": "PhD Intern",
 		"education": ["BSc, The University of the West Indies","MPhil, The University of the West Indies"],
@@ -114,5 +132,13 @@
 		"links":["sramroach@gmail.com"],
 		"page": "TBD",
 		"img": "sterling_ramroach.jpg"
+	},
+	"Keanu Nichols": {
+		"title": "Undergraduate Intern",
+		"education": [],
+		"about": "Keanu is an undergraduate at the University of the West Indies going into his second year studying Computer Science Special. He spent a year at Penn State University but later attended the University of the West Indies. He was selected for an internship for Google Summer of Code to work at a company called CHAOSS (Community Health Analytics Open Source Software) where he is working to implement a SQL Database to store mailing archives and implement Natural Language Processing on the emails. He is participating on the online Data Science competition website Kaggle to create machine learning models to solve different problems, so far he as worked on a problem related to computer vision and sentiment analysis.",
+		"links":["nichols.keanu9@gmail.com","https://kmn5409.github.io/keanu-nichols/"],
+		"page": "TBD",
+		"img": "keanu_nichols.jpg"
 	}
 }
