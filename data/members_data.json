@@ -18,16 +18,6 @@
 		"page": "shellyannsooklal.html",
 		"img": "shellyannsooklal.jpg"
 	},
-    "Kiran Maharaj": {
-      "title": "PhD Fellow",
-      "type": "Associate",
-      "about": "Kiran graduated from the University of Bristol with a MSc Advanced Computing - Machine Learning, Data Mining and High Performance Computing, he was awarded a postgraduate scholarship to pursue this degree from the Government of Trinidad and Tobago. Previous to this he graduated with First Class Honours from The University of the West Indies in 2013 with a B.Sc. in Computer Science. Kiran has worked as a software developer on a range of projects the most recent being AgriNeTT, an  ICT initiative for the Agricultural Sector. Kiran has broad interests in Bioinformatics, Machine Learning and Data Analytics.",
-      "education": ["M.Sc University of Bristol", "B.Sc. The University Of The West Indies"],
-      "links": ["kiranma@hotmail.com"],
-      "page": "",
-      "img": "kiran.png"
-
-    },
      "Anil Ramnanan": {
       "title": "PhD Student",
       "type": "Associate",
