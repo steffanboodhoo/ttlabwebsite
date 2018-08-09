@@ -193,21 +193,14 @@
 		"date":"Oct, 2018",
 		"pdf":"ICUE2018_Online_226.pdf"
 	},
-	"Cost Minimization of Library Electronic Subscriptions":{
-		"authors":"Laura Bigram, Patrick Hosein and Jonathan Earle",
-		"location":"International Conference on Optimization and Decision Science, Taormina, Italy",
-		"volume":"",
-		"date":"Sept, 2018",
-		"pdf":"ODS2018_031_final_v3.pdf"
-	},
-	"(invited paper) Spatio-Temporal Clustering for Optimizing Time-Sensitive Product Deliveries":{
+	"Spatio-Temporal Clustering for Optimizing Time-Sensitive Product Deliveries (invited paper)":{
 		"authors":"Nicholas Chamansingh, Patrick Hosein and Elena Dyer",
 		"location":"Triennial Conference of the Association of Asia Pacific Operational Research Societies, Kathmandu, Nepal",
 		"volume":"",
 		"date":"Aug, 2018",
 		"pdf":""
 	},
-	"(invited paper) Optimizing Car Imports in Small Island States":{
+	" Optimizing Car Imports in Small Island States (invited paper)":{
 		"authors":"Shiva Ramoudith, Patrick Hosein and Kevin Blake-Thomas",
 		"location":"Triennial Conference of the Association of Asia Pacific Operational Research Societies, Kathmandu, Nepal",
 		"volume":"",
@@ -235,6 +228,13 @@
 		"date":"June, 2018, pg 65-84",
 		"link":"https://link.springer.com/chapter/10.1007/978-3-319-89932-9_4",
 		"pdf":""
+	},	
+	"Cost Minimization of Library Electronic Subscriptions":{
+		"authors":"Laura Bigram, Patrick Hosein and Jonathan Earle",
+		"location":"International Conference on Optimization and Decision Science, Taormina, Italy",
+		"volume":"",
+		"date":"Sept, 2018",
+		"pdf":"ODS2018_031_final_v3.pdf"
 	},
 	"A Unique Approach to Demand Side Management of Electric Vehicle Charging for Developing Countries":{
 		"authors":"Sanjay Bahadoorsingh, Chris Meetoo, Chandrabhan Sharma and Patrick Hosein",
@@ -243,7 +243,6 @@
 		"date":"Sept, 2018",
 		"pdf":""
 	}
-
 
 	},
 	"patents": {
