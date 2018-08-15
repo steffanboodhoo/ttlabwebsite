@@ -51,7 +51,8 @@
 			if(pub_mon.length == 1){
 				pub_mon = "0"+pub_mon;
 			}
-			pub_mon_yr = parseInt(pub_yr+pub_mon);
+			var pub_day = 'day' in data[pub]? data[pub]['day']:'00';
+			pub_mon_yr = parseInt(pub_yr+pub_mon+pub_day);
 			data[pub]['time'] = pub_mon_yr;
 			console.log(pub_mon_yr)
 			data[pub]['title'] = pub;
