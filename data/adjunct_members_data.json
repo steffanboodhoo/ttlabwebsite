@@ -1,4 +1,4 @@
-{	
+{
 	"Stefan Hosein": {
 		"title": "Adjunct Scholar",
 		"type": "Associate",
@@ -89,16 +89,7 @@
 		"page": "steffanboodhoo.html",
 		"img": "steffanboodhoo.jpg"
 	},
-	 "Ashish Bhatt": {
-      "title": "MPhil Student",
-      "type": "Associate",
-      "about": "https://www.linkedin.com/in/ashishbhatttt/",
-      "education": ["MEng (Hons), Imperial College London","CEng MBCS"],
-      "links": ["Ashish.Bhatt@sta.uwi.edu"],
-      "page": "",
-      "img": "AshishBhatt.jpg"
-
-    },
+	 
     "Kiran Maharaj": {
       "title": "PhD Fellow",
       "type": "Associate",
@@ -107,6 +98,16 @@
       "links": ["kiranma@hotmail.com"],
       "page": "",
       "img": "kiran.png"
+
+    },
+     "Anil Ramnanan": {
+      "title": "PhD Student",
+      "type": "Associate",
+      "about": "Anil Ramnanan is a Graduate of the University of the West Indies with an MPhil in Computer Science. He has experience as a full stack developer with with both web and mobile applications. He has also worked on a number of projects using embedded systems and small computing platforms such as the Raspberry Pi and Arduiono. His area of interest for research is the Internet of Things.",
+      "education": ["M.Phil, The University Of The West Indies", "Bsc University Of The West Indies"],
+      "links": [" anil@peppersauce.org"],
+      "page": "",
+      "img": "AnilRamnanan.jpg"
 
     }
 

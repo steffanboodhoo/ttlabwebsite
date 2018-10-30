@@ -18,16 +18,6 @@
 		"page": "shellyannsooklal.html",
 		"img": "shellyannsooklal.jpg"
 	},
-     "Anil Ramnanan": {
-      "title": "PhD Student",
-      "type": "Associate",
-      "about": "Anil Ramnanan is a Graduate of the University of the West Indies with an MPhil in Computer Science. He has experience as a full stack developer with with both web and mobile applications. He has also worked on a number of projects using embedded systems and small computing platforms such as the Raspberry Pi and Arduiono. His area of interest for research is the Internet of Things.",
-      "education": ["M.Phil, The University Of The West Indies", "Bsc University Of The West Indies"],
-      "links": [" anil@peppersauce.org"],
-      "page": "",
-      "img": "AnilRamnanan.jpg"
-
-    },
       "Nicholas Chamansingh": {
       "title": "PhD Student",
       "type": "Associate",
@@ -36,15 +26,6 @@
       "links": ["nicholas.chamansingh@gmail.com"],
       "page": "TBD",
       "img": "nicholas_chamansingh.jpeg"
-    },
-    "Randyll Pandohie": {
-      "title": "PhD Student",
-      "type": "Associate",
-      "about": "Randyll is currently employed with The University of the West Indies as the Enterprise Applications Support Manager for the Open Campus. He previously worked in the Banking sector and the Oil and Gas sector. In these roles he has managed the Enterprise Applications including Banner ERP, Oracle Enterprise Resource Planning, Maximo (Computerize Maintenance Management System), External/Intranet websites and Business Intelligence systems. Mr. Pandohie holds a B. Sc. in Computer Science and Management as well as a M. Sc. in Computer Science from the University of the West Indies. He is currently pursuing his Ph. D in Computer Science at St. Augustine Campus. Randyll’s key research interests include Big Data, Social Networks and Genetic Algorithms.",      
-      "education": ["M.Sc. The University Of The West Indies", "B.Sc. The University Of The West Indies"],
-      "links": ["https://www.linkedin.com/in/randyllpandohie/"],
-      "page": "TBD",
-      "img": "randy_pandohie.JPG"
     },
     "Trisha Lawrence": {
       "title": "PhD Student",
@@ -64,6 +45,17 @@
 		"page": "inzamamrahaman.html",
 		"img": "inzamamrahaman.jpg"
 	},
+
+	"Ashish Bhatt": {
+		 "title": "MPhil Student",
+		 "type": "Associate",
+		 "about": "https://www.linkedin.com/in/ashishbhatttt/",
+		 "education": ["MEng (Hons), Imperial College London","CEng MBCS"],
+		 "links": ["Ashish.Bhatt@sta.uwi.edu"],
+		 "page": "",
+		 "img": "AshishBhatt.jpg"
+
+	 },
 
 	"Mathew Stewart": {
 		"title": "MSc Fellow",
@@ -95,16 +87,7 @@
 		"img": "andersonsingh.jpg"
 
 	},
-	"Greg Ollivierre": {
-		"title": "MSc Student",
-		"type": "Associate",
-		"about": "I have over 10 years of experience working in Geophysics. Currently, I work as Senior Field Geophysicist at ION Geophysical, improving products and services for our customers and building our next generation of product offerings. I have a deep interest in utilizing artificial intelligence within the geophysical industry. Previously, I was the Processing Geophysicist at Schlumberger, where I analyzed seismic data from some of the biggest oil majors to help identify and characterize subsurface geology. Competencies: seismic acquisition, seismic processing , project management, machine learning, cloud computing, Python/C, ProMax, Persues, Claritas.",
-		"education": ["B.Sc. The University of the West Indies, 2016"],
-		"links": ["gregoryollivierre2016@gmail.com "],
-		"page": "",
-		"img": "greg_ollivierre.jpg"
 
-	},
 	"Sterling Ramroach": {
 		"title": "PhD Intern",
 		"education": ["BSc, The University of the West Indies","MPhil, The University of the West Indies"],
@@ -120,5 +103,13 @@
 		"links":["nichols.keanu9@gmail.com","https://kmn5409.github.io/keanu-nichols/"],
 		"page": "TBD",
 		"img": "keanu_nichols.jpg"
+	},
+	"Akil Hosang":{
+		"title": "Undergraduate Intern",
+		"education": [],
+		"about": "",
+		"links":[],
+		"page": "TBD",
+		"img": ""
 	}
 }
