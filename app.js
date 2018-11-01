@@ -33,7 +33,7 @@ app.use(express.static(path.join(__dirname, 'images')));
 app.use(express.static(path.join(__dirname, 'isp')));
 
 var file_name = "data.db";
-var sqlite3 = require("sqlite3").verbose();
+// var sqlite3 = require("sqlite3").verbose();
 var db_path = path.join(__dirname, 'isp', file_name);
 var exists = fs.existsSync(db_path);
 
@@ -245,24 +245,24 @@ function get_data_by_isps(db, callback) {
         }
     });
 }
-
-app.get('/isp-performance/:email', function(req, res) {
-    var email = req.params.email.toUpperCase();
-    if(!exists) {
-        res.send({error: "Error in accessing database, please contact administrator"});
-    } else {
-        var db = new sqlite3.Database(db_path);
-        get_data_by_isps(db, function(result) {
-            get_message(db, email, function(message) {
-                console.log('Message' + message);
-                result['message'] = message;
-                console.log(result);
-                res.send(result);
-                db.close();
-            });
-        });
-    }
-});
+// uncomment here
+// app.get('/isp-performance/:email', function(req, res) {
+//     var email = req.params.email.toUpperCase();
+//     if(!exists) {
+//         res.send({error: "Error in accessing database, please contact administrator"});
+//     } else {
+//         var db = new sqlite3.Database(db_path);
+//         get_data_by_isps(db, function(result) {
+//             get_message(db, email, function(message) {
+//                 console.log('Message' + message);
+//                 result['message'] = message;
+//                 console.log(result);
+//                 res.send(result);
+//                 db.close();
+//             });
+//         });
+//     }
+// });
 
 //app.get('/isp-performance/:email', function(req, res) {
 //    console.log('Processing data with email');
