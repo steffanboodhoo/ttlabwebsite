@@ -5,7 +5,10 @@
 		"date": "Nov, 2016",
 		"location": "8th IFIP International Conference on New Technologies, Mobility and Security (NTMS), Larnaca, Cyprus",
 		"volume": "",
-		"pdf": "cyclic.pdf"
+		"pdf": "cyclic.pdf",
+		"companyLogo": "img/clients/huawei_logo.png",
+		"companyAuthors":["C. van Rensburg"],
+		"otherAuthors":["P. Hosein, L. Girod-Williams and"]
 	},
 	"Location Obfuscation using Smart Meter Readings": {
 		"authors": "K. Maharaj and P.Hosein",
@@ -75,7 +78,10 @@
 		"location": "IEEE 6th International Conference on Intelligent and Advanced Systems (ICIAS 2016), Kuala Lumpur, Malaysia",
 		"volume":"",
 		"date":"Aug, 2016",
-		"pdf":"fault-detection-app.pdf"
+		"pdf":"fault-detection-app.pdf",
+		"companyLogo": "img/clients/T&tec.png",
+		"companyAuthors":[" W. Kattick, V. Rattan"],
+		"otherAuthors":["S. Hosein , P. Hosein"]
 	},
 
 	"Quality of Service Support for High Performance Computing on Mobile Devices": {
@@ -83,7 +89,10 @@
 		"location": "International Conference on High Performance Computing and Simulation, Innsbruck, Austria",
 		"volume": "",
 		"date": "July, 2016",
-		"pdf": "hpcs.pdf"
+		"pdf": "hpcs.pdf",
+		"companyLogo": "img/clients/kisti.png",
+		"companyAuthors":["Ramneek"],
+		"otherAuthors":["P. Hosein, W. Choi and W. Seok"]
 	},
 	"Improving Power Generation Efficiency using Deep Neural Networks": {
 		"authors": "S. Hosein and P. Hosein",
@@ -104,7 +113,10 @@
 		"location": "Journal of Communications and Networks",
 		"volume": "18",
 		"date": "June, 2016",
-		"pdf": "jcn2016.pdf"
+		"pdf": "jcn2016.pdf",
+		"companyLogo": "img/clients/kisti.png",
+		"companyAuthors":["Ramneek"],
+		"otherAuthors":["P. Hosein, W. Choi and W. Seok"]
 	},
 	"A Consumer Focused Open Data Platform":{
 		"authors":"C. Millette, P. Hosein",
@@ -119,7 +131,10 @@
 		"location": "IEEE International Conference on Advanced Communication Technology, Phoenix Park, South Korea",
 		"volume": "",
 		"date": "Jan, 2016",
-		"pdf":"icact2016.pdf"
+		"pdf":"icact2016.pdf",
+		"companyLogo": "img/clients/kisti.png",
+		"companyAuthors":["Ramneek"],
+		"otherAuthors":["P. Hosein, W. Choi and W. Seok"]
 	},
 
 	"Power Grid Fault Detection using an AMR Network":{
@@ -163,7 +178,10 @@
 		"location":"19th Asia-Pacific Network Operations and Management Symposium, Seoul, South Korea",
 		"volume":"",
 		"date":"Sept, 2017",
-		"pdf":"NN_APNOMS2017.pdf"
+		"pdf":"NN_APNOMS2017.pdf",
+		"companyLogo": "img/clients/kisti.png",
+		"companyAuthors":["Ramneek Sekhon"],
+		"otherAuthors":["Patrick Hosein, Woojin Seok and Jaiseung Kwak"]
 	},
 	"On the Distributed Optimization of Calendar Events":{
 		"authors":"Steffan Boodhoo and Patrick Hosein",
@@ -177,7 +195,10 @@
 		"location":"IEEE Conference on Wireless Sensors, Sarawak, Malaysia",
 		"volume":"",
 		"date":"Nov, 2017",
-		"pdf":"1570388765-2.pdf"
+		"pdf":"1570388765-2.pdf",
+		"companyLogo": "img/clients/kabrya.png",
+		"companyAuthors":["Nicholas Hosein"],
+		"otherAuthors":["Saffiyah Doolan", "Patrick Hosein and Devika Bhagwandin"]
 	},
 	"Exploiting Gaussian Word Embeddings for Document Clustering":{
 		"authors":"Inzamam Rahaman and Patrick Hosein",
@@ -191,21 +212,30 @@
 		"location":"International Conference on Green Energy for Sustainable Development, Phuket, Thailand",
 		"volume":"",
 		"date":"Oct, 2018",
-		"pdf":"ICUE2018_Online_226.pdf"
+		"pdf":"ICUE2018_Online_226.pdf",
+		"companyLogo": "img/clients/NIHERSTLogo4.png",
+		"companyAuthors":["Robert Martinez"],
+		"otherAuthors":["Patrick Hosein"]
 	},
 	"Spatio-Temporal Clustering for Optimizing Time-Sensitive Product Deliveries (invited paper)":{
 		"authors":"Nicholas Chamansingh, Patrick Hosein and Elena Dyer",
 		"location":"Triennial Conference of the Association of Asia Pacific Operational Research Societies, Kathmandu, Nepal",
 		"volume":"",
 		"date":"Aug, 2018",
-		"pdf":""
+		"pdf":"",
+		"companyLogo": "img/clients/Massy_Technologies_InfoCom_Horiz_RGB_resized(1).png",
+		"companyAuthors":["Elena Dyer"],
+		"otherAuthors":["Nicholas Chamansingh, Patrick Hosein and"]
 	},
 	" Optimizing Car Imports in Small Island States (invited paper)":{
 		"authors":"Shiva Ramoudith, Patrick Hosein and Kevin Blake-Thomas",
 		"location":"Triennial Conference of the Association of Asia Pacific Operational Research Societies, Kathmandu, Nepal",
 		"volume":"",
 		"date":"Aug, 2018",
-		"pdf":""
+		"pdf":"",
+		"companyLogo": "img/clients/Massy_Technologies_InfoCom_Horiz_RGB_resized(1).png",
+		"companyAuthors":["Kevin Blake-Thomas"],
+		"otherAuthors":["Shiva Ramoudith, Patrick Hosein and"]
 	},
 	"A Method for Learning Representations of Signed Networks":{
 		"authors":"Inzamam Rahaman and Patrick Hosein",
@@ -219,7 +249,10 @@
 		"location":"Journal of Advanced Research in Dynamical and Control Systems",
 		"volume":" 08-Special Issue, 2017",
 		"date":"July, 2017",
-		"pdf":"96 1174.pdf"
+		"pdf":"96 1174.pdf",
+		"companyLogo": "img/clients/kisti.png",
+		"companyAuthors":["Ramneek"],
+		"otherAuthors":["P. Hosein, W. Choi and W. Seok"]
 	},
 	"On the Problem of Multi-Staged Impression Allocation in Online Social Networks":{
 		"authors":"Inzamam Rahaman and Patrick Hosein",
@@ -228,14 +261,17 @@
 		"date":"June, 2018, pg 65-84",
 		"link":"https://link.springer.com/chapter/10.1007/978-3-319-89932-9_4",
 		"pdf":""
-	},	
+	},
 	"Cost Minimization of Library Electronic Subscriptions":{
 		"authors":"Laura Bigram, Patrick Hosein and Jonathan Earle",
 		"location":"International Conference on Optimization and Decision Science, Taormina, Italy",
 		"volume":"",
 		"day":"10",
 		"date":"Sept, 2018",
-		"pdf":"ODS2018_031_final_v3.pdf"
+		"pdf":"ODS2018_031_final_v3.pdf",
+		"companyLogo": "img/clients/uwi.png",
+		"companyAuthors":["Laura Bigram"],
+		"otherAuthors":["Patrick Hosein and Jonathan Earle"]
 	},
 	"A Unique Approach to Demand Side Management of Electric Vehicle Charging for Developing Countries":{
 		"authors":"Sanjay Bahadoorsingh, Chris Meetoo, Chandrabhan Sharma and Patrick Hosein",
