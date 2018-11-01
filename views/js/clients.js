@@ -97,10 +97,12 @@
 					a.attr('data-target', '#myModal');
 				}
 
+				a.append($("<hr>"));
 				a.append( $("<img/>",{"class":"company-logo img-thumbnail", "src":data[i]['companyLogo']}) );
 				a.append( $("<h4/>",{"class":"post-title list-title"}).append(data[i]['title']) );
 				a.append( $("<p/>",{"class":"post-subtitle list-description "}).append(data[i]['authors']) )
 				a.append($("<p/>",{"class":"post-subtitle list-description"}).append(data[i]['location']));
+
 				li.append(a);
 				var meta = data[i]['date'];
 				if(data[i]["volume"] != "")
