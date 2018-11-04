@@ -107,9 +107,9 @@
 	"Akil Hosang":{
 		"title": "Undergraduate Intern",
 		"education": [],
-		"about": "",
-		"links":[],
+		"about": "My name is Akil Hosang and I am an undergraduate Computer Science (Special) student at The University of the West Indies. I hope to pursue my Masters Degree to do work in my fields of interest which are Robotics, Artificial Intelligence and Machine Learning. As for other interests, over the last 2 years, I served as the Vice President of The UWI Computing Society where i gave presentations on topics like Version Control, Machine Learning and other areas. I am also participating in data science competitions on the website Kaggle. During the August break, I was given the opportunity to work as an intern under The University of the West Indies. During that time, I helped create a web application that allowed students interested in attending the university find courses they are qualified for based on their secondary school passes.",
+		"links":["https://github.com/Akil313", "https://www.kaggle.com/akil868"],
 		"page": "TBD",
-		"img": ""
+		"img": "akil_hosang.jpg"
 	}
 }
