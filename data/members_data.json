@@ -21,9 +21,9 @@
       "Nicholas Chamansingh": {
       "title": "PhD Student",
       "type": "Associate",
-      "about": "Nicholas is a recent graduate of the University of the West Indies attaining his MSc degree in Computer Science with Distinction. He has a range of experience which includes Software Engineering, Process Mapping and teaching university students both at the Undergraduate and Masters levels. Nicholas currently works at Digicel Trinidad as a Software Development and Design Engineer where his main responsibilities are to optimize and automate current systems and processes within and across company branches, with focus on documenting and mapping existing process flows, assisting in analyzing current process gaps, and making and delivering recommendations to close gaps. His current interest is in Natural Language Processing for Social Media.",
-      "education": ["M.Sc. The University Of The West Indies", "B.Sc. The University Of The West Indies"],
-      "links": ["nicholas.chamansingh@gmail.com"],
+      "about": "Nicholas is currently pursuing his PhD in Computer Science where his areas of focus are in Natrual Language Processing, Topic Modelling and ChatBot Architectures.  He has a wide range of experience which includes Machine Learning, Data Visualization, Data Analytics, Software Development, Team Management, Cloud Technologies and Lecturing. He has lectured both at the BSc and MSc levels on courses such as Cloud Technologies, Big Data Analytics and Internet Technologies. He has worked in industry and consulted for companies in areas of software design and implementation and process optimization.",
+      "education": ["M.Sc. The University Of The West Indies, 2015", "B.Sc. The University Of The West Indies, 2013"],
+      "links": ["nicholas.chamansingh@gmail.com", "nicholas@lab.tt"],
       "page": "TBD",
       "img": "nicholas_chamansingh.jpeg"
     },
@@ -87,7 +87,6 @@
 		"img": "andersonsingh.jpg"
 
 	},
-
 	"Sterling Ramroach": {
 		"title": "PhD Intern",
 		"education": ["BSc, The University of the West Indies","MPhil, The University of the West Indies"],
@@ -95,6 +94,14 @@
 		"links":["sramroach@gmail.com"],
 		"page": "TBD",
 		"img": "sterling_ramroach.jpg"
+	},
+	"Darren Ramsook": {
+		"title": "MSc Intern",
+		"education": ["B.Sc. The University of the West Indies, 2018"],
+		"about": "Darren is currently pursuing his MSc. degree in Data Science at the University of the West Indies, St. Augustine Campus. Darren earned his BSc. Degree in Electrical & Computer Engineering in 2018 from the University of the West Indies. He has a key interest in the areas of Software Engineering, Machine Learning, Audio and Video signal processing and Systems Design. He also is the founder of e-Learn Caribbean (elearncaribbean.com), an organization aimed at making education accessible to the Caribbean.",
+		"links":["darrenramsook@outlook.com", "https://www.linkedin.com/in/darren-ramsook-03342b122/", "http://elearncaribbean.com/"],
+		"page": "TBD",
+		"img": "darren.jpg"
 	},
 	"Keanu Nichols": {
 		"title": "Undergraduate Intern",
