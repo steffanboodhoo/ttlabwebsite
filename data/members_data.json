@@ -87,6 +87,14 @@
 		"img": "andersonsingh.jpg"
 
 	},
+	"Darren Ramsook": {
+		"title": "MSc in Data Science student",
+		"education": ["B.Sc. The University of the West Indies, 2018"],
+		"about": "Darren is currently pursuing his MSc. degree in Data Science at the University of the West Indies, St. Augustine Campus. Darren earned his BSc. Degree in Electrical & Computer Engineering in 2018 from the University of the West Indies. He has a key interest in the areas of Software Engineering, Machine Learning, Audio and Video signal processing and Systems Design. He also is the founder of e-Learn Caribbean (elearncaribbean.com), an organization aimed at making education accessible to the Caribbean.",
+		"links":["darrenramsook@outlook.com", "https://www.linkedin.com/in/darren-ramsook-03342b122/", "http://elearncaribbean.com/"],
+		"page": "TBD",
+		"img": "darren.jpg"
+	},
 	"Sterling Ramroach": {
 		"title": "PhD Intern",
 		"education": ["BSc, The University of the West Indies","MPhil, The University of the West Indies"],
@@ -95,14 +103,7 @@
 		"page": "TBD",
 		"img": "sterling_ramroach.jpg"
 	},
-	"Darren Ramsook": {
-		"title": "MSc Intern",
-		"education": ["B.Sc. The University of the West Indies, 2018"],
-		"about": "Darren is currently pursuing his MSc. degree in Data Science at the University of the West Indies, St. Augustine Campus. Darren earned his BSc. Degree in Electrical & Computer Engineering in 2018 from the University of the West Indies. He has a key interest in the areas of Software Engineering, Machine Learning, Audio and Video signal processing and Systems Design. He also is the founder of e-Learn Caribbean (elearncaribbean.com), an organization aimed at making education accessible to the Caribbean.",
-		"links":["darrenramsook@outlook.com", "https://www.linkedin.com/in/darren-ramsook-03342b122/", "http://elearncaribbean.com/"],
-		"page": "TBD",
-		"img": "darren.jpg"
-	},
+
 	"Keanu Nichols": {
 		"title": "Undergraduate Intern",
 		"education": [],
