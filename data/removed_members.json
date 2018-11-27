@@ -149,4 +149,14 @@
 		"page": "",
 		"img": "greg_ollivierre.jpg"
 
+	},
+
+	"Shanta Sukhoo": {
+		"title": "MPhil Fellow",
+		"type": "Associate",
+		"about": "Shanta Sukhoo graduated from the University of the West Indies in 2015 where she obtained a BSc Computer Science. She also worked on an array of mobile applications during her stay at the University. Shanta has since worked at Infotech Caribbean Ltd as a Software Developer. However, she has returned to U.W.I. to pursue an MPhil in Computer Science. Her Research Interest lies broadly in Machine Learning.",
+		"education": ["B.Sc., The University of the West Indies, 2015"],
+		"links": ["shantasukhoo@gmail.com"],
+		"page": "shantasukhoo.html",
+		"img": "shantasukhoo.jpg"
 	}

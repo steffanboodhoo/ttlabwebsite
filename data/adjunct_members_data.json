@@ -38,6 +38,27 @@
 		"page": "TBD",
 		"img": "robertMartinez.jpg"
 	},
+	"Anderson Singh": {
+		"title": "MSc Fellow",
+		"type": "Associate",
+		"about": "Anderson Singh is a B.Sc. Computer Science graduate of The University of the West Indies (UWI). He was awarded The Head of Department Prize for the best year I performance in Computer Science in the academic year 2013-2014. He went on to participate in the Teleios CodeJam Competition in the year 2015 where his team was awarded 2nd place for developing a mobile advertising solution. Anderson also served as an Executive Board Member on The University of The West Indies Computing Society (UWICS) during the final year of his undergraduate degree, where he presented sessions on Web Hosting and Developing Augmented Reality Applications. He has also worked with Knowledge Hope Limited on the e-course, ITonLine, which is designed to assist both students and teachers of Caribbean Schools in their preparation for Information Technology (CSEC level) exams. He has done extensive work on version II of ITonLine, which includes a mobile application called \"ITonLine Games\". Anderson is currently pursuing his M.Sc in Computer Science, also at the UWI.",
+		"education": ["B.Sc. The University of the West Indies, 2016"],
+		"links": ["andersonsingh@outlook.com"],
+		"page": "",
+		"img": "andersonsingh.jpg"
+
+	},
+
+	"Mathew Stewart": {
+		"title": "MSc Fellow",
+		"type": "Associate",
+		"about": "Mathew Stewart is a Computer Science graduate of The University of the West Indies (UWI). He is currently pursuing his Master’s degree in said field, also at The UWI. He was consistently on the Dean’s Honour Roll throughout his undergraduate studies. He went on to be awarded The Tucker Energy Services Holdings Ltd. Prize for the Best Year II Performance in Computer Science in the academic year 2014-2015. He is also in the midst of obtaining his certification as an Oracle Certified Associate. Matthew served on the Executive of The University of the West Indies Computing Society (UWICS) as Treasurer for the period 2015-2016. Prior to serving on the Executive, he placed 1st in both the Runtime and Real App competitions organized by The UWICS. He also tutored as part of the Programming Help Desk organized by the Department of Computing and Information Technology. In his spare time, Matthew enjoys practicing karate and has been a member of Purple Dragon since 2010.",
+		"education": ["B.Sc. The University of the West Indies, 2016"],
+		"links": ["mdls85@hotmail.com"],
+		"page": "mathewstewart.html",
+		"img": "mathewstewart.jpg"
+	},
+	
 	"Saffiyah Doolan": {
 		"title": "Adjunct Scientist",
 		"education": ["B.Eng, University College London 2016"],
@@ -71,15 +92,7 @@
 		"page": "TBD",
 		"img": "dominic_williams.JPG"
 	},
-	"Shanta Sukhoo": {
-		"title": "MPhil Fellow",
-		"type": "Associate",
-		"about": "Shanta Sukhoo graduated from the University of the West Indies in 2015 where she obtained a BSc Computer Science. She also worked on an array of mobile applications during her stay at the University. Shanta has since worked at Infotech Caribbean Ltd as a Software Developer. However, she has returned to U.W.I. to pursue an MPhil in Computer Science. Her Research Interest lies broadly in Machine Learning.",
-		"education": ["B.Sc., The University of the West Indies, 2015"],
-		"links": ["shantasukhoo@gmail.com"],
-		"page": "shantasukhoo.html",
-		"img": "shantasukhoo.jpg"
-	},
+
 	"Steffan Boodhoo": {
 		"title": "MPhil Fellow",
 		"type": "Associate",
@@ -89,7 +102,7 @@
 		"page": "steffanboodhoo.html",
 		"img": "steffanboodhoo.jpg"
 	},
-	 
+
     "Kiran Maharaj": {
       "title": "PhD Fellow",
       "type": "Associate",
