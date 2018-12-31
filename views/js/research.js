@@ -1,12 +1,12 @@
 (function(window){
-	
+
 	$(document).ready(function(){
 		console.log("research - ready")
 		_get('/research/data',null,createList);
 
 	});
 
-	
+
 	function _get(url,params,call_back){
 		$.ajax({
 			url:url,
@@ -37,7 +37,7 @@
 		months = ['Jan','Feb','Mar','April','May','June','July','Aug','Sept','Oct','Nov','Dec'];
 		var arr = [];
 		for(pub in data){
-			
+
 			var pub_mon_yr = data[pub]['date'].split(',')
 			console.log(pub_mon_yr)
 			var pub_mon = pub_mon_yr[0].trim()
@@ -63,7 +63,7 @@
 			return b['time'] - a['time'] ;
 		});
 		data = arr;
-	
+
 		var list = $("<ul/>",{"class":"list"});
 		var pdfs = {}, count = 0;
 		for (var i in data){
@@ -100,16 +100,23 @@
 			a.append( $("<p/>",{"class":"post-subtitle list-description "}).append(data[i]['authors']) )
 			a.append($("<p/>",{"class":"post-subtitle list-description"}).append(data[i]['location']));
 			li.append(a);
+
 			var meta = data[i]['date'];
 			if(data[i]["volume"] != "")
 				meta += ", vol"+data[i]["volume"];
 			li.append($("<p/>",{"class":"post-meta list-date"}).append(meta));
-			
+			var ad = $("<a/>");
+			if(data[i]['additional']){
+				ad.attr({'href':data[i]['additional']['link']});
+				ad.append($("<p/>",{"class":"list-description "}).append(data[i]['additional']['location']));
+				li.append(ad);
+			}
 			list.append(li);
 
 
+
 			count++;
-		}	
+		}
 
 		list.appendTo('#list_cont');
 

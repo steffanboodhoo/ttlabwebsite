@@ -281,6 +281,18 @@
 		"companyAuthors":["Laura Bigram"],
 		"otherAuthors":["Patrick Hosein and Jonathan Earle"]
 	},
+	"Cost Minimization of Library Electronic Subscriptions": {
+		"authors":"Laura Bigram, Patrick Hosein and Jonathan Earle",
+		"date": "Dec, 2018",
+		"location": "New Trends in Emerging Complex Real Life Problems (Springer Publication) ",
+		"volume": "",
+		"pdf":"",
+		"link": "https://link.springer.com/chapter/10.1007/978-3-030-00473-6_8",
+		"additional":{
+			"location":"(also presented at the International Conference on Optimization and Decision Science, Taormina, Italy, sept 2018)",
+			"link":"http://lab.tt/pdf/ODS2018_031_final_v3.pdf"
+		}
+	},
 	"A Unique Approach to Demand Side Management of Electric Vehicle Charging for Developing Countries":{
 		"authors":"Sanjay Bahadoorsingh, Chris Meetoo, Chandrabhan Sharma and Patrick Hosein",
 		"location":"IEEE International Smart Cities Conference, Kansas City, USA",
