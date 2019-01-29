@@ -110,12 +110,12 @@
 		"img": "akil_hosang.jpg"
 	},
 
-	"Dillon Goordeen": {
-		"title": "TBD",
-		"about": "",
-		"education": [],
+	"Gerard Rique": {
+		"title": "MSc in Computer Science student",
+		"about": "Gerard Rique holds a BSC in Computer Science from the University of the West Indies.  During his undergraduate program, he was awarded as a member of the Dean’s Honor Roll for various semesters. Gerard demonstrated his leadership and teamwork capabilities by being an Executive Member of the University of the West Indies Computing Society (UWICS) and being a mentor at the Department of Computing and Information Technology’s 3rd Annual Bootcamp. He also worked on several projects, including AgriNeTT where he was able to develop a mobile application that aided users in developing expense reports that are required by the Agricultural Development Bank. Gerard is presently one of the main tutors in the Programming Help Desk introduced by the Department of Computing and Information Technology and is currently pursuing his Msc in Computer Science where his main areas of interest include Machine Learning, Financial Computing and Mobile application development.",
+		"education": ["BSc, The University of the West Indies"],
 		"links": [],
 		"page": "TBD",
-		"img": ""
+		"img": "gerard_rique.jpg"
 	}
 }
