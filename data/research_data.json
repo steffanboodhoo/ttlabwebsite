@@ -1,5 +1,40 @@
 {
 	"papers": {
+		"CSP: Customer Satisfaction based Pricing for Advanced Cellular Networks": {
+			"authors": "Ramneek Sekhon, Patrick Hosein and Sungin Jung",
+			"location": "IEEE International Conference on Computer Communications, Paris, France",
+			"date": "April, 2019",
+			"volume": "",
+			"pdf": ""
+		},
+		"Validating the Influence Model for Influence Maximization-Revenue Optimization": {
+			"authors": "Trisha Lawrence and Patrick Hosein",
+			"location": "International Conference on Digital Image and Signal Processing, Oxford, United Kingdom",
+			"date": "April, 2019",
+			"volume": "",
+			"pdf": ""
+		},
+		"A Benefit Optimization approach to the Evaluation of Classification Algorithms": {
+			"authors": "Shellyann Sooklal and Patrick Hosein",
+			"location": "International Conference on Artificial Intelligence and Applied Mathematics in Engineering, Antalya, Turkey",
+			"date": "April, 2019",
+			"volume": "",
+			"pdf": ""
+		},
+		"On the Prediction of Possibly Forgotten Shopping Basket Items": {
+			"authors": "Anderson Singh and Patrick Hosein",
+			"location": "International Conference on Artificial Intelligence and Applied Mathematics in Engineering, Antalya, Turkey",
+			"date": "April, 2019",
+			"volume": "",
+			"pdf": ""
+		},
+		"Playlist Shuffling given User-Defined Constraints on Song Sequencing": {
+			"authors": "Sterling Ramroach and Patrick Hosein",
+			"location": "International Conference on New Music Concepts, Treviso, Italy",
+			"date": "April, 2019",
+			"volume": "",
+			"pdf": ""
+		},
 	"Cyclic Beam Switching for Smart Grid Networks": {
 		"authors": "P. Hosein, L. Girod-Williams and C. van Rensburg",
 		"date": "Nov, 2016",
