@@ -93,7 +93,7 @@
 		"page": "TBD",
 		"img": "gerard_rique.jpg"
 	},
-	
+
 	"Sterling Ramroach": {
 		"title": "PhD Intern",
 		"education": ["BSc, The University of the West Indies","MPhil, The University of the West Indies"],
@@ -111,12 +111,12 @@
 		"page": "TBD",
 		"img": "keanu_nichols.jpg"
 	},
-	"Akil Hosang":{
-		"title": "Undergraduate Intern",
-		"education": [],
-		"about": "My name is Akil Hosang and I am an undergraduate Computer Science (Special) student at The University of the West Indies. I hope to pursue my Masters Degree to do work in my fields of interest which are Robotics, Artificial Intelligence and Machine Learning. As for other interests, over the last 2 years, I served as the Vice President of The UWI Computing Society where i gave presentations on topics like Version Control, Machine Learning and other areas. I am also participating in data science competitions on the website Kaggle. During the August break, I was given the opportunity to work as an intern under The University of the West Indies. During that time, I helped create a web application that allowed students interested in attending the university find courses they are qualified for based on their secondary school passes.",
-		"links":["https://github.com/Akil313", "https://www.kaggle.com/akil868"],
+	"Govinda Hosein":{
+		"title": "AP",
+		"education": ["BSc. The University of the West Indies, 2014", "MSc. The University of Manchester, 2018"],
+		"about": "Govinda Hosein graduated with a BSc in Electrical and Computer Engineering (first class with honours) from the University of the West Indies, St. Augustine. His final year project yielded a conference paper 'Power outage reporting tool with mobile app'. He was later awarded a postgraduate scholarship and went on to acquire his MSc. degree in Renewable Energy and Clean Technology at the University of Manchester. His areas of interest currently include Power Systems Modelling and Analysis, Integration of Renewable Energy, Data Visualization, Web and Mobile App Development (particularly hyper casual games).",
+		"links":["govinda.hosein@gmail.com", "http://www.raziel619.com/", "https://www.linkedin.com/in/govinda-hosein-94b8ab71/"],
 		"page": "TBD",
-		"img": "akil_hosang.jpg"
+		"img": "govinda.jpg"
 	}
 }
