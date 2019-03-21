@@ -46,6 +46,15 @@
       "page": "TBD",
       "img": "TrishaLawrence.jpg"
     },
+		"Randyll Pandohie": {
+			"title": "PhD Student",
+			"type": "Associate",
+			"about": "Randyll is currently employed with The University of the West Indies as the Enterprise Applications Support Manager for the Open Campus. He previously worked in the Banking sector and the Oil and Gas sector. In these roles he has managed the Enterprise Applications including Banner ERP, Oracle Enterprise Resource Planning, Maximo (Computerize Maintenance Management System), External/Intranet websites and Business Intelligence systems. Mr. Pandohie holds a B. Sc. in Computer Science and Management as well as a M. Sc. in Computer Science from the University of the West Indies. He is currently pursuing his Ph. D in Computer Science at St. Augustine Campus. Randyll’s key research interests include Big Data, Social Networks and Genetic Algorithms.",
+			"education": ["M.Sc. The University Of The West Indies", "B.Sc. The University Of The West Indies"],
+			"links": ["https://www.linkedin.com/in/randyllpandohie/"],
+			"page": "TBD",
+			"img": "randy_pandohie.JPG"
+		},
 	"Inzamam Rahaman": {
 		"title": "MPhil Fellow",
 		"type": "Associate",
@@ -55,17 +64,6 @@
 		"page": "inzamamrahaman.html",
 		"img": "inzamamrahaman.jpg"
 	},
-
-	"Ashish Bhatt": {
-		 "title": "MPhil Student",
-		 "type": "Associate",
-		 "about": "https://www.linkedin.com/in/ashishbhatttt/",
-		 "education": ["MEng (Hons), Imperial College London","CEng MBCS"],
-		 "links": ["Ashish.Bhatt@sta.uwi.edu"],
-		 "page": "",
-		 "img": "AshishBhatt.jpg"
-
-	 },
 
 	"Shiva Ramoudith": {
 		"title": "MSc Fellow",

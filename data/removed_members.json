@@ -18,7 +18,16 @@
 	"img": "keshavbahadoor.jpg"
 },
 
+"Ashish Bhatt": {
+	 "title": "MPhil Student",
+	 "type": "Associate",
+	 "about": "https://www.linkedin.com/in/ashishbhatttt/",
+	 "education": ["MEng (Hons), Imperial College London","CEng MBCS"],
+	 "links": ["Ashish.Bhatt@sta.uwi.edu"],
+	 "page": "",
+	 "img": "AshishBhatt.jpg"
 
+ },
 
 	"Marc-Thomas Arjoon": {
 		"title": "Adjunct Scientist",
