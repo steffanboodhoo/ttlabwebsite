@@ -1,12 +1,4 @@
-"Arti Ramdhanie": {
-		"title": "MPhil Student",
-		"education": ["B.Sc. The University of the West Indies, 2014"],
-		"type": "Associate",
-		"about": "Arti Ramdhanie graduated from the University of the West Indies in 2014 where she obtained her BSc in Computer Science. Following her tenure at the University, she has worked as both a Software Engineer and a Systems Analyst. Currently she works at CARIRI where she is part of a team that is spearheading a Data Science Centre. Her main interest lies prominently in big data and analytics.",
-		"links": ["artikandice@gmail.com"],
-		"page": "TBD",
-		"img": "artiramdhanie.jpg"
-	},
+
 
 "Keshav Bahadoor": {
 	"title": "Adjunct Scientist",
@@ -149,17 +141,6 @@
 		"img": "randy_pandohie.JPG"
 	},
 
-	"Greg Ollivierre": {
-		"title": "MSc Student",
-		"type": "Associate",
-		"about": "I have over 10 years of experience working in Geophysics. Currently, I work as Senior Field Geophysicist at ION Geophysical, improving products and services for our customers and building our next generation of product offerings. I have a deep interest in utilizing artificial intelligence within the geophysical industry. Previously, I was the Processing Geophysicist at Schlumberger, where I analyzed seismic data from some of the biggest oil majors to help identify and characterize subsurface geology. Competencies: seismic acquisition, seismic processing , project management, machine learning, cloud computing, Python/C, ProMax, Persues, Claritas.",
-		"education": ["B.Sc. The University of the West Indies, 2016"],
-		"links": ["gregoryollivierre2016@gmail.com "],
-		"page": "",
-		"img": "greg_ollivierre.jpg"
-
-	},
-
 	"Shanta Sukhoo": {
 		"title": "MPhil Fellow",
 		"type": "Associate",
@@ -204,4 +185,32 @@
 		"links":["https://github.com/Akil313", "https://www.kaggle.com/akil868"],
 		"page": "TBD",
 		"img": "akil_hosang.jpg"
+	},
+	 "Anil Ramnanan": {
+		"title": "PhD Student",
+		"type": "Associate",
+		"about": "Anil Ramnanan is a Graduate of the University of the West Indies with an MPhil in Computer Science. He has experience as a full stack developer with with both web and mobile applications. He has also worked on a number of projects using embedded systems and small computing platforms such as the Raspberry Pi and Arduiono. His area of interest for research is the Internet of Things.",
+		"education": ["M.Phil, The University Of The West Indies", "Bsc University Of The West Indies"],
+		"links": [" anil@peppersauce.org"],
+		"page": "",
+		"img": "AnilRamnanan.jpg"
+
+	},
+	"Dominic Williams": {
+		"title": "Massy Reverse Intern",
+		"education": ["BSc, The University of the West Indies 2016","E.E.E.T."],
+		"about": "Dominic graduated from the University of the West Indies in 2016 with a B.Sc. in Electrical and Computer Engineering (First Class Honours) – Specialization in Controls and Instrumentation. Dominic also has an Advanced Diploma in Electrical and Electronic Engineering Technology (E.E.E.T.).  He is also a self-thought developer and has worked on a variety of projects both personal and business. Dominic hopes to link and develop on music and technology.",
+		"links":["dominic.williams@massygroup.com"],
+		"page": "TBD",
+		"img": "dominic_williams.JPG"
+	},
+
+	"Mathew Stewart": {
+		"title": "MSc Fellow",
+		"type": "Associate",
+		"about": "Mathew Stewart is a Computer Science graduate of The University of the West Indies (UWI). He is currently pursuing his Master’s degree in said field, also at The UWI. He was consistently on the Dean’s Honour Roll throughout his undergraduate studies. He went on to be awarded The Tucker Energy Services Holdings Ltd. Prize for the Best Year II Performance in Computer Science in the academic year 2014-2015. He is also in the midst of obtaining his certification as an Oracle Certified Associate. Matthew served on the Executive of The University of the West Indies Computing Society (UWICS) as Treasurer for the period 2015-2016. Prior to serving on the Executive, he placed 1st in both the Runtime and Real App competitions organized by The UWICS. He also tutored as part of the Programming Help Desk organized by the Department of Computing and Information Technology. In his spare time, Matthew enjoys practicing karate and has been a member of Purple Dragon since 2010.",
+		"education": ["B.Sc. The University of the West Indies, 2016"],
+		"links": ["mdls85@hotmail.com"],
+		"page": "mathewstewart.html",
+		"img": "mathewstewart.jpg"
 	}
