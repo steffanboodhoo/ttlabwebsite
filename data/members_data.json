@@ -98,20 +98,20 @@
 		"title": "Msc Student",
 		"education": ["B.Sc. The University of the West Indies, 2014"],
 		"type": "Associate",
-		"about": "Arti Ramdhanie graduated from the University of the West Indies in 2014 where she obtained her BSc in Computer Science. Following her tenure at the University, she has worked as both a Software Engineer and a Systems Analyst. Currently she works at CARIRI where she is part of a team that is spearheading a Data Science Centre. Her main interest lies prominently in big data and analytics.",
+		"about": "Arti is a Technologist at the Caribbean Industrial Research Institute where she deals primarily with the data science and analytics projects. She has a B.Sc. in Computer Science and is currently pursuing her M.Sc. in Data Science.",
 		"links": ["artikandice@gmail.com"],
 		"page": "TBD",
-		"img": "artiramdhanie.jpg"
+		"img": "artiramdhanie.jpeg"
 	},
 
 	"Warren O’Connel": {
 		"title": "Msc Student",
 		"education": ["B.Sc. The University of the West Indies, 2015"],
 		"type": "Associate",
-		"about": "",
-		"links": [""],
+		"about": "Warren graduated with a BSc in Computer Science from the University of the West Indies. He then went on to work as a Research Assistant at the University of Trinidad and Tobago in the Department of  Design and Manufacturing Engineering, developing affordable tools for education using Leap Motion. He went on to serve as a Business Intelligence Analyst at Digicel, participating primarily in customer segmentation for targetted marketing. He is currently pursuing an MSc in Data Science with a primary interest in machine learning.",
+		"links": ["warrenoconnell22@gmail.com"],
 		"page": "TBD",
-		"img": ""
+		"img": "warren.jpg"
 	},
 
 	"Govinda Hosein":{
