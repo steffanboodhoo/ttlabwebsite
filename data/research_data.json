@@ -260,18 +260,23 @@
 		"companyAuthors":["Robert Martinez"],
 		"otherAuthors":["Patrick Hosein"]
 	},
-	"Spatio-Temporal Clustering for Optimizing Time-Sensitive Product Deliveries (invited paper)":{
+		"Spatio-Temporal Clustering for Optimizing Time-Sensitive Product Deliveries": {
 		"authors":"Nicholas Chamansingh, Patrick Hosein and Elena Dyer",
 		"location":"Triennial Conference of the Association of Asia Pacific Operational Research Societies, Kathmandu, Nepal",
 		"volume":"",
 		"date":"Aug, 2018",
+		"volume": "",
 		"pdf":"",
 		"link":"http://orsn.org.np/upload/files/IJORN%208th%20Page%2065-73%20Nicholas.pdf",
 		"companyLogo": "img/clients/Massy_Technologies_InfoCom_Horiz_RGB_resized(1).png",
 		"companyAuthors":["Elena Dyer"],
-		"otherAuthors":["Nicholas Chamansingh, Patrick Hosein and"]
+		"otherAuthors":["Nicholas Chamansingh, Patrick Hosein and"],
+		"additional":{
+			"location":"(Also presented at Conference of the Association of Asia Pacific Operational Research Societies, Kathmandu, Nepal, Aug, 2018",
+			"link":"http://orsn.org.np/upload/files/IJORN%208th%20Page%2065-73%20Nicholas.pdf"
+		}
 	},
-	" Optimizing Car Imports in Small Island States (invited paper)":{
+		"Optimizing Car Imports in Small Island States": {
 		"authors":"Shiva Ramoudith, Patrick Hosein and Kevin Blake-Thomas",
 		"location":"Triennial Conference of the Association of Asia Pacific Operational Research Societies, Kathmandu, Nepal",
 		"volume":"",
@@ -280,7 +285,11 @@
 		"link":"http://orsn.org.np/upload/files/IJORN%208th%20Page%2053-63%20Shiva%20Ramoudith.pdf",
 		"companyLogo": "img/clients/Massy_Technologies_InfoCom_Horiz_RGB_resized(1).png",
 		"companyAuthors":["Kevin Blake-Thomas"],
-		"otherAuthors":["Shiva Ramoudith, Patrick Hosein and"]
+		"otherAuthors":["Shiva Ramoudith, Patrick Hosein and"],
+		"additional":{
+			"location":"(Also presented at Conference of the Association of Asia Pacific Operational Research Societies, Kathmandu, Nepal, Aug, 2018",
+			"link":"http://orsn.org.np/upload/files/IJORN%208th%20Page%2053-63%20Shiva%20Ramoudith.pdf"
+		}
 	},
 	"A Method for Learning Representations of Signed Networks":{
 		"authors":"Inzamam Rahaman and Patrick Hosein",
