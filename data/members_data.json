@@ -31,7 +31,7 @@
       "Nicholas Chamansingh": {
       "title": "PhD Student",
       "type": "Associate",
-      "about": "Nicholas is currently pursuing his PhD in Computer Science where his areas of focus are in Natrual Language Processing, Topic Modelling and ChatBot Architectures.  He has a wide range of experience which includes Machine Learning, Data Visualization, Data Analytics, Software Development, Team Management, Cloud Technologies and Lecturing. He has lectured both at the BSc and MSc levels on courses such as Cloud Technologies, Big Data Analytics and Internet Technologies. He has worked in industry and consulted for companies in areas of software design and implementation and process optimization.",
+      "about": "I am a senior Telecoms manager, currently responsible for Digicel TT commercial CVM and data science & analytics, while also being the commercial lead for the full Digital transformation and evangelization. I am also an experienced Part time Lecturer, skilled in Machine Learning, Natural Language Processing, Data Analytics, Web Applications, Mobile Applications, Web Design, and Cloud Orchestration, all of which I've designed and facilitated courses both at the masters and undergraduate levels within those areas. Currently I am pursuing my PhD in Computer Science with a focus in Machine Learning and Natural Language Processing. I’ve used my experience both in industry and academia to transform under performing teams as well as introduced industrial concepts in the classroom. My mindset for continuous improvement and development has granted me the ability to design and deliver business transformation and processes. I can define project KPI’s, establish schedules, and maintain budgets. I can solve complex problems and add significant value to any business.",
       "education": ["M.Sc. The University Of The West Indies, 2015", "B.Sc. The University Of The West Indies, 2013"],
       "links": ["nicholas.chamansingh@gmail.com", "nicholas@lab.tt"],
       "page": "TBD",
@@ -66,10 +66,10 @@
 	},
 
 	"Shiva Ramoudith": {
-		"title": "MSc Fellow",
+		"title": "Associate Professional",
 		"type": "Associate",
-		"about": "Shiva Ramoudith is a B.Sc. Computer Science graduate of the University of The West Indies (UWI) (2016). He is a past student of Hillview College and was awarded an Additional Scholarship (Computer Science) in 2013.  Shiva had the opportunity to work as an intern for the Department of Computing and Information Technology at the UWI during the June-August vacations, where he worked on two Android applications: AgriExpense and SR-Market which are under the AgriNett and Caribbean Small Ruminants Projects respectively. In addition, Shiva also assisted in the database development of the Caribbean Coconuts Industry Development Project. While at UWI, Shiva has joined the UWI Combat Readiness Club where he is currently certified at ‘Practitioner Level 2’ and The University of the West Indies Computing Society (UWICS) where he was the Public Relations Officer in the 2015-2016 academic year. He has interests in machine learning and mobile applications. He is currently pursuing his M.Sc. In Computer Science, also at the UWI.",
-		"education": ["B.Sc. The University of the West Indies, 2016"],
+		"about": "Shiva is currently an Associate Professional at the UWI. During his undergraduate degree, he worked as an Intern in the AgriNett and CSRP projects where he assisted in the development of Android applications. Shiva also served as an executive board member of the University of the West Indies Computing Society. While completing his M.Sc., he assisted in the delivery of programming, web, and software development courses at the Department of Computing and Information Technology. For his M.Sc. project, he collaborated with Professor and Massy Technologies, Trinidad. The project focused on optimizing vehicle imports in small island states. He is currently involved in projects based on modeling trust, developing web applications and, data analysis. He is also one of the coaches of the ICPC (Inter Collegiate Programming Competition) Trinidad team.",
+		"education": ["M.Sc. Computer Science -  The University of the West Indies, 2018.", "B.Sc. Computer Science – The University of the West Indies, 2016."],
 		"links": ["shivramx@gmail.com"],
 		"page": "",
 		"img": "shiva.jpg"
