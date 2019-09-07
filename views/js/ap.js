@@ -30,25 +30,9 @@
 		"links":["boodhoo100@gmail.com"]
 	},
 	*/
-	function get_sort_names(data){
-		let names = Object.keys(data);
-		names.sort(function(a,b){
-			let a_last =a.split(" ")[1];
-			let b_last =b.split(" ")[1];
-			if( a_last == b_last )
-				return 0;
-			else if( a_last > b_last )
-				return 1;
-			return -1;
-		})
-		return names;
-	}
-
 	function createList(data){
-		let names = get_sort_names(data);
-
 		var list = $("<ul/>",{"class":"list"});
-		names.forEach((name)=>{
+		for (var name in data){
 			var li = $("<li/>",{"class":"post-preview"});
 			var main_row = $("<div/>",{"class":"row"})
 
@@ -69,7 +53,7 @@
 			var links = data[name]['links'];
 			right_sub_left.append($("<h4/>",{"class":"list-name"}).append(name));
 			var title_block = $('<div></div>');
-			// title_block.append($("<p/>",{"class":"list-title"}).append(data[name]['title']));
+			title_block.append($("<p/>",{"class":"list-title"}).append(data[name]['title']));
 			right_sub_left.append(title_block);
 			for( var l=0; l<links.length; l++){
                 var current_link = links[l];
@@ -97,7 +81,7 @@
 			li.append( $("<hr>") )
 			li.append(main_row)
 			list.append(li);
-		});
+		}
 		list.appendTo('#list_cont');
 
 		var options = {valueNames:['list-name']}

@@ -1,12 +1,59 @@
 {
-	"Stefan Hosein": {
-		"title": "Adjunct Scholar",
+	"Patrick Hosein": {
+		"title": "Director",
+		"type": "Staff",
+		"about": " Patrick attended the Massachusetts Institute of Technology (MIT) where he obtained five degrees including a PhD in Electrical Engineering and Computer Science. He has worked at Bose Corporation, Bell Laboratories, AT&T Laboratories, Ericsson and Huawei. He has published extensively with over 100 refereed journal and conference publications. He holds 40 granted and 42 pending patents in the areas of telecommunications and wireless technologies. He was nominated for the Ericsson Inventor of the Year award in 2004, was the Huawei US Wireless Research Employee of the year for 2007 and is a 2015 Anthony Sabga Caribbean Laureate for Science and Technology. Patrick is presently the administrative and technical contact for the TT top level domain, CEO of the TTNIC and a Professor of Computer Science at the University of the West Indies. His present areas of research include radio resource management, QoS and pricing for 5G cellular networks.",
+		"education": ["Ph.D (EECS), MIT", "E.E (Engineer's Degree), MIT", "S.M (EECS), MIT", "S.B (EE), MIT", "S.B (Math), MIT"],
+		"links": ["patrick.hosein@sta.uwi.edu"],
+		"page": "patrickhosein.html",
+		"img": "patrickhosein.jpg"
+	},
+
+	"Nicholas Chamansingh": {
+		"title": "Adjunct Scientist",
 		"type": "Associate",
-		"about": "Stefan graduated from secondary (high) school as a national scholar. He received his B.Sc. in Computer since from The University of the West Indies in 2014 and graduated at the top of his class and faculty. After receiving his degree, he was awarded the first international internship to NASA as a Trinidadian in the fall of 2014 and returned in the summer of 2015. Since then, he has been working with TTLAB on a number of projects. He will attend Cambridge University for a postgraduate degree beginning October 2016. His broad interests lie in machine learning, natural language processing, and deep learning.",
-		"education": ["B.Sc., The University Of The West Indies, 2014"],
-		"links": ["stefan.m.hosein@gmail.com"],
-		"page": "stefanhosein.html",
-		"img": "stefanhosein.jpg"
+		"about": "I am a senior Telecoms manager, currently responsible for Digicel TT commercial CVM and data science & analytics, while also being the commercial lead for the full Digital transformation and evangelization. I am also an experienced Part time Lecturer, skilled in Machine Learning, Natural Language Processing, Data Analytics, Web Applications, Mobile Applications, Web Design, and Cloud Orchestration, all of which I've designed and facilitated courses both at the masters and undergraduate levels within those areas. Currently I am pursuing my PhD in Computer Science with a focus in Machine Learning and Natural Language Processing. I’ve used my experience both in industry and academia to transform under performing teams as well as introduced industrial concepts in the classroom. My mindset for continuous improvement and development has granted me the ability to design and deliver business transformation and processes. I can define project KPI’s, establish schedules, and maintain budgets. I can solve complex problems and add significant value to any business.",
+		"education": ["M.Sc. The University Of The West Indies, 2015", "B.Sc. The University Of The West Indies, 2013"],
+		"links": ["nicholas.chamansingh@gmail.com", "nicholas@lab.tt"],
+		"page": "TBD",
+		"img": "nicholas_chamansingh.jpeg"
+	},
+
+	"Darren Ramsook": {
+		"title": "MSc in Data Science student",
+		"education": ["B.Sc. The University of the West Indies, 2018"],
+		"about": "Darren is currently pursuing his MSc. degree in Data Science at the University of the West Indies, St. Augustine Campus. Darren earned his BSc. Degree in Electrical & Computer Engineering in 2018 from the University of the West Indies. He has a key interest in the areas of Software Engineering, Machine Learning, Audio and Video signal processing and Systems Design. He also is the founder of e-Learn Caribbean (elearncaribbean.com), an organization aimed at making education accessible to the Caribbean.",
+		"links":["darrenramsook@outlook.com", "https://www.linkedin.com/in/darren-ramsook-03342b122/", "http://elearncaribbean.com/"],
+		"page": "TBD",
+		"img": "darren.jpg"
+	},
+
+	"Govinda Hosein":{
+		"title": "Associate Professional",
+		"education": ["BSc. The University of the West Indies, 2014", "MSc. The University of Manchester, 2018"],
+		"about": "Govinda Hosein graduated with a BSc in Electrical and Computer Engineering (first class with honours) from the University of the West Indies, St. Augustine. His final year project yielded a conference paper 'Power outage reporting tool with mobile app'. He was later awarded a postgraduate scholarship and went on to acquire his MSc. degree in Renewable Energy and Clean Technology at the University of Manchester. His areas of interest currently include Power Systems Modelling and Analysis, Integration of Renewable Energy, Data Visualization, Web and Mobile App Development (particularly hyper casual games).",
+		"links":["govinda.hosein@gmail.com", "http://www.raziel619.com/", "https://www.linkedin.com/in/govinda-hosein-94b8ab71/"],
+		"page": "TBD",
+		"img": "govinda.jpg"
+	},
+
+	"Kimberlee Laloo": {
+		"title": "Alumni",
+		"type": "Associate",
+		"about": "-",
+		"education": [],
+		"links": [],
+		"page": "",
+		"img": ""
+	},
+
+	"Keanu Nichols": {
+		"title": "Undergraduate Intern",
+		"education": [],
+		"about": "Keanu is an undergraduate at the University of the West Indies going into his second year studying Computer Science Special. He spent a year at Penn State University but later attended the University of the West Indies. He was selected for an internship for Google Summer of Code to work at a company called CHAOSS (Community Health Analytics Open Source Software) where he is working to implement a SQL Database to store mailing archives and implement Natural Language Processing on the emails. He is participating on the online Data Science competition website Kaggle to create machine learning models to solve different problems, so far he as worked on a problem related to computer vision and sentiment analysis.",
+		"links":["nichols.keanu9@gmail.com","https://kmn5409.github.io/keanu-nichols/"],
+		"page": "TBD",
+		"img": "keanu_nichols.jpg"
 	},
 
 	"Ramneek Sekhon": {
@@ -18,102 +65,44 @@
 		"page": "TBD",
 		"img": "ramneek.jpg"
 	},
-	"Laura Bigram": {
-		"title": "Adjunct Scientist",
-		"type": "Associate",
-		"about": "I graduated from U.W.I with a M.Sc. Computer Science in 2013. Currently interested in conducting research in cyber security and data analysis. I won a national scholarship (Mathematics) from the government in Trinidad and Tobago to pursue my bachelors. I am the current chair of Joint Communications and Computer Society for IEEE-TT. I am also one of the Chapter Leaders for the Open Web Application Security Project (OWASP).",
-		"education": ["B.Sc., The University Of The West Indies, 2014"],
-		"links": ["laura.bigram@gmail.com"],
-		"page": "laurabigram.html",
-		"img": "laurabigram.jpg"
-	},
 
-
-	"Robert Martinez": {
-		"title": "Adjunct Scientist",
+	"Shiva Ramoudith": {
+		"title": "Associate Professional",
 		"type": "Associate",
-		"about": "Robert Martinez was born and raised in Port of Spain, Trinidad. He is a former student of St. Mary's College, winning the President's Medal in 2005. He has a BA in Economics from McGill University, and an MSc in Science and Technology Policy from the University of Sussex. Robert has been a Policy Analyst at the National Institute of Higher Education, Research, Science and Technology (NIHERST)for over five (5) years. As a member of NIHERST's Policy, Research and Intelligence Department, he has been involved in research looking at innovation in the local ICT sector, including software and web development, as well as animation.",
-		"education": ["B.A. McGill University","M.Sc. University of Sussex"],
-		"links": ["robert.martinez@niherst.gov.tt"],
-		"page": "TBD",
-		"img": "robertMartinez.jpg"
-	},
-	"Anderson Singh": {
-		"title": "MSc Fellow",
-		"type": "Associate",
-		"about": "Anderson Singh is a B.Sc. Computer Science graduate of The University of the West Indies (UWI). He was awarded The Head of Department Prize for the best year I performance in Computer Science in the academic year 2013-2014. He went on to participate in the Teleios CodeJam Competition in the year 2015 where his team was awarded 2nd place for developing a mobile advertising solution. Anderson also served as an Executive Board Member on The University of The West Indies Computing Society (UWICS) during the final year of his undergraduate degree, where he presented sessions on Web Hosting and Developing Augmented Reality Applications. He has also worked with Knowledge Hope Limited on the e-course, ITonLine, which is designed to assist both students and teachers of Caribbean Schools in their preparation for Information Technology (CSEC level) exams. He has done extensive work on version II of ITonLine, which includes a mobile application called \"ITonLine Games\". Anderson is currently pursuing his M.Sc in Computer Science, also at the UWI.",
-		"education": ["B.Sc. The University of the West Indies, 2016"],
-		"links": ["andersonsingh@outlook.com"],
+		"about": "Shiva is currently an Associate Professional at the UWI. During his undergraduate degree, he worked as an Intern in the AgriNett and CSRP projects where he assisted in the development of Android applications. Shiva also served as an executive board member of the University of the West Indies Computing Society. While completing his M.Sc., he assisted in the delivery of programming, web, and software development courses at the Department of Computing and Information Technology. For his M.Sc. project, he collaborated with Professor and Massy Technologies, Trinidad. The project focused on optimizing vehicle imports in small island states. He is currently involved in projects based on modeling trust, developing web applications and, data analysis. He is also one of the coaches of the ICPC (Inter Collegiate Programming Competition) Trinidad team.",
+		"education": ["M.Sc. Computer Science -  The University of the West Indies, 2018.", "B.Sc. Computer Science – The University of the West Indies, 2016."],
+		"links": ["shivramx@gmail.com"],
 		"page": "",
-		"img": "andersonsingh.jpg"
-
+		"img": "shiva.jpg"
 	},
 
-	"Saffiyah Doolan": {
-		"title": "Adjunct Scientist",
-		"education": ["B.Eng, University College London 2016"],
-		"about": "Saffiyah graduated from University College London (UCL) with a BEng Electronic and Electrical Engineering Degree (HONS). Project experiences comprise of software and hardware development in Communication Systems. Latest research included the energy and cost estimation of Electronic and Optical Datacenter Networks. Possesses avid interests in start-up projects, 3D printing and wearable technologies. ",
-		"links": ["saffiyah.doolan.13@alumni.ucl.ac.uk"],
-		"page": "TBD",
-		"img": "saffiyahdoolan.jpg"
-	},
-	"Devika Bhagwandin": {
-		"title": "AP Research Scientist",
-		"education": ["B.Sc, The University of the West Indies, 2014"],
-		"about": "Devika Bhagwandin graduated with her B.Sc. in Mathematics (Double Major) at the University of the West Indies, St Augustine in 2014. Upon graduation she received the Winston A. Richards prize in Statistics for the best year II and year III performance in Statistics. Devika further received a postgraduate scholarship to pursue her MSc in Statistics at the University of the West Indies. She has recently completed the requirements for this program and is currently working on a paper based on her project report which analyses disaggregated electrical energy using association rule learning. Her areas of interest include Stochastic Processes, Bayesian Space-Time modelling and Data Analytics. She also studies Hindi through the High Commission of India.",
-		"links": ["devikabhagwandin@hotmail.com"],
-		"page": "TBD",
-		"img": "devikabhagwandin.jpg"
-	},
-
-	"Steffan Boodhoo": {
-		"title": "MPhil Fellow",
+	"Sitara Persad": {
+		"title": "Alumni",
 		"type": "Associate",
 		"about": "-",
-		"education": ["B.Sc., The University Of The West Indies, 2015"],
-		"links": ["boodhoo100@gmail.com", "https://github.com/steffanboodhoo"],
-		"page": "steffanboodhoo.html",
-		"img": "steffanboodhoo.jpg"
+		"education": [],
+		"links": [],
+		"page": "",
+		"img": ""
 	},
 
-    "Kiran Maharaj": {
-      "title": "PhD Fellow",
-      "type": "Associate",
-      "about": "Kiran graduated from the University of Bristol with a MSc Advanced Computing - Machine Learning, Data Mining and High Performance Computing, he was awarded a postgraduate scholarship to pursue this degree from the Government of Trinidad and Tobago. Previous to this he graduated with First Class Honours from The University of the West Indies in 2013 with a B.Sc. in Computer Science. Kiran has worked as a software developer on a range of projects the most recent being AgriNeTT, an  ICT initiative for the Agricultural Sector. Kiran has broad interests in Bioinformatics, Machine Learning and Data Analytics.",
-      "education": ["M.Sc University of Bristol", "B.Sc. The University Of The West Indies"],
-      "links": ["kiranma@hotmail.com"],
-      "page": "",
-      "img": "kiran.png"
+	"Sterling Ramroach": {
+		"title": "PhD Intern",
+		"education": ["BSc, The University of the West Indies","MPhil, The University of the West Indies"],
+		"about": "Sterling is a PhD student in Electrical and Computer Engineering at The University of the West Indies. His work involves developing and optimising machine learning algorithms with parallel processing to aid in the diagnosis and prognosis of various cancers. As a software engineer, Sterling has won various local and regional software competitions along with entrepreneurial grants from the government of Trinidad and Tobago, and has developed enterprise software used by CARICOM governments. Sterling graduated his undergrad with the highest GPA in his year and won prizes for most outstanding CS graduate as well as best year three. For his MPhil, he developed various steganographic techniques to hide secret messages in digital media, undetectably. He is interested in Machine Learning, Bioinformatics, and Data Analytics.",
+		"links":["sramroach@gmail.com"],
+		"page": "TBD",
+		"img": "sterling_ramroach.jpg"
+	},
 
-    },
-
-		"Gerard Rique": {
-			"title": "MSc in Computer Science student",
-			"about": "Gerard Rique holds a BSC in Computer Science from the University of the West Indies.  During his undergraduate program, he was awarded as a member of the Dean’s Honor Roll for various semesters. Gerard demonstrated his leadership and teamwork capabilities by being an Executive Member of the University of the West Indies Computing Society (UWICS) and being a mentor at the Department of Computing and Information Technology’s 3rd Annual Bootcamp. He also worked on several projects, including AgriNeTT where he was able to develop a mobile application that aided users in developing expense reports that are required by the Agricultural Development Bank. Gerard is presently one of the main tutors in the Programming Help Desk introduced by the Department of Computing and Information Technology and is currently pursuing his Msc in Computer Science where his main areas of interest include Machine Learning, Financial Computing and Mobile application development.",
-			"education": ["BSc, The University of the West Indies"],
-			"links": [],
-			"page": "TBD",
-			"img": "gerard_rique.jpg"
-		},
-
-		"Sterling Ramroach": {
-			"title": "PhD Intern",
-			"education": ["BSc, The University of the West Indies","MPhil, The University of the West Indies"],
-			"about": "Sterling is a PhD student in Electrical and Computer Engineering at The University of the West Indies. His work involves developing and optimising machine learning algorithms with parallel processing to aid in the diagnosis and prognosis of various cancers. As a software engineer, Sterling has won various local and regional software competitions along with entrepreneurial grants from the government of Trinidad and Tobago, and has developed enterprise software used by CARICOM governments. Sterling graduated his undergrad with the highest GPA in his year and won prizes for most outstanding CS graduate as well as best year three. For his MPhil, he developed various steganographic techniques to hide secret messages in digital media, undetectably. He is interested in Machine Learning, Bioinformatics, and Data Analytics.",
-			"links":["sramroach@gmail.com"],
-			"page": "TBD",
-			"img": "sterling_ramroach.jpg"
-		},
-
-		"Keanu Nichols": {
-			"title": "Undergraduate Intern",
-			"education": [],
-			"about": "Keanu is an undergraduate at the University of the West Indies going into his second year studying Computer Science Special. He spent a year at Penn State University but later attended the University of the West Indies. He was selected for an internship for Google Summer of Code to work at a company called CHAOSS (Community Health Analytics Open Source Software) where he is working to implement a SQL Database to store mailing archives and implement Natural Language Processing on the emails. He is participating on the online Data Science competition website Kaggle to create machine learning models to solve different problems, so far he as worked on a problem related to computer vision and sentiment analysis.",
-			"links":["nichols.keanu9@gmail.com","https://kmn5409.github.io/keanu-nichols/"],
-			"page": "TBD",
-			"img": "keanu_nichols.jpg"
-		}
-
-
+	"Kavishti Balram": {
+		"title": "Alumni",
+		"type": "Associate",
+		"about": "-",
+		"education": [],
+		"links": [],
+		"page": "",
+		"img": ""
+	}
 
 }

@@ -1,42 +1,17 @@
 {
-	"Patrick Hosein": {
-		"title": "Director",
-		"type": "Staff",
-		"about": " Patrick attended the Massachusetts Institute of Technology (MIT) where he obtained five degrees including a PhD in Electrical Engineering and Computer Science. He has worked at Bose Corporation, Bell Laboratories, AT&T Laboratories, Ericsson and Huawei. He has published extensively with over 100 refereed journal and conference publications. He holds 40 granted and 42 pending patents in the areas of telecommunications and wireless technologies. He was nominated for the Ericsson Inventor of the Year award in 2004, was the Huawei US Wireless Research Employee of the year for 2007 and is a 2015 Anthony Sabga Caribbean Laureate for Science and Technology. Patrick is presently the administrative and technical contact for the TT top level domain, CEO of the TTNIC and a Professor of Computer Science at the University of the West Indies. His present areas of research include radio resource management, QoS and pricing for 5G cellular networks.",
-		"education": ["Ph.D (EECS), MIT", "E.E (Engineer's Degree), MIT", "S.M (EECS), MIT", "S.B (EE), MIT", "S.B (Math), MIT"],
-		"links": ["patrick.hosein@sta.uwi.edu"],
-		"page": "patrickhosein.html",
-		"img": "patrickhosein.jpg"
-	},
 
-	"Letetia Addison": {
-		"title": "Voluntary Postdoctoral Researcher",
-		"type": "Company",
-		"about": "Letetia pursued her Doctorate in Mathematics at the University of the West Indies (UWI) where she investigated the dynamics of prey-predator models applied to Investment. She previously graduated with M.Phil. Statistics, in which she studied approximations of functions using Statistical ideas. Her passion for both Mathematics and Statistics led her to produce various publications in both fields. She has also taught a variety of tertiary level courses in Probability and Statistics, Mathematical Applications in Excel and Fundamental Mathematics for General Science students. In addition, she has been involved in Statistical Consulting projects, and has served as Co-ordinator for the Mathematics Help Centre at the UWI. Her postdoctoral research interests include studying the dynamics of deterministic, stochastic and statistical models, in addition to data-driven approaches.",
-		"education": ["Ph.D. The University of the West Indies", "M.Phil. The University of the West Indies", "B.Sc. The University of the West Indies"],
-		"links": ["letetia.addison@gmail.com"],
-		"page": "TBD",
-		"img": "letetiaaddison.png"
-	},
 
-	"Shellyann Sooklal": {
-		"title": "PhD Fellow",
-		"type": "Company",
-		"about": " Shellyann is a student at the University of the West Indies (UWI), pursuing her PhD degree in Computer Science, where the emphasis of her research is in Genomics. Shellyann is also currently teaching a Masters level course in Advanced Networking at UWI. Shellyann graduated with her Undergraduate degree at UWI in 2010, with first class honors and went on to build her professional career by working as a Software Developer at Medullan. Shellyann returned to UWI in 2012 where she pursued an MPhil in Computer Science, with her research focusing around diagnosing and rating Parkinson’s Tremors using the Kinect. Shellyann has worked as a tutor, teaching assistant, instructor and part-time lecturer at UWI, teaching a wide range of courses, including programming in C, Java, Android and game programming, Data Structures and Design and Analysis of Algorithms. She also managed level 3 projects and taught web development and database systems.",
-		"education": ["M.Phil, The University Of The West Indies", "Bsc University Of The West Indies"],
-		"links": ["shellyann.sooklal@gmail.com"],
-		"page": "shellyannsooklal.html",
-		"img": "shellyannsooklal.jpg"
-	},
-      "Nicholas Chamansingh": {
-      "title": "PhD Student",
-      "type": "Associate",
-      "about": "I am a senior Telecoms manager, currently responsible for Digicel TT commercial CVM and data science & analytics, while also being the commercial lead for the full Digital transformation and evangelization. I am also an experienced Part time Lecturer, skilled in Machine Learning, Natural Language Processing, Data Analytics, Web Applications, Mobile Applications, Web Design, and Cloud Orchestration, all of which I've designed and facilitated courses both at the masters and undergraduate levels within those areas. Currently I am pursuing my PhD in Computer Science with a focus in Machine Learning and Natural Language Processing. I’ve used my experience both in industry and academia to transform under performing teams as well as introduced industrial concepts in the classroom. My mindset for continuous improvement and development has granted me the ability to design and deliver business transformation and processes. I can define project KPI’s, establish schedules, and maintain budgets. I can solve complex problems and add significant value to any business.",
-      "education": ["M.Sc. The University Of The West Indies, 2015", "B.Sc. The University Of The West Indies, 2013"],
-      "links": ["nicholas.chamansingh@gmail.com", "nicholas@lab.tt"],
-      "page": "TBD",
-      "img": "nicholas_chamansingh.jpeg"
-    },
+		"Shellyann Sooklal": {
+			"title": "PhD Fellow",
+			"type": "Company",
+			"about": " Shellyann is a student at the University of the West Indies (UWI), pursuing her PhD degree in Computer Science, where the emphasis of her research is in Genomics. Shellyann is also currently teaching a Masters level course in Advanced Networking at UWI. Shellyann graduated with her Undergraduate degree at UWI in 2010, with first class honors and went on to build her professional career by working as a Software Developer at Medullan. Shellyann returned to UWI in 2012 where she pursued an MPhil in Computer Science, with her research focusing around diagnosing and rating Parkinson’s Tremors using the Kinect. Shellyann has worked as a tutor, teaching assistant, instructor and part-time lecturer at UWI, teaching a wide range of courses, including programming in C, Java, Android and game programming, Data Structures and Design and Analysis of Algorithms. She also managed level 3 projects and taught web development and database systems.",
+			"education": ["M.Phil, The University Of The West Indies", "Bsc University Of The West Indies"],
+			"links": ["shellyann.sooklal@gmail.com"],
+			"page": "shellyannsooklal.html",
+			"img": "shellyannsooklal.jpg"
+		},
+
+
     "Trisha Lawrence": {
       "title": "PhD Student",
       "type": "Associate",
@@ -46,6 +21,8 @@
       "page": "TBD",
       "img": "TrishaLawrence.jpg"
     },
+
+
 		"Randyll Pandohie": {
 			"title": "PhD Student",
 			"type": "Associate",
@@ -55,33 +32,18 @@
 			"page": "TBD",
 			"img": "randy_pandohie.JPG"
 		},
-	"Inzamam Rahaman": {
-		"title": "MPhil Fellow",
-		"type": "Associate",
-		"about": "Inzamam Rahaman graduated with a BSc in Computer Science from The University of the West Indies, St. Augustine. During his penultimate year, he worked under the AgriNeTT project developing models for crop price prediction and developing web applications for agricultural data visualisation. For his undergraduate project, he adapted a VQ Index Based Steganography technique to an FPGA using VHDL. In the period immediately following his degree, he interned at the NASA Ames Research Centre developing geospatial web applications using NASA’s Web World Wind SDK. In addition to working as an MPhil Fellow of TTLAB, he is also a teaching assistant for the Department of Computing and Information Technology. His present areas of research interest are in Social Network Analysis, Data Mining, and Artifical Intelligence",
-		"education": ["B.Sc., The University Of The West Indies, 2015"],
-		"links": ["inzamam.rahaman@outlook.com"],
-		"page": "inzamamrahaman.html",
-		"img": "inzamamrahaman.jpg"
-	},
 
-	"Shiva Ramoudith": {
-		"title": "Associate Professional",
-		"type": "Associate",
-		"about": "Shiva is currently an Associate Professional at the UWI. During his undergraduate degree, he worked as an Intern in the AgriNett and CSRP projects where he assisted in the development of Android applications. Shiva also served as an executive board member of the University of the West Indies Computing Society. While completing his M.Sc., he assisted in the delivery of programming, web, and software development courses at the Department of Computing and Information Technology. For his M.Sc. project, he collaborated with Professor and Massy Technologies, Trinidad. The project focused on optimizing vehicle imports in small island states. He is currently involved in projects based on modeling trust, developing web applications and, data analysis. He is also one of the coaches of the ICPC (Inter Collegiate Programming Competition) Trinidad team.",
-		"education": ["M.Sc. Computer Science -  The University of the West Indies, 2018.", "B.Sc. Computer Science – The University of the West Indies, 2016."],
-		"links": ["shivramx@gmail.com"],
-		"page": "",
-		"img": "shiva.jpg"
-	},
-	"Darren Ramsook": {
-		"title": "MSc in Data Science student",
-		"education": ["B.Sc. The University of the West Indies, 2018"],
-		"about": "Darren is currently pursuing his MSc. degree in Data Science at the University of the West Indies, St. Augustine Campus. Darren earned his BSc. Degree in Electrical & Computer Engineering in 2018 from the University of the West Indies. He has a key interest in the areas of Software Engineering, Machine Learning, Audio and Video signal processing and Systems Design. He also is the founder of e-Learn Caribbean (elearncaribbean.com), an organization aimed at making education accessible to the Caribbean.",
-		"links":["darrenramsook@outlook.com", "https://www.linkedin.com/in/darren-ramsook-03342b122/", "http://elearncaribbean.com/"],
-		"page": "TBD",
-		"img": "darren.jpg"
-	},
+
+		"Inzamam Rahaman": {
+			"title": "MPhil Fellow",
+			"type": "Associate",
+			"about": "Inzamam Rahaman graduated with a BSc in Computer Science from The University of the West Indies, St. Augustine. During his penultimate year, he worked under the AgriNeTT project developing models for crop price prediction and developing web applications for agricultural data visualisation. For his undergraduate project, he adapted a VQ Index Based Steganography technique to an FPGA using VHDL. In the period immediately following his degree, he interned at the NASA Ames Research Centre developing geospatial web applications using NASA’s Web World Wind SDK. In addition to working as an MPhil Fellow of TTLAB, he is also a teaching assistant for the Department of Computing and Information Technology. His present areas of research interest are in Social Network Analysis, Data Mining, and Artifical Intelligence",
+			"education": ["B.Sc., The University Of The West Indies, 2015"],
+			"links": ["inzamam.rahaman@outlook.com"],
+			"page": "inzamamrahaman.html",
+			"img": "inzamamrahaman.jpg"
+		},
+
 
 	"Greg Ollivierre": {
 		"title": "MSc Student",
@@ -92,6 +54,26 @@
 		"page": "",
 		"img": "greg_ollivierre.jpg"
 
+	},
+
+	"Michael Persad": {
+		"title": "M.Sc. Student",
+		"type": "Associate",
+		"about": "-",
+		"education": ["B.Sc., The University Of The West Indies, 2013","M.Sc., The University Of The West Indies, 2016"],
+		"links": [],
+		"page": "",
+		"img": ""
+	},
+
+	"Peter DeGannes": {
+		"title": "MPhil Student",
+		"type": "Associate",
+		"about": "-",
+		"education": ["B.Sc., The University Of The West Indies, 2013","M.Sc., The University Of The West Indies, 2016"],
+		"links": [],
+		"page": "",
+		"img": ""
 	},
 
 	"Arti Ramdhanie": {
@@ -112,14 +94,5 @@
 		"links": ["warrenoconnell22@gmail.com"],
 		"page": "TBD",
 		"img": "warren.jpg"
-	},
-
-	"Govinda Hosein":{
-		"title": "AP",
-		"education": ["BSc. The University of the West Indies, 2014", "MSc. The University of Manchester, 2018"],
-		"about": "Govinda Hosein graduated with a BSc in Electrical and Computer Engineering (first class with honours) from the University of the West Indies, St. Augustine. His final year project yielded a conference paper 'Power outage reporting tool with mobile app'. He was later awarded a postgraduate scholarship and went on to acquire his MSc. degree in Renewable Energy and Clean Technology at the University of Manchester. His areas of interest currently include Power Systems Modelling and Analysis, Integration of Renewable Energy, Data Visualization, Web and Mobile App Development (particularly hyper casual games).",
-		"links":["govinda.hosein@gmail.com", "http://www.raziel619.com/", "https://www.linkedin.com/in/govinda-hosein-94b8ab71/"],
-		"page": "TBD",
-		"img": "govinda.jpg"
 	}
 }

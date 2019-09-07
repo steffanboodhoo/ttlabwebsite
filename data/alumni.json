@@ -1,23 +1,81 @@
 {
-	"Stefan Hosein": {
-		"title": "Adjunct Scholar",
+	"Steffan Boodhoo": {
+		"title": "MPhil Fellow",
+		"type": "Alumni",
+		"about": "-",
+		"education": ["B.Sc., The University Of The West Indies, 2015"],
+		"links": ["boodhoo100@gmail.com", "https://github.com/steffanboodhoo"],
+		"page": "steffanboodhoo.html",
+		"img": "steffanboodhoo.jpg"
+	},
+	"Cherlton Millette": {
+		"title": "Alumni",
 		"type": "Associate",
-		"about": "Stefan graduated from secondary (high) school as a national scholar. He received his B.Sc. in Computer since from The University of the West Indies in 2014 and graduated at the top of his class and faculty. After receiving his degree, he was awarded the first international internship to NASA as a Trinidadian in the fall of 2014 and returned in the summer of 2015. Since then, he has been working with TTLAB on a number of projects. He will attend Cambridge University for a postgraduate degree beginning October 2016. His broad interests lie in machine learning, natural language processing, and deep learning.",
-		"education": ["B.Sc., The University Of The West Indies, 2014"],
-		"links": ["stefan.m.hosein@gmail.com"],
-		"page": "stefanhosein.html",
-		"img": "stefanhosein.jpg"
+		"about": "-",
+		"education": ["B.Sc., The University Of The West Indies, 2013","M.Sc., The University Of The West Indies, 2016"],
+		"links": [],
+		"page": "",
+		"img": ""
+	},
+	"Chris Meetoo": {
+		"title": "Adjunct Scientist",
+		"education": ["B.Sc., The University of the West Indies, 2016"],
+		"type": "Adjunct Scientist",
+		"about": "Chris Meetoo is a recent Electrical and Computer Engineering graduate, specialising in both Power Systems Engineering as well as Control Systems Engineering. He previously attended Presentation College San Fernando and was awarded a national scholarship in 2013. His interests include smart grid applications, microcontrollers, software and hardware development. Throughout his degree he has demonstrated an enduring loyalty to his studies, never giving up when faced with the most difficult tasks or complications. For his final year undergraduate project, he developed a unique prototype of a wireless energy monitoring system for residential use. See the demonstration of his final year research project <a href=\"https://www.youtube.com/watch?v=EuSFd6usUW8\">here</a>.",
+		"links": ["chris.meetoo.tt@ieee.org"],
+		"page": "chrismeetoo.html",
+		"img": "chrismeetoo.jpg"
 	},
 
-	"Ramneek Sekhon": {
+	"Devika Bhagwandin": {
+		"title": "AP Research Scientist",
+		"education": ["B.Sc, The University of the West Indies, 2014"],
+		"about": "Devika Bhagwandin graduated with her B.Sc. in Mathematics (Double Major) at the University of the West Indies, St Augustine in 2014. Upon graduation she received the Winston A. Richards prize in Statistics for the best year II and year III performance in Statistics. Devika further received a postgraduate scholarship to pursue her MSc in Statistics at the University of the West Indies. She has recently completed the requirements for this program and is currently working on a paper based on her project report which analyses disaggregated electrical energy using association rule learning. Her areas of interest include Stochastic Processes, Bayesian Space-Time modelling and Data Analytics. She also studies Hindi through the High Commission of India.",
+		"links": ["devikabhagwandin@hotmail.com"],
+		"page": "TBD",
+		"img": "devikabhagwandin.jpg"
+	},
+
+	"Gerard Rique": {
+		"title": "MSc in Computer Science student",
+		"about": "Gerard Rique holds a BSC in Computer Science from the University of the West Indies.  During his undergraduate program, he was awarded as a member of the Dean’s Honor Roll for various semesters. Gerard demonstrated his leadership and teamwork capabilities by being an Executive Member of the University of the West Indies Computing Society (UWICS) and being a mentor at the Department of Computing and Information Technology’s 3rd Annual Bootcamp. He also worked on several projects, including AgriNeTT where he was able to develop a mobile application that aided users in developing expense reports that are required by the Agricultural Development Bank. Gerard is presently one of the main tutors in the Programming Help Desk introduced by the Department of Computing and Information Technology and is currently pursuing his Msc in Computer Science where his main areas of interest include Machine Learning, Financial Computing and Mobile application development.",
+		"education": ["BSc, The University of the West Indies"],
+		"links": [],
+		"page": "TBD",
+		"img": "gerard_rique.jpg"
+	},
+
+	"Jonathan Earle": {
+		"title": "Undergraduate Intern",
+		"type": "Associate",
+		"about": "Jonathan Earle is currently pursuing a BSc in Computer Science from The University of the West Indies. In his second year he lead a developer team which placed third in the Teleios Code Jam. He has also worked as a Web Developer for TapTag. Jonathan was selected to be an intern at Huawei as part of the Seeds for the Future Programme. In addition, he recently received The Tucker Energy Services Holdings Ltd. Prize for the best Year II performance in Computer Science. His interests include machine learning, computer vision and bioinformatics.",
+		"education": ["B.Sc., The University of the West Indies, Present"],
+		"links": ["jonathan.john.enock.earle@gmail.com"],
+		"page": "jonathanearle.html",
+		"img": "jonathanearle.jpg"
+	},
+
+	"Keshav Bahadoor": {
 		"title": "Adjunct Scientist",
 		"type": "Associate",
-		"about": "Ramneek is currently a Ph.D. student of the University of Science and Technology (UST), Daejeon, Korea, at the Korea Institute of Science and Technology Information (KISTI). She received B.Tech (Computer Science and Engineering) from Guru Nanak Dev University (G.N.D.U) Amritsar, India in 2010 and M.Tech (Information Technology) from International Institute of Information Technology (IIITB), Bangalore, India in 2013. Her research interests include Networking and Communication (Congestion Management in Wireless and Cellular Networks, QoS and Pricing for Cellular Networks, Network Neutrality) and Cloud Computing (Openstack, IaaS, Cloud federation, Cloud Networking, SDN)",
-		"education": ["M.Tech International Institute of Information Technology (IIITB)", "B. Tech Guru Nanak Dev University (G.N.D.U)"],
-		"links": ["ramneeksekhon@gmail.com"],
+		"about": "Keshav Bahadoor has recently completed the requirements for an MSc in Computer Science at the University of the West Indies. Prior to this, he graduated with a BSc in Computer Science (Double Major) at the University of the West Indies. Keshav currently works at Resonance Trinidad Ltd. as a Software Developer, and is involved in a wide range of products and mission critical utilities. Some of his interests include software development and design patterns, graphics and game programming, and mobile application development. Outside of the software world, Keshav enjoys reading, and is an avid guitarist. ",
+		"education": ["B.Sc. Computer Science"],
+		"links": ["keshav.bahadoor@gmail.com"],
 		"page": "TBD",
-		"img": "ramneek.jpg"
+		"img": "keshavbahadoor.jpg"
 	},
+
+	"Kiran Maharaj": {
+		"title": "PhD Fellow",
+		"type": "Associate",
+		"about": "Kiran graduated from the University of Bristol with a MSc Advanced Computing - Machine Learning, Data Mining and High Performance Computing, he was awarded a postgraduate scholarship to pursue this degree from the Government of Trinidad and Tobago. Previous to this he graduated with First Class Honours from The University of the West Indies in 2013 with a B.Sc. in Computer Science. Kiran has worked as a software developer on a range of projects the most recent being AgriNeTT, an  ICT initiative for the Agricultural Sector. Kiran has broad interests in Bioinformatics, Machine Learning and Data Analytics.",
+		"education": ["M.Sc University of Bristol", "B.Sc. The University Of The West Indies"],
+		"links": ["kiranma@hotmail.com"],
+		"page": "",
+		"img": "kiran.png"
+
+	},
+
 	"Laura Bigram": {
 		"title": "Adjunct Scientist",
 		"type": "Associate",
@@ -28,6 +86,25 @@
 		"img": "laurabigram.jpg"
 	},
 
+	"Laurielyse Girod-Williams": {
+		"title": "Alumni",
+		"type": "Associate",
+		"about": "-",
+		"education": ["B.Sc., The University Of The West Indies"],
+		"links": [],
+		"page": "",
+		"img": ""
+	},
+
+	"Lonell Liburd": {
+		"title": "Alumni",
+		"type": "Associate",
+		"about": "-",
+		"education": ["B.Sc., The University Of The West Indies, 2012", "M.Sc., The University Of The West Indies, 2013"],
+		"links": [],
+		"page": "",
+		"img": ""
+	},
 
 	"Robert Martinez": {
 		"title": "Adjunct Scientist",
@@ -38,16 +115,6 @@
 		"page": "TBD",
 		"img": "robertMartinez.jpg"
 	},
-	"Anderson Singh": {
-		"title": "MSc Fellow",
-		"type": "Associate",
-		"about": "Anderson Singh is a B.Sc. Computer Science graduate of The University of the West Indies (UWI). He was awarded The Head of Department Prize for the best year I performance in Computer Science in the academic year 2013-2014. He went on to participate in the Teleios CodeJam Competition in the year 2015 where his team was awarded 2nd place for developing a mobile advertising solution. Anderson also served as an Executive Board Member on The University of The West Indies Computing Society (UWICS) during the final year of his undergraduate degree, where he presented sessions on Web Hosting and Developing Augmented Reality Applications. He has also worked with Knowledge Hope Limited on the e-course, ITonLine, which is designed to assist both students and teachers of Caribbean Schools in their preparation for Information Technology (CSEC level) exams. He has done extensive work on version II of ITonLine, which includes a mobile application called \"ITonLine Games\". Anderson is currently pursuing his M.Sc in Computer Science, also at the UWI.",
-		"education": ["B.Sc. The University of the West Indies, 2016"],
-		"links": ["andersonsingh@outlook.com"],
-		"page": "",
-		"img": "andersonsingh.jpg"
-
-	},
 
 	"Saffiyah Doolan": {
 		"title": "Adjunct Scientist",
@@ -57,63 +124,44 @@
 		"page": "TBD",
 		"img": "saffiyahdoolan.jpg"
 	},
-	"Devika Bhagwandin": {
-		"title": "AP Research Scientist",
-		"education": ["B.Sc, The University of the West Indies, 2014"],
-		"about": "Devika Bhagwandin graduated with her B.Sc. in Mathematics (Double Major) at the University of the West Indies, St Augustine in 2014. Upon graduation she received the Winston A. Richards prize in Statistics for the best year II and year III performance in Statistics. Devika further received a postgraduate scholarship to pursue her MSc in Statistics at the University of the West Indies. She has recently completed the requirements for this program and is currently working on a paper based on her project report which analyses disaggregated electrical energy using association rule learning. Her areas of interest include Stochastic Processes, Bayesian Space-Time modelling and Data Analytics. She also studies Hindi through the High Commission of India.",
-		"links": ["devikabhagwandin@hotmail.com"],
-		"page": "TBD",
-		"img": "devikabhagwandin.jpg"
+
+	"Anderson Singh": {
+		"title": "MSc Fellow",
+		"type": "Associate",
+		"about": "Anderson Singh is a B.Sc. Computer Science graduate of The University of the West Indies (UWI). He was awarded The Head of Department Prize for the best year I performance in Computer Science in the academic year 2013-2014. He went on to participate in the Teleios CodeJam Competition in the year 2015 where his team was awarded 2nd place for developing a mobile advertising solution. Anderson also served as an Executive Board Member on The University of The West Indies Computing Society (UWICS) during the final year of his undergraduate degree, where he presented sessions on Web Hosting and Developing Augmented Reality Applications. He has also worked with Knowledge Hope Limited on the e-course, ITonLine, which is designed to assist both students and teachers of Caribbean Schools in their preparation for Information Technology (CSEC level) exams. He has done extensive work on version II of ITonLine, which includes a mobile application called \"ITonLine Games\". Anderson is currently pursuing his M.Sc in Computer Science, also at the UWI.",
+		"education": ["B.Sc. The University of the West Indies, 2016"],
+		"links": ["andersonsingh@outlook.com"],
+		"page": "",
+		"img": "andersonsingh.jpg"
 	},
 
-	"Steffan Boodhoo": {
-		"title": "MPhil Fellow",
+	"Stefan Hosein": {
+		"title": "Adjunct Scholar",
+		"type": "Associate",
+		"about": "Stefan graduated from secondary (high) school as a national scholar. He received his B.Sc. in Computer since from The University of the West Indies in 2014 and graduated at the top of his class and faculty. After receiving his degree, he was awarded the first international internship to NASA as a Trinidadian in the fall of 2014 and returned in the summer of 2015. Since then, he has been working with TTLAB on a number of projects. He will attend Cambridge University for a postgraduate degree beginning October 2016. His broad interests lie in machine learning, natural language processing, and deep learning.",
+		"education": ["B.Sc., The University Of The West Indies, 2014"],
+		"links": ["stefan.m.hosein@gmail.com"],
+		"page": "stefanhosein.html",
+		"img": "stefanhosein.jpg"
+	},
+
+	"Sudesh Lutchman": {
+		"title": "Alumni",
 		"type": "Associate",
 		"about": "-",
-		"education": ["B.Sc., The University Of The West Indies, 2015"],
-		"links": ["boodhoo100@gmail.com", "https://github.com/steffanboodhoo"],
-		"page": "steffanboodhoo.html",
-		"img": "steffanboodhoo.jpg"
+		"education": ["B.Sc., The University Of The West Indies, 2012", "M.Sc., The University Of The West Indies, 2013"],
+		"links": [],
+		"page": "",
+		"img": ""
 	},
 
-    "Kiran Maharaj": {
-      "title": "PhD Fellow",
-      "type": "Associate",
-      "about": "Kiran graduated from the University of Bristol with a MSc Advanced Computing - Machine Learning, Data Mining and High Performance Computing, he was awarded a postgraduate scholarship to pursue this degree from the Government of Trinidad and Tobago. Previous to this he graduated with First Class Honours from The University of the West Indies in 2013 with a B.Sc. in Computer Science. Kiran has worked as a software developer on a range of projects the most recent being AgriNeTT, an  ICT initiative for the Agricultural Sector. Kiran has broad interests in Bioinformatics, Machine Learning and Data Analytics.",
-      "education": ["M.Sc University of Bristol", "B.Sc. The University Of The West Indies"],
-      "links": ["kiranma@hotmail.com"],
-      "page": "",
-      "img": "kiran.png"
-
-    },
-
-		"Gerard Rique": {
-			"title": "MSc in Computer Science student",
-			"about": "Gerard Rique holds a BSC in Computer Science from the University of the West Indies.  During his undergraduate program, he was awarded as a member of the Dean’s Honor Roll for various semesters. Gerard demonstrated his leadership and teamwork capabilities by being an Executive Member of the University of the West Indies Computing Society (UWICS) and being a mentor at the Department of Computing and Information Technology’s 3rd Annual Bootcamp. He also worked on several projects, including AgriNeTT where he was able to develop a mobile application that aided users in developing expense reports that are required by the Agricultural Development Bank. Gerard is presently one of the main tutors in the Programming Help Desk introduced by the Department of Computing and Information Technology and is currently pursuing his Msc in Computer Science where his main areas of interest include Machine Learning, Financial Computing and Mobile application development.",
-			"education": ["BSc, The University of the West Indies"],
-			"links": [],
-			"page": "TBD",
-			"img": "gerard_rique.jpg"
-		},
-
-		"Sterling Ramroach": {
-			"title": "PhD Intern",
-			"education": ["BSc, The University of the West Indies","MPhil, The University of the West Indies"],
-			"about": "Sterling is a PhD student in Electrical and Computer Engineering at The University of the West Indies. His work involves developing and optimising machine learning algorithms with parallel processing to aid in the diagnosis and prognosis of various cancers. As a software engineer, Sterling has won various local and regional software competitions along with entrepreneurial grants from the government of Trinidad and Tobago, and has developed enterprise software used by CARICOM governments. Sterling graduated his undergrad with the highest GPA in his year and won prizes for most outstanding CS graduate as well as best year three. For his MPhil, he developed various steganographic techniques to hide secret messages in digital media, undetectably. He is interested in Machine Learning, Bioinformatics, and Data Analytics.",
-			"links":["sramroach@gmail.com"],
-			"page": "TBD",
-			"img": "sterling_ramroach.jpg"
-		},
-
-		"Keanu Nichols": {
-			"title": "Undergraduate Intern",
-			"education": [],
-			"about": "Keanu is an undergraduate at the University of the West Indies going into his second year studying Computer Science Special. He spent a year at Penn State University but later attended the University of the West Indies. He was selected for an internship for Google Summer of Code to work at a company called CHAOSS (Community Health Analytics Open Source Software) where he is working to implement a SQL Database to store mailing archives and implement Natural Language Processing on the emails. He is participating on the online Data Science competition website Kaggle to create machine learning models to solve different problems, so far he as worked on a problem related to computer vision and sentiment analysis.",
-			"links":["nichols.keanu9@gmail.com","https://kmn5409.github.io/keanu-nichols/"],
-			"page": "TBD",
-			"img": "keanu_nichols.jpg"
-		}
-
-
-
+	"Victor Job": {
+		"title": "Alumni",
+		"type": "Associate",
+		"about": "-",
+		"education": ["B.Sc., The University Of The West Indies", "M.Sc., The University Of The West Indies", "PhD., The University Of The West Indies"],
+		"links": [],
+		"page": "",
+		"img": ""
+	}
 }

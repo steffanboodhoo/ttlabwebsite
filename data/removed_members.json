@@ -1,14 +1,6 @@
 
 
-"Keshav Bahadoor": {
-	"title": "Adjunct Scientist",
-	"type": "Associate",
-	"about": "Keshav Bahadoor has recently completed the requirements for an MSc in Computer Science at the University of the West Indies. Prior to this, he graduated with a BSc in Computer Science (Double Major) at the University of the West Indies. Keshav currently works at Resonance Trinidad Ltd. as a Software Developer, and is involved in a wide range of products and mission critical utilities. Some of his interests include software development and design patterns, graphics and game programming, and mobile application development. Outside of the software world, Keshav enjoys reading, and is an avid guitarist. ",
-	"education": ["B.Sc. Computer Science"],
-	"links": ["keshav.bahadoor@gmail.com"],
-	"page": "TBD",
-	"img": "keshavbahadoor.jpg"
-},
+
 
 "Ashish Bhatt": {
 	 "title": "MPhil Student",
@@ -50,15 +42,7 @@
 		"page": "kevinfeveck.html",
 		"img": "kevinfeveck.jpg"
 	},
-	"Jonathan Earle": {
-		"title": "Undergraduate Intern",
-		"type": "Associate",
-		"about": "Jonathan Earle is currently pursuing a BSc in Computer Science from The University of the West Indies. In his second year he lead a developer team which placed third in the Teleios Code Jam. He has also worked as a Web Developer for TapTag. Jonathan was selected to be an intern at Huawei as part of the Seeds for the Future Programme. In addition, he recently received The Tucker Energy Services Holdings Ltd. Prize for the best Year II performance in Computer Science. His interests include machine learning, computer vision and bioinformatics.",
-		"education": ["B.Sc., The University of the West Indies, Present"],
-		"links": ["jonathan.john.enock.earle@gmail.com"],
-		"page": "jonathanearle.html",
-		"img": "jonathanearle.jpg"
-	}
+
 		"Aaron D’Arbasie": {
 		"title": "Adjunct Scientist",
 		"education": [""],
@@ -68,15 +52,7 @@
 		"page": "",
 		"img": "aaron_darbarsie.jpg"
 	},
-		"Chris Meetoo": {
-		"title": "Adjunct Scientist",
-		"education": ["B.Sc., The University of the West Indies, 2016"],
-		"type": "Adjunct Scientist",
-		"about": "Chris Meetoo is a recent Electrical and Computer Engineering graduate, specialising in both Power Systems Engineering as well as Control Systems Engineering. He previously attended Presentation College San Fernando and was awarded a national scholarship in 2013. His interests include smart grid applications, microcontrollers, software and hardware development. Throughout his degree he has demonstrated an enduring loyalty to his studies, never giving up when faced with the most difficult tasks or complications. For his final year undergraduate project, he developed a unique prototype of a wireless energy monitoring system for residential use. See the demonstration of his final year research project <a href=\"https://www.youtube.com/watch?v=EuSFd6usUW8\">here</a>.",
-		"links": ["chris.meetoo.tt@ieee.org"],
-		"page": "chrismeetoo.html",
-		"img": "chrismeetoo.jpg"
-	},
+
 	" Kelsey Tang Yuk": {
 		"title": "AP Research Scientist",
 		"education": ["M.Eng., McGill University 2017"],
@@ -131,15 +107,6 @@
 		"img": "karandeepbrar.jpg"
 	},
 
-	"Randyll Pandohie": {
-		"title": "PhD Student",
-		"type": "Associate",
-		"about": "Randyll is currently employed with The University of the West Indies as the Enterprise Applications Support Manager for the Open Campus. He previously worked in the Banking sector and the Oil and Gas sector. In these roles he has managed the Enterprise Applications including Banner ERP, Oracle Enterprise Resource Planning, Maximo (Computerize Maintenance Management System), External/Intranet websites and Business Intelligence systems. Mr. Pandohie holds a B. Sc. in Computer Science and Management as well as a M. Sc. in Computer Science from the University of the West Indies. He is currently pursuing his Ph. D in Computer Science at St. Augustine Campus. Randyll’s key research interests include Big Data, Social Networks and Genetic Algorithms.",
-		"education": ["M.Sc. The University Of The West Indies", "B.Sc. The University Of The West Indies"],
-		"links": ["https://www.linkedin.com/in/randyllpandohie/"],
-		"page": "TBD",
-		"img": "randy_pandohie.JPG"
-	},
 
 	"Shanta Sukhoo": {
 		"title": "MPhil Fellow",
@@ -205,12 +172,14 @@
 		"img": "dominic_williams.JPG"
 	},
 
-	"Mathew Stewart": {
-		"title": "MSc Fellow",
-		"type": "Associate",
-		"about": "Mathew Stewart is a Computer Science graduate of The University of the West Indies (UWI). He is currently pursuing his Master’s degree in said field, also at The UWI. He was consistently on the Dean’s Honour Roll throughout his undergraduate studies. He went on to be awarded The Tucker Energy Services Holdings Ltd. Prize for the Best Year II Performance in Computer Science in the academic year 2014-2015. He is also in the midst of obtaining his certification as an Oracle Certified Associate. Matthew served on the Executive of The University of the West Indies Computing Society (UWICS) as Treasurer for the period 2015-2016. Prior to serving on the Executive, he placed 1st in both the Runtime and Real App competitions organized by The UWICS. He also tutored as part of the Programming Help Desk organized by the Department of Computing and Information Technology. In his spare time, Matthew enjoys practicing karate and has been a member of Purple Dragon since 2010.",
-		"education": ["B.Sc. The University of the West Indies, 2016"],
-		"links": ["mdls85@hotmail.com"],
-		"page": "mathewstewart.html",
-		"img": "mathewstewart.jpg"
-	}
+	,
+
+	"Letetia Addison": {
+		"title": "Voluntary Postdoctoral Researcher",
+		"type": "Company",
+		"about": "Letetia pursued her Doctorate in Mathematics at the University of the West Indies (UWI) where she investigated the dynamics of prey-predator models applied to Investment. She previously graduated with M.Phil. Statistics, in which she studied approximations of functions using Statistical ideas. Her passion for both Mathematics and Statistics led her to produce various publications in both fields. She has also taught a variety of tertiary level courses in Probability and Statistics, Mathematical Applications in Excel and Fundamental Mathematics for General Science students. In addition, she has been involved in Statistical Consulting projects, and has served as Co-ordinator for the Mathematics Help Centre at the UWI. Her postdoctoral research interests include studying the dynamics of deterministic, stochastic and statistical models, in addition to data-driven approaches.",
+		"education": ["Ph.D. The University of the West Indies", "M.Phil. The University of the West Indies", "B.Sc. The University of the West Indies"],
+		"links": ["letetia.addison@gmail.com"],
+		"page": "TBD",
+		"img": "letetiaaddison.png"
+	},
