@@ -9,14 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>TT-LAB - Tasks</title>
+    <title>TTLAB - Adjunct Scientists</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/clean-blog.css" rel="stylesheet">
-    <link href='css/research.css' rel='stylesheet' type='text/css'>
+    <link href='css/members.css' rel='stylesheet' type='text/css'>
 
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -45,7 +45,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="pull-left" href="/home"> <img class="nav-logo" src="/TTLAB.png"> </a>
+                <a class="pull-left" href="/"> <img class="nav-logo" src="/TTLAB.png"> </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -70,11 +70,17 @@
                          <a href="/publications">Publications</a>
                      </li>
                      <li>
-                         <a href="/projects">Projects</a>
+                         <a href="/patents.html">Patents</a>
                      </li>
                      <li>
-                         <a href="/presentations">Presentations</a>
+                         <a href="/innovation.html">Innovation</a>
                      </li>
+                     <li>
+                         <a href="/clients">Clients</a>
+                     </li>
+                      <!-- <li>
+                          <a href="/projects">Projects</a>
+                      </li> -->
                      <!--<li>-->
                      <!--<a href="/tasks">Tasks</a>-->
                      <!--</li>-->
@@ -90,14 +96,14 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/post-bg.jpg')">
+    <header class="intro-header" style="background-image: url('img/about-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8  col-md-10 ">
                     <div class="page-heading">
-                        <h1>Projects</h1>
+                        <h1>Staff</h1>
                         <hr class="small">
-                        <span class="subheading">Ongoing research</span>
+                        <span class="subheading">Adjunct Scientists</span>
                     </div>
                 </div>
             </div>
@@ -107,10 +113,14 @@
     <!-- Main Content -->
     <div class="container">
         <div class="row" id="list_cont">
-           <input class="search" placeholder="Project name or member" />
+           <input class="search" placeholder="Search" />
           <button class="sort" data-sort="list-title">
-            Sort by Title
+            Sort by Name
           </button>
+            <button type="button" data-toggle="modal"
+            data-target="#myModal">
+                Job Title Descriptions
+            </button>
         </div>
     </div>
     <!-- END OF MAIN CONTENT -->
@@ -164,7 +174,50 @@
 
     <script src="js/list.js"></script>
 
-    <script src="js/tasks.js"></script>
+    <script src="js/ap.js"></script>
+
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Job Title Descriptions</h4>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>
+                            PhD Fellow (3 year Fellowship for PhD and Travel Grant)
+                        </li>
+                        <li>
+                            MPhil Fellow (2 year Fellowship for MPhil and Travel Grant)
+                        </li>
+                        <li>
+                            MPhil Student (Travel Grant)
+                        </li>
+                        <li>
+                            M.Sc Fellow (Full Scholarship for MSc in Computer Science)
+                        </li>
+                        <li>
+                            AP Research Scientist (Travel Grant)
+                        </li>
+                        <li>
+                            Undergraduate Intern (Volunteer)
+                        </li>
+                        <li>
+                            Research Scientist (Volunteer)
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 </body>
 

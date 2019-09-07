@@ -1,11 +1,11 @@
 (function(window){
-	
+
 	$(document).ready(function(){
-		_get('/adjunct_members/data',null,createList);
+		_get('/alumni/data',null,createList);
 
 	});
 
-	
+
 	function _get(url,params,call_back){
 		$.ajax({
 			url:url,
@@ -55,14 +55,14 @@
 			var left = $("<div/>",{"class":"col-md-4"}), right = $("<div/>",{"class":"col-md-8"})
 			var right_sub_left = $("<div/>",{"class":"col-md-6 mid"})
 			var right_sub_right = $("<div/>",{"class":"col-md-6 mid"})
-			
+
 			//LEFT
 			var img = window.location.href.replace(window.location.pathname,"") + "/default-profile.png";
 			// img = "http://localhost:3000/default-profile.png";
 			if(data[name]['img'])
 				img = window.location.href.replace(window.location.pathname,"") + "/" + data[name]['img'];
 			left.append( $("<div/>",{"class":"circular"}).css('background','url('+img+') no-repeat') )
-			
+
 			//RIGHT
 			//right_sub_left
 			var email_regex = /@/;
@@ -92,12 +92,12 @@
 
 			right.append( $("<div/>",{"class":"row"}).append(right_sub_left).append(right_sub_right) )
 			right.append( $("<div/>",{"class":"row"}).append( $("<blockquote/>",{"class":"post-subtitle"}).append(data[name]['about']) ) )
-			
+
 			main_row.append(left).append(right);
 			li.append( $("<hr>") )
 			li.append(main_row)
 			list.append(li);
-		});	
+		});
 		list.appendTo('#list_cont');
 
 		var options = {valueNames:['list-name']}

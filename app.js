@@ -126,11 +126,14 @@ app.get('/projects/data',function(req,res){
   res.sendFile(return_data('clients_data.json'));
 });*/
 
-app.get('/members/data',function(req,res){
+app.get('/pg/data',function(req,res){
   res.sendFile(return_data('members_data.json'));
 });
-app.get('/adjunct_members/data',function(req,res){
+app.get('/ap/data',function(req,res){
   res.sendFile(return_data('adjunct_members_data.json'));
+});
+app.get('/alumni/data',function(req,res){
+  res.sendFile(return_data('alumni.json'));
 });
 
 app.get('/events/data',function(req,res){
