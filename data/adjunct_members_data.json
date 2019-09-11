@@ -9,6 +9,16 @@
 		"img": "patrickhosein.jpg"
 	},
 
+	"Ramneek Sekhon": {
+		"title": "Adjunct Scientist",
+		"type": "Associate",
+		"about": "Ramneek is currently a Post-Doctoral Researcher at Cloud Computing Core SW Research Section, Electronics and Telecommunications Research Institute (ETRI), Daejeon, South Korea. She graduated with a Ph.D. in Grid and Supercomputing from the Korea Institute of Science and Technology Information (KISTI) campus of the University of Science and Technology (UST), Daejeon, South Korea in August 2017. She received and M.Tech (Information Technology) from International Institute of Information Technology (IIITB), Bangalore, India in 2013 and B.Tech (Computer Science and Engineering) from Guru Nanak Dev University (G.N.D.U) Amritsar, India in 2010.  Her research interests include Networking and Communication (Radio Resource Management, Congestion Management in advanced wireless networks, QoS and Pricing for Cellular Networks, Network Neutrality), Internet of Things, Blockchain Technology, Network systems, and Operating systems.",
+		"education": ["Ph.D. Korea Institute of Science and Technology Information (KISTI)", "M.Tech International Institute of Information Technology (IIITB)", "B. Tech Guru Nanak Dev University (G.N.D.U)"],
+		"links": ["ramneeksekhon@gmail.com"],
+		"page": "TBD",
+		"img": "ramneek.png"
+	},
+
 	"Nicholas Chamansingh": {
 		"title": "Adjunct Scientist",
 		"type": "Associate",
@@ -40,11 +50,11 @@
 	"Kimberlee Laloo": {
 		"title": "Associate Professional",
 		"type": "Associate",
-		"about": "-",
-		"education": [],
-		"links": [],
+		"about": "Kimberlee completed her MEng. Electronic and Electrical Engineering degree at University College London (UCL).  She has a keen interest in communication systems, machine learning and data analytics having completed her bachelors and masters theses on the modelling and simulation of 5G waveform candidates and the design of a hand gesture recognition system respectively. Her present areas of interest include: web development and energy systems namely, renewable energy and smart grids.",
+		"education": ["EE. University College London (UCL)", "MEng. University College London (UCL)"],
+		"links": ["kimberlee.laloo@ieee.org", "www.linkedin.com/in/kimberlee-laloo"],
 		"page": "",
-		"img": ""
+		"img": "kimberleelaloo.jpg"
 	},
 
 	"Keanu Nichols": {
@@ -56,15 +66,6 @@
 		"img": "keanu_nichols.jpg"
 	},
 
-	"Ramneek Sekhon": {
-		"title": "Adjunct Scientist",
-		"type": "Associate",
-		"about": "Ramneek is currently a Ph.D. student of the University of Science and Technology (UST), Daejeon, Korea, at the Korea Institute of Science and Technology Information (KISTI). She received B.Tech (Computer Science and Engineering) from Guru Nanak Dev University (G.N.D.U) Amritsar, India in 2010 and M.Tech (Information Technology) from International Institute of Information Technology (IIITB), Bangalore, India in 2013. Her research interests include Networking and Communication (Congestion Management in Wireless and Cellular Networks, QoS and Pricing for Cellular Networks, Network Neutrality) and Cloud Computing (Openstack, IaaS, Cloud federation, Cloud Networking, SDN)",
-		"education": ["M.Tech International Institute of Information Technology (IIITB)", "B. Tech Guru Nanak Dev University (G.N.D.U)"],
-		"links": ["ramneeksekhon@gmail.com"],
-		"page": "TBD",
-		"img": "ramneek.jpg"
-	},
 
 	"Shiva Ramoudith": {
 		"title": "Associate Professional",

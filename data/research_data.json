@@ -1,5 +1,14 @@
 {
 	"papers": {
+
+		"Multi-access Edge Computing in 5G Network Slicing: Opportunities and Challenges": {
+			"authors": "Ramneek et. al.",
+			"location": "International Conference on Information and Communication Technology Convergence (ICTC)",
+			"date": "Oct, 2019",
+			"volume": "",
+			"pdf": ""
+		},
+
 		"CSP: Customer Satisfaction based Pricing for Advanced Cellular Networks": {
 			"authors": "Ramneek Sekhon, Patrick Hosein and Sungin Jung",
 			"location": "IEEE International Conference on Computer Communications, Paris, France",

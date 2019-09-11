@@ -29,11 +29,11 @@
 
 	"Devika Bhagwandin": {
 		"title": "AP Research Scientist",
-		"education": ["B.Sc, The University of the West Indies, 2014"],
-		"about": "Devika Bhagwandin graduated with her B.Sc. in Mathematics (Double Major) at the University of the West Indies, St Augustine in 2014. Upon graduation she received the Winston A. Richards prize in Statistics for the best year II and year III performance in Statistics. Devika further received a postgraduate scholarship to pursue her MSc in Statistics at the University of the West Indies. She has recently completed the requirements for this program and is currently working on a paper based on her project report which analyses disaggregated electrical energy using association rule learning. Her areas of interest include Stochastic Processes, Bayesian Space-Time modelling and Data Analytics. She also studies Hindi through the High Commission of India.",
+		"education": ["B.Sc, The University of the West Indies, 2014", "M.Sc., The University of the West Indies, 2016"],
+		"about": "Devika Bhagwandin graduated with her B.Sc. in Mathematics (Double Major) at the University of the West Indies, St Augustine. Upon graduation she was awarded the Winston A. Richards prize for the best year II and year III performance in Statistics and further received a postgraduate scholarship from the Government of the Republic of Trinidad and Tobago to pursue her M.Sc. in Statistics. Her past work in TTLAB include Association Rule Mining (M.Sc. thesis) and Anomaly Detection in collaborations with Digi Data Systems and Sagicor Financial Corporation. Her areas of interest include Applied Probability, Data Analytics and Stochastic Processes.",
 		"links": ["devikabhagwandin@hotmail.com"],
 		"page": "TBD",
-		"img": "devikabhagwandin.jpg"
+		"img": "devikabhagwandin.png"
 	},
 
 	"Gerard Rique": {
