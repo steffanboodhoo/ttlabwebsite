@@ -43,7 +43,8 @@
 			"location": "The 1st Workshop on the Impact of Recommender Systems with ACM RecSys 2019, Copenhagen, Denmark",
 			"date": "Sept, 2019",
 			"volume": "",
-			"pdf": ""
+			"pdf": "",
+			"link":"https://impactrs19.github.io/papers/paper4.pdf"
 		},
 		"Intrusion Detection and Avoidance for a Heterogeneous Cluster of Web Sites": {
 			"authors": "Darren Ramsook, Patrick Hosein and Akash Pooransingh",

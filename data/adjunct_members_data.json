@@ -28,6 +28,24 @@
 		"page": "TBD",
 		"img": "nicholas_chamansingh.jpeg"
 	},
+	"Rajesh Lakhan": {
+		"title": "Associate Professional",
+		"type": "Associate",
+		"about": "",
+		"education": [],
+		"links": [],
+		"page": "",
+		"img": ""
+	},
+	"Mariella Rivas": {
+		"title": "Associate Professional",
+		"type": "Associate",
+		"about": "Mariella Rivas graduated with a BSc in Actuarial Science from the University of the West Indies, St Augustine. She has also recently completed her MSc in Statistics at the same institution. Her key interests lie in the areas of data analytics, machine learning, and deep learning. For her MSc, she explored and compared the performance of machine learning algorithms and a deep learning network as they related to breast cancer diagnosis using mammographic data. She has been employed in Finance at the Trinidad & Tobago Unit Trust Corporation, and is currently involved in market research with Cite Up Limited.",
+		"education": [],
+		"links": [],
+		"page": "",
+		"img": "mariella_rivas.jpg"
+	},
 
 	"Darren Ramsook": {
 		"title": "MSc in Data Science student",
