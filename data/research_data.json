@@ -44,7 +44,11 @@
 			"date": "Sept, 2019",
 			"volume": "",
 			"pdf": "",
-			"link":"https://impactrs19.github.io/papers/paper4.pdf"
+			"link":"https://impactrs19.github.io/papers/paper4.pdf",
+			"additional":{
+				"location":"(Received Best Paper Award)",
+				"link":""
+			}
 		},
 		"Intrusion Detection and Avoidance for a Heterogeneous Cluster of Web Sites": {
 			"authors": "Darren Ramsook, Patrick Hosein and Akash Pooransingh",
