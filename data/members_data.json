@@ -59,21 +59,21 @@
 	"Michael Persad": {
 		"title": "M.Sc. Student",
 		"type": "Associate",
-		"about": "-",
-		"education": ["B.Sc., The University Of The West Indies, 2013","M.Sc., The University Of The West Indies, 2016"],
+		"about": "Obtained a BSc in Computers and Information Systems from the University of London. Has been in the IT industry for twenty years involved in Systems Analysis and Software Development, Database Development and Management, Data Processing, IT Management, Linux Administration and Network Management. Areas of interest include Database Development, Data Analytics and Visualization, Machine Learning and Information Security. Currently researching the effects of store promotions on consumers and whether a households constituents determine if that household will redeem for discounts on products.",
+		"education": ["BSc, University of London"],
 		"links": [],
 		"page": "",
 		"img": ""
 	},
 
 	"Reshawn Ramjattan": {
-		"title": "",
+		"title": "M.Sc Student",
 		"type": "",
-		"about": "-",
-		"education": [],
+		"about": "Reshawn graduated with a B.Sc in Computer Science from the University of the West Indies, St. Augustine. During his second year he interned at First Citizens Internal Audit where he wrote data analysis scripts. In his final year he was a part of a team that built a block-chain based food trace-ability app and for his undergraduate project his team built a map of local street food vendors with collaborative filtering based recommendations. He went on to spend some time as a developer at a retail software company before becoming a part time tutor at the Department of Computing and Information Technology. He is currently pursuing his M.Sc in Computer Science.",
+		"education": ["B.Sc The University of the West Indie, 2018"],
 		"links": ["reshawnramjattan@gmail.com"],
 		"page": "",
-		"img": ""
+		"img": "Reshawn_Ramjattan.jpg"
 	},
 
 	"Arti Ramdhanie": {

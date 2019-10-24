@@ -8,15 +8,7 @@
 		"page": "steffanboodhoo.html",
 		"img": "steffanboodhoo.jpg"
 	},
-	"Cherlton Millette": {
-		"title": "Alumni",
-		"type": "Associate",
-		"about": "-",
-		"education": ["B.Sc., The University Of The West Indies, 2013","M.Sc., The University Of The West Indies, 2016"],
-		"links": [],
-		"page": "",
-		"img": ""
-	},
+
 	"Chris Meetoo": {
 		"title": "Adjunct Scientist",
 		"education": ["B.Sc., The University of the West Indies, 2016"],
@@ -86,26 +78,6 @@
 		"img": "laurabigram.jpg"
 	},
 
-	"Laurielyse Girod-Williams": {
-		"title": "Alumni",
-		"type": "Associate",
-		"about": "-",
-		"education": ["B.Sc., The University Of The West Indies"],
-		"links": [],
-		"page": "",
-		"img": ""
-	},
-
-	"Lonell Liburd": {
-		"title": "Alumni",
-		"type": "Associate",
-		"about": "-",
-		"education": ["B.Sc., The University Of The West Indies, 2012", "M.Sc., The University Of The West Indies, 2013"],
-		"links": [],
-		"page": "",
-		"img": ""
-	},
-
 	"Robert Martinez": {
 		"title": "Adjunct Scientist",
 		"type": "Associate",
@@ -143,25 +115,5 @@
 		"links": ["stefan.m.hosein@gmail.com"],
 		"page": "stefanhosein.html",
 		"img": "stefanhosein.jpg"
-	},
-
-	"Sudesh Lutchman": {
-		"title": "Alumni",
-		"type": "Associate",
-		"about": "-",
-		"education": ["B.Sc., The University Of The West Indies, 2012", "M.Sc., The University Of The West Indies, 2013"],
-		"links": [],
-		"page": "",
-		"img": ""
-	},
-
-	"Victor Job": {
-		"title": "Alumni",
-		"type": "Associate",
-		"about": "-",
-		"education": ["B.Sc., The University Of The West Indies", "M.Sc., The University Of The West Indies", "PhD., The University Of The West Indies"],
-		"links": [],
-		"page": "",
-		"img": ""
 	}
 }
