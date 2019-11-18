@@ -1,4 +1,13 @@
 {
+	"Sterling Ramroach": {
+		"title": "PhD Intern",
+		"education": ["BSc, The University of the West Indies","MPhil, The University of the West Indies"],
+		"about": "Sterling is a PhD student in Electrical and Computer Engineering at The University of the West Indies. His work involves developing and optimising machine learning algorithms with parallel processing to aid in the diagnosis and prognosis of various cancers. As a software engineer, Sterling has won various local and regional software competitions along with entrepreneurial grants from the government of Trinidad and Tobago, and has developed enterprise software used by CARICOM governments. Sterling graduated his undergrad with the highest GPA in his year and won prizes for most outstanding CS graduate as well as best year three. For his MPhil, he developed various steganographic techniques to hide secret messages in digital media, undetectably. He is interested in Machine Learning, Bioinformatics, and Data Analytics.",
+		"links":["sramroach@gmail.com"],
+		"page": "TBD",
+		"img": "sterling_ramroach.jpg"
+	},
+
 	"Steffan Boodhoo": {
 		"title": "MPhil Fellow",
 		"type": "Alumni",

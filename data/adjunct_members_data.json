@@ -48,7 +48,7 @@
 		"img": "Rajesh_Lakhan.jpg"
 	},
 	"Mariella Rivas": {
-		"title": "Associate Professional",
+		"title": "STT Intern",
 		"type": "Associate",
 		"about": "Mariella Rivas graduated with a BSc in Actuarial Science from the University of the West Indies, St Augustine. She has also recently completed her MSc in Statistics at the same institution. Her key interests lie in the areas of data analytics, machine learning, and deep learning. For her MSc, she explored and compared the performance of machine learning algorithms and a deep learning network as they related to breast cancer diagnosis using mammographic data. She has been employed in Finance at the Trinidad & Tobago Unit Trust Corporation, and is currently involved in market research with Cite Up Limited.",
 		"education": [],
@@ -58,7 +58,7 @@
 	},
 
 	"Darren Ramsook": {
-		"title": "MSc in Data Science student",
+		"title": "TSTT Intern",
 		"education": ["B.Sc. The University of the West Indies, 2018"],
 		"about": "Darren is currently pursuing his MSc. degree in Data Science at the University of the West Indies, St. Augustine Campus. Darren earned his BSc. Degree in Electrical & Computer Engineering in 2018 from the University of the West Indies. He has a key interest in the areas of Software Engineering, Machine Learning, Audio and Video signal processing and Systems Design. He also is the founder of e-Learn Caribbean (elearncaribbean.com), an organization aimed at making education accessible to the Caribbean.",
 		"links":["darrenramsook@outlook.com", "https://www.linkedin.com/in/darren-ramsook-03342b122/", "http://elearncaribbean.com/"],
@@ -105,15 +105,7 @@
 		"img": "shiva.jpg"
 	},
 
-	"Sitara Persad": {
-		"title": "Associate Professional",
-		"type": "Associate",
-		"about": "Persad attended Massachusetts Institute of Technology after being awarded an open scholarship. She graduated with a BS in Mathematics and in Computer Science (double major) and an MEng in Computer Science, with a concentration in Artificial Intelligence. For her MEng, she conducted research in computational biology investigating RNA structure prediction. Her current research interests lie at the machine learning, computational biology and Bayesian inference",
-		"education": [],
-		"links": [],
-		"page": "",
-		"img": "spersad_photo.jpg"
-	},
+
 
 	"Kavishti Balram": {
 		"title": "Associate Professional",
@@ -125,13 +117,54 @@
 		"img": "kavishti.jpeg"
 	},
 
-	"Sterling Ramroach": {
-		"title": "PhD Intern",
-		"education": ["BSc, The University of the West Indies","MPhil, The University of the West Indies"],
-		"about": "Sterling is a PhD student in Electrical and Computer Engineering at The University of the West Indies. His work involves developing and optimising machine learning algorithms with parallel processing to aid in the diagnosis and prognosis of various cancers. As a software engineer, Sterling has won various local and regional software competitions along with entrepreneurial grants from the government of Trinidad and Tobago, and has developed enterprise software used by CARICOM governments. Sterling graduated his undergrad with the highest GPA in his year and won prizes for most outstanding CS graduate as well as best year three. For his MPhil, he developed various steganographic techniques to hide secret messages in digital media, undetectably. He is interested in Machine Learning, Bioinformatics, and Data Analytics.",
-		"links":["sramroach@gmail.com"],
-		"page": "TBD",
-		"img": "sterling_ramroach.jpg"
+	"Gabriela Sewdhan": {
+		"title": "TSTT Intern",
+		"type": "Associate",
+		"about": "Gabriela Sewdhan is a student at the University of the West Indies (UWI). She possesses a bachelor’s in Psychology and is currently pursuing another bachelor&#39;s degree in Computer Science. She is most passionate about Machine Learning and Robotics and would one day like to own a company specialising in these fields. Gabriela has interned at Persisto Labs where she developed various software modules with a stringent and well-documented Git workflow and worked on deploying these microservices to Amazon Web Services. She gained practical experience in Cloud infrastructure and deployment, React Native app development, as well as created a chatbot using Amazon Lex. In 2017, she worked with a team consisting of Michael Ali and Qarun Bissoondial for the Telios Code Jam and built MET-Oracle, which uses Machine Learning to Improve City Resilience and Awareness to Extreme Weather Conditions Due to Global Warming. She has also worked with the same team to produce PiDronics, an Automated Hydroponics Control System to Increase Effectiveness with Limited Resources and to diagnose plants using Image recognition. Furthermore, body language analysis was experimented on, in a team with Michael Ali during the Hacker Hostel program. Gabriela is planning to pursue a Master’s in Robotics and is very interested in applying Artificial Intelligence to try to fix environmental problems. During her spare time, she loves baking, playing the piano and guitar, and journaling.",
+		"education": ["B.Sc., The University Of The West Indies"],
+		"links": ["gabiems13@gmail.com"],
+		"page": "",
+		"img": "GabrielaSewdhan.png"
+	},
+
+	"Navin Dookeram": {
+		"title": "TSTT Intern",
+		"type": "Associate",
+		"about": "-",
+		"education": ["B.Sc., The University Of The West Indies"],
+		"links": ["ndookeram@yahoo.com"],
+		"page": "",
+		"img": ""
+	},
+
+	"Rafael Guerrero": {
+		"title": "TSTT Intern",
+		"type": "Associate",
+		"about": "Rafael graduated with a B.Sc. in Actuarial Science and a M.Sc. in Statistics at The University of The West Indies, St. Augustine (The UWI). He has previously worked in the Mathematics &amp; Statistics Department at The UWI, occupying positions such as Part-Time Demonstrator and Part-Time Assistant Lecturer over the course of time. He intends to target research projects in machine learning and data analytics.",
+		"education": ["M.Sc. The University of The West Indies, 2018", "B.Sc. The University of The West Indies, 2015"],
+		"links": ["rafael.guerrero05@gmail.com", "www.linkedin.com/in/rafael-a-guerrero"],
+		"page": "",
+		"img": "RafaelGuerrero.jpeg"
+	},
+
+	"Anna-Keren McMayo": {
+		"title": "Guardian Life Intern",
+		"type": "Associate",
+		"about": "Anna-Keren has earned both her BSc. Mathematics (Minor in Statistics) and MSc. Statistics at The University of the West Indies, St. Augustine. She developed an interest in Machine Learning during her research project in the master's programme and is currently honing her skills in the field of Data Science.",
+		"education": ["B.Sc., The University Of The West Indies"],
+		"links": ["annakeren.mcmayo@gmail.com"],
+		"page": "",
+		"img": "Anna.jpg"
+	},
+
+	"Dillon Goordeen": {
+		"title": "Guardian Life Intern",
+		"type": "Associate",
+		"about": "-",
+		"education": ["B.Sc., The University Of The West Indies"],
+		"links": ["dillon.goordeen@gmail.com"],
+		"page": "",
+		"img": ""
 	}
 
 }
