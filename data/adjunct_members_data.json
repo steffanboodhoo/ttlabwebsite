@@ -130,11 +130,11 @@
 	"Navin Dookeram": {
 		"title": "TSTT Intern",
 		"type": "Associate",
-		"about": "-",
+		"about": "I am an aspiring young professional who is eager to be assimilated into the field of Data Science. My journey is a strange one, having completed my BSc Petroleum Geoscience degree (Hons), and later pursuing an MSc Statistics degree. I became interested in Data Science during my exposure to various statistical aspects of my postgraduate degree. Currently, I am working on my final year project which entails the use of Bayesian spatiotemporal modelling to aid in identifying crime hotspots in Trinidad and Tobago. I also investigated how these hotspots are evolving over time, that is, which specific communities in the country are becoming 'warmer' and 'cooler' over the years. This can then provide law enforcement with insight as to where they should optimally deploy resources in order to prevent crime in high-risk areas or even prohibit crime hotspot formation. I am presently employed as a Data Science Intern at TSTT.",
 		"education": ["B.Sc., The University Of The West Indies"],
 		"links": ["ndookeram@yahoo.com"],
 		"page": "",
-		"img": ""
+		"img": "NavinDookeram.jpg"
 	},
 
 	"Rafael Guerrero": {
@@ -160,11 +160,11 @@
 	"Dillon Goordeen": {
 		"title": "Guardian Life Intern",
 		"type": "Associate",
-		"about": "-",
-		"education": ["B.Sc., The University Of The West Indies"],
+		"about": "Dillon is currently enrolled in the M.Sc. in Data Science programme at the University of the West Indies, St Augustine Campus (UWI). Dillon graduated with a B.Sc. in Mathematics and Computer Science from UWI in 2017. Since graduating in 2017, he has worked closely with the Department of Computing and Information Technology as the lead developer for the website and also assisted in the delivery of programming, web and mobile application development courses.",
+		"education": ["B.Sc. The University of the West Indies, 2017"],
 		"links": ["dillon.goordeen@gmail.com"],
 		"page": "",
-		"img": ""
+		"img": "DillonGoordeen.jpg"
 	}
 
 }
