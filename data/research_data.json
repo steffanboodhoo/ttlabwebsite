@@ -1,10 +1,17 @@
 {
 	"papers": {
-
 		"Multi-access Edge Computing in 5G Network Slicing: Opportunities and Challenges": {
 			"authors": "Ramneek et. al.",
 			"location": "International Conference on Information and Communication Technology Convergence (ICTC)",
 			"date": "Oct, 2019",
+			"volume": "",
+			"pdf": ""
+		},
+
+		"QoS-Based Zero-Rating of Cellular Applications": {
+			"authors": "Ramneek, Patrick Hosein, Sangheon Pack, Karandeep Sing",
+			"location": "The 34th International Conference on Information Networking, Barcelona, Spain",
+			"date": "Jan, 2020",
 			"volume": "",
 			"pdf": ""
 		},
@@ -108,17 +115,23 @@
 		},
 		"A Benefit Optimization approach to the Evaluation of Classification Algorithms": {
 			"authors": "Shellyann Sooklal and Patrick Hosein",
-			"location": "International Conference on Artificial Intelligence and Applied Mathematics in Engineering, Antalya, Turkey",
 			"date": "April, 2019",
 			"volume": "",
-			"pdf": "A_Benefit_Optimization_approach_to_the_Evaluation_of_Classification_Algorithms_for_Diseases_ICAIAME.pdf"
+			"pdf": "ICAIAME_2019_Springer_Book.pdf",
+			"additional":{
+				"location":"(Also presented at International Conference on Artificial Intelligence and Applied Mathematics in Engineering, Antalya, Turkey",
+				"link":"A_Benefit_Optimization_approach_to_the_Evaluation_of_Classification_Algorithms_for_Diseases_ICAIAME.pdf"
+			}
 		},
 		"On the Prediction of Possibly Forgotten Shopping Basket Items": {
 			"authors": "Anderson Singh and Patrick Hosein",
-			"location": "International Conference on Artificial Intelligence and Applied Mathematics in Engineering, Antalya, Turkey",
 			"date": "April, 2019",
 			"volume": "",
-			"pdf": "ICAIAME__On_the_Prediction_of_Possibly_Forgotten_Shopping_Basket_Items.pdf"
+			"pdf": "ICAIAME_2019_Springer_Book.pdf",
+			"additional":{
+				"location":"(Also presented at International Conference on Artificial Intelligence and Applied Mathematics in Engineering, Antalya, Turkey",
+				"link":"ICAIAME__On_the_Prediction_of_Possibly_Forgotten_Shopping_Basket_Items.pdf"
+			}
 		},
 		"Playlist Shuffling given User-Defined Constraints on Song Sequencing": {
 			"authors": "Sterling Ramroach and Patrick Hosein",
