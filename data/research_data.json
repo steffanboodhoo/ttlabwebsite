@@ -115,22 +115,26 @@
 		},
 		"A Benefit Optimization approach to the Evaluation of Classification Algorithms": {
 			"authors": "Shellyann Sooklal and Patrick Hosein",
-			"date": "April, 2019",
+			"location":"Artificial Intelligence and Applied Mathematics in Engineering Problems, Springer International, vol. 43, No. 1",
+			"date": "Feb, 2020",
 			"volume": "",
-			"pdf": "ICAIAME_2019_Springer_Book.pdf",
+			"pdf":"",
+			"link": "https://www.springer.com/gp/book/9783030361778",
 			"additional":{
-				"location":"(Also presented at International Conference on Artificial Intelligence and Applied Mathematics in Engineering, Antalya, Turkey",
-				"link":"A_Benefit_Optimization_approach_to_the_Evaluation_of_Classification_Algorithms_for_Diseases_ICAIAME.pdf"
+				"location":"(Also presented at International Conference on Artificial Intelligence and Applied Mathematics in Engineering, Antalya, Turkey)",
+				"link":"http://lab.tt/pdf/A_Benefit_Optimization_approach_to_the_Evaluation_of_Classification_Algorithms_for_Diseases_ICAIAME.pdf"
 			}
 		},
 		"On the Prediction of Possibly Forgotten Shopping Basket Items": {
 			"authors": "Anderson Singh and Patrick Hosein",
-			"date": "April, 2019",
+			"location":"Artificial Intelligence and Applied Mathematics in Engineering Problems, Springer International, vol. 43, No. 1",
+			"date": "Feb, 2020",
 			"volume": "",
-			"pdf": "ICAIAME_2019_Springer_Book.pdf",
+			"pdf":"",
+			"link": "https://www.springer.com/gp/book/9783030361778",
 			"additional":{
-				"location":"(Also presented at International Conference on Artificial Intelligence and Applied Mathematics in Engineering, Antalya, Turkey",
-				"link":"ICAIAME__On_the_Prediction_of_Possibly_Forgotten_Shopping_Basket_Items.pdf"
+				"location":"(Also presented at International Conference on Artificial Intelligence and Applied Mathematics in Engineering, Antalya, Turkey)",
+				"link":"http://lab.tt/pdf/ICAIAME__On_the_Prediction_of_Possibly_Forgotten_Shopping_Basket_Items.pdf"
 			}
 		},
 		"Playlist Shuffling given User-Defined Constraints on Song Sequencing": {
@@ -377,7 +381,7 @@
 		"companyAuthors":["Elena Dyer"],
 		"otherAuthors":["Nicholas Chamansingh, Patrick Hosein and"],
 		"additional":{
-			"location":"(Also presented at Conference of the Association of Asia Pacific Operational Research Societies, Kathmandu, Nepal, Aug, 2018",
+			"location":"(Also presented at Conference of the Association of Asia Pacific Operational Research Societies, Kathmandu, Nepal, Aug, 2018)",
 			"link":"http://orsn.org.np/upload/files/IJORN%208th%20Page%2065-73%20Nicholas.pdf"
 		}
 	},
@@ -392,7 +396,7 @@
 		"companyAuthors":["Kevin Blake-Thomas"],
 		"otherAuthors":["Shiva Ramoudith, Patrick Hosein and"],
 		"additional":{
-			"location":"(Also presented at Conference of the Association of Asia Pacific Operational Research Societies, Kathmandu, Nepal, Aug, 2018",
+			"location":"(Also presented at Conference of the Association of Asia Pacific Operational Research Societies, Kathmandu, Nepal, Aug, 2018)",
 			"link":"http://orsn.org.np/upload/files/IJORN%208th%20Page%2053-63%20Shiva%20Ramoudith.pdf"
 		}
 	},
