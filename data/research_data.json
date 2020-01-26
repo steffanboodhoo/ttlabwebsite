@@ -99,13 +99,19 @@
 		},
 		"On the Sizing of Security Personnel Staff while accounting for Overtime Pay": {
 			"authors": "Patrick Hosein, Victor Job and Alana Sankar-Ramkarran",
-			"location": "International Conference on Optimization and Decision Science, Genova, Italy",
-			"date": "Sept, 2019",
+			"location": "Advances in Optimization and Decision Science for Society, Services and Enterprises (AIRO Springer Series)",
+			"date": "Feb, 2020",
 			"volume": "",
 			"companyLogo": "img/clients/uwi.png",
 			"companyAuthors":[""],
-			"pdf": ""
+			"pdf": "",
+			"link":"https://www.springer.com/gp/book/9783030349592#aboutBook",
+			"additional":{
+				"location":"(International Conference on Optimization and Decision Science, Genova, Italy, Sept 2019)",
+				"link":""
+			}
 		},
+		
 		"Validating the Influence Model for Influence Maximization-Revenue Optimization": {
 			"authors": "Trisha Lawrence and Patrick Hosein",
 			"location": "International Conference on Digital Image and Signal Processing, Oxford, United Kingdom",

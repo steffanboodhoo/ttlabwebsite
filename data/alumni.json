@@ -1,4 +1,37 @@
 {
+
+	"Ramneek Sekhon": {
+		"title": "Adjunct Scientist",
+		"type": "Associate",
+		"about": "Ramneek is currently a Post-Doctoral Researcher at Cloud Computing Core SW Research Section, Electronics and Telecommunications Research Institute (ETRI), Daejeon, South Korea. She graduated with a Ph.D. in Grid and Supercomputing from the Korea Institute of Science and Technology Information (KISTI) campus of the University of Science and Technology (UST), Daejeon, South Korea in August 2017. She received and M.Tech (Information Technology) from International Institute of Information Technology (IIITB), Bangalore, India in 2013 and B.Tech (Computer Science and Engineering) from Guru Nanak Dev University (G.N.D.U) Amritsar, India in 2010.  Her research interests include Networking and Communication (Radio Resource Management, Congestion Management in advanced wireless networks, QoS and Pricing for Cellular Networks, Network Neutrality), Internet of Things, Blockchain Technology, Network systems, and Operating systems.",
+		"education": ["Ph.D. Korea Institute of Science and Technology Information (KISTI)", "M.Tech International Institute of Information Technology (IIITB)", "B. Tech Guru Nanak Dev University (G.N.D.U)"],
+		"links": ["ramneeksekhon@gmail.com"],
+		"page": "TBD",
+		"img": "ramneek.png"
+	},
+	
+	"Nicholas Chamansingh": {
+		"title": "Adjunct Scientist",
+		"type": "Associate",
+		"about": "I am a senior Telecoms manager, currently responsible for Digicel TT commercial CVM and data science & analytics, while also being the commercial lead for the full Digital transformation and evangelization. I am also an experienced Part time Lecturer, skilled in Machine Learning, Natural Language Processing, Data Analytics, Web Applications, Mobile Applications, Web Design, and Cloud Orchestration, all of which I've designed and facilitated courses both at the masters and undergraduate levels within those areas. Currently I am pursuing my PhD in Computer Science with a focus in Machine Learning and Natural Language Processing. I’ve used my experience both in industry and academia to transform under performing teams as well as introduced industrial concepts in the classroom. My mindset for continuous improvement and development has granted me the ability to design and deliver business transformation and processes. I can define project KPI’s, establish schedules, and maintain budgets. I can solve complex problems and add significant value to any business.",
+		"education": ["M.Sc. The University Of The West Indies, 2015", "B.Sc. The University Of The West Indies, 2013"],
+		"links": ["nicholas.chamansingh@gmail.com", "nicholas@lab.tt"],
+		"page": "TBD",
+		"img": "nicholas_chamansingh.jpeg"
+	},
+
+
+	"Trisha Lawrence": {
+		"title": "PhD Student",
+		"type": "Associate",
+		"about": "Trisha is a PhD candidate in the Department of Mathematics and Statistics at the University of the West Indies. She is being supervised by Prof. Hosein and is working in the area of optimization of online social networks.",
+		"education": ["M.Sc. The University Of The West Indies", "B.Sc. The University Of The West Indies"],
+		"links": ["trishalawren@gmail.com"],
+		"page": "TBD",
+		"img": "TrishaLawrence.jpg"
+	},
+
+
 	"Sterling Ramroach": {
 		"title": "PhD Intern",
 		"education": ["BSc, The University of the West Indies","MPhil, The University of the West Indies"],

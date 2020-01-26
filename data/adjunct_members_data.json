@@ -9,16 +9,6 @@
 		"img": "patrickhosein.jpg"
 	},
 
-	"Ramneek Sekhon": {
-		"title": "Adjunct Scientist",
-		"type": "Associate",
-		"about": "Ramneek is currently a Post-Doctoral Researcher at Cloud Computing Core SW Research Section, Electronics and Telecommunications Research Institute (ETRI), Daejeon, South Korea. She graduated with a Ph.D. in Grid and Supercomputing from the Korea Institute of Science and Technology Information (KISTI) campus of the University of Science and Technology (UST), Daejeon, South Korea in August 2017. She received and M.Tech (Information Technology) from International Institute of Information Technology (IIITB), Bangalore, India in 2013 and B.Tech (Computer Science and Engineering) from Guru Nanak Dev University (G.N.D.U) Amritsar, India in 2010.  Her research interests include Networking and Communication (Radio Resource Management, Congestion Management in advanced wireless networks, QoS and Pricing for Cellular Networks, Network Neutrality), Internet of Things, Blockchain Technology, Network systems, and Operating systems.",
-		"education": ["Ph.D. Korea Institute of Science and Technology Information (KISTI)", "M.Tech International Institute of Information Technology (IIITB)", "B. Tech Guru Nanak Dev University (G.N.D.U)"],
-		"links": ["ramneeksekhon@gmail.com"],
-		"page": "TBD",
-		"img": "ramneek.png"
-	},
-
 	"Letetia Addison": {
 		"title": "Voluntary Postdoctoral Researcher",
 		"type": "Company",
@@ -29,24 +19,6 @@
 		"img": "letetiaaddison.png"
 	},
 
-	"Nicholas Chamansingh": {
-		"title": "Adjunct Scientist",
-		"type": "Associate",
-		"about": "I am a senior Telecoms manager, currently responsible for Digicel TT commercial CVM and data science & analytics, while also being the commercial lead for the full Digital transformation and evangelization. I am also an experienced Part time Lecturer, skilled in Machine Learning, Natural Language Processing, Data Analytics, Web Applications, Mobile Applications, Web Design, and Cloud Orchestration, all of which I've designed and facilitated courses both at the masters and undergraduate levels within those areas. Currently I am pursuing my PhD in Computer Science with a focus in Machine Learning and Natural Language Processing. I’ve used my experience both in industry and academia to transform under performing teams as well as introduced industrial concepts in the classroom. My mindset for continuous improvement and development has granted me the ability to design and deliver business transformation and processes. I can define project KPI’s, establish schedules, and maintain budgets. I can solve complex problems and add significant value to any business.",
-		"education": ["M.Sc. The University Of The West Indies, 2015", "B.Sc. The University Of The West Indies, 2013"],
-		"links": ["nicholas.chamansingh@gmail.com", "nicholas@lab.tt"],
-		"page": "TBD",
-		"img": "nicholas_chamansingh.jpeg"
-	},
-	"Rajesh Lakhan": {
-		"title": "Associate Professional",
-		"type": "Associate",
-		"about": "Rajesh is currently pursuing a PhD in Statistics at the Department of Mathematics and Statistics at the University of The West Indies, St. Augustine Campus (UWI). He holds an MSc in Mathematics, as well as a postgraduate certificate in University Teaching and Learning, a BSc with Majors in Economics and Mathematics, all from The UWI.  Mr. Lakhan has held many positions at The UWI over the past few years including: Part-Time Lecturer, Teaching Assistant and Demonstrator. Rajesh has also been employed with the Faculty of Social Sciences in the Economics Department, the Engineering Department and the Department of Mathematics and Statistics, where he currently tutors 'Sets and Number Systems' and 'Introductory Linear Algebra and Analytical Geometry'.",
-		"education": ["M.Sc. The University Of The West Indies", "B.Sc. The University Of The West Indies"],
-		"links": [],
-		"page": "",
-		"img": "Rajesh_Lakhan.jpg"
-	},
 	"Mariella Rivas": {
 		"title": "STT Intern",
 		"type": "Associate",
@@ -73,6 +45,24 @@
 		"links":["govinda.hosein@gmail.com", "http://www.raziel619.com/", "https://www.linkedin.com/in/govinda-hosein-94b8ab71/"],
 		"page": "TBD",
 		"img": "govinda.jpg"
+	},
+
+	"Nicholas Jacob":{
+		"title": "Undergraduate Intern",
+		"education": ["BSc. The University of the West Indies"],
+		"about": "Nicolas is a final year student pursuing a BSc. in Mathematics and Computer Science at the University of the West Indies. His interest in applied mathematics lead him to begin pursuing actuarial science independently, currently, he has achieved passing grades in 3 of the professional examinations necessary for becoming an associate of the Society of Actuaries, and intends to go on to attain at least associateship, and hopefully even fellowship. He served as the project manager for the actuarial science club for the academic year 2019/2020 and also received the faculty prize for the best performance in mathematics of finance. Other areas of interest, though not exhaustive, include machine learning, computer vision and artificial intelligence. Greatest desire involves using mathematics to solve real interesting world problems. One of his favorite pastimes includes completing online courses in mathematics and computer science, among other disciplines, with the aim of increasing his arsenal of tools with which to solve problems.",
+		"links":["n.s.jacobtt@gmail.com"],
+		"page": "TBD",
+		"img": "jacob.jpg"
+	},
+
+	"Jodhan Medina":{
+		"title": "Undergraduate Intern",
+		"education": ["BSc. The University of the West Indies"],
+		"about": "A final year undergraduate at the University of the West Indies, pursuing a Bachelor's of Science in Mathematics and Physics. Jodhan's talents lie in both pure and applied mathematics, specifically areas such as algebra, analysis, statistics and optimisation, which he has employed while working on projects in recent years (such as examining the relationship between spectral filtering and temporal photon bunching in thermal light sources and devising a semi-classical framework for the spectral generation of optical quantum bits). He's keen to extend his talents to the realm of computer science by working on many real-world problems of significant interest.",
+		"links":["jodhanmedina@gmail.com"],
+		"page": "TBD",
+		"img": "JodhanMedina.jpg"
 	},
 
 	"Kimberlee Laloo": {

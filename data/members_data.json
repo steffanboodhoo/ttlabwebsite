@@ -12,16 +12,6 @@
 		},
 
 
-    "Trisha Lawrence": {
-      "title": "PhD Student",
-      "type": "Associate",
-      "about": "Trisha is a PhD candidate in the Department of Mathematics and Statistics at the University of the West Indies. She is being supervised by Prof. Hosein and is working in the area of optimization of online social networks.",
-      "education": ["M.Sc. The University Of The West Indies", "B.Sc. The University Of The West Indies"],
-      "links": ["trishalawren@gmail.com"],
-      "page": "TBD",
-      "img": "TrishaLawrence.jpg"
-    },
-
 
 		"Randyll Pandohie": {
 			"title": "PhD Student",
@@ -44,27 +34,16 @@
 			"img": "inzamamrahaman.jpg"
 		},
 
+		"Navin Ramesar": {
+			"title": "MSc Student",
+			"type": "Associate",
+			"about": "Navin is currently pursuing his MSc. in Data Science at the University of the West Indies, St. Augustine campus. He graduated in 2018 with a BSc. in Statistics and Economics (Special) from the University of the West Indies. He chose to pursue a degree in Data Science because of his fascination with big data and visualization and using it to make informed decisions. He has worked in I.T. where he worked on projects relating to automation and cybersecurity. His areas of interests are on Machine Learning, Deep Learning and Optimization.",
+			"education": ["B.Sc., The University Of The West Indies"],
+			"links": ["navin.159@hotmail.com"],
+			"page": "TBD",
+			"img": "navinR.jpg"
+		},
 
-	"Greg Ollivierre": {
-		"title": "MSc Student",
-		"type": "Associate",
-		"about": "I have over 10 years of experience working in Geophysics. Currently, I work as Senior Field Geophysicist at ION Geophysical, improving products and services for our customers and building our next generation of product offerings. I have a deep interest in utilizing artificial intelligence within the geophysical industry. Previously, I was the Processing Geophysicist at Schlumberger, where I analyzed seismic data from some of the biggest oil majors to help identify and characterize subsurface geology. Competencies: seismic acquisition, seismic processing , project management, machine learning, cloud computing, Python/C, ProMax, Persues, Claritas.",
-		"education": ["B.Sc. The University of the West Indies, 2016"],
-		"links": ["gregoryollivierre2016@gmail.com "],
-		"page": "",
-		"img": "greg_ollivierre.jpg"
-
-	},
-
-	"Michael Persad": {
-		"title": "M.Sc. Student",
-		"type": "Associate",
-		"about": "Obtained a BSc in Computers and Information Systems from the University of London. Has been in the IT industry for twenty years involved in Systems Analysis and Software Development, Database Development and Management, Data Processing, IT Management, Linux Administration and Network Management. Areas of interest include Database Development, Data Analytics and Visualization, Machine Learning and Information Security. Currently researching the effects of store promotions on consumers and whether a households constituents determine if that household will redeem for discounts on products.",
-		"education": ["BSc, University of London"],
-		"links": [],
-		"page": "",
-		"img": ""
-	},
 
 	"Reshawn Ramjattan": {
 		"title": "M.Sc Student",
@@ -74,25 +53,5 @@
 		"links": ["reshawnramjattan@gmail.com"],
 		"page": "",
 		"img": "Reshawn_Ramjattan.jpg"
-	},
-
-	"Arti Ramdhanie": {
-		"title": "Msc Student",
-		"education": ["B.Sc. The University of the West Indies, 2014"],
-		"type": "Associate",
-		"about": "Arti is a Technologist at the Caribbean Industrial Research Institute where she deals primarily with the data science and analytics projects. She has a B.Sc. in Computer Science and is currently pursuing her M.Sc. in Data Science.",
-		"links": ["artikandice@gmail.com"],
-		"page": "TBD",
-		"img": "artiramdhanie.jpeg"
-	},
-
-	"Warren O’Connel": {
-		"title": "Msc Student",
-		"education": ["B.Sc. The University of the West Indies, 2015"],
-		"type": "Associate",
-		"about": "Warren graduated with a BSc in Computer Science from the University of the West Indies. He then went on to work as a Research Assistant at the University of Trinidad and Tobago in the Department of  Design and Manufacturing Engineering, developing affordable tools for education using Leap Motion. He went on to serve as a Business Intelligence Analyst at Digicel, participating primarily in customer segmentation for targetted marketing. He is currently pursuing an MSc in Data Science with a primary interest in machine learning.",
-		"links": ["warrenoconnell22@gmail.com"],
-		"page": "TBD",
-		"img": "warren.jpg"
 	}
 }
