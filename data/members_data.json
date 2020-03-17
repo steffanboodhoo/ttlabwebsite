@@ -34,6 +34,16 @@
 			"img": "inzamamrahaman.jpg"
 		},
 
+		"Navin Sharma": {
+			"title": "MSc Student",
+			"type": "Associate",
+			"about": "Nirvan is currently finishing his MSc in Computer Science with a specialty in Cloud Technologies at the University of the West Indies, St. Augustine, where he also graduated with a BSc in Computer Science in 2018. In his second year of his BSc, Nirvan was awarded the opportunity to participate in the first UWI-First Citizens internship programme and implemented an enterprise web system for the Asset Management department. He has two top 3 placements in the Teleios Code Jam competition during his last two years of his undergraduate degree, one of which came from using a TensorFlow classifier to detect criminal activity from a video feed. The other came from helping a team of three create a blockchain-based food trace-ability application. During his MSc, he worked full-time as a Software Developer and Technical Team Lead. His current areas of interest are Data Science and Machine Learning, in particular, Anomaly Detection.",
+			"education": ["B.Sc., The University Of The West Indies"],
+			"links": ["nirvan.sharma95@gmail.com"],
+			"page": "TBD",
+			"img": "narvinsharma.jpg"
+		},
+
 		"Navin Ramesar": {
 			"title": "MSc Student",
 			"type": "Associate",
