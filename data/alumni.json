@@ -1,4 +1,14 @@
 {
+	"Nicholas Chamansingh": {
+		"title": "Adjunct Scientist",
+		"type": "Associate",
+		"about": "I am a senior Telecoms manager, currently responsible for Digicel TT commercial CVM and data science & analytics, while also being the commercial lead for the full Digital transformation and evangelization. I am also an experienced Part time Lecturer, skilled in Machine Learning, Natural Language Processing, Data Analytics, Web Applications, Mobile Applications, Web Design, and Cloud Orchestration, all of which I've designed and facilitated courses both at the masters and undergraduate levels within those areas. Currently I am pursuing my PhD in Computer Science with a focus in Machine Learning and Natural Language Processing. I’ve used my experience both in industry and academia to transform under performing teams as well as introduced industrial concepts in the classroom. My mindset for continuous improvement and development has granted me the ability to design and deliver business transformation and processes. I can define project KPI’s, establish schedules, and maintain budgets. I can solve complex problems and add significant value to any business.",
+		"education": ["M.Sc. The University Of The West Indies, 2015", "B.Sc. The University Of The West Indies, 2013"],
+		"links": ["nicholas.chamansingh@gmail.com", "nicholas@lab.tt"],
+		"page": "TBD",
+		"img": "nicholas_chamansingh.jpg"
+	},
+
 
 	"Ramneek Sekhon": {
 		"title": "Adjunct Scientist",
@@ -9,16 +19,7 @@
 		"page": "TBD",
 		"img": "ramneek.png"
 	},
-	
-	"Nicholas Chamansingh": {
-		"title": "Adjunct Scientist",
-		"type": "Associate",
-		"about": "I am a senior Telecoms manager, currently responsible for Digicel TT commercial CVM and data science & analytics, while also being the commercial lead for the full Digital transformation and evangelization. I am also an experienced Part time Lecturer, skilled in Machine Learning, Natural Language Processing, Data Analytics, Web Applications, Mobile Applications, Web Design, and Cloud Orchestration, all of which I've designed and facilitated courses both at the masters and undergraduate levels within those areas. Currently I am pursuing my PhD in Computer Science with a focus in Machine Learning and Natural Language Processing. I’ve used my experience both in industry and academia to transform under performing teams as well as introduced industrial concepts in the classroom. My mindset for continuous improvement and development has granted me the ability to design and deliver business transformation and processes. I can define project KPI’s, establish schedules, and maintain budgets. I can solve complex problems and add significant value to any business.",
-		"education": ["M.Sc. The University Of The West Indies, 2015", "B.Sc. The University Of The West Indies, 2013"],
-		"links": ["nicholas.chamansingh@gmail.com", "nicholas@lab.tt"],
-		"page": "TBD",
-		"img": "nicholas_chamansingh.jpeg"
-	},
+
 
 
 	"Trisha Lawrence": {

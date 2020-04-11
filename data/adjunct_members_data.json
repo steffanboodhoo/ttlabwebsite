@@ -20,7 +20,7 @@
 	},
 
 	"Mariella Rivas": {
-		"title": "STT Intern",
+		"title": "TSTT Intern",
 		"type": "Associate",
 		"about": "Mariella Rivas graduated with a BSc in Actuarial Science from the University of the West Indies, St Augustine. She has also recently completed her MSc in Statistics at the same institution. Her key interests lie in the areas of data analytics, machine learning, and deep learning. For her MSc, she explored and compared the performance of machine learning algorithms and a deep learning network as they related to breast cancer diagnosis using mammographic data. She has been employed in Finance at the Trinidad & Tobago Unit Trust Corporation, and is currently involved in market research with Cite Up Limited.",
 		"education": [],
@@ -36,6 +36,15 @@
 		"links":["darrenramsook@outlook.com", "https://www.linkedin.com/in/darren-ramsook-03342b122/", "http://elearncaribbean.com/"],
 		"page": "TBD",
 		"img": "darren.jpg"
+	},
+
+	"Chelsea Marjadsingh": {
+		"title": "Guardian Group Reverse Intern",
+		"education": ["B.Sc. The University of Bristol, 2017"],
+		"about": "Chelsea graduated with a BSc in Mathematics and Economics from the University of Bristol (UK) in 2017, where she formed an interest in applying mathematical modelling on real-world data to answer economic questions. Upon graduating, she completed the associate professional programme at the economics unit in the Ministry of Public Utilities, building analytics reports for the water sector. Currently, she is employed at Guardian Group as a Data Analytics Specialist. In her role, she is involved in the implementation of machine learning solutions and business intelligence reporting.",
+		"links":["Chelsea.Marjadsingh@myguardiangroup.com"],
+		"page": "TBD",
+		"img": "Chelsea_Marjadsingh.jpg"
 	},
 
 	"Govinda Hosein":{
