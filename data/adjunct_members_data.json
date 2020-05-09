@@ -1,317 +1,326 @@
 {
 	"Patrick Hosein": {
-		"title": "Director",
-		"type": "Staff",
-		"about": " Patrick attended the Massachusetts Institute of Technology (MIT) where he obtained five degrees including a PhD in Electrical Engineering and Computer Science. He has worked at Bose Corporation, Bell Laboratories, AT&T Laboratories, Ericsson and Huawei. He has published extensively with over 100 refereed journal and conference publications. He holds 40 granted and 42 pending patents in the areas of telecommunications and wireless technologies. He was nominated for the Ericsson Inventor of the Year award in 2004, was the Huawei US Wireless Research Employee of the year for 2007 and is a 2015 Anthony Sabga Caribbean Laureate for Science and Technology. Patrick is presently the administrative and technical contact for the TT top level domain, CEO of the TTNIC and a Professor of Computer Science at the University of the West Indies. His present areas of research include radio resource management, QoS and pricing for 5G cellular networks.",
-		"education": [
-			"Ph.D (EECS), MIT",
-			"E.E (Engineer's Degree), MIT",
-			"S.M (EECS), MIT",
-			"S.B (EE), MIT",
-			"S.B (Math), MIT"
-		],
-		"links": [
-			"patrick.hosein@sta.uwi.edu"
-		],
-		"page": "patrickhosein.html",
-		"img": "patrickhosein.jpg"
-	},
-	"Anna-Keren McMayo": {
-		"title": "Guardian Life Intern",
-		"type": "Associate",
-		"about": "Anna-Keren has earned both her BSc. Mathematics (Minor in Statistics) and MSc. Statistics at The University of the West Indies, St. Augustine. She developed an interest in Machine Learning during her research project in the master's programme and is currently honing her skills in the field of Data Science.",
-		"education": [
-			"B.Sc., The University Of The West Indies"
-		],
-		"links": [
-			"annakeren.mcmayo@gmail.com"
-		],
-		"page": "",
-		"img": "Anna.jpg"
-	},
-	"Chelsea Marjadsingh": {
-		"title": "Guardian Group Reverse Intern",
-		"education": [
-			"B.Sc. The University of Bristol, 2017"
-		],
-		"about": "Chelsea graduated with a BSc in Mathematics and Economics from the University of Bristol (UK) in 2017, where she formed an interest in applying mathematical modelling on real-world data to answer economic questions. Upon graduating, she completed the associate professional programme at the economics unit in the Ministry of Public Utilities, building analytics reports for the water sector. Currently, she is employed at Guardian Group as a Data Analytics Specialist. In her role, she is involved in the implementation of machine learning solutions and business intelligence reporting.",
-		"links": [
-			"Chelsea.Marjadsingh@myguardiangroup.com"
-		],
-		"page": "TBD",
-		"img": "Chelsea_Marjadsingh.jpg"
-	},
-	"Darren Ramsook": {
-		"title": "TSTT Intern",
-		"education": [
-			"B.Sc. The University of the West Indies, 2018"
-		],
-		"about": "Darren is currently pursuing his MSc. degree in Data Science at the University of the West Indies, St. Augustine Campus. Darren earned his BSc. Degree in Electrical & Computer Engineering in 2018 from the University of the West Indies. He has a key interest in the areas of Software Engineering, Machine Learning, Audio and Video signal processing and Systems Design. He also is the founder of e-Learn Caribbean (elearncaribbean.com), an organization aimed at making education accessible to the Caribbean.",
-		"links": [
-			"darrenramsook@outlook.com",
-			"https://www.linkedin.com/in/darren-ramsook-03342b122/",
-			"http://elearncaribbean.com/"
-		],
-		"page": "TBD",
-		"img": "darren.jpg"
-	},
-	"Dillon Goordeen": {
-		"title": "Guardian Life Intern",
-		"type": "Associate",
-		"about": "Dillon is currently enrolled in the M.Sc. in Data Science programme at the University of the West Indies, St Augustine Campus (UWI). Dillon graduated with a B.Sc. in Mathematics and Computer Science from UWI in 2017. Since graduating in 2017, he has worked closely with the Department of Computing and Information Technology as the lead developer for the website and also assisted in the delivery of programming, web and mobile application development courses.",
-		"education": [
-			"B.Sc. The University of the West Indies, 2017"
-		],
-		"links": [
-			"dillon.goordeen@gmail.com"
-		],
-		"page": "",
-		"img": "DillonGoordeen.jpg"
-	},
-	"Gabriela Sewdhan": {
-		"title": "TSTT Intern",
-		"type": "Associate",
-		"about": "Gabriela Sewdhan is a student at the University of the West Indies (UWI). She possesses a bachelor’s in Psychology and is currently pursuing another bachelor&#39;s degree in Computer Science. She is most passionate about Machine Learning and Robotics and would one day like to own a company specialising in these fields. Gabriela has interned at Persisto Labs where she developed various software modules with a stringent and well-documented Git workflow and worked on deploying these microservices to Amazon Web Services. She gained practical experience in Cloud infrastructure and deployment, React Native app development, as well as created a chatbot using Amazon Lex. In 2017, she worked with a team consisting of Michael Ali and Qarun Bissoondial for the Telios Code Jam and built MET-Oracle, which uses Machine Learning to Improve City Resilience and Awareness to Extreme Weather Conditions Due to Global Warming. She has also worked with the same team to produce PiDronics, an Automated Hydroponics Control System to Increase Effectiveness with Limited Resources and to diagnose plants using Image recognition. Furthermore, body language analysis was experimented on, in a team with Michael Ali during the Hacker Hostel program. Gabriela is planning to pursue a Master’s in Robotics and is very interested in applying Artificial Intelligence to try to fix environmental problems. During her spare time, she loves baking, playing the piano and guitar, and journaling.",
-		"education": [
-			"B.Sc., The University Of The West Indies"
-		],
-		"links": [
-			"gabiems13@gmail.com"
-		],
-		"page": "",
-		"img": "GabrielaSewdhan.png"
-	},
-	"Govinda Hosein": {
-		"title": "Associate Professional",
-		"education": [
-			"BSc. The University of the West Indies, 2014",
-			"MSc. The University of Manchester, 2018"
-		],
-		"about": "Govinda Hosein graduated with a BSc in Electrical and Computer Engineering (first class with honours) from the University of the West Indies, St. Augustine. His final year project yielded a conference paper 'Power outage reporting tool with mobile app'. He was later awarded a postgraduate scholarship and went on to acquire his MSc. degree in Renewable Energy and Clean Technology at the University of Manchester. His areas of interest currently include Power Systems Modelling and Analysis, Integration of Renewable Energy, Data Visualization, Web and Mobile App Development (particularly hyper casual games).",
-		"links": [
-			"govinda.hosein@gmail.com",
-			"http://www.raziel619.com/",
-			"https://www.linkedin.com/in/govinda-hosein-94b8ab71/"
-		],
-		"page": "TBD",
-		"img": "govinda.jpg"
-	},
-	"Inzamam Rahaman": {
-		"title": "MPhil Fellow",
-		"type": "Associate",
-		"about": "Inzamam Rahaman graduated with a BSc in Computer Science from The University of the West Indies, St. Augustine. During his penultimate year, he worked under the AgriNeTT project developing models for crop price prediction and developing web applications for agricultural data visualisation. For his undergraduate project, he adapted a VQ Index Based Steganography technique to an FPGA using VHDL. In the period immediately following his degree, he interned at the NASA Ames Research Centre developing geospatial web applications using NASA’s Web World Wind SDK. In addition to working as an MPhil Fellow of TTLAB, he is also a teaching assistant for the Department of Computing and Information Technology. His present areas of research interest are in Social Network Analysis, Data Mining, and Artifical Intelligence",
-		"education": [
-			"B.Sc., The University Of The West Indies, 2015"
-		],
-		"links": [
-			"inzamam.rahaman@outlook.com"
-		],
-		"page": "inzamamrahaman.html",
-		"img": "inzamamrahaman.jpg"
-	},
-	"Jervell Thomas": {
-		"title": "Postgraduate Intern",
-		"type": "Associate",
-		"about": "Jervell Thomas is an open scholarship winner and first-class graduate of the University of Sheffield. His latest research verified an assumption normally made when using machine learning to identify damaged structures. He has a keen interest in data analytics, machine learning, start-up projects and business development.",
-		"education": [
-			"B.Eng, University of Sheffield, 2019"
-		],
-		"links": [
-			"jervellthomas@gmail.com"
-		],
-		"page": "",
-		"img": "jervellthomas.jpg"
-	},
-	"Jodhan Medina": {
-		"title": "Undergraduate Intern",
-		"education": [
-			"BSc. The University of the West Indies"
-		],
-		"about": "A final year undergraduate at the University of the West Indies, pursuing a Bachelor's of Science in Mathematics and Physics. Jodhan's talents lie in both pure and applied mathematics, specifically areas such as algebra, analysis, statistics and optimisation, which he has employed while working on projects in recent years (such as examining the relationship between spectral filtering and temporal photon bunching in thermal light sources and devising a semi-classical framework for the spectral generation of optical quantum bits). He's keen to extend his talents to the realm of computer science by working on many real-world problems of significant interest.",
-		"links": [
-			"jodhanmedina@gmail.com"
-		],
-		"page": "TBD",
-		"img": "JodhanMedina.jpg"
-	},
-	"Kavishti Balram": {
-		"title": "Associate Professional",
-		"type": "Associate",
-		"about": "My name is Kavishti Balram, an Actuarial Science undergrad from City, University of London. I have always been fond of Mathematics and more so its applications in the real world. Also, Business Studies has always interest me and I know my new-found knowledge from my degree will not only improve my abilities but help me impact the financial sector of Trinidad and Tobago. My intentions on becoming a Fellow Actuary have always been clear to me and with my hard working and persistent mentality I know I can achieve that in the future. Although lacking experience, I will always put my best foot forward and continuously try to improve my skills and abilities both as a professional and as a person. I hope to continue learning from the leaders in front of me with the hope of inspiring others and leading my own firm one day",
-		"education": [],
-		"links": [],
-		"page": "",
-		"img": "kavishti.jpeg"
-	},
-	"Keanu Nichols": {
-		"title": "Undergraduate Intern",
-		"education": [],
-		"about": "Keanu is an undergraduate at the University of the West Indies going into his second year studying Computer Science Special. He spent a year at Penn State University but later attended the University of the West Indies. He was selected for an internship for Google Summer of Code to work at a company called CHAOSS (Community Health Analytics Open Source Software) where he is working to implement a SQL Database to store mailing archives and implement Natural Language Processing on the emails. He is participating on the online Data Science competition website Kaggle to create machine learning models to solve different problems, so far he as worked on a problem related to computer vision and sentiment analysis.",
-		"links": [
-			"nichols.keanu9@gmail.com",
-			"https://kmn5409.github.io/keanu-nichols/"
-		],
-		"page": "TBD",
-		"img": "keanu_nichols.jpg"
-	},
-	"Kimberlee Laloo": {
-		"title": "Associate Professional",
-		"type": "Associate",
-		"about": "Kimberlee completed her MEng. Electronic and Electrical Engineering degree at University College London (UCL).  She has a keen interest in communication systems, machine learning and data analytics having completed her bachelors and masters theses on the modelling and simulation of 5G waveform candidates and the design of a hand gesture recognition system respectively. Her present areas of interest include: web development and energy systems namely, renewable energy and smart grids.",
-		"education": [
-			"EE. University College London (UCL)",
-			"MEng. University College London (UCL)"
-		],
-		"links": [
-			"kimberlee.laloo@ieee.org",
-			"www.linkedin.com/in/kimberlee-laloo"
-		],
-		"page": "",
-		"img": "kimberleelaloo.jpg"
-	},
-	"Letetia Addison": {
-		"title": "Voluntary Postdoctoral Researcher",
-		"type": "Company",
-		"about": "Letetia pursued her Doctorate in Mathematics at the University of the West Indies (UWI) where she investigated the dynamics of prey-predator models applied to Investment. She previously graduated with M.Phil. Statistics, in which she studied approximations of functions using Statistical ideas. Her passion for both Mathematics and Statistics led her to produce various publications in both fields. She has also taught a variety of tertiary level courses in Probability and Statistics, Mathematical Applications in Excel and Fundamental Mathematics for General Science students. In addition, she has been involved in Statistical Consulting projects, and has served as Co-ordinator for the Mathematics Help Centre at the UWI. Her postdoctoral research interests include studying the dynamics of deterministic, stochastic and statistical models, in addition to data-driven approaches.",
-		"education": [
-			"Ph.D. The University of the West Indies",
-			"M.Phil. The University of the West Indies",
-			"B.Sc. The University of the West Indies"
-		],
-		"links": [
-			"letetia.addison@gmail.com"
-		],
-		"page": "TBD",
-		"img": "letetiaaddison.png"
-	},
-	"Mariella Rivas": {
-		"title": "TSTT Intern",
-		"type": "Associate",
-		"about": "Mariella Rivas graduated with a BSc in Actuarial Science from the University of the West Indies, St Augustine. She has also recently completed her MSc in Statistics at the same institution. Her key interests lie in the areas of data analytics, machine learning, and deep learning. For her MSc, she explored and compared the performance of machine learning algorithms and a deep learning network as they related to breast cancer diagnosis using mammographic data. She has been employed in Finance at the Trinidad & Tobago Unit Trust Corporation, and is currently involved in market research with Cite Up Limited.",
-		"education": [],
-		"links": [],
-		"page": "",
-		"img": "mariella_rivas.jpg"
-	},
-	"Navin Dookeram": {
-		"title": "TSTT Intern",
-		"type": "Associate",
-		"about": "I am an aspiring young professional who is eager to be assimilated into the field of Data Science. My journey is a strange one, having completed my BSc Petroleum Geoscience degree (Hons), and later pursuing an MSc Statistics degree. I became interested in Data Science during my exposure to various statistical aspects of my postgraduate degree. Currently, I am working on my final year project which entails the use of Bayesian spatiotemporal modelling to aid in identifying crime hotspots in Trinidad and Tobago. I also investigated how these hotspots are evolving over time, that is, which specific communities in the country are becoming 'warmer' and 'cooler' over the years. This can then provide law enforcement with insight as to where they should optimally deploy resources in order to prevent crime in high-risk areas or even prohibit crime hotspot formation. I am presently employed as a Data Science Intern at TSTT.",
-		"education": [
-			"B.Sc., The University Of The West Indies"
-		],
-		"links": [
-			"ndookeram@yahoo.com"
-		],
-		"page": "",
-		"img": "NavinDookeram.jpg"
-	},
-	"Navin Ramesar": {
-		"title": "MSc Student",
-		"type": "Associate",
-		"about": "Navin is currently pursuing his MSc. in Data Science at the University of the West Indies, St. Augustine campus. He graduated in 2018 with a BSc. in Statistics and Economics (Special) from the University of the West Indies. He chose to pursue a degree in Data Science because of his fascination with big data and visualization and using it to make informed decisions. He has worked in I.T. where he worked on projects relating to automation and cybersecurity. His areas of interests are on Machine Learning, Deep Learning and Optimization.",
-		"education": [
-			"B.Sc., The University Of The West Indies"
-		],
-		"links": [
-			"navin.159@hotmail.com"
-		],
-		"page": "TBD",
-		"img": "navinR.jpg"
-	},
-	"Nicholas Jacob": {
-		"title": "Undergraduate Intern",
-		"education": [
-			"BSc. The University of the West Indies"
-		],
-		"about": "Nicolas is a final year student pursuing a BSc. in Mathematics and Computer Science at the University of the West Indies. His interest in applied mathematics lead him to begin pursuing actuarial science independently, currently, he has achieved passing grades in 3 of the professional examinations necessary for becoming an associate of the Society of Actuaries, and intends to go on to attain at least associateship, and hopefully even fellowship. He served as the project manager for the actuarial science club for the academic year 2019/2020 and also received the faculty prize for the best performance in mathematics of finance. Other areas of interest, though not exhaustive, include machine learning, computer vision and artificial intelligence. Greatest desire involves using mathematics to solve real interesting world problems. One of his favorite pastimes includes completing online courses in mathematics and computer science, among other disciplines, with the aim of increasing his arsenal of tools with which to solve problems.",
-		"links": [
-			"n.s.jacobtt@gmail.com"
-		],
-		"page": "TBD",
-		"img": "jacob.jpg"
-	},
-	"Nirvan Sharma": {
-		"title": "MSc Student",
-		"type": "Associate",
-		"about": "Nirvan is currently finishing his MSc in Computer Science with a specialty in Cloud Technologies at the University of the West Indies, St. Augustine, where he also graduated with a BSc in Computer Science in 2018. In his second year of his BSc, Nirvan was awarded the opportunity to participate in the first UWI-First Citizens internship programme and implemented an enterprise web system for the Asset Management department. He has two top 3 placements in the Teleios Code Jam competition during his last two years of his undergraduate degree, one of which came from using a TensorFlow classifier to detect criminal activity from a video feed. The other came from helping a team of three create a blockchain-based food trace-ability application. During his MSc, he worked full-time as a Software Developer and Technical Team Lead. His current areas of interest are Data Science and Machine Learning, in particular, Anomaly Detection.",
-		"education": [
-			"B.Sc., The University Of The West Indies"
-		],
-		"links": [
-			"nirvan.sharma95@gmail.com"
-		],
-		"page": "TBD",
-		"img": "narvinsharma.jpg"
-	},
-	"Rafael Guerrero": {
-		"title": "TSTT Intern",
-		"type": "Associate",
-		"about": "Rafael graduated with a B.Sc. in Actuarial Science and a M.Sc. in Statistics at The University of The West Indies, St. Augustine (The UWI). He has previously worked in the Mathematics &amp; Statistics Department at The UWI, occupying positions such as Part-Time Demonstrator and Part-Time Assistant Lecturer over the course of time. He intends to target research projects in machine learning and data analytics.",
-		"education": [
-			"M.Sc. The University of The West Indies, 2018",
-			"B.Sc. The University of The West Indies, 2015"
-		],
-		"links": [
-			"rafael.guerrero05@gmail.com",
-			"www.linkedin.com/in/rafael-a-guerrero"
-		],
-		"page": "",
-		"img": "RafaelGuerrero.jpeg"
-	},
-	"Randyll Pandohie": {
-		"title": "PhD Student",
-		"type": "Associate",
-		"about": "Randyll is currently employed with The University of the West Indies as the Enterprise Applications Support Manager for the Open Campus. He previously worked in the Banking sector and the Oil and Gas sector. In these roles he has managed the Enterprise Applications including Banner ERP, Oracle Enterprise Resource Planning, Maximo (Computerize Maintenance Management System), External/Intranet websites and Business Intelligence systems. Mr. Pandohie holds a B. Sc. in Computer Science and Management as well as a M. Sc. in Computer Science from the University of the West Indies. He is currently pursuing his Ph. D in Computer Science at St. Augustine Campus. Randyll’s key research interests include Big Data, Social Networks and Genetic Algorithms.",
-		"education": [
-			"M.Sc. The University Of The West Indies",
-			"B.Sc. The University Of The West Indies"
-		],
-		"links": [
-			"https://www.linkedin.com/in/randyllpandohie/"
-		],
-		"page": "TBD",
-		"img": "randy_pandohie.JPG"
-	},
-	"Reshawn Ramjattan": {
-		"title": "M.Sc Student",
-		"type": "",
-		"about": "Reshawn graduated with a B.Sc in Computer Science from the University of the West Indies, St. Augustine. During his second year he interned at First Citizens Internal Audit where he wrote data analysis scripts. In his final year he was a part of a team that built a block-chain based food trace-ability app and for his undergraduate project his team built a map of local street food vendors with collaborative filtering based recommendations. He went on to spend some time as a developer at a retail software company before becoming a part time tutor at the Department of Computing and Information Technology. He is currently pursuing his M.Sc in Computer Science.",
-		"education": [
-			"B.Sc The University of the West Indie, 2018"
-		],
-		"links": [
-			"reshawnramjattan@gmail.com"
-		],
-		"page": "",
-		"img": "Reshawn_Ramjattan.jpg"
+	  "title": "Director",
+	  "about": " Patrick attended the Massachusetts Institute of Technology (MIT) where he obtained five degrees including a PhD in Electrical Engineering and Computer Science. He has worked at Bose Corporation, Bell Laboratories, AT&T Laboratories, Ericsson and Huawei. He has published extensively with over 100 refereed journal and conference publications. He holds 40 granted and 42 pending patents in the areas of telecommunications and wireless technologies. He was nominated for the Ericsson Inventor of the Year award in 2004, was the Huawei US Wireless Research Employee of the year for 2007 and is a 2015 Anthony Sabga Caribbean Laureate for Science and Technology. Patrick is presently the administrative and technical contact for the TT top level domain, CEO of the TTNIC and a Professor of Computer Science at the University of the West Indies. His present areas of research include radio resource management, QoS and pricing for 5G cellular networks.",
+	  "education": [
+		"Ph.D (EECS), MIT",
+		"E.E (Engineer's Degree), MIT",
+		"S.M (EECS), MIT",
+		"S.B (EE), MIT",
+		"S.B (Math), MIT"
+	  ],
+	  "links": [
+		"patrick.hosein@sta.uwi.edu"
+	  ],
+	  "page": "patrickhosein.html",
+	  "img": "patrickhosein.jpg",
+	  "join_date": "01-01-2000"
 	},
 	"Shellyann Sooklal": {
-		"title": "PhD Fellow",
-		"type": "Company",
-		"about": " Shellyann is a student at the University of the West Indies (UWI), pursuing her PhD degree in Computer Science, where the emphasis of her research is in Genomics. Shellyann is also currently teaching a Masters level course in Advanced Networking at UWI. Shellyann graduated with her Undergraduate degree at UWI in 2010, with first class honors and went on to build her professional career by working as a Software Developer at Medullan. Shellyann returned to UWI in 2012 where she pursued an MPhil in Computer Science, with her research focusing around diagnosing and rating Parkinson’s Tremors using the Kinect. Shellyann has worked as a tutor, teaching assistant, instructor and part-time lecturer at UWI, teaching a wide range of courses, including programming in C, Java, Android and game programming, Data Structures and Design and Analysis of Algorithms. She also managed level 3 projects and taught web development and database systems.",
-		"education": [
-			"M.Phil, The University Of The West Indies",
-			"Bsc University Of The West Indies"
-		],
-		"links": [
-			"shellyann.sooklal@gmail.com"
-		],
-		"page": "shellyannsooklal.html",
-		"img": "shellyannsooklal.jpg"
+	  "title": "PhD Fellow",
+	  "type": "Company",
+	  "about": " Shellyann is a student at the University of the West Indies (UWI), pursuing her PhD degree in Computer Science, where the emphasis of her research is in Genomics. Shellyann is also currently teaching a Masters level course in Advanced Networking at UWI. Shellyann graduated with her Undergraduate degree at UWI in 2010, with first class honors and went on to build her professional career by working as a Software Developer at Medullan. Shellyann returned to UWI in 2012 where she pursued an MPhil in Computer Science, with her research focusing around diagnosing and rating Parkinson’s Tremors using the Kinect. Shellyann has worked as a tutor, teaching assistant, instructor and part-time lecturer at UWI, teaching a wide range of courses, including programming in C, Java, Android and game programming, Data Structures and Design and Analysis of Algorithms. She also managed level 3 projects and taught web development and database systems.",
+	  "education": [
+		"M.Phil, The University Of The West Indies",
+		"Bsc University Of The West Indies"
+	  ],
+	  "links": [
+		"shellyann.sooklal@gmail.com"
+	  ],
+	  "page": "shellyannsooklal.html",
+	  "img": "shellyannsooklal.jpg",
+	  "join_date": "27-04-2015"
+	},
+	"Inzamam Rahaman": {
+	  "title": "MPhil Fellow",
+	  "type": "Associate",
+	  "about": "Inzamam Rahaman graduated with a BSc in Computer Science from The University of the West Indies, St. Augustine. During his penultimate year, he worked under the AgriNeTT project developing models for crop price prediction and developing web applications for agricultural data visualisation. For his undergraduate project, he adapted a VQ Index Based Steganography technique to an FPGA using VHDL. In the period immediately following his degree, he interned at the NASA Ames Research Centre developing geospatial web applications using NASA’s Web World Wind SDK. In addition to working as an MPhil Fellow of TTLAB, he is also a teaching assistant for the Department of Computing and Information Technology. His present areas of research interest are in Social Network Analysis, Data Mining, and Artifical Intelligence",
+	  "education": [
+		"B.Sc., The University Of The West Indies, 2015"
+	  ],
+	  "links": [
+		"inzamam.rahaman@outlook.com"
+	  ],
+	  "page": "inzamamrahaman.html",
+	  "img": "inzamamrahaman.jpg",
+	  "join_date": "16-11-2015"
 	},
 	"Shiva Ramoudith": {
-		"title": "Associate Professional",
-		"type": "Associate",
-		"about": "Shiva is currently an Associate Professional at the UWI. During his undergraduate degree, he worked as an Intern in the AgriNett and CSRP projects where he assisted in the development of Android applications. Shiva also served as an executive board member of the University of the West Indies Computing Society. While completing his M.Sc., he assisted in the delivery of programming, web, and software development courses at the Department of Computing and Information Technology. For his M.Sc. project, he collaborated with Professor and Massy Technologies, Trinidad. The project focused on optimizing vehicle imports in small island states. He is currently involved in projects based on modeling trust, developing web applications and, data analysis. He is also one of the coaches of the ICPC (Inter Collegiate Programming Competition) Trinidad team.",
-		"education": [
-			"M.Sc. Computer Science -  The University of the West Indies, 2018.",
-			"B.Sc. Computer Science – The University of the West Indies, 2016."
-		],
-		"links": [
-			"shiva@lab.tt"
-		],
-		"page": "",
-		"img": "ShivaRamoudith.jpeg"
+	  "title": "Associate Professional",
+	  "type": "Associate",
+	  "about": "Shiva is currently an Associate Professional at the UWI. During his undergraduate degree, he worked as an Intern in the AgriNett and CSRP projects where he assisted in the development of Android applications. Shiva also served as an executive board member of the University of the West Indies Computing Society. While completing his M.Sc., he assisted in the delivery of programming, web, and software development courses at the Department of Computing and Information Technology. For his M.Sc. project, he collaborated with Professor and Massy Technologies, Trinidad. The project focused on optimizing vehicle imports in small island states. He is currently involved in projects based on modeling trust, developing web applications and, data analysis. He is also one of the coaches of the ICPC (Inter Collegiate Programming Competition) Trinidad team.",
+	  "education": [
+		"M.Sc. Computer Science -  The University of the West Indies, 2018.",
+		"B.Sc. Computer Science – The University of the West Indies, 2016."
+	  ],
+	  "links": [
+		"shiva@lab.tt"
+	  ],
+	  "page": "",
+	  "img": "ShivaRamoudith.jpeg",
+	  "join_date": "26-08-2016"
+	},
+	"Darren Ramsook": {
+	  "title": "TSTT Intern",
+	  "education": [
+		"B.Sc. The University of the West Indies, 2018"
+	  ],
+	  "about": "Darren is currently pursuing his MSc. degree in Data Science at the University of the West Indies, St. Augustine Campus. Darren earned his BSc. Degree in Electrical & Computer Engineering in 2018 from the University of the West Indies. He has a key interest in the areas of Software Engineering, Machine Learning, Audio and Video signal processing and Systems Design. He also is the founder of e-Learn Caribbean (elearncaribbean.com), an organization aimed at making education accessible to the Caribbean.",
+	  "links": [
+		"darrenramsook@outlook.com",
+		"https://www.linkedin.com/in/darren-ramsook-03342b122/",
+		"http://elearncaribbean.com/"
+	  ],
+	  "page": "TBD",
+	  "img": "darren.jpg",
+	  "join_date": "08-11-2018"
+	},
+	"Letetia Addison": {
+	  "title": "Voluntary Postdoctoral Researcher",
+	  "type": "Company",
+	  "about": "Letetia pursued her Doctorate in Mathematics at the University of the West Indies (UWI) where she investigated the dynamics of prey-predator models applied to Investment. She previously graduated with M.Phil. Statistics, in which she studied approximations of functions using Statistical ideas. Her passion for both Mathematics and Statistics led her to produce various publications in both fields. She has also taught a variety of tertiary level courses in Probability and Statistics, Mathematical Applications in Excel and Fundamental Mathematics for General Science students. In addition, she has been involved in Statistical Consulting projects, and has served as Co-ordinator for the Mathematics Help Centre at the UWI. Her postdoctoral research interests include studying the dynamics of deterministic, stochastic and statistical models, in addition to data-driven approaches.",
+	  "education": [
+		"Ph.D. The University of the West Indies",
+		"M.Phil. The University of the West Indies",
+		"B.Sc. The University of the West Indies"
+	  ],
+	  "links": [
+		"letetia.addison@gmail.com"
+	  ],
+	  "page": "TBD",
+	  "img": "letetiaaddison.png",
+	  "join_date": "29-11-2018"
+	},
+	"Dillon Goordeen": {
+	  "title": "Guardian Life Intern",
+	  "type": "Associate",
+	  "about": "Dillon is currently enrolled in the M.Sc. in Data Science programme at the University of the West Indies, St Augustine Campus (UWI). Dillon graduated with a B.Sc. in Mathematics and Computer Science from UWI in 2017. Since graduating in 2017, he has worked closely with the Department of Computing and Information Technology as the lead developer for the website and also assisted in the delivery of programming, web and mobile application development courses.",
+	  "education": [
+		"B.Sc. The University of the West Indies, 2017"
+	  ],
+	  "links": [
+		"dillon.goordeen@gmail.com"
+	  ],
+	  "page": "",
+	  "img": "DillonGoordeen.jpg",
+	  "join_date": "02-01-2019"
+	},
+	"Govinda Hosein": {
+	  "title": "Associate Professional",
+	  "education": [
+		"BSc. The University of the West Indies, 2014",
+		"MSc. The University of Manchester, 2018"
+	  ],
+	  "about": "Govinda Hosein graduated with a BSc in Electrical and Computer Engineering (first class with honours) from the University of the West Indies, St. Augustine. His final year project yielded a conference paper 'Power outage reporting tool with mobile app'. He was later awarded a postgraduate scholarship and went on to acquire his MSc. degree in Renewable Energy and Clean Technology at the University of Manchester. His areas of interest currently include Power Systems Modelling and Analysis, Integration of Renewable Energy, Data Visualization, Web and Mobile App Development (particularly hyper casual games).",
+	  "links": [
+		"govinda.hosein@gmail.com",
+		"http://www.raziel619.com/",
+		"https://www.linkedin.com/in/govinda-hosein-94b8ab71/"
+	  ],
+	  "page": "TBD",
+	  "img": "govinda.jpg",
+	  "join_date": "10-03-2019"
+	},
+	"Keanu Nichols": {
+	  "title": "Undergraduate Intern",
+	  "education": [],
+	  "about": "Keanu is an undergraduate at the University of the West Indies going into his second year studying Computer Science Special. He spent a year at Penn State University but later attended the University of the West Indies. He was selected for an internship for Google Summer of Code to work at a company called CHAOSS (Community Health Analytics Open Source Software) where he is working to implement a SQL Database to store mailing archives and implement Natural Language Processing on the emails. He is participating on the online Data Science competition website Kaggle to create machine learning models to solve different problems, so far he as worked on a problem related to computer vision and sentiment analysis.",
+	  "links": [
+		"nichols.keanu9@gmail.com",
+		"https://kmn5409.github.io/keanu-nichols/"
+	  ],
+	  "page": "TBD",
+	  "img": "keanu_nichols.jpg",
+	  "join_date": "28-06-2019"
+	},
+	"Kimberlee Laloo": {
+	  "title": "Associate Professional",
+	  "type": "Associate",
+	  "about": "Kimberlee completed her MEng. Electronic and Electrical Engineering degree at University College London (UCL).  She has a keen interest in communication systems, machine learning and data analytics having completed her bachelors and masters theses on the modelling and simulation of 5G waveform candidates and the design of a hand gesture recognition system respectively. Her present areas of interest include: web development and energy systems namely, renewable energy and smart grids.",
+	  "education": [
+		"EE. University College London (UCL)",
+		"MEng. University College London (UCL)"
+	  ],
+	  "links": [
+		"kimberlee.laloo@ieee.org",
+		"www.linkedin.com/in/kimberlee-laloo"
+	  ],
+	  "page": "",
+	  "img": "kimberleelaloo.jpg",
+	  "join_date": "09-09-2019"
+	},
+	"Mariella Rivas": {
+	  "title": "TSTT Intern",
+	  "type": "Associate",
+	  "about": "Mariella Rivas graduated with a BSc in Actuarial Science from the University of the West Indies, St Augustine. She has also recently completed her MSc in Statistics at the same institution. Her key interests lie in the areas of data analytics, machine learning, and deep learning. For her MSc, she explored and compared the performance of machine learning algorithms and a deep learning network as they related to breast cancer diagnosis using mammographic data. She has been employed in Finance at the Trinidad & Tobago Unit Trust Corporation, and is currently involved in market research with Cite Up Limited.",
+	  "education": [],
+	  "links": [],
+	  "page": "",
+	  "img": "mariella_rivas.jpg",
+	  "join_date": "17-09-2019"
+	},
+	"Reshawn Ramjattan": {
+	  "title": "M.Sc Student",
+	  "type": "",
+	  "about": "Reshawn graduated with a B.Sc in Computer Science from the University of the West Indies, St. Augustine. During his second year he interned at First Citizens Internal Audit where he wrote data analysis scripts. In his final year he was a part of a team that built a block-chain based food trace-ability app and for his undergraduate project his team built a map of local street food vendors with collaborative filtering based recommendations. He went on to spend some time as a developer at a retail software company before becoming a part time tutor at the Department of Computing and Information Technology. He is currently pursuing his M.Sc in Computer Science.",
+	  "education": [
+		"B.Sc The University of the West Indie, 2018"
+	  ],
+	  "links": [
+		"reshawnramjattan@gmail.com"
+	  ],
+	  "page": "",
+	  "img": "Reshawn_Ramjattan.jpg",
+	  "join_date": "12-10-2019"
+	},
+	"Kavishti Balram": {
+	  "title": "Associate Professional",
+	  "type": "Associate",
+	  "about": "My name is Kavishti Balram, an Actuarial Science undergrad from City, University of London. I have always been fond of Mathematics and more so its applications in the real world. Also, Business Studies has always interest me and I know my new-found knowledge from my degree will not only improve my abilities but help me impact the financial sector of Trinidad and Tobago. My intentions on becoming a Fellow Actuary have always been clear to me and with my hard working and persistent mentality I know I can achieve that in the future. Although lacking experience, I will always put my best foot forward and continuously try to improve my skills and abilities both as a professional and as a person. I hope to continue learning from the leaders in front of me with the hope of inspiring others and leading my own firm one day",
+	  "education": [],
+	  "links": [],
+	  "page": "",
+	  "img": "kavishti.jpeg",
+	  "join_date": "07-11-2019"
+	},
+	"Gabriela Sewdhan": {
+	  "title": "TSTT Intern",
+	  "type": "Associate",
+	  "about": "Gabriela Sewdhan is a student at the University of the West Indies (UWI). She possesses a bachelor’s in Psychology and is currently pursuing another bachelor&#39;s degree in Computer Science. She is most passionate about Machine Learning and Robotics and would one day like to own a company specialising in these fields. Gabriela has interned at Persisto Labs where she developed various software modules with a stringent and well-documented Git workflow and worked on deploying these microservices to Amazon Web Services. She gained practical experience in Cloud infrastructure and deployment, React Native app development, as well as created a chatbot using Amazon Lex. In 2017, she worked with a team consisting of Michael Ali and Qarun Bissoondial for the Telios Code Jam and built MET-Oracle, which uses Machine Learning to Improve City Resilience and Awareness to Extreme Weather Conditions Due to Global Warming. She has also worked with the same team to produce PiDronics, an Automated Hydroponics Control System to Increase Effectiveness with Limited Resources and to diagnose plants using Image recognition. Furthermore, body language analysis was experimented on, in a team with Michael Ali during the Hacker Hostel program. Gabriela is planning to pursue a Master’s in Robotics and is very interested in applying Artificial Intelligence to try to fix environmental problems. During her spare time, she loves baking, playing the piano and guitar, and journaling.",
+	  "education": [
+		"B.Sc., The University Of The West Indies"
+	  ],
+	  "links": [
+		"gabiems13@gmail.com"
+	  ],
+	  "page": "",
+	  "img": "GabrielaSewdhan.png",
+	  "join_date": "14-11-2019"
+	},
+	"Rafael Guerrero": {
+	  "title": "TSTT Intern",
+	  "type": "Associate",
+	  "about": "Rafael graduated with a B.Sc. in Actuarial Science and a M.Sc. in Statistics at The University of The West Indies, St. Augustine (The UWI). He has previously worked in the Mathematics &amp; Statistics Department at The UWI, occupying positions such as Part-Time Demonstrator and Part-Time Assistant Lecturer over the course of time. He intends to target research projects in machine learning and data analytics.",
+	  "education": [
+		"M.Sc. The University of The West Indies, 2018",
+		"B.Sc. The University of The West Indies, 2015"
+	  ],
+	  "links": [
+		"rafael.guerrero05@gmail.com",
+		"www.linkedin.com/in/rafael-a-guerrero"
+	  ],
+	  "page": "",
+	  "img": "RafaelGuerrero.jpeg",
+	  "join_date": "15-11-2019"
+	},
+	"Navin Dookeram": {
+	  "title": "TSTT Intern",
+	  "type": "Associate",
+	  "about": "I am an aspiring young professional who is eager to be assimilated into the field of Data Science. My journey is a strange one, having completed my BSc Petroleum Geoscience degree (Hons), and later pursuing an MSc Statistics degree. I became interested in Data Science during my exposure to various statistical aspects of my postgraduate degree. Currently, I am working on my final year project which entails the use of Bayesian spatiotemporal modelling to aid in identifying crime hotspots in Trinidad and Tobago. I also investigated how these hotspots are evolving over time, that is, which specific communities in the country are becoming 'warmer' and 'cooler' over the years. This can then provide law enforcement with insight as to where they should optimally deploy resources in order to prevent crime in high-risk areas or even prohibit crime hotspot formation. I am presently employed as a Data Science Intern at TSTT.",
+	  "education": [
+		"B.Sc., The University Of The West Indies"
+	  ],
+	  "links": [
+		"ndookeram@yahoo.com"
+	  ],
+	  "page": "",
+	  "img": "NavinDookeram.jpg",
+	  "join_date": "19-11-2019"
+	},
+	"Nicholas Jacob": {
+	  "title": "Undergraduate Intern",
+	  "education": [
+		"BSc. The University of the West Indies"
+	  ],
+	  "about": "Nicolas is a final year student pursuing a BSc. in Mathematics and Computer Science at the University of the West Indies. His interest in applied mathematics lead him to begin pursuing actuarial science independently, currently, he has achieved passing grades in 3 of the professional examinations necessary for becoming an associate of the Society of Actuaries, and intends to go on to attain at least associateship, and hopefully even fellowship. He served as the project manager for the actuarial science club for the academic year 2019/2020 and also received the faculty prize for the best performance in mathematics of finance. Other areas of interest, though not exhaustive, include machine learning, computer vision and artificial intelligence. Greatest desire involves using mathematics to solve real interesting world problems. One of his favorite pastimes includes completing online courses in mathematics and computer science, among other disciplines, with the aim of increasing his arsenal of tools with which to solve problems.",
+	  "links": [
+		"n.s.jacobtt@gmail.com"
+	  ],
+	  "page": "TBD",
+	  "img": "jacob.jpg",
+	  "join_date": "23-01-2020"
+	},
+	"Navin Ramesar": {
+	  "title": "MSc Student",
+	  "type": "Associate",
+	  "about": "Navin is currently pursuing his MSc. in Data Science at the University of the West Indies, St. Augustine campus. He graduated in 2018 with a BSc. in Statistics and Economics (Special) from the University of the West Indies. He chose to pursue a degree in Data Science because of his fascination with big data and visualization and using it to make informed decisions. He has worked in I.T. where he worked on projects relating to automation and cybersecurity. His areas of interests are on Machine Learning, Deep Learning and Optimization.",
+	  "education": [
+		"B.Sc., The University Of The West Indies"
+	  ],
+	  "links": [
+		"navin.159@hotmail.com"
+	  ],
+	  "page": "TBD",
+	  "img": "navinR.jpg",
+	  "join_date": "24-01-2020"
+	},
+	"Jodhan Medina": {
+	  "title": "Undergraduate Intern",
+	  "education": [
+		"BSc. The University of the West Indies"
+	  ],
+	  "about": "A final year undergraduate at the University of the West Indies, pursuing a Bachelor's of Science in Mathematics and Physics. Jodhan's talents lie in both pure and applied mathematics, specifically areas such as algebra, analysis, statistics and optimisation, which he has employed while working on projects in recent years (such as examining the relationship between spectral filtering and temporal photon bunching in thermal light sources and devising a semi-classical framework for the spectral generation of optical quantum bits). He's keen to extend his talents to the realm of computer science by working on many real-world problems of significant interest.",
+	  "links": [
+		"jodhanmedina@gmail.com"
+	  ],
+	  "page": "TBD",
+	  "img": "JodhanMedina.jpg",
+	  "join_date": "02-02-2020"
+	},
+	"Nirvan Sharma": {
+	  "title": "MSc Student",
+	  "type": "Associate",
+	  "about": "Nirvan is currently finishing his MSc in Computer Science with a specialty in Cloud Technologies at the University of the West Indies, St. Augustine, where he also graduated with a BSc in Computer Science in 2018. In his second year of his BSc, Nirvan was awarded the opportunity to participate in the first UWI-First Citizens internship programme and implemented an enterprise web system for the Asset Management department. He has two top 3 placements in the Teleios Code Jam competition during his last two years of his undergraduate degree, one of which came from using a TensorFlow classifier to detect criminal activity from a video feed. The other came from helping a team of three create a blockchain-based food trace-ability application. During his MSc, he worked full-time as a Software Developer and Technical Team Lead. His current areas of interest are Data Science and Machine Learning, in particular, Anomaly Detection.",
+	  "education": [
+		"B.Sc., The University Of The West Indies"
+	  ],
+	  "links": [
+		"nirvan.sharma95@gmail.com"
+	  ],
+	  "page": "TBD",
+	  "img": "narvinsharma.jpg",
+	  "join_date": "11-03-2020"
+	},
+	"Randyll Pandohie": {
+	  "title": "PhD Student",
+	  "type": "Associate",
+	  "about": "Randyll is currently employed with The University of the West Indies as the Enterprise Applications Support Manager for the Open Campus. He previously worked in the Banking sector and the Oil and Gas sector. In these roles he has managed the Enterprise Applications including Banner ERP, Oracle Enterprise Resource Planning, Maximo (Computerize Maintenance Management System), External/Intranet websites and Business Intelligence systems. Mr. Pandohie holds a B. Sc. in Computer Science and Management as well as a M. Sc. in Computer Science from the University of the West Indies. He is currently pursuing his Ph. D in Computer Science at St. Augustine Campus. Randyll’s key research interests include Big Data, Social Networks and Genetic Algorithms.",
+	  "education": [
+		"M.Sc. The University Of The West Indies",
+		"B.Sc. The University Of The West Indies"
+	  ],
+	  "links": [
+		"https://www.linkedin.com/in/randyllpandohie/"
+	  ],
+	  "page": "TBD",
+	  "img": "randy_pandohie.JPG",
+	  "join_date": "20-03-2020"
+	},
+	"Chelsea Marjadsingh": {
+	  "title": "Guardian Group Reverse Intern",
+	  "education": [
+		"B.Sc. The University of Bristol, 2017"
+	  ],
+	  "about": "Chelsea graduated with a BSc in Mathematics and Economics from the University of Bristol (UK) in 2017, where she formed an interest in applying mathematical modelling on real-world data to answer economic questions. Upon graduating, she completed the associate professional programme at the economics unit in the Ministry of Public Utilities, building analytics reports for the water sector. Currently, she is employed at Guardian Group as a Data Analytics Specialist. In her role, she is involved in the implementation of machine learning solutions and business intelligence reporting.",
+	  "links": [
+		"Chelsea.Marjadsingh@myguardiangroup.com"
+	  ],
+	  "page": "TBD",
+	  "img": "Chelsea_Marjadsingh.jpg",
+	  "join_date": "05-04-2020"
+	},
+	"Jervell Thomas": {
+	  "title": "Postgraduate Intern",
+	  "type": "Associate",
+	  "about": "Jervell Thomas is an open scholarship winner and first-class graduate of the University of Sheffield. His latest research verified an assumption normally made when using machine learning to identify damaged structures. He has a keen interest in data analytics, machine learning, start-up projects and business development.",
+	  "education": [
+		"B.Eng, University of Sheffield, 2019"
+	  ],
+	  "links": [
+		"jervellthomas@gmail.com"
+	  ],
+	  "page": "",
+	  "img": "jervellthomas.jpg",
+	  "join_date": "15-04-2020"
 	}
-}
+  }

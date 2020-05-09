@@ -6,7 +6,8 @@
 		"education": ["M.Sc. The University Of The West Indies, 2015", "B.Sc. The University Of The West Indies, 2013"],
 		"links": ["nicholas.chamansingh@gmail.com", "nicholas@lab.tt"],
 		"page": "TBD",
-		"img": "nicholas_chamansingh.jpg"
+		"img": "nicholas_chamansingh.jpg",
+		"join_date": ""
 	},
 
 
@@ -17,7 +18,8 @@
 		"education": ["Ph.D. Korea Institute of Science and Technology Information (KISTI)", "M.Tech International Institute of Information Technology (IIITB)", "B. Tech Guru Nanak Dev University (G.N.D.U)"],
 		"links": ["ramneeksekhon@gmail.com"],
 		"page": "TBD",
-		"img": "ramneek.png"
+		"img": "ramneek.png",
+		"join_date": ""
 	},
 
 
@@ -29,7 +31,8 @@
 		"education": ["M.Sc. The University Of The West Indies", "B.Sc. The University Of The West Indies"],
 		"links": ["trishalawren@gmail.com"],
 		"page": "TBD",
-		"img": "TrishaLawrence.jpg"
+		"img": "TrishaLawrence.jpg",
+		"join_date": ""
 	},
 
 
@@ -39,7 +42,8 @@
 		"about": "Sterling is a PhD student in Electrical and Computer Engineering at The University of the West Indies. His work involves developing and optimising machine learning algorithms with parallel processing to aid in the diagnosis and prognosis of various cancers. As a software engineer, Sterling has won various local and regional software competitions along with entrepreneurial grants from the government of Trinidad and Tobago, and has developed enterprise software used by CARICOM governments. Sterling graduated his undergrad with the highest GPA in his year and won prizes for most outstanding CS graduate as well as best year three. For his MPhil, he developed various steganographic techniques to hide secret messages in digital media, undetectably. He is interested in Machine Learning, Bioinformatics, and Data Analytics.",
 		"links":["sramroach@gmail.com"],
 		"page": "TBD",
-		"img": "sterling_ramroach.jpg"
+		"img": "sterling_ramroach.jpg",
+		"join_date": ""
 	},
 
 	"Steffan Boodhoo": {
@@ -49,7 +53,8 @@
 		"education": ["B.Sc., The University Of The West Indies, 2015"],
 		"links": ["boodhoo100@gmail.com", "https://github.com/steffanboodhoo"],
 		"page": "steffanboodhoo.html",
-		"img": "steffanboodhoo.jpg"
+		"img": "steffanboodhoo.jpg",
+		"join_date": ""
 	},
 
 	"Chris Meetoo": {
@@ -59,7 +64,8 @@
 		"about": "Chris Meetoo is a recent Electrical and Computer Engineering graduate, specialising in both Power Systems Engineering as well as Control Systems Engineering. He previously attended Presentation College San Fernando and was awarded a national scholarship in 2013. His interests include smart grid applications, microcontrollers, software and hardware development. Throughout his degree he has demonstrated an enduring loyalty to his studies, never giving up when faced with the most difficult tasks or complications. For his final year undergraduate project, he developed a unique prototype of a wireless energy monitoring system for residential use. See the demonstration of his final year research project <a href=\"https://www.youtube.com/watch?v=EuSFd6usUW8\">here</a>.",
 		"links": ["chris.meetoo.tt@ieee.org"],
 		"page": "chrismeetoo.html",
-		"img": "chrismeetoo.jpg"
+		"img": "chrismeetoo.jpg",
+		"join_date": ""
 	},
 
 	"Devika Bhagwandin": {
@@ -68,7 +74,8 @@
 		"about": "Devika Bhagwandin graduated with her B.Sc. in Mathematics (Double Major) at the University of the West Indies, St Augustine. Upon graduation she was awarded the Winston A. Richards prize for the best year II and year III performance in Statistics and further received a postgraduate scholarship from the Government of the Republic of Trinidad and Tobago to pursue her M.Sc. in Statistics. Her past work in TTLAB include Association Rule Mining (M.Sc. thesis) and Anomaly Detection in collaborations with Digi Data Systems and Sagicor Financial Corporation. Her areas of interest include Applied Probability, Data Analytics and Stochastic Processes.",
 		"links": ["devikabhagwandin@hotmail.com"],
 		"page": "TBD",
-		"img": "devikabhagwandin.png"
+		"img": "devikabhagwandin.png",
+		"join_date": ""
 	},
 
 	"Gerard Rique": {
@@ -77,7 +84,8 @@
 		"education": ["BSc, The University of the West Indies"],
 		"links": [],
 		"page": "TBD",
-		"img": "gerard_rique.jpg"
+		"img": "gerard_rique.jpg",
+		"join_date": ""
 	},
 
 	"Jonathan Earle": {
@@ -87,7 +95,8 @@
 		"education": ["B.Sc., The University of the West Indies, Present"],
 		"links": ["jonathan.john.enock.earle@gmail.com"],
 		"page": "jonathanearle.html",
-		"img": "jonathanearle.jpg"
+		"img": "jonathanearle.jpg",
+		"join_date": ""
 	},
 
 	"Keshav Bahadoor": {
@@ -97,7 +106,8 @@
 		"education": ["B.Sc. Computer Science"],
 		"links": ["keshav.bahadoor@gmail.com"],
 		"page": "TBD",
-		"img": "keshavbahadoor.jpg"
+		"img": "keshavbahadoor.jpg",
+		"join_date": ""
 	},
 
 	"Kiran Maharaj": {
@@ -107,7 +117,8 @@
 		"education": ["M.Sc University of Bristol", "B.Sc. The University Of The West Indies"],
 		"links": ["kiranma@hotmail.com"],
 		"page": "",
-		"img": "kiran.png"
+		"img": "kiran.png",
+		"join_date": ""
 
 	},
 
@@ -118,7 +129,8 @@
 		"education": ["B.Sc., The University Of The West Indies, 2014"],
 		"links": ["laura.bigram@gmail.com"],
 		"page": "laurabigram.html",
-		"img": "laurabigram.jpg"
+		"img": "laurabigram.jpg",
+		"join_date": ""
 	},
 
 	"Robert Martinez": {
@@ -128,7 +140,8 @@
 		"education": ["B.A. McGill University","M.Sc. University of Sussex"],
 		"links": ["robert.martinez@niherst.gov.tt"],
 		"page": "TBD",
-		"img": "robertMartinez.jpg"
+		"img": "robertMartinez.jpg",
+		"join_date": ""
 	},
 
 	"Saffiyah Doolan": {
@@ -137,7 +150,8 @@
 		"about": "Saffiyah graduated from University College London (UCL) with a BEng Electronic and Electrical Engineering Degree (HONS). Project experiences comprise of software and hardware development in Communication Systems. Latest research included the energy and cost estimation of Electronic and Optical Datacenter Networks. Possesses avid interests in start-up projects, 3D printing and wearable technologies. ",
 		"links": ["saffiyah.doolan.13@alumni.ucl.ac.uk"],
 		"page": "TBD",
-		"img": "saffiyahdoolan.jpg"
+		"img": "saffiyahdoolan.jpg",
+		"join_date": ""
 	},
 
 	"Anderson Singh": {
@@ -147,7 +161,8 @@
 		"education": ["B.Sc. The University of the West Indies, 2016"],
 		"links": ["andersonsingh@outlook.com"],
 		"page": "",
-		"img": "andersonsingh.jpg"
+		"img": "andersonsingh.jpg",
+		"join_date": ""
 	},
 
 	"Stefan Hosein": {
@@ -157,6 +172,7 @@
 		"education": ["B.Sc., The University Of The West Indies, 2014"],
 		"links": ["stefan.m.hosein@gmail.com"],
 		"page": "stefanhosein.html",
-		"img": "stefanhosein.jpg"
+		"img": "stefanhosein.jpg",
+		"join_date": ""
 	}
 }

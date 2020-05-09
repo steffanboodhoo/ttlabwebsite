@@ -288,4 +288,18 @@
 		"links":["dominic.williams@massygroup.com"],
 		"page": "TBD",
 		"img": "dominic_williams.JPG"
+	},
+	"Anna-Keren McMayo": {
+		"title": "Guardian Life Intern",
+		"type": "Associate",
+		"joined": "",
+		"about": "Anna-Keren has earned both her BSc. Mathematics (Minor in Statistics) and MSc. Statistics at The University of the West Indies, St. Augustine. She developed an interest in Machine Learning during her research project in the master's programme and is currently honing her skills in the field of Data Science.",
+		"education": [
+			"B.Sc., The University Of The West Indies"
+		],
+		"links": [
+			"annakeren.mcmayo@gmail.com"
+		],
+		"page": "",
+		"img": "Anna.jpg"
 	}

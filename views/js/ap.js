@@ -53,7 +53,12 @@
 			var links = data[name]['links'];
 			right_sub_left.append($("<h4/>",{"class":"list-name"}).append(name));
 			var title_block = $('<div></div>');
-			title_block.append($("<p/>",{"class":"list-title"}).append(data[name]['title']));
+			if(data[name]['join_date'] == "01-01-2000"){
+				title_block.append($("<p/>",{"class":"list-title"}).append(data[name]['title']));
+			}
+			else{
+				title_block.append($("<p/>",{"class":"list-title"}).append(data[name]['title'] + ": " + data[name]['join_date']));
+			}
 			right_sub_left.append(title_block);
 			for( var l=0; l<links.length; l++){
                 var current_link = links[l];
