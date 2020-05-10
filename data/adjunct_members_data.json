@@ -60,6 +60,18 @@
 	  "img": "ShivaRamoudith.jpeg",
 	  "join_date": "26-08-2016"
 	},
+	"Keanu Nichols": {
+	  "title": "Undergraduate Intern",
+	  "education": [],
+	  "about": "Keanu is an undergraduate at the University of the West Indies going into his second year studying Computer Science Special. He spent a year at Penn State University but later attended the University of the West Indies. He was selected for an internship for Google Summer of Code to work at a company called CHAOSS (Community Health Analytics Open Source Software) where he is working to implement a SQL Database to store mailing archives and implement Natural Language Processing on the emails. He is participating on the online Data Science competition website Kaggle to create machine learning models to solve different problems, so far he as worked on a problem related to computer vision and sentiment analysis.",
+	  "links": [
+		"nichols.keanu9@gmail.com",
+		"https://kmn5409.github.io/keanu-nichols/"
+	  ],
+	  "page": "TBD",
+	  "img": "keanu_nichols.jpg",
+	  "join_date": "28-06-2018"
+	},
 	"Darren Ramsook": {
 	  "title": "TSTT Intern",
 	  "education": [
@@ -121,18 +133,6 @@
 	  "img": "govinda.jpg",
 	  "join_date": "10-03-2019"
 	},
-	"Keanu Nichols": {
-	  "title": "Undergraduate Intern",
-	  "education": [],
-	  "about": "Keanu is an undergraduate at the University of the West Indies going into his second year studying Computer Science Special. He spent a year at Penn State University but later attended the University of the West Indies. He was selected for an internship for Google Summer of Code to work at a company called CHAOSS (Community Health Analytics Open Source Software) where he is working to implement a SQL Database to store mailing archives and implement Natural Language Processing on the emails. He is participating on the online Data Science competition website Kaggle to create machine learning models to solve different problems, so far he as worked on a problem related to computer vision and sentiment analysis.",
-	  "links": [
-		"nichols.keanu9@gmail.com",
-		"https://kmn5409.github.io/keanu-nichols/"
-	  ],
-	  "page": "TBD",
-	  "img": "keanu_nichols.jpg",
-	  "join_date": "28-06-2019"
-	},
 	"Kimberlee Laloo": {
 	  "title": "Associate Professional",
 	  "type": "Associate",
@@ -186,7 +186,7 @@
 	"Gabriela Sewdhan": {
 	  "title": "TSTT Intern",
 	  "type": "Associate",
-	  "about": "Gabriela Sewdhan is a student at the University of the West Indies (UWI). She possesses a bachelor’s in Psychology and is currently pursuing another bachelor&#39;s degree in Computer Science. She is most passionate about Machine Learning and Robotics and would one day like to own a company specialising in these fields. Gabriela has interned at Persisto Labs where she developed various software modules with a stringent and well-documented Git workflow and worked on deploying these microservices to Amazon Web Services. She gained practical experience in Cloud infrastructure and deployment, React Native app development, as well as created a chatbot using Amazon Lex. In 2017, she worked with a team consisting of Michael Ali and Qarun Bissoondial for the Telios Code Jam and built MET-Oracle, which uses Machine Learning to Improve City Resilience and Awareness to Extreme Weather Conditions Due to Global Warming. She has also worked with the same team to produce PiDronics, an Automated Hydroponics Control System to Increase Effectiveness with Limited Resources and to diagnose plants using Image recognition. Furthermore, body language analysis was experimented on, in a team with Michael Ali during the Hacker Hostel program. Gabriela is planning to pursue a Master’s in Robotics and is very interested in applying Artificial Intelligence to try to fix environmental problems. During her spare time, she loves baking, playing the piano and guitar, and journaling.",
+	  "about": "Gabriela Sewdhan is a student at the University of the West Indies (UWI). She possesses a bachelor’s in Psychology and is currently pursuing another bachelor&#39;s degree in Computer Science. She is most passionate about Machine Learning and Robotics and would one day like to own a company specialising in these fields. Gabriela has interned at Persisto Labs where she developed various software modules with a stringent and well-documented Git workflow and worked on deploying these microservices to Amazon Web Services. She gained practical experience in Cloud infrastructure and deployment, React Native app development, as well as created a chatbot using Amazon Lex. In 2017, she worked with a team consisting of Michael Ali and Qarun Bissoondial for the Telios Code Jam and built MET-Oracle, which uses Machine Learning to Improve City Resilience and Awareness to Extreme Weather Conditions Due to Global Warming. She has also worked with the same team to produce PiDronics, an Automated Hydroponics Control System to Increase Effectiveness with Limited Resources and to diagnose plants using Image recognition. Furthermore, body language analysis was experimented on, in a team with Michael Ali during the Hacker Hostel program. Gabriela is planning to pursue a Master’s in Robotics and is very interested in applying Artificial Intelligence to try to fix environmental problems. During her spare time, she loves baking, playing the piano and guitar, and journaling.",
 	  "education": [
 		"B.Sc., The University Of The West Indies"
 	  ],
