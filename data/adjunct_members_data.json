@@ -50,8 +50,8 @@
 	  "type": "Associate",
 	  "about": "Shiva is currently an Associate Professional at the UWI. During his undergraduate degree, he worked as an Intern in the AgriNett and CSRP projects where he assisted in the development of Android applications. Shiva also served as an executive board member of the University of the West Indies Computing Society. While completing his M.Sc., he assisted in the delivery of programming, web, and software development courses at the Department of Computing and Information Technology. For his M.Sc. project, he collaborated with Professor and Massy Technologies, Trinidad. The project focused on optimizing vehicle imports in small island states. He is currently involved in projects based on modeling trust, developing web applications and, data analysis. He is also one of the coaches of the ICPC (Inter Collegiate Programming Competition) Trinidad team.",
 	  "education": [
-		"M.Sc. Computer Science -  The University of the West Indies, 2018.",
-		"B.Sc. Computer Science – The University of the West Indies, 2016."
+		"M.Sc. Computer Science -  The University of the West Indies, 2018",
+		"B.Sc. Computer Science – The University of the West Indies, 2016"
 	  ],
 	  "links": [
 		"shiva@lab.tt"
@@ -322,5 +322,20 @@
 	  "page": "",
 	  "img": "jervellthomas.jpg",
 	  "join_date": "15-04-2020"
-	}
+	},
+	"Kris Manohar": {
+		"title": "Postdoc Researcher",
+		"type": "Associate",
+		"about": "Kris Manohar is passionate about research, teaching, and student development. He has received a B.S. degree in Computer Science and a M.S. Computer Science with distinction from the University of the West Indies. Since 2010, he has been with the Department of Computing and Information Technology (DCIT). During his time at DICT he has taught several undergraduate courses in computer science and mathematics, and has been involved with the organization of several local and international contests, and training activities. A few examples are the ACM-ICPC national contests (2012, 2013, 2017, 2018, 2019), AMC-ICPC national training camps (2013, 2018), Open Data conference and code sprint (2013, 2015), Computing Fourm (2012, 2013), DICT Runtime competition (2012, 2013) and DCIT Bootcamp (2011, 2012, 2017, 2018). Currently, he is a Ph.D. candidate in Computer Science at the UWI. His research interests include information hiding, stegoanogrpahy, data compression, and image processing.",
+		"education": [
+			"M.Sc. Computer Science -  The University of the West Indies, 2009",
+			"B.Sc. Computer Science – The University of the West Indies, 2012"
+		],
+		"links": [
+		  "justkrismanohar@gmail.com"
+		],
+		"page": "",
+		"img": "KrisManohar.png",
+		"join_date": "11-05-2020"
+	  }
   }
