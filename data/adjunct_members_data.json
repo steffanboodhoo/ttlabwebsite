@@ -337,5 +337,19 @@
 		"page": "",
 		"img": "KrisManohar.png",
 		"join_date": "11-05-2020"
-	  }
+	  },
+	"Nidia Sahjara":{
+		"title": "Research Member",
+		"type": "Associate",
+		"about": "Nidia obtained her BSc Computer Science from the University of Derby (1st Hons) where she started her machine learning research with political science applications. At present, she works as a Back-end Developer while continuing to pursue her NLP (Natural Language Processing) research with the goal of publication. Past experiences include business development in healthtech startups which played a significant role in expanding her mindset. She is due to start her postgraduate studies at Kings College London from the next academic year with a focus on Intelligence in the Faculty of War. On another note, during undergrad her extra-curricular activity of being a sponsored athlete allowed her to achieve the title of National IFBB Body-Fitness champion. In conjunction with her career path, her capacity extends into writing as she is currently a columnist for the Trinidad Guardian.",
+		"education": [
+			"B.Sc. Computer Science – The University of Derby"
+		],
+		"links": [
+		  "nidia.sahjara@gmail.com"
+		],
+		"page": "",
+		"img": "nidia_sahjara.png",
+		"join_date": "18-05-2020"
+	}
   }
