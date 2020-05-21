@@ -32,20 +32,21 @@
 	*/
 	function get_sort_names(data){
 		let names = Object.keys(data);
-		names.sort(function(a,b){
-			let a_last =a.split(" ")[1];
-			let b_last =b.split(" ")[1];
-			if( a_last == b_last )
-				return 0;
-			else if( a_last > b_last )
-				return 1;
-			return -1;
-		})
+		// names.sort(function(a,b){
+		// 	let a_last =a.split(" ")[1];
+		// 	let b_last =b.split(" ")[1];
+		// 	if( a_last == b_last )
+		// 		return 0;
+		// 	else if( a_last > b_last )
+		// 		return 1;
+		// 	return -1;
+		// })
 		return names;
 	}
 
 	function createList(data){
 		let names = get_sort_names(data);
+		// console.log(data);
 
 		var list = $("<ul/>",{"class":"list"});
 		names.forEach((name)=>{
@@ -53,8 +54,8 @@
 			var main_row = $("<div/>",{"class":"row"})
 
 			var left = $("<div/>",{"class":"col-md-4"}), right = $("<div/>",{"class":"col-md-8"})
-			var right_sub_left = $("<div/>",{"class":"col-md-6 mid"})
-			var right_sub_right = $("<div/>",{"class":"col-md-6 mid"})
+			var right_sub_left = $("<div/>",{"class":"col-md-10 mid"})
+			// var right_sub_right = $("<div/>",{"class":"col-md-6 mid"})
 
 			//LEFT
 			var img = window.location.href.replace(window.location.pathname,"") + "/default-profile.png";
@@ -67,6 +68,7 @@
 			//right_sub_left
 			var email_regex = /@/;
 			var links = data[name]['links'];
+			var linkedin = data[name]['linkedin'];
 			right_sub_left.append($("<h4/>",{"class":"list-name"}).append(name));
 			var title_block = $('<div></div>');
 			// title_block.append($("<p/>",{"class":"list-title"}).append(data[name]['title']));
@@ -82,16 +84,28 @@
                 tag.attr("href", href);
                 tag.html(current_link);
 				//right_sub_left.append($("<a/>",{"class":"list-link links"}).append(links[l]));
-                right_sub_left.append(tag);
+				right_sub_left.append(tag);
 				right_sub_left.append($("<br/>"))
 			}
-			//right_sub_left
-			var education = data[name]['education'];
-			for(var edu=0; edu<education.length; edu++)
-				right_sub_right.append($("<p/>",{"class":"education list-edu"}).append(education[edu]));
+			
+			right_sub_left.append($("<br/>"));
+			var tag = $('<a></a>');
+			tag.addClass('list-link links');
+			var href = linkedin;
+			tag.attr("href", href);
+			tag.html(linkedin);
+			right_sub_left.append(tag);
+			right_sub_left.append($("<br/>"));
 
-			right.append( $("<div/>",{"class":"row"}).append(right_sub_left).append(right_sub_right) )
-			right.append( $("<div/>",{"class":"row"}).append( $("<blockquote/>",{"class":"post-subtitle"}).append(data[name]['about']) ) )
+
+			//right_sub_left
+			// var education = data[name]['education'];
+			// for(var edu=0; edu<education.length; edu++)
+			// 	right_sub_right.append($("<p/>",{"class":"education list-edu"}).append(education[edu]));
+
+			right.append( $("<div/>",{"class":"row"}).append(right_sub_left))
+			// right.append( $("<div/>",{"class":"row"}).append(right_sub_left).append(right_sub_right) )
+			// right.append( $("<div/>",{"class":"row"}).append( $("<blockquote/>",{"class":"post-subtitle"}).append(data[name]['about']) ) )
 
 			main_row.append(left).append(right);
 			li.append( $("<hr>") )
