@@ -103,20 +103,6 @@
 	  "img": "letetiaaddison2.png",
 	  "join_date": "29-11-2018"
 	},
-	"Dillon Goordeen": {
-	  "title": "Guardian Life Intern",
-	  "type": "Associate",
-	  "about": "Dillon is currently enrolled in the M.Sc. in Data Science programme at the University of the West Indies, St Augustine Campus (UWI). Dillon graduated with a B.Sc. in Mathematics and Computer Science from UWI in 2017. Since graduating in 2017, he has worked closely with the Department of Computing and Information Technology as the lead developer for the website and also assisted in the delivery of programming, web and mobile application development courses.",
-	  "education": [
-		"B.Sc. The University of the West Indies, 2017"
-	  ],
-	  "links": [
-		"dillon.goordeen@gmail.com"
-	  ],
-	  "page": "",
-	  "img": "DillonGoordeen.jpg",
-	  "join_date": "02-01-2019"
-	},
 	"Govinda Hosein": {
 	  "title": "Associate Professional",
 	  "education": [
@@ -351,5 +337,21 @@
 		"page": "",
 		"img": "nidia_sahjara.png",
 		"join_date": "18-05-2020"
+	},
+	"Rajeev Ratan":{
+		"title": "Research Member",
+		"type": "Associate",
+		"about": "Rajeev Ratan is a Data Scientist who obtained his MSc. in Artificial Intelligence from the University of Edinburgh and a BSc. in Electrical and Computer Engineering at the University of the West Indies. He has worked in several London tech startups as a Data Scientist, Computer Vision specialist, and Software Developer. He was a cohort member of Entrepreneur First, a London based startup incubator where he was the co-founder of an Edtech startup. Later on he worked in tech-startups involved in the Real Estate and e-Gambling sectors. He has created several online courses on Data Science and Computer Vision on Udemy, Packt Publishing, and Manning Publications. Before venturing into Data Science, Rajeev worked as a Radio Frequency Engineer for 8 years at both TSTT and Digicel. His research interests include Probabilistic Modeling, Deep Learning, and Computer Vision. At present, he works as a Data Science consultant and online course creator.",
+		"education": [
+			"B.Sc. Electrical and Computer Engineering – The University of The West Indies",
+			"M.Sc. Artificial Intelligence - The University of Edinburgh"
+		],
+		"links": [
+		  "mail@rajeevratan.com",
+		  "www.rajeevratan.com"
+		],
+		"page": "",
+		"img": "RajeevRatan.jpeg",
+		"join_date": "22-05-2020"
 	}
   }

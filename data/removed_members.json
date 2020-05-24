@@ -303,3 +303,17 @@
 		"page": "",
 		"img": "Anna.jpg"
 	}
+	"Dillon Goordeen": {
+		"title": "Guardian Life Intern",
+		"type": "Associate",
+		"about": "Dillon is currently enrolled in the M.Sc. in Data Science programme at the University of the West Indies, St Augustine Campus (UWI). Dillon graduated with a B.Sc. in Mathematics and Computer Science from UWI in 2017. Since graduating in 2017, he has worked closely with the Department of Computing and Information Technology as the lead developer for the website and also assisted in the delivery of programming, web and mobile application development courses.",
+		"education": [
+		  "B.Sc. The University of the West Indies, 2017"
+		],
+		"links": [
+		  "dillon.goordeen@gmail.com"
+		],
+		"page": "",
+		"img": "DillonGoordeen.jpg",
+		"join_date": "02-01-2019"
+	  },
