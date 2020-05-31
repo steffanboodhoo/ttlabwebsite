@@ -383,14 +383,14 @@
 		"volume":"",
 		"date":"June, 2019",
 		"volume": "",
-		"pdf":"",
-		"link":"http://orsn.org.np/upload/files/IJORN%208th%20Page%2065-73%20Nicholas.pdf",
+		"pdf":"Nicholas_IJORN_8th_Page_65-73.pdf",
+		"link":"",
 		"companyLogo": "img/clients/Massy_Technologies_InfoCom_Horiz_RGB_resized(1).png",
 		"companyAuthors":["Elena Dyer"],
 		"otherAuthors":["Nicholas Chamansingh, Patrick Hosein and"],
 		"additional":{
 			"location":"(Also presented at Conference of the Association of Asia Pacific Operational Research Societies, Kathmandu, Nepal, Aug, 2018)",
-			"link":"http://orsn.org.np/upload/files/IJORN%208th%20Page%2065-73%20Nicholas.pdf"
+			"link":""
 		}
 	},
 		"Optimizing Car Imports in Small Island States": {
@@ -398,14 +398,14 @@
 		"location":"International Journal of Operational Research Nepal (IJORN), Volume VIII, Issue I",
 		"volume":"",
 		"date":"June, 2019",
-		"pdf":"",
-		"link":"http://orsn.org.np/upload/files/IJORN%208th%20Page%2053-63%20Shiva%20Ramoudith.pdf",
+		"pdf":"Shiva_IJORN_8th_Page_53-63.pdf",
+		"link":"",
 		"companyLogo": "img/clients/Massy_Technologies_InfoCom_Horiz_RGB_resized(1).png",
 		"companyAuthors":["Kevin Blake-Thomas"],
 		"otherAuthors":["Shiva Ramoudith, Patrick Hosein and"],
 		"additional":{
 			"location":"(Also presented at Conference of the Association of Asia Pacific Operational Research Societies, Kathmandu, Nepal, Aug, 2018)",
-			"link":"http://orsn.org.np/upload/files/IJORN%208th%20Page%2053-63%20Shiva%20Ramoudith.pdf"
+			"link":""
 		}
 	},
 	"A Method for Learning Representations of Signed Networks":{
