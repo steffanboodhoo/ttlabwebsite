@@ -353,5 +353,20 @@
 		"page": "",
 		"img": "RajeevRatan.jpeg",
 		"join_date": "22-05-2020"
+	},
+	"Simeon Ramjit":{
+		"title": "Associate Professional",
+		"type": "Associate",
+		"about": "Simeon Ramjit graduated with a BSc. in Electrical and Computer Engineering from the University of the West Indies St. Augustine campus in 2019, with a specialty in Computer Systems. He is the author of several papers to peer-reviewed journals. He has done work with OpenCV for facial recognition as well as Firebase for a dynamic Progressive Web Application. He is the creator of CoronavirusTT, a website to provide statistic tracking, data visualization and push notifications to keep persons informed about the pandemic in T&T. His current pursuits lie within machine learning, web development,cloud computing, circuit design and the holistic development of lives in Trinidad and Tobago.",
+		"education": [
+			"B.Sc. Electrical and Computer Engineering – The University of The West Indies, 2019"
+		],
+		"links": [
+		  "simeonramjit@gmail.com",
+		  "https://www.linkedin.com/in/simeon-ramjit/"
+		],
+		"page": "",
+		"img": "simeon_ramjit.jpeg",
+		"join_date": "01-06-2020"
 	}
   }
